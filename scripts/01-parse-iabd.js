@@ -54,7 +54,7 @@ const iabd = JSON.parse(fs.readFileSync(path.join(SOURCE, 'iabd.json'), 'utf8'))
 // Group questions by subject
 const subjectData = {};
 for (const subj of Object.keys(SUBJECTS)) {
-  subjectData[subj] = { questions: [], flashcards: [], practicalQuestions: [] };
+  subjectData[subj] = { questions: [], flashcards: [], practicalQuestions: [], summaries: [], codeExamples: [], devQuestions: [] };
 }
 
 for (const [moduleKey, questions] of Object.entries(iabd)) {
@@ -114,6 +114,20 @@ if (fs.existsSync(extraPath)) {
   console.log('✓ Extra questions loaded from extra-questions.json');
 }
 
+// Load summaries, code examples, dev questions from Gemini
+const sumPath = path.join(SOURCE, 'summaries-generated.json');
+if (fs.existsSync(sumPath)) {
+  const sumData = JSON.parse(fs.readFileSync(sumPath, 'utf8'));
+  for (const [subj, data] of Object.entries(sumData)) {
+    if (subjectData[subj]) {
+      if (data.summaries?.length) subjectData[subj].summaries = data.summaries;
+      if (data.codeExamples?.length) subjectData[subj].codeExamples = data.codeExamples;
+      if (data.devQuestions?.length) subjectData[subj].devQuestions = data.devQuestions;
+    }
+  }
+  console.log('✓ Summaries/code/dev loaded from summaries-generated.json');
+}
+
 // Write output files
 fs.mkdirSync(OUT, { recursive: true });
 
@@ -129,7 +143,9 @@ for (const [subj, meta] of Object.entries(SUBJECTS)) {
     examInfo: meta.examInfo,
     questions: subjectData[subj].questions,
     flashcards: subjectData[subj].flashcards,
-    practicalQuestions: subjectData[subj].practicalQuestions
+    summaries: subjectData[subj].summaries,
+    codeExamples: subjectData[subj].codeExamples,
+    devQuestions: subjectData[subj].devQuestions
   };
 
   const outPath = path.join(OUT, `${subj}.json`);
@@ -139,7 +155,9 @@ for (const [subj, meta] of Object.entries(SUBJECTS)) {
     name: meta.name,
     questionCount: data.questions.length,
     flashcardCount: data.flashcards.length,
-    practicalCount: data.practicalQuestions.length,
+    summaryCount: data.summaries.length,
+    codeCount: data.codeExamples.length,
+    devCount: data.devQuestions.length,
     modules: [...new Set(data.questions.map(q => q.module))].sort()
   };
 

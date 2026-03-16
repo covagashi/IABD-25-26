@@ -3391,5 +3391,302 @@
       "back": "La solución de Microsoft Azure de Hadoop como servicio, que permite arrancar clústers Hadoop a demanda en una modalidad de pago por uso."
     }
   ],
-  "practicalQuestions": []
+  "summaries": [
+    {
+      "module": "BDA01",
+      "title": "Introducción a Apache Hadoop",
+      "summary": "**Apache Hadoop** es una plataforma de código abierto diseñada para almacenar y procesar grandes volúmenes de datos a bajo costo. Surge de la necesidad de indexar una gran cantidad de páginas web (Apache Nutch) y las limitaciones de la tecnología del momento.\n\n**1.- Motivación y Origen:**\n*   Google publicó **The Google File System** y **MapReduce: Simplified Data Processing on Large Clusters**, que inspiraron a Doug Cutting y Mike Cafarella para desarrollar Hadoop. \n*   Doug Cutting se unió a Yahoo! para implementar GFS y MapReduce en el proyecto Apache Nutch. Luego, continuó trabajando en Hadoop en Cloudera.\n*   Hadoop se donó a la **Apache Software Foundation**.\n\n**2.- Apache Hadoop a alto nivel:**\n*   **Hadoop** permite almacenar y procesar grandes volúmenes de datos.\n\n**2.1.- ¿Qué es Apache Hadoop?:**\n*   Hadoop es una **plataforma opensource** que ofrece la capacidad de **almacenar y procesar**, a “bajo” coste, **grandes volúmenes de datos** , sin importar su estructura, en un entorno **distribuido, escalable y tolerante a fallos**, basado en la utilización de **hardware commodity** y en un paradigma de acercamiento del **procesamiento a los datos**.\n*   **Plataforma**: Base para construir aplicaciones que requieren almacenar y procesar grandes volúmenes de datos. \n*   **Opensource**: Código libre, sin costos de licencias.\n*   **Almacenar**: Recuperar datos mediante un sistema de ficheros llamado **HDFS**.\n*   **Procesar**: Crear aplicaciones que procesen los datos almacenados en el sistema de ficheros, tanto de forma **batch** como **real-time**.\n*   **Coste**: Ordenes de magnitud más bajo que soluciones tradicionales.\n*   **Volumen**: Permite almacenar prácticamente cualquier volumen de datos (megabytes a petabytes).\n*   **Estructura**: Puede almacenar y procesar datos estructurados, semiestructurados o no estructurados.\n*   **Distribuido**: Se basa en una infraestructura que tiene muchos servidores (nodos) que trabajan conjuntamente.\n*   **Escalable**: Permite crecer en infraestructura (servidores). Escalado horizontal (añadir servidores) y vertical (cambiar por uno de mayor capacidad).\n*   **Tolerante a fallos**: Garantiza que el sistema sigue funcionando ante la caída de servidores.\n*   **Hardware commodity**: No requiere servidores específicos, hardware no especializado.\n\n**Acercamiento del procesamiento a los datos:**\n*   Tradicionalmente, los sistemas tenían un sistema de almacenamiento separado del sistema de procesamiento, con el cuello de botella en la red de comunicaciones.\n\n**2.2.- Ecosistema Hadoop y distribuciones:**\n*   Componentes principales: **HDFS** y **YARN**.\n    *   **HDFS**: Sistema de ficheros (almacenamiento).\n    *   **YARN**: Gestor de recursos (procesamiento).\n    *   **MapReduce**: Sistema de procesamiento masivo de datos.\n*   Componentes asociados: proyectos opensource de Apache (Hive, Pig, HBase, Flume, Sqoop, Oozie, ZooKeeper, Storm, Spark, Kafka, Atlas, Accumulo, Mahout, Phoenix, Zeppelin, Impala)\n\n**2.3.- Arquitectura:**\n*   Se basa en un modelo de despliegue distribuido. \n*   **Clúster**: Conjunto de servidores que implementan Hadoop.\n*   **Nodo**: Servidor que forma parte del clúster.\n*   Tipos de nodos:\n    *   **Worker**: Realizan los trabajos.\n    *   **Master**: Controlan la ejecución de los trabajos y el almacenamiento de datos.\n    *   **Edge/Frontera**: Puente entre el clúster y la red exterior.\n*   **Tolerancia a fallos:**  En nodos master (activo-pasivo), nodos worker (replicación) y nodos edge (servicios redundantes).\n*   **Escalabilidad:** Añadir nuevos nodos al clúster para incrementar la capacidad.\n*   **Hardware no específico (commodity hardware)**: No requiere hardware especializado.\n\n**2.4.- Beneficios, desventajas y dificultades.:**\n*   Hadoop cubre muchas casuísticas, es una **plataforma**.\n*   Beneficios:\n    *   Versatilidad (cualquier tipo de información).\n    *   No necesita esquema prefijado (**schema-on-read**).\n    *   Bajo coste (hardware commodity + código open-source).\n    *   Escalabilidad “ilimitada” y lineal.\n    *   Enfoque distribuido\n    *   Múltiples herramientas.\n*   Problemática asociada:\n    *   Requiere nuevos perfiles escasos.\n    *   Costes pueden ser altos.\n    *   La integración puede ser compleja.\n    *   Menor eficiencia que enfoques centralizados.\n    *   Madurez, seguridad y gobierno de datos.\n*   Cuándo usar Hadoop: Volumen de datos grande, variedad de datos, escalabilidad, plataforma única.\n*   Cuándo no usar Hadoop: Sistemas tradicionales son suficientes, requisitos de transaccionalidad estrictos, caso de uso “Big Data” muy específico.\n*   Hadoop es la plataforma más utilizada en el ámbito **Big Data**."
+    },
+    {
+      "module": "BDA02",
+      "title": "Almacenamiento y procesamiento en Hadoop - Resumen de Estudio",
+      "summary": "**Hadoop** es una plataforma de almacenamiento y procesamiento de datos a gran escala. Está compuesta por: \n\n**1. HDFS (Hadoop Distributed File System):**\n*   **Definición:** Capa de almacenamiento de Hadoop, un sistema de almacenamiento distribuido.\n*   **Características:**\n    *   **Sistema de ficheros distribuido:** Se ejecuta sobre diferentes nodos que trabajan en conjunto.\n    *   **Hardware commodity:** Diseñado para ejecutarse sobre hardware económico.\n    *   **Ficheros de gran tamaño:** Optimizado para almacenar ficheros grandes y operaciones masivas de lectura/escritura.\n    *   **Escalabilidad horizontal:** Capaz de escalar a volúmenes de petabytes y miles de nodos.\n    *   **Múltiples clientes:** Diseñado para dar soporte a múltiples clientes con acceso concurrente.\n    *   **Tipos de datos:** No tiene restricciones sobre tipos de datos (estructurados, semiestructurados, no estructurados).\n    *   **Write-once, read many:** Orientado a la escritura única y lectura múltiple, asumiendo que un archivo no se modificará después de ser escrito.\n*   **Arquitectura:**\n    *   **Namenode:** Maestro que mantiene la metainformación (estructura de directorios, información de ficheros, bloques, factor de replicación, ubicación de bloques). Coordina lecturas y escrituras, y controla el funcionamiento de los Datanodes. Debe ser robusto.\n    *   **Secondary Namenode:** Toma puntos de control de los metadatos del sistema (FsImage y EditLog) para reducir el tiempo de arranque del Namenode.\n    *   **Datanode:** Almacena y lee los bloques de datos que componen los ficheros. Conoce los bloques que contiene, y envía información al Namenode. Almacenan checksums para detectar corrupción y envían latidos (heartbeats) al Namenode.\n*   **Funcionamiento (Lectura):** El cliente solicita al Namenode la ubicación de los bloques, el cliente lee directamente de los Datanodes.\n*   **Funcionamiento (Escritura):** El cliente solicita al Namenode la creación del fichero, el cliente escribe en el Datanode, y el Datanode se comunica con otros nodos para replicar los datos.\n*   **Tolerancia a Fallos:** Los ficheros se dividen en bloques replicados en múltiples nodos.\n*   **Tamaño de Bloque:** 128 MB (por defecto), unidad mínima de lectura.\n*   **Replicación:** Factor de replicación por defecto es 3. Mejora la tolerancia a fallos y el rendimiento de lectura, pero reduce el rendimiento de escritura y la capacidad total de almacenamiento.\n*   **Uso:** Soporta operaciones similares a Unix (lectura, escritura, borrado, creación de directorios, etc.) con interfaces como: Línea de comandos, Java API, RestFul API (WebHDFS), NFS interface y Librería C.\n\n**2. YARN (Yet Another Resource Negotiator):**\n*   **Definición:** Gestor de recursos y sistema operativo de Hadoop. Permite la independencia entre el almacenamiento (HDFS) y el procesamiento.\n*   **Funciones:** Coordina diferentes aplicaciones, asigna recursos y prioridades, monitoriza y gestiona los recursos del clúster. \n*   **Arquitectura:**\n    *   **ResourceManager:** Maestro que coordina la ejecución de todas las tareas. Contiene: ApplicationsMaster y Scheduler.\n    *   **ApplicationsMaster:** Recibe las peticiones, distribuye las aplicaciones, asigna recursos, monitoriza y gestiona fallos.\n    *   **Scheduler:** Asigna prioridades y establece recursos/containers (Capacity, Fair, FIFO Scheduler).\n    *   **NodeManager:** Se ejecuta en cada nodo worker. Monitoriza el consumo de recursos, el ciclo de vida de los contenedores, y ejecuta ApplicationMasters.\n    *   **Contenedores:** Unidad mínima de recursos de ejecución (memoria, núcleos, etc.) donde se ejecutan las tareas. \n*   **Funcionamiento:** El cliente se comunica con el ResourceManager, que le asigna un ApplicationMaster. El ApplicationMaster solicita contenedores a los NodeManagers y gestiona la ejecución.\n\n**3. MapReduce:**\n*   **Definición:** Framework para el procesamiento de grandes cantidades de datos en paralelo en clústeres de hardware commodity.\n*   **Características:**\n    *   **Divide y Vencerás (DYV):** Divide el problema en fragmentos procesados de forma independiente.\n    *   **Paralelo:** Ejecución dividida en partes pequeñas y en paralelo.\n    *   **Clústeres:** Ejecución en máquinas distribuidas.\n    *   **Hardware commodity:** No requiere hardware específico.\n    *   **Confiable y tolerante a fallos:** La ejecución de los trabajos siempre obtiene los mismos resultados y puede recuperarse ante errores.\n*   **Funcionamiento:**\n    *   **Fase Map:** Procesa cada línea del fichero de entrada, emitiendo pares clave-valor.\n    *   **Fase Shuffle & Sort:** Ordena y agrupa los resultados del Map por clave.\n    *   **Fase Reduce:** Procesa los valores agrupados por clave, obteniendo un resultado.\n    *   **InputFormat:** Componente que divide los ficheros de entrada en fragmentos.\n*   **Uso:** Se programa en Java, implementando los métodos map y reduce."
+    },
+    {
+      "module": "BDA03",
+      "title": "Ecosistema Hadoop",
+      "summary": "**Hadoop** es un ecosistema de herramientas de código abierto para el almacenamiento y procesamiento de datos a gran escala. El caso práctico del Real Ibérica Club ilustra cómo **Hadoop** y sus componentes pueden usarse para analizar datos y mejorar la toma de decisiones en el ámbito deportivo. \n\n**Componentes Core de Hadoop:**\n*   **HDFS (Hadoop Distributed File System):** Capa de almacenamiento.\n*   **YARN (Yet Another Resource Negotiator):** Gestor de recursos y procesos.\n*   **MapReduce:** Modelo de programación para el procesamiento de datos. (modelo de programación para desarrollar tareas de procesamiento de datos.)\n\n**Ecosistema Hadoop:** Conjunto de componentes opensource que añaden funcionalidades a Hadoop Core. Se clasifican en:\n\n*   **Componentes de acceso y procesamiento de datos:**  almacenan o acceden a datos (ej. **Apache Pig**, **Apache Hive**, **Apache Impala**, **Apache HBase**, **Apache Phoenix**, **Apache Spark**).\n*   **Componentes de ingesta y flujos de trabajo:** intercambian datos con el exterior (ej. **Apache Sqoop**, **Apache Flume**, **Apache Oozie**).\n*   **Interfaces y herramientas de trabajo:**  interfaces visuales para acceder a los datos (ej. **Apache Hue**, **Apache Zeppelin**, **Apache Ambari**, **Cloudera Manager**).\n*   **Procesamiento en streaming:**  análisis de datos en tiempo real (ej. **Apache Kafka**, **Apache Spark (structured streaming)**, **Apache Storm**).\n\n**Funcionalidades Importantes de Hadoop:**\n*   Almacenamiento distribuido.\n*   Procesamiento distribuido.\n*   Escalabilidad.\n*   Tolerancia a fallos.\n\n**Roles Clave en Big Data:**\n*   **Ingeniero de datos:**  Ingesta y procesa los datos.\n*   **Científico de datos:**  Analiza los datos utilizando técnicas de IA y otras técnicas de análisis.\n*   **Analista de negocio:** Resuelve preguntas de negocio utilizando herramientas más sencillas.\n\n**2.1 - Apache Pig:** \n*   Lenguaje de alto nivel que se traduce en código MapReduce.\n*   Utiliza **Pig Latin** (similar a SQL).\n*   Facilita la transformación y procesamiento de datos, principalmente para **ETL (Extract, Transform, Load)**. \n*   Actualmente menos usado debido a la aparición de **Apache Spark**.\n\n**2.2 - Apache Hive:** \n*   Permite consultas en HDFS utilizando un lenguaje similar a SQL (**HQL - Hive Query Language**).\n*   Ofrece integración con herramientas de terceros (JDBC/ODBC).\n*   Utiliza motores de procesamiento de Hadoop (MapReduce, Spark, o Tez).\n*   Tiene una arquitectura con **Cliente Hive, Servicios Hive** (Metastore, Driver, Compilador, Optimizador, Ejecutor), **Hadoop**. \n\n**Componentes de la Arquitectura de Hive:**\n*   **Cliente Hive:** Se conecta a Hive mediante **JDBC**, **ODBC**, o **Thrift**.\n*   **HiveServer2:** Recibe las peticiones de los clientes.\n*   **Driver:** Gobierna la ejecución de la petición.\n*   **Metastore:** Almacena los metadatos de Hive.\n*   **Compilador:** Analiza la consulta y genera un plan de ejecución.\n*   **Optimizador:** Optimiza el plan de ejecución.\n*   **Ejecutor:** Ejecuta el plan en Hadoop (Tez / MapReduce / Spark).\n\n**HQL (Hive Query Language):**\n*   Basado en SQL, permite crear, consultar y modificar datos en HDFS.\n*   Tiene conceptos de bases de datos, tablas, campos y particiones.\n*   Soporta varios tipos de datos. DDL(Data Definition Language) - DML (Data Manipulation Language).\n\n**2.3 Apache Impala:**\n*   Ofrece consultas rápidas sobre datos en Hadoop, implementado en C++.\n*   Utiliza HQL.\n*   Orientado a consultas de BI.\n*   Utiliza el mismo Metastore de Hive.\n*   A diferencia de **Hive**, está orientado a consultas en tiempo real.\n\n**2.4 - Apache HBase:** \n*   Base de datos **NoSQL** de modelo clave-valor sobre Hadoop.\n*   Almacena datos en HDFS como un array de bytes.\n*   No ofrece SQL, sino un API propia.\n*   Modelo basado en **row-key** y **familias de columnas**.\n*   Ofrece operaciones CRUD (Create, Read, Update, Delete) atómicas.\n\n**2.5 - Apache Phoenix:** \n*   Capa superior a HBase que proporciona una interfaz **SQL** mediante JDBC.\n*   Traduce sentencias SQL a operaciones de escaneo en HBase.\n\n**2.6 - Apache Spark:** \n*   Plataforma open source de computación distribuida.\n*   Ofrece librerías para procesamiento en paralelo sobre sistemas distribuidos.\n*   Es el estándar de facto para el procesamiento en Big Data.\n*   Ofrece **Spark SQL** (para tratamiento de datos con lenguaje SQL), **Structured Streaming** (para procesamiento de datos en tiempo real), **MLLib** (para Machine Learning), **GraphX** (para grafos), y **SparkR** (para R).\n*   **RDD (Resilient Distributed Dataset):** Abstracción de datos en Spark Core: elementos se trabajan en paralelo. Los RDDs son inmutables.\n*   **Transformaciones:** Se concatenan (no ejecutan inmediatamente).\n*   **Acciones:** Se ejecutan inmediatamente.\n*   El core de Spark se ejecuta sobre **YARN**.\n\n**3.  - Componentes de ingesta de datos y flujos de trabajo. Apache Sqoop, Apache Flume, Apache Oozie**.\n\n**3.1 - Apache Sqoop:**\n*   Herramienta para transferir datos entre Hadoop y bases de datos relacionales.\n*   Utiliza la línea de comandos.\n*   **sqoop-import:** Importa datos.\n*   **sqoop-export:** Exporta datos.\n\n**3.2 - Apache Flume:**\n*   Servicio distribuido para recoger, agregar y mover datos (logs, social media, etc.).\n*   Arquitectura: **Source -> Channel -> Sink**.\n\n**3.3 - Apache Oozie:**\n*   Facilita el lanzamiento de flujos de trabajo (workflows).\n*   Los flujos de trabajo se definen en hPDL.\n*   **Condiciones de inicio**, **Mecanismos de control**, **Acciones**, **Estados de fin y error**.\n\n**4.  - Interfaces y herramientas de trabajo.**\n\n**4.1 - Hue:** \n*   Interfaz web para interactuar con Hadoop (HDFS, Hive, Impala).\n*   Ofrece acceso seguro, editor de consultas, visualización de datos, explorador de datos, etc.\n\n**4.2 - Apache Zeppelin:** \n*   Herramienta web para notebooks (interactuar con los datos mediante código o consultas).\n*   Permite incorporar intérpretes (Python, Spark, SQL, Hive).\n*   Permite publicar y compartir cuadernos.\n\n**4.3 - Apache Ambari y Cloudera Manager:**\n*   Herramientas para la gestión y monitorización de clusters Hadoop.\n\n**5.  - Procesamiento en streaming: Apache Spark (Structured Streaming), Apache Flink y Apache Storm**.\n\n**Conceptos Clave:**\n*   **Fast Data:** Datos en movimiento, procesados en tiempo real.\n*   **Garantía de procesamiento:**\n    *   **Exactly once:** El evento se procesa una vez.\n    *   **At-least-once:** El evento se procesa al menos una vez.\n\n**Apache Storm:**\n*   Primer framework para computación distribuida sobre Hadoop.\n*   Procesamiento **evento a evento (one-at-a-time)**.\n*   Garantía **at least once**.\n*   Escalable.\n\n**Apache Spark (Structured Streaming):**\n*   Procesamiento en **microbatches**.\n*   Latencia mínima, es el tiempo del batch interval.\n*   Garantía **exactly-once**.\n\n**Apache Flink:**\n*   Procesamiento **one-at-a-time**.\n*   Gran ancho de banda.\n*   Garantía **exactly-once**.\n\n"
+    },
+    {
+      "module": "BDA05",
+      "title": "Aplicación práctica de tecnologías Big Data",
+      "summary": "**Caso práctico:** Telco Max Spain, operadora virtual con más de 1 millón de clientes, divide su negocio en particulares, soho, y grandes cuentas, utilizando CRM para cada área, un sistema de facturación y contabilidad, una plataforma de marketing y una plataforma de contact-center.\n\n**Necesidad de Big Data:** La empresa busca mejorar la toma de decisiones, especialmente la tasa de rotación de clientes. La plataforma Big Data permitiría almacenar toda la información y crear modelos predictivos.\n\n**Arquitectura y Modelos de Despliegue:**\n\n*   **Datawarehouse, Datamart y ETL:** El método tradicional que utilizaba la empresa, que se caracteriza por ser un repositorio de datos estructurados preparados para la toma de decisiones. ETL se encarga de transformar y cargar datos en el Datawarehouse.\n\n    *   **Limitaciones:** Costoso, limitado a datos estructurados.\n*   **Migración hacia arquitecturas Big Data:**  La irrupción de las tecnologías Big Data abrió un nuevo panorama. \n    *   **Ventajas:**  Poner en valor datos no estructurados, usar todos los datos para análisis, reducir la intervención de los equipos de tecnología, y reducir el coste.\n\n**Autoevaluación:**\n\n*   Los sistemas Datawarehouse no se reemplazan por sistemas Big Data.\n*   El modelo tradicional gestiona datos estructurados.\n*   Las tecnologías Big Data son más baratas.\n\n**Adopción de tecnologías Big Data:**\n\n*   **Primera etapa (2014-2017):** Pruebas de concepto, Data Lake como modelo arquitectónico. Énfasis en Gobierno de Datos e industrialización.\n*   **Segunda etapa (Desde 2017):** Mayor interés en casos de uso y generación de valor. Impulso desde los equipos de negocio.\n*   **Tercera etapa (Desde 2019):**  Mayor uso de soluciones cloud.\n\n**Hadoop en la práctica:**\n\n1.  **Identificación de las necesidades:**  Catálogo de casos de uso y datos existentes.\n2.  **Plan de capacidad y selección de hardware:**  Ajustar en función del tipo de cluster.\n3.  **Compra del hardware:** Proceso de oferta, negociación y contratación.\n4.  **Instalación física:** Disponer del espacio, instalar máquinas.\n5.  **Instalación del software base:** Instalación y configuración de sistemas operativos.\n6.  **Instalación de Hadoop:** Utilización de software de administración.\n7.  **Pruebas de la plataforma:** Validación de servicios.\n8.  **Tuning:** Optimización de configuración.\n9.  **Preparación del entorno de trabajo:** Creación de usuarios, permisos, colas de ejecución.\n\n**Entorno de trabajo:** \n*   **Multitenancy:** Hadoop se utiliza como plataforma para diferentes usuarios con diferentes propósitos.\n\n    *   **Componentes:** Espacio de nombres, Seguridad, Colas de ejecución, **Gobierno de datos**, Equipos horizontales de arquitectura.\n\n**Autoevaluación:** Hadoop permite que múltiples usuarios de diferente tipo utilicen la plataforma.\n\n**Modelos de despliegue:**\n\n*   **Data Lake:**  Repositorio centralizado que almacena todos los datos de una empresa a cualquier escala, sin modificarlos y sin necesidad de estructurarlos primero.\n\n    *   **Mejoras frente a Datawarehouse:** Escalado, Tipo de datos, Flexibilidad, Herramientas.\n    *   **Modelo de capas de un Data Lake:**\n        1.  **Ingesta:** Datos desde múltiples fuentes (Raw Data).\n        2.  **Procesamiento:** Validar, procesar y transformar datos.\n        3.  **Repositorio:** Almacenamiento.\n        4.  **Insights:** Análisis.\n*   **Data Mesh:** Enfoque descentralizado donde cada dominio es responsable de preparar los datos y ofrecerlos como producto.\n\n    *   **Principios:** Propiedad y arquitectura descentralizada de datos orientada al dominio, Datos como producto, Infraestructura de datos de autoservicio como plataforma, Gobierno computacional federado.\n\n**Gobierno de datos:**\n\n*   **Data Swamp:** Problema que se genera cuando se almacenan datos sin control.\n*   **Data Governance:** Conjunto de procesos, roles, políticas, estándares y métricas que garantizan el uso eficiente y efectivo de los datos.\n*   **Objetivos del equipo de Data Governance:** Seguridad, Accesibilidad, Datos maestros y de referencia, Calidad, Usabilidad, Monitorizar, Cumplimiento regulatorio.\n\n**Soluciones Hadoop-as-a-Service:**\n\n*   **Características:** Pago por uso, escalable, preconfigurados.\n*   **Amazon EMR:**  Servicio que permite crear clústers Hadoop a demanda. Se ejecuta en máquinas EC2.\n\n**Autoevaluación:** EMR sólo permite MapReduce.\n\n*   **Microsoft Azure HDInsight:**  Solución de Microsoft Azure de Hadoop como servicio.\n\n**Guía práctica de análisis exploratorio y de aprendizaje automático con Spark:** Guía para realizar un análisis exploratorio inicial y un proceso de aprendizaje automático utilizando Apache Spark sobre el dataset del Titanic."
+    }
+  ],
+  "codeExamples": [
+    {
+      "module": "BDA01",
+      "title": "Ejemplo de MapReduce (no se proporciona código)",
+      "language": "python",
+      "code": "No se proporciona código",
+      "explanation": "MapReduce se menciona como un paradigma de computación utilizado por Google para el procesamiento de datos."
+    },
+    {
+      "module": "BDA01",
+      "title": "Ejemplo de SQL similar a SQL",
+      "language": "sql",
+      "code": "SQL",
+      "explanation": "Apache Hive permite acceder a ficheros de datos estructurados o semiestructurados que están en HDFS como si fueran una tabla de una base de datos relacional, utilizando un lenguaje similar a SQL."
+    },
+    {
+      "module": "BDA01",
+      "title": "Ejemplo de Pig scripting",
+      "language": "pig",
+      "code": "scripting",
+      "explanation": "Apache Pig provee una utilidad para definir flujos de datos de transformación o consulta mediante un lenguaje de scripting."
+    },
+    {
+      "module": "BDA01",
+      "title": "Ejemplo de HDFS commands",
+      "language": "bash",
+      "code": "HDFS commands",
+      "explanation": "HDFS provee comandos para el manejo de los archivos."
+    },
+    {
+      "module": "BDA02",
+      "title": "HDFS Commands: Listing Files",
+      "language": "bash",
+      "code": "[[hadoop@ip-172-31-6-37 ~]$ hadoop fs -ls /tmp/\nFound 4 items\ndrwxr-xr-x   hadoop\thdfsadmingroup\t 0\t2022-06-15 00:49 /tmp/BDA01\ndrwxrwxrwt\tyarn\thdfsadmingroup\t 0\t2022-06-15 00:39 /tmp/entity-file-history\ndrwxrwxrwx   mapred  mapred\t 0\t2022-06-15 00:39 /tmp/hadoop-yarn\ndrwx-wx-wx   hive\thdfsadmingroup\t 0\t2022-06-15 00:42 /tmp/hive",
+      "explanation": "Lists files in the /tmp/ directory within HDFS."
+    },
+    {
+      "module": "BDA02",
+      "title": "HDFS Commands: Recursive Listing Files",
+      "language": "bash",
+      "code": "[[hadoop@ip-172-31-6-37 ~]$ hadoop fs -ls -R /tmp/\ndrwxr-xr-x   hadoop hdfsadmingroup\t 0\t2022-06-15 00:49 /tmp/BDA01\ndrwxr-xr-x   hadoop hdfsadmingroup\t 0\t2022-06-15 00:49 /tmp/BDA01/hadoop-core\ndrwxrwxrwt\tyarn hdfsadmingroup\t 0\t2022-06-15 00:39 /tmp/entity-file-history\ndrwxrwxrwt\tyarn hdfsadmingroup\t 0\t2022-06-15 00:39 /tmp/entity-file-history/active\ndrwxrwxrwt\tyarn hdfsadmingroup\t 0\t2022-06-15 00:39 /tmp/entity-file-history/done\ndrwxrwxrwx   mapred\tmapred\t 0\t2022-06-15 00:39 /tmp/hadoop-yarn\ndrwxrwxrwt\tyarn hdfsadmingroup\t 0\t2022-06-15 00:39 /tmp/hadoop-yarn/staging\ndrwx-wx-wx   hive hdfsadmingroup\t 0\t2022-06-15 00:42 /tmp/hive",
+      "explanation": "Recursively lists files and directories within the /tmp/ directory in HDFS."
+    },
+    {
+      "module": "BDA02",
+      "title": "HDFS Commands: Creating Directory",
+      "language": "bash",
+      "code": "hadoop fs -mkdir /tmp/BDA01\nhadoop fs -mkdir /tmp/BDA01/hadoop-core",
+      "explanation": "Creates directories in HDFS. Creates /tmp/BDA01 and its subdirectory /tmp/BDA01/hadoop-core"
+    },
+    {
+      "module": "BDA02",
+      "title": "HDFS Commands: Putting a file",
+      "language": "bash",
+      "code": "hadoop fs -put /tmp/hadoop-state-pusher.config /tmp/BDA01",
+      "explanation": "Copies a local file (/tmp/hadoop-state-pusher.config) to HDFS, specifically to the /tmp/BDA01 directory."
+    },
+    {
+      "module": "BDA02",
+      "title": "HDFS Commands: Getting a file",
+      "language": "bash",
+      "code": "hadoop fs -cp /tmp/BDA01/hadoop-state-pusher.config /tmp/",
+      "explanation": "Copies a file from HDFS (/tmp/BDA01/hadoop-state-pusher.config) to the local file system (/tmp)."
+    },
+    {
+      "module": "BDA02",
+      "title": "HDFS Commands: Showing contents of a file",
+      "language": "bash",
+      "code": "hadoop fs -cat /tmp/BDA01/hadoop-state-pusher.config",
+      "explanation": "Displays the contents of a file within HDFS (/tmp/BDA01/hadoop-state-pusher.config) to the console."
+    },
+    {
+      "module": "BDA02",
+      "title": "HDFS Commands: Copying a file inside HDFS",
+      "language": "bash",
+      "code": "hadoop fs -cp /tmp/BDA01/hadoop-state-pusher.config /tmp/",
+      "explanation": "Copies a file within HDFS. Copies /tmp/BDA01/hadoop-state-pusher.config to /tmp/"
+    },
+    {
+      "module": "BDA02",
+      "title": "HDFS Commands: Removing a file",
+      "language": "bash",
+      "code": "hadoop fs -rm /tmp/hadoop-state-pusher.config",
+      "explanation": "Deletes a file from HDFS (/tmp/hadoop-state-pusher.config)."
+    },
+    {
+      "module": "BDA02",
+      "title": "HDFS Commands: Moving a file",
+      "language": "bash",
+      "code": "hadoop fs -mv /tmp/BDA01/hadoop-state-pusher.config /tmp/",
+      "explanation": "Moves a file in HDFS. Moves /tmp/BDA01/hadoop-state-pusher.config to /tmp/"
+    },
+    {
+      "module": "BDA02",
+      "title": "HDFS Commands: Setting replication factor",
+      "language": "bash",
+      "code": "hadoop fs -setrep 6 /tmp/BDA01/hadoop-state-pusher.config",
+      "explanation": "Sets the replication factor for a file in HDFS (/tmp/BDA01/hadoop-state-pusher.config) to 6."
+    },
+    {
+      "module": "BDA02",
+      "title": "MapReduce Java Code: QuotationAnalyzer.java",
+      "language": "java",
+      "code": "import java.io.IOException;\nimport java.util.StringTokenizer;\nimport org.apache.hadoop.conf.Configuration;\nimport org.apache.hadoop.fs.Path;\nimport org.apache.hadoop.io.IntWritable;\nimport org.apache.hadoop.io.Text;\nimport org.apache.hadoop.mapreduce.Job;\nimport org.apache.hadoop.mapreduce.Mapper;\nimport org.apache.hadoop.mapreduce. Reducer;\nimport org.apache.hadoop.mapreduce.lib.input.FileInputFormat;\nimport org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;\npublic class QuotationAnalyzer {\npublic static class Increase QuotationFilterMapper extends Mapper<Object, Text, Text, IntWritab\npublic void map (Object key, Text value, Context context) throws IOException, InterruptedEx\nString valueString = value.toString();\nString[] dataOfTheQuotation = valueString.split(\";\");\nfloat currentQuotation = Float.parseFloat(dataOfTheQuotation [2]);\nfloat lastQuotation = Float.parseFloat(dataOfTheQuotation [3]);\nString companyName = dataOfTheQuotation [1];\nif (currentQuotation > lastQuotation)\ncontext.write(new Text (SingleCountryData [companyName]), new IntWritable(1));\n}\n}\n}\npublic static class IntSumReducer extends Reducer<Text, IntWritable, Text, IntWritable> {\nprivate IntWritable result = new IntWritable();\npublic void reduce (Text key, Iterable values, Context context) throws IOException, Interrup\nint sum = 0;\nfor (IntWritable val: values) {\nsum += val.get();\n}\nresult.set(sum);\ncontext.write(key, result);\n}\n}\npublic static void main(String[] args) throws Exception {\nConfiguration conf = new Configuration();\nJob job Job.getInstance(conf, \"QuotationAnalyzer\");\njob.setJarByClass (QuotationAnalyzer.class);\njob.setMapperClass (Increase QuotationFilterMapper.class);\njob.setCombinerClass (IntSumReducer.class);\njob.setReducerClass (IntSumReducer.class);\njob.setOutputKeyClass (Text.class);",
+      "explanation": "Java code for a MapReduce job. The code calculates the number of times the price of each company's stock has increased in a given period."
+    },
+    {
+      "module": "BDA02",
+      "title": "MapReduce: Running Job on Cluster",
+      "language": "bash",
+      "code": "$ bin/hadoop jar quotation-analyzer.jar QuotationAnalyzer /data/markets/quotations/input/allquotations.csv /data/markets/quotations/output",
+      "explanation": "Command to execute the compiled MapReduce job on a Hadoop cluster, specifying the input and output paths."
+    },
+    {
+      "module": "BDA03",
+      "title": "WordCount MapReduce (Java)",
+      "language": "java",
+      "code": "1\nimport java.io.IOException;\n2\nimport java.util.StringTokenizer;\n3\n4\nimport org.apache.hadoop.conf.Configuration;\n5\nimport org.apache.hadoop.fs.Path;\n6\nimport org.apache.hadoop.io.IntWritable;\n7\nimport org.apache.hadoop.io.Text;\n8\nimport org.apache.hadoop.mapreduce.Job;\n9\nimport org.apache.hadoop.mapreduce.Mapper;\n10\nimport org.apache.hadoop.mapreduce. Reducer;\n11\nimport org.apache.hadoop.mapreduce.lib.input.FileInputFormat;\n12\nimport org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;\n13\n14\npublic class WordCount {\n15\n16\npublic static class TokenizerMapper\n17\nextends Mapper<Object, Text, Text, IntWritable>{\n18\n19\nprivate final static IntWritable one = new IntWritable(1);\n20\nprivate Text word = new Text();\n21\n22\npublic void map (Object key, Text value, Context context\n23\n) throws IOException, InterruptedException {\n24\nStringTokenizer itr = new StringTokenizer (value.toString());\n25\nwhile (itr.hasMoreTokens()) {\n26\nword.set(itr.nextToken());\n27\ncontext.write(word, one);\n28\n}\n29\n}\n30\n}\n31\n32\npublic static class IntSumReducer\n33\nextends Reducer<Text, IntWritable, Text, IntWritable> {\n34\nprivate IntWritable result = new IntWritable();\n35\n36\npublic void reduce (Text key, Iterable<IntWritable> values,\n37\nContext context\n38\n) throws IOException, InterruptedException {\n39\nint sum = 0;\n40\nfor (IntWritable val: values) {\n41\nsum += val.get();\n42\n}\n43\nresult.set(sum);\n44\ncontext.write(key, result);\n45\n}\n46\n}\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\npublic static void main(String[] args) throws Exception {\nConfiguration conf = new Configuration();\nJob job = Job.getInstance(conf, \"word count\");\njob.setJarByClass (WordCount.class);\njob.setMapperClass (TokenizerMapper.class);\njob.setCombinerClass (IntSumReducer.class);\njob.setReducerClass (IntSumReducer.class);\njob.setOutputKeyClass (Text.class);\njob.setOutputValueClass (IntWritable.class);\nFileInputFormat.addInputPath (job, new Path(args[0]));\nFileOutputFormat.setOutputPath (job, new Path(args[1]));\nSystem.exit(job.waitForCompletion(true) ? 0:1);\n61\n}\n62 }",
+      "explanation": "Código MapReduce en Java que cuenta la frecuencia de cada palabra en un fichero.  Define un Mapper y un Reducer para realizar la tarea."
+    },
+    {
+      "module": "BDA03",
+      "title": "WordCount con Pig Latin",
+      "language": "pig",
+      "code": "1 input_lines = LOAD '/tmp/file-to-count-words' AS (line: chararray);\n2 words = FOREACH input_lines GENERATE FLATTEN (TOKENIZE(line)) AS word;\n3 filtered_words = FILTER words BY word MATCHES '\\\\w+';\n4 word_groups = GROUP filtered_words BY word;\n5 word_count = FOREACH word_groups GENERATE COUNT (filtered_words) AS count, group AS word;\n6 ordered_word_count = ORDER word_count BY count DESC;\n7 STORE ordered_word_count INTO '/tmp/ranking-of-words';",
+      "explanation": "Ejemplo de conteo de palabras utilizando Pig Latin, un lenguaje de alto nivel.  Simplifica el conteo de palabras, similar a SQL."
+    },
+    {
+      "module": "BDA03",
+      "title": "Crear tabla de inmuebles (HQL)",
+      "language": "sql",
+      "code": "CREATE TABLE inmuebles (\nid INT,\ndireccion STRING,\nprovincia STRING,\nsuperficie INT\nprecio DOUBLE)\nROW FORMAT DELIMITED FIELDS TERMINATED BY '\\t'\nSTORED AS TEXTFILE;",
+      "explanation": "Creación de una tabla llamada inmuebles en Hive con campos específicos y formato delimitado por tabuladores."
+    },
+    {
+      "module": "BDA03",
+      "title": "Visualización de las tablas que hay en una base de datos (HQL)",
+      "language": "sql",
+      "code": "SHOW TABLES",
+      "explanation": "Visualización de las tablas existentes en Hive."
+    },
+    {
+      "module": "BDA03",
+      "title": "Borrado de tabla (HQL)",
+      "language": "sql",
+      "code": "DROP TABLE inmuebles",
+      "explanation": "Borrado de una tabla en Hive."
+    },
+    {
+      "module": "BDA03",
+      "title": "Modificación de tabla (HQL)",
+      "language": "sql",
+      "code": "ALTER TABLE inmuebles\nADD COLUMNS (pais STRING COMMENT 'Nombre del país')",
+      "explanation": "Ejemplo de añadir un campo país a la tabla anterior de inmuebles en Hive."
+    },
+    {
+      "module": "BDA03",
+      "title": "Renombrar tabla (HQL)",
+      "language": "sql",
+      "code": "ALTER TABLE inmuebles RENAME TO casas",
+      "explanation": "Ejemplo de renombrar la tabla inmuebles a casas en Hive."
+    },
+    {
+      "module": "BDA03",
+      "title": "Visualización del detalle de una tabla (HQL)",
+      "language": "sql",
+      "code": "DESCRIBE [EXTENDED|FORMATED] inmuebles",
+      "explanation": "Visualización del detalle de una tabla, es decir, para conocer los campos que tiene, formato, etc en Hive."
+    },
+    {
+      "module": "BDA03",
+      "title": "Consulta para obtener la dirección de todos los inmuebles de Madrid ordenados por superficie (HQL)",
+      "language": "sql",
+      "code": "SELECT id, direccion FROM inmuebles\nWHERE provincia = 'Madrid'\nORDER BY superficie",
+      "explanation": "Consulta SQL en Hive para obtener la dirección de los inmuebles de Madrid ordenados por superficie."
+    },
+    {
+      "module": "BDA03",
+      "title": "Consulta para obtener cuántos inmuebles de un tamaño mayor a 100 metros hay para cada provincia (HQL)",
+      "language": "sql",
+      "code": "SELECT provincia, count(*) FROM inmuebles\nWHERE superficie > 100\nGROUP BY provincia",
+      "explanation": "Consulta SQL en Hive para obtener cuántos inmuebles de más de 100 metros hay en cada provincia."
+    },
+    {
+      "module": "BDA03",
+      "title": "Cargar datos desde fichero local (HQL)",
+      "language": "sql",
+      "code": "LOAD DATA LOCAL INPATH './data/inmuebles.csv'\nOVERWRITE INTO TABLE inmuebles",
+      "explanation": "Carga de datos en una tabla de Hive desde un fichero que está en el disco local."
+    },
+    {
+      "module": "BDA03",
+      "title": "Carga de datos de resultados de consulta (HQL)",
+      "language": "sql",
+      "code": "INSERT OVERWRITE TABLE inmuebles SELECT a.direccion, a.provincia, a.superficie FROM catastro a;",
+      "explanation": "Carga de datos en una tabla de Hive del resultado de una consulta a una tabla del Catastro."
+    },
+    {
+      "module": "BDA03",
+      "title": "Insertar datos fila a fila (HQL)",
+      "language": "sql",
+      "code": "INSERT INTO TABLE inmuebles\nVALUES ('Calle Sol 23, 'Madrid', 'Madrid', 95, 234452)",
+      "explanation": "Inserción de registros fila a fila en la tabla de Hive inmuebles."
+    },
+    {
+      "module": "BDA03",
+      "title": "Modificar campo provincia (HQL)",
+      "language": "sql",
+      "code": "UPDATE inmuebles SET provincia = 'A Coruña' WHERE provincia = 'La Coruña'",
+      "explanation": "Modificación de un campo provincia en la tabla de Hive inmuebles."
+    },
+    {
+      "module": "BDA03",
+      "title": "Borrar registros con condición (HQL)",
+      "language": "sql",
+      "code": "DELETE FROM inmuebles WHERE provincia = 'Madrid' AND superficie > 500",
+      "explanation": "Borrado de registros de la tabla inmuebles que cumplan una condición en Hive."
+    },
+    {
+      "module": "BDA03",
+      "title": "Consulta margen de empresas (HQL)",
+      "language": "sql",
+      "code": "SELECT nombre, (beneficios/facturación)*100 AS margen\nFROM empresas\nWHERE empleados > 1000\nORDER BY margen DESC",
+      "explanation": "Consulta para obtener la lista de empresas de más de 1.000 empleados ordenadas de mayor a menor margen en Hive."
+    },
+    {
+      "module": "BDA03",
+      "title": "Crear tabla en HBase",
+      "language": "bash",
+      "code": "create 'inmuebles', 'datosinmueble'",
+      "explanation": "Creación de una tabla llamada inmuebles en HBase, con una familia de columnas datosinmueble."
+    },
+    {
+      "module": "BDA03",
+      "title": "Insertar datos en HBase",
+      "language": "bash",
+      "code": "put 'inmuebles', 'IB002221', 'datosinmueble:precioventa', '221221'",
+      "explanation": "Inserción de datos en la tabla inmuebles de HBase."
+    },
+    {
+      "module": "BDA03",
+      "title": "Obtener una fila en HBase",
+      "language": "bash",
+      "code": "get 'inmuebles','IB002221'",
+      "explanation": "Obtener los datos del registro con identificador IB002221 en HBase."
+    },
+    {
+      "module": "BDA03",
+      "title": "Leer toda la tabla en HBase",
+      "language": "bash",
+      "code": "scan 'inmuebles'",
+      "explanation": "Leer toda la tabla de inmuebles en HBase."
+    },
+    {
+      "module": "BDA03",
+      "title": "Borrar una tabla en HBase",
+      "language": "bash",
+      "code": "drop 'inmuebles'",
+      "explanation": "Borrar la tabla de inmuebles en HBase."
+    },
+    {
+      "module": "BDA03",
+      "title": "Ejemplos de comandos Sqoop",
+      "language": "bash",
+      "code": "sqoop import --connect jdbc:mysql://db.foo.com/corp --table EMPLOYEES --hive-import\nsqoop export --connect jdbc:mysql://db.example.com/foo\n--table bar\n--export-dir /results/bar_data",
+      "explanation": "Ejemplos de comandos Sqoop para importar y exportar datos entre bases de datos relacionales y Hadoop."
+    },
+    {
+      "module": "BDA05",
+      "title": "HDFS commands",
+      "language": "bash",
+      "code": "hdfs fs -ls",
+      "explanation": "Comando para listar archivos en HDFS."
+    }
+  ],
+  "devQuestions": []
 }

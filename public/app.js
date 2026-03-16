@@ -2,6 +2,7 @@ import { renderHome, renderSubject } from './components/nav.js';
 import { renderQuizSetup, initQuizSetup } from './components/quiz.js';
 import { renderFlashcards, initFlashcards } from './components/flashcard.js';
 import { renderHistory, initHistory } from './components/progress.js';
+import { renderSummary, renderCode, renderDev, initDev } from './components/summary.js';
 
 const app = document.getElementById('app');
 const SUBJECTS = ['BDA', 'MIA', 'PIA', 'SAA', 'SBD'];
@@ -38,6 +39,13 @@ async function route() {
       } else if (parts[1] === 'history') {
         app.innerHTML = renderHistory(parts[0]);
         initHistory(parts[0]);
+      } else if (parts[1] === 'resumen') {
+        app.innerHTML = renderSummary(data);
+      } else if (parts[1] === 'codigo') {
+        app.innerHTML = renderCode(data);
+      } else if (parts[1] === 'desarrollo') {
+        app.innerHTML = renderDev(data);
+        initDev();
       }
     }
   } catch (err) {

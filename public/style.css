@@ -457,6 +457,99 @@ input[type="number"] {
   .mode { text-align: center; }
 }
 
+/* — Summary — */
+.summary-section {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.summary-section h3 {
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 0.75rem;
+}
+
+.summary-text {
+  font-size: 0.9rem;
+  line-height: 1.75;
+  color: var(--ink);
+}
+
+/* — Code — */
+.code-block {
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.code-title {
+  padding: 0.6rem 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border-bottom: 1px solid var(--line);
+  background: #f5f4f1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.code-lang {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--mid);
+}
+
+.code-block pre {
+  margin: 0;
+  padding: 1rem;
+  overflow-x: auto;
+  background: #faf9f7;
+  font-size: 0.82rem;
+  line-height: 1.6;
+}
+
+.code-block code {
+  font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
+  white-space: pre;
+}
+
+.code-explain {
+  padding: 0.6rem 0.9rem;
+  font-size: 0.82rem;
+  color: var(--mid);
+  border-top: 1px solid var(--line);
+  line-height: 1.5;
+}
+
+/* — Development questions — */
+.dev-q {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--line);
+  cursor: pointer;
+  transition: padding-left 0.15s;
+}
+
+.dev-q:hover { padding-left: 0.35rem; }
+
+.dev-question {
+  font-size: 0.92rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.dev-answer {
+  margin-top: 0.5rem;
+  font-size: 0.88rem;
+  line-height: 1.65;
+  color: var(--mid);
+  padding-left: 0.75rem;
+  border-left: 2px solid var(--line);
+}
+
 /* — Footer — */
 footer {
   text-align: center;

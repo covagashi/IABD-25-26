@@ -3636,5 +3636,174 @@
       "back": "El uso de la inteligencia artificial para mejorar el desempeño de los robots y permitirles acometer nuevas tareas."
     }
   ],
-  "practicalQuestions": []
+  "summaries": [
+    {
+      "module": "MIA03",
+      "title": "Modelo Clásico de Inteligencia Artificial: Sistemas Expertos",
+      "summary": "**Introducción a los Sistemas Expertos:**\n\nLa Inteligencia Artificial (IA) clásica, a diferencia de la IA moderna (machine learning y deep learning), se enfocó en un desarrollo más teórico que práctico. Los primeros ordenadores de la época eran limitados, por lo que la IA clásica se centró en un desarrollo más teórico.  El objetivo era crear máquinas que pudieran “pensar” como los humanos, replicando el conocimiento y la capacidad de razonamiento humano.\n\n**Definición de Sistema Experto:**\n\nUn **sistema experto** es un programa informático que imita el comportamiento de un experto humano en un tema específico. La IA clásica dependía de la participación de **expertos** en el dominio para transferir conocimiento a la máquina.\n\n**Proceso para el Desarrollo de un Sistema Experto:**\n1.  **Localizar al experto:** Incorporar expertos en el campo de conocimiento.\n2.  **Definir reglas:** Convertir el conocimiento del experto en reglas sencillas.\n3.  **Informatizar:** Traducir las reglas a lenguaje informático.\n4.  **Iterar:** Probar el sistema, identificar fallos, refinar reglas y repetir el proceso hasta obtener el rendimiento deseado.\n\n**Limitaciones de la IA Clásica:**\nLa IA Clásica se limita a situaciones basadas en relaciones de causa-efecto. La dificultad radica en definir y traducir todas las reglas y relaciones cuando el conocimiento implica correlaciones complejas.\n\n**Partes de un Sistema Experto:**\n\n*   **Base de Conocimientos:** Contiene el conocimiento y experiencia del experto, estructurado y codificado.   Incluye reglas, objetos y relaciones.\n*   **Base de Hechos o Datos:** Memoria temporal para variables de inicio, intermedias y de salida.\n*   **Motor o Mecanismo de Inferencia:** Unidad lógica que aplica reglas sobre la base de conocimientos para extraer conclusiones.  Imita el razonamiento humano.\n*   **Interfaz Sistema - Usuario:** Facilita la interacción con el usuario.\n*   **Módulo de Adquisición de Conocimiento:** Permite la estructuración, implementación y actualización del conocimiento, facilitando la adición de reglas.\n\n**Dinámica de un Sistema Experto:**\n\n*   El objetivo es que la información crítica requerida para el funcionamiento del sistema sea explícita y fácil de entender y editar.\n*   Los **sistemas expertos** combinan información y reglas de actuación.\n*   Un sistema experto genera información no explícita a través del razonamiento.\n\n**Tipos de Sistemas Expertos:**\n\n*   **Basados en reglas previamente establecidas:** Aplican reglas y lógica difusa.\n*   **Basados en casos:** Resuelven nuevos problemas utilizando soluciones de problemas anteriores.\n*   **Basados en redes bayesianas:** Utilizan cálculo de probabilidad.\n\n**Representación del Conocimiento:**\n\n*   **Reglas de producción:** Estructuras condicionales (if-then).\n*   **Lógica proposicional:** Separa los elementos que componen la base de conocimiento de aquellos que controlan la operación del sistema.\n*   **Redes semánticas:** Representan el conocimiento en forma de redes.\n*   **Marcos:** Almacenan información concreta de un concepto y su información relacional correspondiente.\n*   **Objetos:** Entidades independientes que actúan a través del envío de mensajes.\n*   **Representaciones Múltiples:** Combinan diferentes formas de representación.\n\n**Mecanismos de Razonamiento:**\n\n*   **Encadenamiento hacia delante:** Parte de hechos para llegar a resultados.\n*   **Encadenamiento hacia atrás:** Parte de resultados para encontrar hechos.\n*   **Encadenamiento mixto:** Combina los anteriores.\n*   **Algoritmo de búsqueda heurística:** Búsqueda en una estructura de árbol.\n*   **Herencia:**  Usado en entornos de programación orientada a objetos.\n\n**Ejemplos de Modelos Clásicos:**\n\n*   **Deep Blue:** Superordenador que jugó al ajedrez.\n*   **Eliza:** Agente conversacional que simulaba la interacción humana."
+    },
+    {
+      "module": "MIA04",
+      "title": "Modelos de Aprendizaje Automático: Resumen de Estudio",
+      "summary": "**Aprendizaje Automático (Machine Learning)**: El campo de estudio que da a las computadoras la capacidad de aprender sin ser programadas explícitamente. \n\n**1. Introducción al Aprendizaje Automático**\n*   El interés en Machine Learning está en constante crecimiento.\n*   El **Big Data** y la digitalización son factores clave en el desarrollo de la IA.\n*   Los **algoritmos de Machine Learning** aprenden conceptos por sí solos, y se “autoconfiguran.”\n\n**1.1. Evolución del Aprendizaje Automático**\n*   **Aprendizaje Automático** es una rama de la IA.\n*   El enfoque se centra en **aprender basándose en datos** y el **reconocimiento de patrones**, ahora incluye **razonamiento probabilístico, estadística y recuperación de datos**.\n\n**1.2. Definiciones de Aprendizaje Automático**\n*   **Arthur Samuel:**  Aprendizaje Automático como el campo del estudio que da a las computadoras la capacidad de aprender sin ser programadas explícitamente.\n*   **Tom Mitchell:** Un programa de computadora aprende de la experiencia E con respecto a alguna clase de tareas T y medida de rendimiento P, si su desempeño en las tareas en T medido por P mejora con la experiencia E.\n\n**2. Aprendizaje Automático Supervisado**\n*   Se basa en **datos etiquetados previamente**.\n*   Las instancias se componen de características o atributos y un campo objetivo.\n*   El objetivo es predecir el campo objetivo para nuevos casos de estudio.\n*   Se divide en **Regresión** y **Clasificación.**\n\n**2.1. Regresión**\n*   **Predice valores numéricos** para una nueva instancia.\n*   Se utiliza cuando los casos conocidos se pueden expresar con números (valores numéricos).\n*   Ejemplos: Estimar demanda de productos, predecir volumen de ventas.\n\n**2.2. Clasificación**\n*   Predice a qué **categoría** pertenece cada instancia.\n*   **Clasificación Binaria:** dos categorías posibles.\n*   **Clasificación Multiclase:** más de dos categorías.\n*   Ejemplos: predecir la contratación/abandono de servicios, diagnostico medico.\n*   Hace predicciones a futuro basadas en comportamientos o características que se han visto en los datos ya almacenados.\n\n**3. Aprendizaje Automático No Supervisado**\n*   **No requiere etiquetado previo de las instancias**.\n*   El objetivo es encontrar relaciones de similitud, diferencia o asociación en el conjunto de datos.\n*   El aprendizaje no supervisado usa **datos históricos que no están etiquetados**.\n\n**3.1. Clusterización**\n*   El objetivo es **generar agrupaciones o clusters** buscando las instancias que son similares entre sí.\n*   Permite agrupar clientes en función de sus características.\n*   Ejemplos: Publicaciones sugeridas en redes sociales.\n\n**3.2. Detección de Anomalías**\n*   Busca las **instancias que se diferencian de las demás.**\n*   Detecta fraudes o identifica medidas extrañas.\n*   Se usa a menudo antes de aplicar Clustering para limpiar datos.\n\n**3.3. Asociaciones**\n*   Encuentra relaciones entre los diferentes valores que toman los campos de una instancia.\n*   Deduce reglas de asociación que indican la frecuencia con la que se dan ciertos valores.\n*   Ejemplo: Relacionar productos de la compra.\n\n**4. Aprendizaje Automático por Refuerzo**\n*   El objetivo es **aprender a mapear situaciones o acciones para maximizar una cierta recompensa.**\n*   **Programar agentes mediante premio y castigo** sin necesidad de especificar cómo realizar la tarea.\n*   El modelo aprende a base de iteraciones, a partir de una serie de iteraciones."
+    },
+    {
+      "module": "MIA05",
+      "title": "Áreas de Estudio y Desarrollo de la Inteligencia Artificial",
+      "summary": "**Inteligencia Artificial (IA)**: El paradigma por defecto de cualquier sistema computacional en las próximas décadas. Se divide en cuatro grandes áreas, algunas con aplicaciones sociales o industriales que combinan varias. \n\n**1. Reconocimiento y Generación de Imagen**\n*   **Reconocimiento Facial**: Software que identifica o confirma la identidad de una persona a partir del rostro. Identifica rasgos faciales en imágenes y videos. Usos: sistemas de seguridad biométricos, dispositivos móviles.\n    *   **Datos Faciales**: Distancia entre ojos, frente a barbilla, nariz y boca, profundidad ocular, forma pómulos, contorno labios/orejas/barbilla. Se convierte en una **huella facial** única. \n*   **Visión Artificial**: Automatiza la extracción, análisis, clasificación y comprensión de la información de imágenes. \n    *   **Tipos de Datos de Imagen**: Imágenes individuales, secuencias de video, visualizaciones de cámaras múltiples, datos tridimensionales. \n*   **Aplicaciones**: Vigilancia, detección de anomalías, etc.\n\n**2. Procesamiento del Lenguaje Natural y Generación de Texto**\n*   **Procesamiento del Lenguaje Natural (PLN)**: Campo de la IA que se ocupa de la comunicación máquina-humano en lenguaje natural. Objetivo: interacción sencilla y en igualdad. \n    *   **Componentes del PLN**: Análisis morfológico/léxico, sintáctico, semántico, pragmático. \n    *   **Proceso de Reconocimiento del Lenguaje**: Transcripción -> Análisis fonético -> Análisis sintáctico -> Análisis semántico -> Análisis contextual. \n*   **Interpretación de Textos**: Extracción de información valiosa de datos textuales. Aplicaciones: Traducción, chatbots, análisis de opinión, comprensión de recibos/facturas, análisis de documentos, clasificación de contenido, análisis de tendencias. \n*   **Técnicas**: Tokenización, Bag of Words, Word2vec. \n*   **Generación de Textos**: Automatización y mejora de procesos de marketing y comunicación. \n    *   **Modelos**: BERT, GPT3, Bloom. \n    *   **GPT3**: Modelo de lenguaje autorregresivo. Genera texto que simula la redacción humana. \n\n**3. Analítica Avanzada**\n*   **Modelos Predictivos**: Predicción de resultados futuros mediante aprendizaje automático, Big Data y reconocimiento de patrones. \n    *   **Aplicaciones**: Negocios, medicina, servicios financieros, políticas gubernamentales, publicidad, mercadotecnia, redes sociales. \n*   **Bases**: Datos estructurados y bases de datos relacionales, analizando relaciones entre variables. \n\n**4. Robótica Inteligente**\n*   **Sistema Robótico**: Sensores/Entradas, Sistema de control, Actuadores. \n*   **Visión Artificial en Robótica**: Permite detectar objetos y posicionarse. \n*   **Tipos de Robots**: \n    *   **Sociales**: Desarrollan módulos sensoriales y de lenguaje natural; asistentes virtuales. \n    *   **Casas y Ciudades Inteligentes**: Sistemas de sensores con microcontroladores. \n    *   **Conducción Autónoma**: Uso de IA para la toma de decisiones basada en la visión artificial.  \n*   **Unidad de Control del Vehículo Autónomo**: Usa aprendizaje por refuerzo y se entrena en simuladores."
+    }
+  ],
+  "codeExamples": [],
+  "devQuestions": [
+    {
+      "module": "MIA03",
+      "question": "¿Qué es un sistema experto y qué papel juega en la Inteligencia Artificial Clásica?",
+      "answer": "Un sistema experto es un programa informático diseñado para emular el comportamiento de un experto humano en un área específica. En la IA Clásica, los sistemas expertos se enfocaban en replicar el conocimiento humano y el razonamiento, a menudo utilizando reglas y relaciones de causa-efecto para emular la toma de decisiones."
+    },
+    {
+      "module": "MIA03",
+      "question": "¿Cuáles son las cuatro fases principales en el proceso de desarrollo de un sistema experto clásico?",
+      "answer": "Las cuatro fases son: 1. Localizar al experto humano. 2. Definir reglas, traduciendo el conocimiento humano a reglas claras. 3. Informatizar, que es traducir las reglas a lenguaje informático. 4. Iterar, probar, mejorar y refinar el sistema hasta que se comporta como un experto humano."
+    },
+    {
+      "module": "MIA03",
+      "question": "¿Por qué la Inteligencia Artificial Clásica se basaba en un desarrollo más teórico que práctico y qué limitaciones enfrentaba?",
+      "answer": "La IA Clásica, a inicios de 1960, se enfocaba en modelos teóricos por la limitación tecnológica de la época. Las computadoras eran menos potentes y tenían menos memoria que un Smartwatch. La principal limitación era que solo podía trabajar con conocimiento o 'inteligencia' que se basa en una relación de causalidad, es decir, de causa-efecto."
+    },
+    {
+      "module": "MIA03",
+      "question": "¿Cuáles son los componentes principales de un sistema experto?",
+      "answer": "Los componentes principales son: la base de conocimientos, la base de hechos, el motor de inferencia, la interfaz sistema-usuario, y el módulo de adquisición de conocimiento."
+    },
+    {
+      "module": "MIA03",
+      "question": "¿Qué función cumple el motor de inferencia en un sistema experto?",
+      "answer": "El motor de inferencia es la unidad lógica del sistema. Aplica reglas sobre la base de conocimientos, a partir de las consultas, para extraer conclusiones. Utiliza métodos para resolver problemas, selecciona reglas, determina cómo y cuándo se aplican y se encarga de la interacción con el usuario."
+    },
+    {
+      "module": "MIA03",
+      "question": "¿Cuáles son los tres tipos de sistemas expertos mencionados en el documento?",
+      "answer": "Los tres tipos de sistemas expertos son: basados en reglas previamente establecidas, basados en casos y basados en redes bayesianas."
+    },
+    {
+      "module": "MIA03",
+      "question": "¿Qué es un razonamiento basado en reglas previamente establecidas y cómo funciona?",
+      "answer": "Este tipo de razonamiento también conocido como RBR (Rule Based Reasoning) funciona mediante la aplicación de reglas y comparación de resultados. Aplica reglas heurísticas, que se apoyan en la lógica difusa, para la evaluación y la aplicación de dichas reglas."
+    },
+    {
+      "module": "MIA03",
+      "question": "¿En qué se basa el razonamiento de los sistemas expertos basados en casos?",
+      "answer": "Los sistemas expertos basados en casos se basan en el proceso de solucionar nuevos problemas basándose en las soluciones de problemas anteriores. Este tipo de razonamiento adapta las soluciones anteriores al nuevo problema."
+    },
+    {
+      "module": "MIA03",
+      "question": "¿Cuáles son algunas de las estructuras básicas para la representación del conocimiento en los sistemas expertos?",
+      "answer": "Las estructuras básicas para la representación del conocimiento son: reglas de producción, lógica proposicional, redes semánticas, marcos, objetos y representaciones múltiples."
+    },
+    {
+      "module": "MIA03",
+      "question": "¿Cómo se representa el conocimiento en las redes semánticas?",
+      "answer": "En las redes semánticas, el conocimiento se representa en forma de redes o grafos. Cada nodo en la red representa un concepto u objeto, y los lazos que los interconectan describen las relaciones entre ellos."
+    },
+    {
+      "module": "MIA04",
+      "question": "¿Qué es el Aprendizaje Automático según Arthur Samuel en 1959?",
+      "answer": "Arthur Samuel describió el Aprendizaje Automático como el campo del estudio que da a las computadoras la capacidad de aprender sin ser programadas explícitamente. Esta definición, aunque antigua, define la base de lo que hoy conocemos como Machine Learning."
+    },
+    {
+      "module": "MIA04",
+      "question": "¿Cuál es la diferencia fundamental entre Regresión y Clasificación en el Aprendizaje Supervisado?",
+      "answer": "La diferencia radica en el tipo de campo objetivo. En Regresión, el campo objetivo es numérico, buscando predecir valores. En Clasificación, el campo objetivo es categórico, determinando a qué categoría pertenece una instancia."
+    },
+    {
+      "module": "MIA04",
+      "question": "¿Qué caracteriza el Aprendizaje Automático Supervisado en cuanto a los datos?",
+      "answer": "El Aprendizaje Automático Supervisado se caracteriza por utilizar datos que han sido etiquetados previamente. Esto significa que los datos (instancias) ya vienen con sus características y el campo objetivo, proporcionando pistas al programa para que aprenda."
+    },
+    {
+      "module": "MIA04",
+      "question": "¿Qué son las instancias en el contexto del Aprendizaje Automático Supervisado?",
+      "answer": "En el contexto del Aprendizaje Automático Supervisado, las instancias son cada uno de los elementos que forman el conjunto de datos. Están compuestas por una serie de campos de características o atributos y un campo objetivo, que es el que se encuentra etiquetado en los datos de entrenamiento."
+    },
+    {
+      "module": "MIA04",
+      "question": "¿Cuál es el objetivo principal del aprendizaje no supervisado?",
+      "answer": "El objetivo principal del aprendizaje no supervisado es encontrar relaciones de similitud, diferencia o asociación en el conjunto de datos. No requiere un etiquetado previo de las instancias, sino que busca descubrir estructuras o patrones en los datos."
+    },
+    {
+      "module": "MIA04",
+      "question": "¿En qué consiste la técnica de 'Clusterización' dentro del aprendizaje no supervisado?",
+      "answer": "La clusterización es una técnica de aprendizaje no supervisado que consiste en generar agrupaciones o 'clusters' buscando las instancias que son similares entre sí. El modelo resultante permite predecir a qué grupo pertenecerá una nueva instancia."
+    },
+    {
+      "module": "MIA04",
+      "question": "¿Qué se busca en la Detección de Anomalías dentro del Aprendizaje no Supervisado?",
+      "answer": "En la Detección de Anomalías se buscan las instancias que se diferencian de las demás. Es decir, se identifican los datos inusuales o poco comunes dentro de un conjunto de datos, con el objetivo de detectar posibles errores o fraudes."
+    },
+    {
+      "module": "MIA04",
+      "question": "¿En qué consiste el aprendizaje por refuerzo?",
+      "answer": "El aprendizaje por refuerzo es un tipo de aprendizaje automático donde el objetivo es aprender a mapear situaciones o acciones para maximizar una cierta recompensa. Se programan agentes mediante premio y castigo, sin necesidad de especificar cómo realizar la tarea."
+    },
+    {
+      "module": "MIA05",
+      "question": "¿Qué es la visión artificial y qué tipo de tareas automatiza según el documento?",
+      "answer": "La visión artificial automatiza la extracción, el análisis, la clasificación y la comprensión de la información útil a partir de los datos de las imágenes. Los datos de la imagen adoptan muchas formas como las imágenes individuales, secuencias de video, visualizaciones de varias cámaras y datos tridimensionales."
+    },
+    {
+      "module": "MIA05",
+      "question": "¿En qué se basa el reconocimiento facial y qué se busca, por lo general, en esta tecnología?",
+      "answer": "El reconocimiento facial se basa en la identificación y medición de los rasgos faciales en una imagen. La tecnología de reconocimiento facial por lo general busca lo siguiente: distancia entre los ojos, distancia de la frente a la barbilla, distancia entre la nariz y la boca, profundidad de las cuencas oculares, forma de los pómulos y contorno de los labios, las orejas y la barbilla."
+    },
+    {
+      "module": "MIA05",
+      "question": "¿Qué rol juegan las cámaras en los sistemas de vigilancia con inteligencia artificial, y qué plantean en cuanto a ética?",
+      "answer": "Las cámaras en los sistemas de vigilancia con IA extienden la inteligencia artificial para automatizar la vigilancia. Estos sistemas plantean dudas éticas respecto a la libertad fundamental de las personas, siendo muy útil pero puede servir tanto para beneficiar al ser humano como para perjudicarlo."
+    },
+    {
+      "module": "MIA05",
+      "question": "¿Cuál es la cuestión crítica en los sistemas de conducción autónoma y por qué es importante el reconocimiento de señales y obstáculos?",
+      "answer": "La cuestión crítica en los sistemas de conducción autónoma es el reconocimiento de señales de tráfico u objetos/obstáculos alrededor del vehículo a una velocidad relativamente alta. Es fundamental para la seguridad, ya que el sistema debe reaccionar a tiempo para evitar accidentes, como detenerse ante un peatón."
+    },
+    {
+      "module": "MIA05",
+      "question": "¿Qué tres partes fundamentales componen un sistema robótico, y cuál es el impacto de la IA en ellos?",
+      "answer": "Un sistema robótico tiene tres partes fundamentales: sensores o entradas, sistema de control y actuadores. La inteligencia artificial está aportando grandes avances que causan un importante impacto en el alcance de estos sistemas."
+    },
+    {
+      "module": "MIA05",
+      "question": "¿Cómo la IA contribuye a la detección y el diagnóstico médico, y qué tipos de software se utilizan?",
+      "answer": "En el campo de la medicina, la IA se usa para la detección y el diagnóstico de enfermedades a través de imágenes. Se utilizan software como MYCIN/MYCIN II para enfermedades infecciosas, CASNET para oftalmología, PIP para enfermedades renales o Al/RHEUM para enfermedades reumatológicas."
+    },
+    {
+      "module": "MIA05",
+      "question": "¿Qué son las redes GAN y Deep Dream, y cómo se aplican en el campo de la imagen?",
+      "answer": "Las redes GAN son modelos generativos para el campo de la imagen. DeepDream es un modelo de generación de imágenes creado por Google que identifica elementos en una imagen y aplica una transferencia de estilos, respetando la identidad esencial de la imagen original."
+    },
+    {
+      "module": "MIA05",
+      "question": "¿Cuáles son los componentes del procesamiento del lenguaje natural (PLN) que se mencionan, y en qué consiste cada uno?",
+      "answer": "Los componentes del procesamiento del lenguaje natural son: análisis morfológico o léxico, análisis sintáctico, análisis semántico y análisis pragmático. Cada uno consiste en analizar internamente las palabras, la estructura de las oraciones, la interpretación de las oraciones y el contexto del uso."
+    },
+    {
+      "module": "MIA05",
+      "question": "¿Qué es GPT3 y qué lo distingue de otros modelos en la generación de texto?",
+      "answer": "GPT3 es un modelo de lenguaje autorregresivo que emplea aprendizaje profundo para producir textos que simulan la redacción humana. Una de las novedades de GPT3 con respecto a otros modelos, es que también interpreta y emula lenguajes de programación."
+    },
+    {
+      "module": "MIA05",
+      "question": "¿Cómo funcionan los asistentes virtuales conversacionales y qué les permite hacer?",
+      "answer": "Los asistentes virtuales conversacionales utilizan módulos de 'Voz a Texto' y viceversa. Están habilitados para llevar a cabo tareas dentro del sistema que los aloja e, incluso, a través de webhooks, en otros sistemas, por ejemplo, encargar una pizza o comprar online un producto."
+    },
+    {
+      "module": "MIA05",
+      "question": "¿En qué consiste la analítica avanzada y qué tipos de datos utiliza?",
+      "answer": "La analítica avanzada utiliza la inteligencia artificial y el aprendizaje automático para predecir resultados futuros. Utiliza datos históricos, big data y reconocimiento de patrones. Se basa principalmente en datos organizados tabularmente."
+    },
+    {
+      "module": "MIA05",
+      "question": "¿Cuáles son algunos ejemplos de robots inteligentes que se mencionan en el documento y qué tareas realizan?",
+      "answer": "Se mencionan: Davinci, el robot cirujano; o agro-bot, el robot que recoge fresas en su punto óptimo de madurez; robots asistenciales y sociales, robots de casas o ciudades inteligentes, y el coche autónomo."
+    }
+  ]
 }
