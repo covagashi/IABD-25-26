@@ -1,0 +1,3162 @@
+{
+  "subject": "SAA",
+  "name": "Sistemas de Aprendizaje Automático",
+  "examInfo": {
+    "description": "15 test (3pts, suman 1, restan 0.5) + 1 desarrollo (1-1.5pts) + 3 ejercicios (5-6pts).",
+    "scoring": "Test: suman 1, restan 0.5. Ejercicios: Bayes, KNN, matriz confusión",
+    "topics": "Bayes, KNN, tipos de aprendizaje, algoritmos, evaluación de modelos"
+  },
+  "questions": [
+    {
+      "id": "SAA01_001",
+      "module": "SAA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los coches autónomos son un caso de",
+      "options": [
+        {
+          "text": "Inteligencia artificial de Asimov",
+          "correct": false
+        },
+        {
+          "text": "Inteligencia artificial débil",
+          "correct": true
+        },
+        {
+          "text": "Inteligencia artificial general",
+          "correct": false
+        },
+        {
+          "text": "Inteligencia artificial fuerte",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA01_002",
+      "module": "SAA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "El nombre del algoritmo KNN viene de:",
+      "options": [
+        {
+          "text": "la media de los valores de K elementos",
+          "correct": false
+        },
+        {
+          "text": "el uso de K redes neuronales",
+          "correct": false
+        },
+        {
+          "text": "ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "los K vecinos más cercanos",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA01_003",
+      "module": "SAA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Blake Lemoine, un ingeniero de Google se refirió al sistema de IA en el que trabajaba, LaMDA, como una máquinapensante y sintiente, y Google ha confirmado que así es . ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA01_004",
+      "module": "SAA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "La inteligencia artificial fuerte",
+      "options": [
+        {
+          "text": "Es un modelo que está aún sin terminar",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        },
+        {
+          "text": "Es un tipo de inteligencia artificial que hace muy bien una tarea concreta",
+          "correct": false
+        },
+        {
+          "text": "Es un tipo de inteligencia artificial que puede desarrollar tareas muy diferentes entre sí.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA01_005",
+      "module": "SAA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Gato, el nuevo modelo de Deepmind, puede llevar a cabo muchas tareas porque",
+      "options": [
+        {
+          "text": "Es una inteligencia artificial fuerte.",
+          "correct": false
+        },
+        {
+          "text": "Ha sido entrenado con variables provenientes de diferentes contextos",
+          "correct": true
+        },
+        {
+          "text": "Hay alguien programando las soluciones detrás",
+          "correct": false
+        },
+        {
+          "text": "Está compuesto por muchos algoritmos diferentes conectados entre sí.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA01_006",
+      "module": "SAA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "El Teorema de Bayes enunciado por el matemático inglés Thomas Bayes (1702-1761) es un sistema de cálculo de probabilidades pero hecho de forma inversa a cómo se calculan habitualmente. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA01_007",
+      "module": "SAA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "La mayoría de los desarrollos actuales de inteligencia artificial",
+      "options": [
+        {
+          "text": "Igualan las capacidades humanas",
+          "correct": false
+        },
+        {
+          "text": "No consiguen alcanzar el grado de capacidad humano",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        },
+        {
+          "text": "En inteligencia artificial estrecha, se suelen superar las capacidades humanas",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA01_008",
+      "module": "SAA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Desde el punto de vista de la filosofía respecto a la IA fuerte, se tiende a la idea:",
+      "options": [
+        {
+          "text": "Hoy día se prefiere hablar de lógicas «de ayuda» a la creación o a la toma de decisiones más que demáquinas que remplazarían al hombre.",
+          "correct": true
+        },
+        {
+          "text": "Una IA fuerte acabará tarde o temprano con la humanidad",
+          "correct": false
+        },
+        {
+          "text": "En realidad, todos estamos en una simulación controlada por una IA fuerte, sin saberlo",
+          "correct": false
+        },
+        {
+          "text": "La IA fuerte es Dios",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA01_009",
+      "module": "SAA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "La inteligencia artificial débil",
+      "options": [
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        },
+        {
+          "text": "Es un tipo de inteligencia artificial que hace muy bien una tarea concreta",
+          "correct": true
+        },
+        {
+          "text": "Es un modelo que está aún sin terminar.",
+          "correct": false
+        },
+        {
+          "text": "Es un tipo de inteligencia artificial que puede desarrollar tareas muy diferentes entre sí.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA01_010",
+      "module": "SAA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué dos campos de estudio convergen en la inteligencia artificial actual?",
+      "options": [
+        {
+          "text": "La didáctica y la ética.",
+          "correct": false
+        },
+        {
+          "text": "La lógica y la ética.",
+          "correct": false
+        },
+        {
+          "text": "La psicología y la neurología.",
+          "correct": false
+        },
+        {
+          "text": "La estadística y el aprendizaje automático.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA01_011",
+      "module": "SAA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Las técnicas de aprendizaje automático, básicamente, miran el problema desde fuera y configuran sus propias reglas para emular el comportamiento del sistema. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA01_012",
+      "module": "SAA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "La inteligencia artificial débil es un concepto totalmente diferente al de la inteligencia artificial estrecha. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA01_013",
+      "module": "SAA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "El sistema Gato de Deepmind es la primera inteligencia artificial que se ha logrado desarrollar. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA01_014",
+      "module": "SAA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿La existencia de una inteligencia artificial fuerte implicaría el surgimiento de la conciencia artificial?",
+      "options": [
+        {
+          "text": "Sí, ya hemos visto cómo la inteligencia artificial LaMDA tiene conciencia propia.",
+          "correct": false
+        },
+        {
+          "text": "No, las inteligencias artificiales fuertes que hay ahora mismo no tienen conciencia propia.",
+          "correct": false
+        },
+        {
+          "text": "Sí, son dos conceptos que van íntimamente ligados",
+          "correct": false
+        },
+        {
+          "text": "No, no está relacionado a priori",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA01_015",
+      "module": "SAA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Podemos ver sistemas basados en inteligencia artificial en",
+      "options": [
+        {
+          "text": "La unidad de control de un vehículo autónomo.",
+          "correct": false
+        },
+        {
+          "text": "El sistema logístico de un gran operador como Amazon",
+          "correct": false
+        },
+        {
+          "text": "El sistema de control de tráfico aéreo internacional",
+          "correct": false
+        },
+        {
+          "text": "En películas y libros de ciencia ficción",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA01_016",
+      "module": "SAA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "El Teorema de Bayes sirve para calcular",
+      "options": [
+        {
+          "text": "Ese teorema no existe.",
+          "correct": false
+        },
+        {
+          "text": "cuántas veces se va a dar un fenómeno en la naturaleza",
+          "correct": false
+        },
+        {
+          "text": "la probabilidad de una causa, conocida su consecuencia",
+          "correct": true
+        },
+        {
+          "text": "la probabilidad de que algo ocurra",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA01_017",
+      "module": "SAA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué es Gato, el nuevo modelo desarrollado por Deepmind?",
+      "options": [
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "Es un modelo de inteligencia artificial que resuelve las búsquedas que la gente hace en Google",
+          "correct": false
+        },
+        {
+          "text": "Es una inteligencia artificial generalista que puede llevar a cabo hasta 604 tareas diferentes",
+          "correct": true
+        },
+        {
+          "text": "Es un algoritmo de aprendizaje automático que analiza textos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA01_018",
+      "module": "SAA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "La inteligencia artificial fuerte y la inteligencia artificial general son lo mismo. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA01_019",
+      "module": "SAA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Según Andrew Ng, profesor de inteligencia artificial en Stanford",
+      "options": [
+        {
+          "text": "El desarrollo del machine learning se ha basado en la disponibilidad de datos y la escalacomputacional.",
+          "correct": true
+        },
+        {
+          "text": "El machine learning es cosa del pasado",
+          "correct": false
+        },
+        {
+          "text": "El machine learning se ha desarrollado gracias al estudio de la evolución humana",
+          "correct": false
+        },
+        {
+          "text": "La inteligencia artificial solo es estadística con un toque estético",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA01_020",
+      "module": "SAA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Alexa, Siri o Google Assistant son ejemplos de",
+      "options": [
+        {
+          "text": "Inteligencia artificial fuerte",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        },
+        {
+          "text": "Inteligencia artificial general",
+          "correct": false
+        },
+        {
+          "text": "Inteligencia artificial débil",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA02_001",
+      "module": "SAA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Dentro de las técnicas de Aprendizaje Automático el uso de las Máquinas de Vector Soporte como clasificador seha visto incrementado en los últimos años debido a que sirven para resolver problemas de clasificación y regresión y que su rendimiento en los diferentes campos en los que se utilizan suele ser bastante alto, resultando ser uno de las técnicas más precisas. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA02_002",
+      "module": "SAA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los algoritmos de Regresión Lineal, Regresión Logística, Árbol de Decisión, Máquinas de Vector Soporte y Clustering son…",
+      "options": [
+        {
+          "text": "Los cinco tipos de algoritmos que se usan en Aprendizaje Automático por Refuerzo.",
+          "correct": false
+        },
+        {
+          "text": "Los cinco tipos de algoritmo que se usan en Aprendizaje Automático Supervisado.",
+          "correct": false
+        },
+        {
+          "text": "Los cinco algoritmos que se usan en Aprendizaje Automático No Supervisado.",
+          "correct": false
+        },
+        {
+          "text": "Algunos de los tipos de algoritmos que más se utilizan en Aprendizaje Automático.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA02_003",
+      "module": "SAA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "El algoritmo de Regresión Logística es más bien un algoritmo de clasificación que de regresión. ¿Verdadero oFalso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA02_004",
+      "module": "SAA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo funcionan los algoritmos de Árbol de Decisión?",
+      "options": [
+        {
+          "text": "Ninguna de las respuestas anteriores es correcta",
+          "correct": false
+        },
+        {
+          "text": "Genera una red de subalgoritmos que compiten entre sí para encontrar la predicción más próxima a larealidad.",
+          "correct": false
+        },
+        {
+          "text": "Crea bifurcaciones, separando los datos en función de los diferentes datos, hasta que se llega a unadecisión concluyente en base a la predicción buscada.",
+          "correct": true
+        },
+        {
+          "text": "Separa en dos regiones diferenciadas los datos, a través de una función llamada sigmoide.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA02_005",
+      "module": "SAA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los entrenamientos con algoritmos de tipo Clustering se suelen usar…",
+      "options": [
+        {
+          "text": "... las primeras fases de las tareas de Aprendizaje Automático, a fin de explorar los datos y detectar correlaciones inesperadas.",
+          "correct": true
+        },
+        {
+          "text": "... para problemas que buscan resolver de manera supervisada casos de clasificación.",
+          "correct": false
+        },
+        {
+          "text": "... después de haber encontrado modelos fiables a través de entrenamientos supervisados, para confirmar que los resultados obtenidos son realmente fiables.",
+          "correct": false
+        },
+        {
+          "text": "... para cuando no tenemos claro qué otros tipos de algoritmos son más apropiados para lo que queremos predecir.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA02_006",
+      "module": "SAA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la ventaja de los algoritmos de tipo Máquina de Vector Soporte respecto de los de Regresión Logística?",
+      "options": [
+        {
+          "text": "No existe ninguna ventaja. De hecho se usan más los de Regresión Logística.",
+          "correct": false
+        },
+        {
+          "text": "Ambos tienen ventajas y desventajas. Cuando nos enfrentamos a problemas de clasificación se puedenutilizar ambos indistintamente.",
+          "correct": false
+        },
+        {
+          "text": "Los del tipo Máquina de Vector Soporte sirven para resolver problemas de clasificación (como los de Regresión Logística) pero también para problemas de regresión, por lo que abarcan problemas más complejos y con más variables.",
+          "correct": true
+        },
+        {
+          "text": "Los del tipo Máquina de Vector Soporte requieren menos recursos computacionales que los de Regresión Logística.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA02_007",
+      "module": "SAA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los algoritmos de Árbol de Decisión construyen un modelo de decisiones basadas en los atributos que presentanlos datos que entran en el modelo. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA02_008",
+      "module": "SAA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "En los algoritmos de Clustering tipo G-Means el número de centroides…",
+      "options": [
+        {
+          "text": "... da igual, pues el resultado es el mismo independientemente de este dato.",
+          "correct": false
+        },
+        {
+          "text": "... lo calcula de forma automática el propio algoritmo",
+          "correct": true
+        },
+        {
+          "text": "... lo tiene que definir el humano antes de iniciar el entrenamiento.",
+          "correct": false
+        },
+        {
+          "text": "... lo calcula el ser humano a través de la fórmula Cluster-Mean.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA02_009",
+      "module": "SAA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "La Regresión Logística sirve para multitud de casos, variados, independientemente de la relación que exista entrelas variables y sin necesidad de que se dé una proporcionalidad lineal. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA02_010",
+      "module": "SAA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Matemáticamente la función logística que generan los algoritmos de Regresión Logística tiene forma de S.",
+      "options": [
+        {
+          "text": "No, tiene forma de L.",
+          "correct": false
+        },
+        {
+          "text": "No siempre (a veces sí, pero otras veces no).",
+          "correct": false
+        },
+        {
+          "text": "No, en realidad tiene forma de U.",
+          "correct": false
+        },
+        {
+          "text": "Sí.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA02_011",
+      "module": "SAA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Si quisiéramos entrenar un modelo de Inteligencia Artificial a través de Aprendizaje Automático Supervisado quenos ayudara a saber si un correo electrónico es Spam o no lo es, el algoritmo óptimo que usaríamos sería…",
+      "options": [
+        {
+          "text": "Árbol de Decisión.",
+          "correct": false
+        },
+        {
+          "text": "Regresión Lineal.",
+          "correct": false
+        },
+        {
+          "text": "Regresión Logística.",
+          "correct": true
+        },
+        {
+          "text": "Máquina de Vector Soporte.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA02_012",
+      "module": "SAA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Si quisiéramos estimar el precio que alcanzará un producto, el algoritmo más apropiado para entrenar el modelo de Inteligencia artificial sería:",
+      "options": [
+        {
+          "text": "Regresión Lineal",
+          "correct": true
+        },
+        {
+          "text": "Máquinas de Vector Soporte",
+          "correct": false
+        },
+        {
+          "text": "Regresión Logística.",
+          "correct": false
+        },
+        {
+          "text": "Clustering.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA02_013",
+      "module": "SAA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En qué casos resulta más útil la Regresión Logística?",
+      "options": [
+        {
+          "text": "Para los casos en los que no sabemos muy bien qué otro algoritmo utilizar",
+          "correct": false
+        },
+        {
+          "text": "Para generar grupos de instancias con datos similares",
+          "correct": false
+        },
+        {
+          "text": "Para los casos en los que existe una proporcionalidad lineal entre los valores del conjunto de predictores",
+          "correct": false
+        },
+        {
+          "text": "Para los casos en los que se desea predecir la presencia o ausencia de una característica o resultado.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA02_014",
+      "module": "SAA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "De entre los diferentes algoritmos del tipo Árbol de Decisión ¿Cuál es el más popular y utilizado?",
+      "options": [
+        {
+          "text": "M5.",
+          "correct": false
+        },
+        {
+          "text": "Classification and Regression Tree (CART).",
+          "correct": true
+        },
+        {
+          "text": "Iterative Dichotomiser 3 (ID3).",
+          "correct": false
+        },
+        {
+          "text": "Decision Stump",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA02_015",
+      "module": "SAA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los algoritmos de Árbol de decisión trabajan muy bien…",
+      "options": [
+        {
+          "text": "... tanto con datos del tipo de regresión como de clasificación.",
+          "correct": true
+        },
+        {
+          "text": "... únicamente con datos del tipo de clasificación",
+          "correct": false
+        },
+        {
+          "text": "... únicamente con datos del tipo de regresión",
+          "correct": false
+        },
+        {
+          "text": "... con datos de refuerzo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA02_016",
+      "module": "SAA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿A qué tipo de Aprendizaje Automático pertenecen los algoritmos de tipo Clustering?",
+      "options": [
+        {
+          "text": "Supervisado.",
+          "correct": false
+        },
+        {
+          "text": "Por Refuerzo.",
+          "correct": false
+        },
+        {
+          "text": "No Supervisado",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las anteriores respuestas es correcta",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA02_017",
+      "module": "SAA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los algoritmos del tipo SVM son apropiados para…",
+      "options": [
+        {
+          "text": "Aprendizaje Automático No Supervisado.",
+          "correct": false
+        },
+        {
+          "text": "Aprendizaje Automático por Refuerzo",
+          "correct": false
+        },
+        {
+          "text": "Aprendizaje Automático Supervisado",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las respuestas anteriores es correcta.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA02_018",
+      "module": "SAA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "En los algoritmos de Clustering tipo K-Means el número de centroides…",
+      "options": [
+        {
+          "text": "... lo calcula de forma automática el propio algoritmo",
+          "correct": false
+        },
+        {
+          "text": "... lo tiene que definir el humano antes de iniciar el entrenamiento",
+          "correct": true
+        },
+        {
+          "text": "... da igual, pues el resultado es el mismo independientemente de este dato",
+          "correct": false
+        },
+        {
+          "text": "... lo calcula el ser humano a través de la fórmula Cluster-Mean.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA02_019",
+      "module": "SAA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué otro nombre reciben los algoritmos de tipo Clustering?",
+      "options": [
+        {
+          "text": "No Supervisado",
+          "correct": false
+        },
+        {
+          "text": "Regresión.",
+          "correct": false
+        },
+        {
+          "text": "de Agrupación",
+          "correct": true
+        },
+        {
+          "text": "Clasificación",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA02_020",
+      "module": "SAA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "El algoritmo de Regresión Logística…",
+      "options": [
+        {
+          "text": "... estima valores discretos",
+          "correct": true
+        },
+        {
+          "text": "... estima valores reales",
+          "correct": false
+        },
+        {
+          "text": "... estima valores negativos",
+          "correct": false
+        },
+        {
+          "text": "... estima valores proporcionales",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA03_001",
+      "module": "SAA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "En el Aprendizaje Profundo el modelo no puede mejorarse a sí mismo de manera automática, es necesaria la intervención humana. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA03_002",
+      "module": "SAA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En qué década se empezaron a publicar los primeros conceptos acerca cómo deberían funcionar las redes neuronales?",
+      "options": [
+        {
+          "text": "En los años 20 del S.XX.",
+          "correct": false
+        },
+        {
+          "text": "En los años 80 del S.XX.",
+          "correct": false
+        },
+        {
+          "text": "En los años 10 del S.XXI.",
+          "correct": false
+        },
+        {
+          "text": "En los años 40 y 50 del S.XX.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA03_003",
+      "module": "SAA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "En el desarrollo matemático de la Inteligencia Artificial ¿ha sido útil el enfoque biológico?",
+      "options": [
+        {
+          "text": "Sí, desde los primeros años hasta ahora.",
+          "correct": false
+        },
+        {
+          "text": "No",
+          "correct": true
+        },
+        {
+          "text": "Sí, pero solo en los primeros años.",
+          "correct": false
+        },
+        {
+          "text": "Nunca se ha planteado un enfoque biológico para el desarrollo de la Inteligencia Artificial.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA03_004",
+      "module": "SAA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "En el algoritmo de red neuronal de codificación automática (Auto Encoder - AE) el número de neuronas o celdas de la capa oculta es menor que las de salida.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA03_005",
+      "module": "SAA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "La cantidad de capas y neuronas que tenga una red neuronal no influye para nada en la mejora de predicciones de conjuntos de datos complicados. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA03_006",
+      "module": "SAA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál de los siguientes algoritmos no se utiliza para aplicaciones de síntesis de voz?",
+      "options": [
+        {
+          "text": "AE y todas sus variantes",
+          "correct": false
+        },
+        {
+          "text": "Todas las respuestas anteriores son correctas",
+          "correct": true
+        },
+        {
+          "text": "DCN",
+          "correct": false
+        },
+        {
+          "text": "LSTM",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA03_007",
+      "module": "SAA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿El aprendizaje profundo (Deep Learning) es una de las principales técnicas del aprendizaje automático (Machine Learning)?",
+      "options": [
+        {
+          "text": "Sí.",
+          "correct": true
+        },
+        {
+          "text": "No, aunque últimamente se está considerando que ambas técnicas confluyen y se las empieza a tratar como una misma técnica.",
+          "correct": false
+        },
+        {
+          "text": "No, constituye por sí misma una técnica diferente e independiente del Machine Learning.",
+          "correct": false
+        },
+        {
+          "text": "Sí, pero solo hasta el año 2015, cuando su desarrollo superó tanto las técnicas como los objetivos del Machine Learning. Desde entonces se considera como una técnica independiente.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA03_008",
+      "module": "SAA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "La cuarta fase del entrenamiento de una red neuronal profunda es:",
+      "options": [
+        {
+          "text": "Función de coste",
+          "correct": false
+        },
+        {
+          "text": "Backward Pass.",
+          "correct": false
+        },
+        {
+          "text": "Descenso del gradiente.",
+          "correct": true
+        },
+        {
+          "text": "Forward Pass.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA03_009",
+      "module": "SAA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "La tercera fase del entrenamiento de una red neuronal profunda es:",
+      "options": [
+        {
+          "text": "Función de coste",
+          "correct": false
+        },
+        {
+          "text": "Backward Pass.",
+          "correct": true
+        },
+        {
+          "text": "Descenso del gradiente.",
+          "correct": false
+        },
+        {
+          "text": "Forward Pass.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA03_010",
+      "module": "SAA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "El algoritmo de red de alimentación directa profunda (Deep Feed Forward - DFF) es como una red de retroalimentación directa (FF) pero que usa más de una capa oculta.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA03_011",
+      "module": "SAA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "De los siguientes algoritmos, indica cuál es el que introduce una celda de memoria",
+      "options": [
+        {
+          "text": "DFF",
+          "correct": false
+        },
+        {
+          "text": "FF",
+          "correct": false
+        },
+        {
+          "text": "SVM.",
+          "correct": false
+        },
+        {
+          "text": "LSTM",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA03_012",
+      "module": "SAA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En qué tipo de problemas del aprendizaje automático se puede aplicar el Deep Learning?",
+      "options": [
+        {
+          "text": "Solo en entrenamientos no supervisados",
+          "correct": false
+        },
+        {
+          "text": "El Deep Learning no se aplica en problemas de aprendizaje automático",
+          "correct": false
+        },
+        {
+          "text": "Solo en entrenamientos supervisados",
+          "correct": false
+        },
+        {
+          "text": "Tanto en entrenamientos supervisados como no supervisados",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA03_013",
+      "module": "SAA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Quién fue el primer científico que planteó el concepto de Perceptrón?",
+      "options": [
+        {
+          "text": "Alan Turing en 1942.",
+          "correct": false
+        },
+        {
+          "text": "Bill Gates en 1997",
+          "correct": false
+        },
+        {
+          "text": "Mat LeCunn, en 1985",
+          "correct": false
+        },
+        {
+          "text": "Frank Rosenblatt en 1957",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA03_014",
+      "module": "SAA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Las redes neuronales se basan en la siguiente idea: dados unos parámetros iniciales hay una forma de combinarlos para predecir un cierto resultado.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA03_015",
+      "module": "SAA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué hacen las redes neuronales en relación con los parámetros iniciales?",
+      "options": [
+        {
+          "text": "Las redes neuronales no intervienen de ninguna manera en los parámetros iniciales.",
+          "correct": false
+        },
+        {
+          "text": "Definen un modelo de combinación de dichos parámetros para aplicarla en la búsqueda del resultado deseado",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las respuestas anteriores es correcta",
+          "correct": false
+        },
+        {
+          "text": "Mezclan los parámetros de forma aleatoria a ver si hay suerte y dan con algún resultado aceptable.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA03_016",
+      "module": "SAA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Si quisiera desarrollar un modelo de Inteligencia Artificial con la técnica de Deep Learning enfocado en reconocimiento de imágenes ¿qué algoritmo sería más apropiado?",
+      "options": [
+        {
+          "text": "Red de máquinas de Boltzmann (BM)",
+          "correct": false
+        },
+        {
+          "text": "Red convolucional profunda (DCN)",
+          "correct": true
+        },
+        {
+          "text": "Red de Autoencoder Variacional (VAE)",
+          "correct": false
+        },
+        {
+          "text": "Red generativa de adversarios (GAN)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA03_017",
+      "module": "SAA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "La segunda fase del entrenamiento de una red neuronal profunda es:",
+      "options": [
+        {
+          "text": "Función de coste",
+          "correct": true
+        },
+        {
+          "text": "Backward Pass.",
+          "correct": false
+        },
+        {
+          "text": "Descenso del gradiente.",
+          "correct": false
+        },
+        {
+          "text": "Forward Pass.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA03_018",
+      "module": "SAA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Las redes neuronales se asemejan al cerebro en estos aspectos:",
+      "options": [
+        {
+          "text": "El conocimiento se adquiere por la red mediante un proceso de aprendizaje, y, las fuerzas de conexión interneuronal (ponderaciones sinápticas) se utilizan para almacenar el conocimiento",
+          "correct": true
+        },
+        {
+          "text": "Se activan partes específicas de la red neuronal (como los hemisferios del cerebro) y necesitan reposar para fijar conocimientos (como cuando el humano duerme).",
+          "correct": false
+        },
+        {
+          "text": "En ningún aspecto",
+          "correct": false
+        },
+        {
+          "text": "Aprenden como los niños pequeños, por observación y por poner en práctica lo observado (prueba - error)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA03_019",
+      "module": "SAA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una red neuronal es un procesador distribuido en paralelo de forma masiva con una propensión natural a almacenar conocimiento experimental y convertirlo en disponible para su uso.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA03_020",
+      "module": "SAA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "La primera fase del entrenamiento de una red neuronal profunda es:",
+      "options": [
+        {
+          "text": "Función de coste",
+          "correct": false
+        },
+        {
+          "text": "Backward Pass.",
+          "correct": false
+        },
+        {
+          "text": "Descenso del gradiente.",
+          "correct": false
+        },
+        {
+          "text": "Forward Pass.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA03_021",
+      "module": "SAA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "En esencia una red convolucional lo que hace es…",
+      "options": [
+        {
+          "text": "Ninguna de las respuestas anteriores es correcta",
+          "correct": false
+        },
+        {
+          "text": "...detectar los vectores directores que soportan los datos fundamentales de las instancias.",
+          "correct": false
+        },
+        {
+          "text": "...trata de buscar características locales en pequeños grupos de entradas (píxeles, secuencias de mediciones de audio, etc).",
+          "correct": true
+        },
+        {
+          "text": "...revolucionar los datos a la mayor velocidad de cómputo posible hasta que detecta los de mayor peso específico.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA03_022",
+      "module": "SAA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Se consideran redes neuronales las máquinas de vector soporte (SVM)?",
+      "options": [
+        {
+          "text": "Ninguna de las respuestas anteriores es correcta.",
+          "correct": false
+        },
+        {
+          "text": "Sí.",
+          "correct": false
+        },
+        {
+          "text": "No, aunque tiene una estructura interna similar a las redes neuronales",
+          "correct": true
+        },
+        {
+          "text": "Depende del tipo de datos de entrada que empleemos.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA03_023",
+      "module": "SAA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "El aprendizaje profundo se diferencia fundamentalmente del aprendizaje automático en…",
+      "options": [
+        {
+          "text": "...que es más apropiado para problemas de entrenamiento por refuerzo.",
+          "correct": false
+        },
+        {
+          "text": "...que requiere menos esfuerzo de cómputo y memoria.",
+          "correct": false
+        },
+        {
+          "text": "...que no necesita depurar previamente los datos.",
+          "correct": false
+        },
+        {
+          "text": "...que el modelo sigue aprendiendo y mejorando su precisión cada vez que se utiliza.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA03_024",
+      "module": "SAA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "En una red neuronal de retroalimentación (Feed Forward - FF)...",
+      "options": [
+        {
+          "text": "...Los nodos forman un ciclo.",
+          "correct": false
+        },
+        {
+          "text": "...hay una conexión visible entre los nodos de la misma capa.",
+          "correct": false
+        },
+        {
+          "text": "...cada perceptrón o nodo está conectado con cada nodo de la capa siguiente o anterior.",
+          "correct": true
+        },
+        {
+          "text": "...las capas ocultas tienen conexión con el mundo exterior.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA04_001",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo representa gráficamente BigML un modelo entrenado con el algoritmo “cluster”?",
+      "options": [
+        {
+          "text": "Con cuadrados",
+          "correct": false
+        },
+        {
+          "text": "Con círculos",
+          "correct": true
+        },
+        {
+          "text": "Con gráficas X/Y en las que se pueden mostrar diferentes categorías en relación con el campo objetivo",
+          "correct": false
+        },
+        {
+          "text": "Con un diagrama de árbol",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA04_002",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "En BigML, en los modelos de entrenados con el algoritmo “cluster” no es posible hacer una evaluación posterior del modelo",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA04_003",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Para qué sirve la vista Scatterplot de los datasets en la plataforma BigML?",
+      "options": [
+        {
+          "text": "Es lo mismo que los histogramas, pero con una palabra más sofisticada",
+          "correct": false
+        },
+        {
+          "text": "Para nada. No existe esa vista en BigML",
+          "correct": false
+        },
+        {
+          "text": "Para repasar relaciones entre las diferentes categorías de nuestro dataset, confrontándolas de dos en dos y ver las gráficas que generan",
+          "correct": true
+        },
+        {
+          "text": "La vista Scatterplot no está accesible en el apartado del dataset. Pertenece al entorno de evaluación del modelo ya entrenado",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA04_004",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Siempre que hagamos un modelo de Inteligencia Artificial (tanto con BigML como con cualquier otra plataforma) es conveniente reservar un 20% de los datos sin usarlos en la fase de entrenamiento para poder hacer posteriormente una evaluación realista del modelo.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA04_005",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuántos MB (mega bytes) puede tener una base de datos como máximo para poder trabajar con ella en la versión gratuita de BigML?",
+      "options": [
+        {
+          "text": "8MB",
+          "correct": false
+        },
+        {
+          "text": "12MB",
+          "correct": false
+        },
+        {
+          "text": "4MB",
+          "correct": false
+        },
+        {
+          "text": "16MB",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA04_006",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "En BigML al terminar un entrenamiento de aprendizaje automático ves diferentes representaciones gráficas del modelo dependiendo del algoritmo que hayas utilizado en dicho entrenamiento.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA04_007",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "A mayor número de instancias y categorías en un dataset mayor es el tiempo de cálculo en el entrenamiento.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA04_008",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "En BigML puedes iniciar entrenamientos de dos formas:",
+      "options": [
+        {
+          "text": "Ninguna de las respuestas anteriores son válidas",
+          "correct": false
+        },
+        {
+          "text": "Mentira, solo hay una única forma",
+          "correct": false
+        },
+        {
+          "text": "De manera rápida (usando parámetros genéricos por la propia plataforma) o definiendo tú los parámetros disponibles para cada algoritmo",
+          "correct": true
+        },
+        {
+          "text": "Supervisada y Por refuerzo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA04_009",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿BigML sirve para analizar los datos con los que se va a trabajar antes de hacer un entrenamiento de Aprendizaje Automático?",
+      "options": [
+        {
+          "text": "Sí, aunque no es la función principal de la plataforma",
+          "correct": true
+        },
+        {
+          "text": "No",
+          "correct": false
+        },
+        {
+          "text": "No, aunque te puedes descargar el archivos para hacer ese análisis por tu cuenta",
+          "correct": false
+        },
+        {
+          "text": "Es la función principal de esta plataforma",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA04_010",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "En BigML la vista “confidence” que se puede visualizar en un modelo ya entrenado con el algoritmo de Árbol de Decisión representa:",
+      "options": [
+        {
+          "text": "La confitería del modelo",
+          "correct": false
+        },
+        {
+          "text": "La confidencia del modelo",
+          "correct": false
+        },
+        {
+          "text": "Las respuestas anteriores son todas correctas",
+          "correct": false
+        },
+        {
+          "text": "La confiabilidad del modelo",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA04_011",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "En la plataforma BigML podemos seleccionar varias categorías a la vez como campo objetivo para realizar un entrenamiento.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA04_012",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Para utilizar la plataforma BigML es obligatorio pagar una suscripción.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA04_013",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo te puedes crear una cuenta en BigML?",
+      "options": [
+        {
+          "text": "Con tu usuario Google",
+          "correct": false
+        },
+        {
+          "text": "Con tu usuario GitHub",
+          "correct": false
+        },
+        {
+          "text": "Con tu usuario de Amazon",
+          "correct": false
+        },
+        {
+          "text": "Todas las respuestas anteriores son válidas",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA04_014",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo puedes trabajar en la plataforma BigML con bases de datos propias (aportadas por ti)?",
+      "options": [
+        {
+          "text": "Enviando el archivo de dicha base de datos a los administradores de la plataforma por correo electrónico y solicitando que la den de alta en el apartado “Datasets”.",
+          "correct": false
+        },
+        {
+          "text": "Cargando directamente el archivo de dicha base de datos en el apartado “Datasets”.",
+          "correct": false
+        },
+        {
+          "text": "Cargando el archivo de dicha base de datos en el apartado “Source” y luego generando el dataset correspondiente.",
+          "correct": true
+        },
+        {
+          "text": "No se puede",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA04_015",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Es posible editar el nombre de las categorías de un dataset en BigML?",
+      "options": [
+        {
+          "text": "Sí, después de haber hecho el entrenamiento.",
+          "correct": false
+        },
+        {
+          "text": "Sí, en cualquier fase.",
+          "correct": false
+        },
+        {
+          "text": "Sí, antes de lanzar el entrenamiento.",
+          "correct": true
+        },
+        {
+          "text": "No",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA04_016",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "En BigML, una vez terminado entrenamientos supervisados con algoritmo de Árbol de Decisión podemos hacer predicciones:",
+      "options": [
+        {
+          "text": "Introduciendo dato a dato un nuevo caso.",
+          "correct": false
+        },
+        {
+          "text": "Todas las respuestas anteriores son válidas.",
+          "correct": true
+        },
+        {
+          "text": "Cargando a través de una base de dato múltiples casos a la vez.",
+          "correct": false
+        },
+        {
+          "text": "Introduciendo a la vez todos los datos de una nueva instancia",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA04_017",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué necesitas en BigML para poder hacer la evaluación de un modelo ya entrenado?",
+      "options": [
+        {
+          "text": "Mucha paciencia.",
+          "correct": false
+        },
+        {
+          "text": "Todas las respuestas anteriores son válidas.",
+          "correct": false
+        },
+        {
+          "text": "Introducir el mismo caso varias veces seguidas para ver si salen resultados distintos.",
+          "correct": false
+        },
+        {
+          "text": "Una base de datos que incluya también el campo objetivo en el entrenamiento, para que la herramienta pueda comparar caso a caso el resultado real con el pronosticado por el modelo",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA04_018",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Podemos utilizar el mismo dataset para hacer entrenamientos con algoritmos diferentes?",
+      "options": [
+        {
+          "text": "Sí, de hecho es habitual en muchos casos para comparar niveles de exactitud y precisión alcanzados, para quedarse con el mejor modelo.",
+          "correct": true
+        },
+        {
+          "text": "Todas las respuestas anteriores son válidas.",
+          "correct": false
+        },
+        {
+          "text": "No es recomendable.",
+          "correct": false
+        },
+        {
+          "text": "No.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA04_019",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Puede haber datos erróneos o perdidos en un dataset aunque no nos lo indique BigML en la visualización de dicho dataset?",
+      "options": [
+        {
+          "text": "Sí, cuando BigML falla",
+          "correct": false
+        },
+        {
+          "text": "Sí, cuando en la base de datos se hayan rellenado casillas vacías de forma automática con ceros u otra información genérica.",
+          "correct": true
+        },
+        {
+          "text": "No.",
+          "correct": false
+        },
+        {
+          "text": "Normalmente no.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA04_020",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "En BigML la vista “prediction” que se puede visualizar en un modelo ya entrenado con el algoritmo de Árbol de Decisión representa:",
+      "options": [
+        {
+          "text": "Las tres respuestas anteriores son válidas",
+          "correct": false
+        },
+        {
+          "text": "Los valores del campo objetivo que ha encontrado para cada caso.",
+          "correct": true
+        },
+        {
+          "text": "La predicción del tiempo",
+          "correct": false
+        },
+        {
+          "text": "La relación entre los datos esperados respecto a los predichos en la fase del dataset.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA04_021",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "En BigML solo puedes hacer entrenamientos a partir de los datasets que te ofrecen en la propia plataforma",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA04_022",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Si encuentro un dataset en la plataforma BigML que me gusta, ¿puedo descargar la base de datos correspondiente en formato .csv?",
+      "options": [
+        {
+          "text": "Sí",
+          "correct": true
+        },
+        {
+          "text": "Solo si el dataset ha sido incorporado a la plataforma por los administradores de la misma.",
+          "correct": false
+        },
+        {
+          "text": "No",
+          "correct": false
+        },
+        {
+          "text": "Sí, solicitándolo por mail a los administradores de la plataforma.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA04_023",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué es BigML?",
+      "options": [
+        {
+          "text": "Un tipo de algoritmo para aprendizaje automático.",
+          "correct": false
+        },
+        {
+          "text": "Una herramienta para simular redes neuronales.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las respuestas anteriores es correcta.",
+          "correct": false
+        },
+        {
+          "text": "Una plataforma online que permite plantear y resolver problemas de aprendizaje automático.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA04_024",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "En un entrenamiento de tipo “no supervisado” en BigML realizado con el algoritmo “cluster” podemos decidir hacerlo con K-Means (eligiendo nosotros el número de clusters) o con G-Means (dejando al propio modelo que decida cuántos clusters definir).",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA04_025",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Existen tutoriales para aprender a utilizar BigML?",
+      "options": [
+        {
+          "text": "Sí, en la propia plataforma hay un buen número de vídeos tutoriales.",
+          "correct": true
+        },
+        {
+          "text": "Sí, pero hechos por particulares y dispersos por Youtube.",
+          "correct": false
+        },
+        {
+          "text": "No se sabe.",
+          "correct": false
+        },
+        {
+          "text": "No.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA04_026",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Se puede dividir en BigML un dataset para realizar el entrenamiento con una parte de los datos y reservar la otra para hacer posteriormente una evaluación del modelo ya entrenado?",
+      "options": [
+        {
+          "text": "Sí, pudiendo definir exactamente qué tanto porciento de datos dedicas en cada parte.",
+          "correct": true
+        },
+        {
+          "text": "No",
+          "correct": false
+        },
+        {
+          "text": "Sí, pero te obligan a que sea siempre una separación del 80% para entrenamiento y 20% para evaluación.",
+          "correct": false
+        },
+        {
+          "text": "Sólo si se solicita a los administradores de la plataforma cuando les envías la base de datos por mail.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA04_027",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué datos de las categorías de unl dataset podemos previsualizar antes de decidir adquirirlo?",
+      "options": [
+        {
+          "text": "Ninguno. Vamos a ciegas.",
+          "correct": false
+        },
+        {
+          "text": "Su nombre, tipología, cantidad, datos perdidos, datos erróneos y un histograma de distribución.",
+          "correct": true
+        },
+        {
+          "text": "Todas las respuestas anteriores son válidas.",
+          "correct": false
+        },
+        {
+          "text": "Su nombre y cantidad.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA04_028",
+      "module": "SAA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué significan los términos “Accuracy” y “Precision” que podemos encontrar en las evaluaciones de modelos ya entrenados en la plataforma BigML?",
+      "options": [
+        {
+          "text": "Automático y Precisión.",
+          "correct": false
+        },
+        {
+          "text": "Exactitud y Precisión.",
+          "correct": true
+        },
+        {
+          "text": "Ajuste y Precisión.",
+          "correct": false
+        },
+        {
+          "text": "Salud y Precisión.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA05_001",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo se calcula el “recall” de un modelo entrenado?",
+      "options": [
+        {
+          "text": "dividiendo el número de casos de una clase identificados correctamente por todos los casos de esa clase identificados por el modelo.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        },
+        {
+          "text": "Dividiendo el número de casos correctamente clasificados de todas las clases por el número total de casos",
+          "correct": false
+        },
+        {
+          "text": "dividiendo el número de casos de una clase identificados correctamente por todos los casos reales de dicha clase",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA05_002",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "La técnica de submuestreo para casos de clasificación no balanceada consiste en",
+      "options": [
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        },
+        {
+          "text": "añadir errores a propósito en la clase mayoritaria para confundir al modelo",
+          "correct": false
+        },
+        {
+          "text": "añadir casos a la clase minoritaria para igualar el número de casos entre clases",
+          "correct": false
+        },
+        {
+          "text": "eliminar casos de la clase mayoritaria para igualar el número de casos entre clases",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA05_003",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "En la predicción de un modelo de aprendizaje automático, ¿qué es un falso positivo?",
+      "options": [
+        {
+          "text": "Es un caso que se predice como negativo pero en realidad es positivo",
+          "correct": false
+        },
+        {
+          "text": "Es un caso que se predice como positivo y realmente es positivo",
+          "correct": false
+        },
+        {
+          "text": "Es un caso que se predice como positivo pero en realidad es negativo",
+          "correct": true
+        },
+        {
+          "text": "Es un caso que se predice como negativo y realmente es negativo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA05_004",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo se calcula el “accuracy” de un modelo entrenado?",
+      "options": [
+        {
+          "text": "dividiendo el número de casos de una clase identificados correctamente por todos los casos de esa clase identificados por el modelo.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "Dividiendo el número de casos correctamente clasificados de todas las clases por el número total de casos.",
+          "correct": true
+        },
+        {
+          "text": "dividiendo el número de casos de una clase identificados correctamente por todos los casos reales de dicha clase.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA05_005",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "La optimización de hiper-parámetros se realiza normalmente mediante la utilización de un proceso de búsqueda cuyo objetivo consiste en encontrar la mejor selección de valores para un conjunto finito de hiper-parámetros con el objetivo de generar el mejor modelo posi",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA05_006",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "En la predicción de un modelo de aprendizaje automático, ¿qué es un falso negativo?",
+      "options": [
+        {
+          "text": "Es un caso que se predice como negativo pero en realidad es positivo.",
+          "correct": true
+        },
+        {
+          "text": "Es un caso que se predice como positivo y realmente es positivo.",
+          "correct": false
+        },
+        {
+          "text": "Es un caso que se predice como positivo pero en realidad es negativo",
+          "correct": false
+        },
+        {
+          "text": "Es un caso que se predice como negativo y realmente es negativo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA05_007",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "A la hora de buscar los hiperparámetros óptimos para tener un buen modelo…",
+      "options": [
+        {
+          "text": "se busca que el proceso sea muy rápido",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        },
+        {
+          "text": "se suele utilizar la métrica de accuracy para guiar el proceso",
+          "correct": true
+        },
+        {
+          "text": "Se suele hacer a ciegas.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA05_008",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué es la validación cruzada a la hora de evaluar un modelo?",
+      "options": [
+        {
+          "text": "Consiste en calcular el error de los datos de entrenamiento en vez de utilizar los de test",
+          "correct": false
+        },
+        {
+          "text": "Consiste en cruzar los datos que tenemos con los de otro compañero y calcular cada uno el error del otro.",
+          "correct": false
+        },
+        {
+          "text": "Consiste en repetir y calcular la media aritmética obtenida de las medidas de evaluación sobre diferentes particiones del conjunto de datos.",
+          "correct": true
+        },
+        {
+          "text": "Consiste en calcular la métrica de evaluación y buscar su valor simétrico respecto del eje horizontal.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA05_009",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué métrica de evaluación de modelos de regresión penaliza los errores grandes?",
+      "options": [
+        {
+          "text": "El error cuadrático medio.",
+          "correct": true
+        },
+        {
+          "text": "El error medio absoluto.",
+          "correct": false
+        },
+        {
+          "text": "El accuracy",
+          "correct": false
+        },
+        {
+          "text": "El recall",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA05_010",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "En la técnica Random Search para buscar los hiperparámetros óptimos",
+      "options": [
+        {
+          "text": "se modifican aleatoriamente las soluciones previamente generadas en el espacio de búsqueda.",
+          "correct": true
+        },
+        {
+          "text": "se utilizan los hiperparámetros recomendados por el diseñador del modelo",
+          "correct": false
+        },
+        {
+          "text": "se utilizan valores de hiperparámetros distribuidos en el espacio de búsqueda siguiendo una distribución con forma de red.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA05_011",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Cuando tenemos un dataset con desequilibrio, suele ocurrir que obtenemos un alto valor de precisión en la clase mayoritaria y un bajo recall en la clase minoritaria.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA05_012",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo se calcula el valor de la métrica “precision” de un modelo entrenado?",
+      "options": [
+        {
+          "text": "Dividiendo el número de casos correctamente clasificados de todas las clases por el número total de casos.",
+          "correct": false
+        },
+        {
+          "text": "dividiendo el número de casos de una clase identificados correctamente por todos los casos de esa clase identificados por el modelo.",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        },
+        {
+          "text": "dividiendo el número de casos de una clase identificados correctamente por todos los casos reales de dicha clase",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA05_013",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "En los modelos de aprendizaje automático para casos de regresión, hay que considerar los datos anómalos y si queremos penalizar errores grandes o no.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA05_014",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "En la detección de anomalías en conjuntos de datos, tenemos que",
+      "options": [
+        {
+          "text": "Las anomalías siempre van a ser errores que se han cometido al recoger los datos mal.",
+          "correct": false
+        },
+        {
+          "text": "Las anomalías pueden representar casos o eventos sospechosos que requieren atención.",
+          "correct": true
+        },
+        {
+          "text": "No se puede saber qué es un caso normal y qué es una anomalía.",
+          "correct": false
+        },
+        {
+          "text": "Lo mejor es eliminar las anomalías del dataset",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA05_015",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "La técnica de sobremuestreo para casos de clasificación no balanceada consiste en",
+      "options": [
+        {
+          "text": "añadir errores a propósito en la clase mayoritaria para confundir al modelo",
+          "correct": false
+        },
+        {
+          "text": "eliminar casos de la clase mayoritaria para igualar el número de casos entre clases",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        },
+        {
+          "text": "añadir casos a la clase minoritaria para igualar el número de casos entre clases.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA05_016",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué algoritmo de detección de anomalías se basa en que éstas son fáciles de separar?",
+      "options": [
+        {
+          "text": "Redes neuronales profundas",
+          "correct": false
+        },
+        {
+          "text": "Isolation Forest",
+          "correct": true
+        },
+        {
+          "text": "Regresión logística.",
+          "correct": false
+        },
+        {
+          "text": "KNN",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA05_017",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "En la validación cruzada aleatoria, el bloque de validación se escoge:",
+      "options": [
+        {
+          "text": "buscando el caso con el valor más alto de entropía",
+          "correct": false
+        },
+        {
+          "text": "seleccionando el último caso entrenado.",
+          "correct": false
+        },
+        {
+          "text": "de forma aleatoria",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA05_018",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "En un problema de clasificación ¿Para qué sirve la matriz de confusión?",
+      "options": [
+        {
+          "text": "Para saber qué operaciones matemáticas aplicar para corregir el modelo",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        },
+        {
+          "text": "Para saber si los errores se dan más prediciendo una clase o la otra",
+          "correct": true
+        },
+        {
+          "text": "Para confundir al modelo y que salga más resiliente.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA05_019",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Aplicar técnicas de tipo “ensemble” ayuda a mejorar la precisión de un modelo, pero debe ser un modelo con los datos muy bien balanceados.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA05_020",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "La principal desventaja de la validación cruzada dejando uno fuera es",
+      "options": [
+        {
+          "text": "que hay riesgo de perder información",
+          "correct": false
+        },
+        {
+          "text": "que es muy probable que haya overfitting",
+          "correct": false
+        },
+        {
+          "text": "que se van perdiendo datos a lo largo del proceso",
+          "correct": false
+        },
+        {
+          "text": "que es un proceso muy costoso computacionalmente",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA05_021",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "En los modelos de aprendizaje automático no es problema que los datos estén desbalanceados si se utiliza la métrica correcta para evaluarlo.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SAA05_022",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Para qué es necesario evaluar un modelo de aprendizaje automático?",
+      "options": [
+        {
+          "text": "Para saber si las predicciones que nos de son buenas y nos podemos fiar.",
+          "correct": true
+        },
+        {
+          "text": "Para obtener un coeficiente por el que hay que multiplicar todos los valores del dataset y actualizarlo.",
+          "correct": false
+        },
+        {
+          "text": "Para poder puntuar el dataset y que otros científicos sepan si es bueno o no.",
+          "correct": false
+        },
+        {
+          "text": "Para saber si los datos tienen mucho sesgo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA05_023",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En qué sectores encontramos problemas de clasificación muy desbalanceados?",
+      "options": [
+        {
+          "text": "En el ámbito del fraude.",
+          "correct": false
+        },
+        {
+          "text": "En todos ellos",
+          "correct": true
+        },
+        {
+          "text": "En el área de la salud",
+          "correct": false
+        },
+        {
+          "text": "En el estudio de un funnel de marketing.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA05_024",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "En la validación cruzada de k iteraciones, el valor de k corresponde a",
+      "options": [
+        {
+          "text": "El número total de los datos del dataset.",
+          "correct": false
+        },
+        {
+          "text": "El número de casos en cada muestra.",
+          "correct": false
+        },
+        {
+          "text": "El número de iteraciones que se van a hacer.",
+          "correct": true
+        },
+        {
+          "text": "El coeficiente de reducción que se aplica al error.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA05_025",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "En la técnica Grid Search para buscar los hiperparámetros óptimos",
+      "options": [
+        {
+          "text": "se utilizan valores de hiperparámetros distribuidos en el espacio de búsqueda siguiendo una distribución con forma de red.",
+          "correct": true
+        },
+        {
+          "text": "se utilizan los hiperparámetros recomendados por el diseñador del modelo.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "se modifican aleatoriamente las soluciones previamente generadas en el espacio de búsqueda.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA05_026",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué es un problema de clasificación no balanceado?",
+      "options": [
+        {
+          "text": "es un problema en el que el conjunto de datos tiene muchos más casos de una clase que de otra u otras",
+          "correct": true
+        },
+        {
+          "text": "aquel en el que ningún modelo consigue entrenarse adecuadamente.",
+          "correct": false
+        },
+        {
+          "text": "son problemas en los que no necesitamos datos externos",
+          "correct": false
+        },
+        {
+          "text": "aquel en el que hay muchísimos datos disponibles",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SAA05_027",
+      "module": "SAA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "El proceso de optimización de hiperparámetros no consume apenas recursos computacionales.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "SAA_FC_001",
+      "module": "SAA01",
+      "priority": "medium",
+      "front": "¿En qué se basa el aprendizaje automático?",
+      "back": "El Machine Learning se basa en las estadísticas y el desarrollo de la informática de los últimos 70 años."
+    },
+    {
+      "id": "SAA_FC_002",
+      "module": "SAA01",
+      "priority": "medium",
+      "front": "¿Qué es la IA fuerte o general?",
+      "back": "Proviene más de la imaginación o de la ciencia ficción que de una arquitectura o concepto factible real. Es el punto al cual queremos llegar en este campo."
+    },
+    {
+      "id": "SAA_FC_003",
+      "module": "SAA01",
+      "priority": "medium",
+      "front": "¿En qué se centra la inteligencia artificial actual?",
+      "back": "La inteligencia artificial actualmente no se centra en emular las capacidades o el comportamiento humanos, a no ser que nos refiramos a robots de tipo humanoide o videojuegos. La clave de la inteligencia artificial actual es la evolución y avance de la automatización."
+    },
+    {
+      "id": "SAA_FC_004",
+      "module": "SAA01",
+      "priority": "medium",
+      "front": "¿Qué es la IA débil?",
+      "back": "Se refiere a agentes y modelos inteligentes que están especializados en un tipo de tarea, dentro de un campo de especialización concreto."
+    },
+    {
+      "id": "SAA_FC_005",
+      "module": "SAA01",
+      "priority": "medium",
+      "front": "¿Cuáles son las ventajas de la IA débil?",
+      "back": "Actualmente es relativamente sencilla de conseguir y desarrollar; se controla más fácilmente y no presenta comportamientos demasiado inesperados; permite arquitecturas modulares, con las que combinar distintos talentos o capacidades según las necesidades del entorno en el que se despliega."
+    },
+    {
+      "id": "SAA_FC_006",
+      "module": "SAA01",
+      "priority": "medium",
+      "front": "¿Cuáles son las desventajas de la IA débil?",
+      "back": "Es un sistema \"ciego\"; Es muy limitada; suelen ser sistemas que no ofrecen una experiencia de usuario tan cercana o personalizada como la de un ser humano."
+    },
+    {
+      "id": "SAA_FC_007",
+      "module": "SAA01",
+      "priority": "medium",
+      "front": "¿Qué es el teorema de Bayes?",
+      "back": "Proporciona una manera de calcular la probabilidad de una hipótesis basada en su probabilidad previa, las probabilidades de observar diversos datos dada la hipótesis y los datos observados en sí."
+    },
+    {
+      "id": "SAA_FC_008",
+      "module": "SAA01",
+      "priority": "medium",
+      "front": "¿Qué es el modelo probabilístico?",
+      "back": "Un algoritmo o modelo de aprendizaje automático es una forma específica de pensar sobre las relaciones estructuradas en los datos."
+    },
+    {
+      "id": "SAA_FC_009",
+      "module": "SAA01",
+      "priority": "medium",
+      "front": "¿En qué se basa el algoritmo Naive Bayes?",
+      "back": "Se basan, como su nombre indica, en el teorema de Bayes. En ellos, se asume que las variables de entrada son independientes entre sí."
+    },
+    {
+      "id": "SAA_FC_010",
+      "module": "SAA01",
+      "priority": "medium",
+      "front": "¿Qué es el método K-NN?",
+      "back": "El método \"K Nearest Neighbors\" o los \"K vecinos más cercanos\" es un modelo de aprendizaje automático supervisado muy sencillo pero efectivo que se suele usar en problemas de clasificación."
+    },
+    {
+      "id": "SAA_FC_011",
+      "module": "SAA01",
+      "priority": "medium",
+      "front": "¿Qué parámetro es importante elegir bien al usar el algoritmo K-NN?",
+      "back": "Es importante elegir bien el valor del parámetro K, pues este terminará casi por definir a qué grupo pertenecerán los puntos, sobre todo en las 'fronteras' entre grupos."
+    },
+    {
+      "id": "SAA_FC_012",
+      "module": "SAA02",
+      "priority": "medium",
+      "front": "¿Qué es la Regresión Lineal y para qué se usa?",
+      "back": "La Regresión Lineal se usa para estimar valores reales de variables con distribución continua (ejemplo, el precio de viviendas)."
+    },
+    {
+      "id": "SAA_FC_013",
+      "module": "SAA02",
+      "priority": "medium",
+      "front": "¿Qué representa la variable 'x' en la ecuación de una recta y = ax + b de Regresión Lineal?",
+      "back": "La variable x representa la variable independiente (datos de entrada)."
+    },
+    {
+      "id": "SAA_FC_014",
+      "module": "SAA02",
+      "priority": "medium",
+      "front": "¿Qué representa la variable 'y' en la ecuación de una recta y = ax + b de Regresión Lineal?",
+      "back": "La variable y representa la variable dependiente (valor de salida)."
+    },
+    {
+      "id": "SAA_FC_015",
+      "module": "SAA02",
+      "priority": "medium",
+      "front": "¿Cuál es la función de la Regresión Logística?",
+      "back": "Permite predecir la probabilidad de que se produzca un evento."
+    },
+    {
+      "id": "SAA_FC_016",
+      "module": "SAA02",
+      "priority": "medium",
+      "front": "¿Cómo se representa matemáticamente la función logística?",
+      "back": "Por una curva en forma de S (función sigmoide), que va del valor cero (0% probabilidad) al valor 1 (100% probabilidad)."
+    },
+    {
+      "id": "SAA_FC_017",
+      "module": "SAA02",
+      "priority": "medium",
+      "front": "¿Para qué tipo de problemas es útil la Regresión Logística?",
+      "back": "Para los casos en los que se desea predecir la presencia o ausencia de una característica o resultado según los valores de un conjunto de predictores."
+    },
+    {
+      "id": "SAA_FC_018",
+      "module": "SAA02",
+      "priority": "medium",
+      "front": "¿Qué construyen los algoritmos de árbol de decisión?",
+      "back": "Construyen un modelo de decisiones basadas en los atributos que presentan los datos que entran en el modelo."
+    },
+    {
+      "id": "SAA_FC_019",
+      "module": "SAA02",
+      "priority": "medium",
+      "front": "¿En qué se basa el CART, el algoritmo de árbol de decisión más popular?",
+      "back": "En distinguir grupos lo más relevantes posible en función de los valores que pueden tomar diferentes atributos."
+    },
+    {
+      "id": "SAA_FC_020",
+      "module": "SAA02",
+      "priority": "medium",
+      "front": "¿Qué hacen las Máquinas de Vector Soporte (SVM)?",
+      "back": "Representan los puntos de muestra en el espacio, separando las clases a 2 espacios lo más amplios posibles mediante un hiperplano de separación."
+    },
+    {
+      "id": "SAA_FC_021",
+      "module": "SAA02",
+      "priority": "medium",
+      "front": "¿Para qué sirve el algoritmo K-Means?",
+      "back": "Se utiliza para encontrar 'k' grupos (clusters) entre los datos con características similares en aprendizaje no supervisado."
+    },
+    {
+      "id": "SAA_FC_022",
+      "module": "SAA02",
+      "priority": "medium",
+      "front": "¿Cuál es el objetivo del algoritmo G-Means?",
+      "back": "Descubrir por sí mismo la cantidad de agrupaciones o clústeres óptimos en un problema de Aprendizaje Automático No Supervisado."
+    },
+    {
+      "id": "SAA_FC_023",
+      "module": "SAA03",
+      "priority": "medium",
+      "front": "¿Qué estudia Miguel?",
+      "back": "Miguel está terminando sus estudios sobre Inteligencia Artificial."
+    },
+    {
+      "id": "SAA_FC_024",
+      "module": "SAA03",
+      "priority": "medium",
+      "front": "¿En qué se especializa la empresa donde Miguel realiza sus prácticas?",
+      "back": "La empresa se especializa en desarrollar modelos con las técnicas más actuales en Inteligencia Artificial: redes neuronales y deep learning."
+    },
+    {
+      "id": "SAA_FC_025",
+      "module": "SAA03",
+      "priority": "medium",
+      "front": "¿Qué es una red neuronal?",
+      "back": "Un conjunto de neuronas conectadas entre sí y que trabajan en conjunto, sin que haya una tarea concreta para cada una."
+    },
+    {
+      "id": "SAA_FC_026",
+      "module": "SAA03",
+      "priority": "medium",
+      "front": "¿En qué idea se basan las redes neuronales hoy en día?",
+      "back": "En la idea de que dados unos parámetros hay una forma de combinarlos para predecir un cierto resultado."
+    },
+    {
+      "id": "SAA_FC_027",
+      "module": "SAA03",
+      "priority": "medium",
+      "front": "¿Qué es 'entrenar' una red neuronal?",
+      "back": "Encontrar la combinación de parámetros que mejor se ajusta."
+    },
+    {
+      "id": "SAA_FC_028",
+      "module": "SAA03",
+      "priority": "medium",
+      "front": "¿Qué son las redes neuronales profundas?",
+      "back": "Redes neuronales con varias capas intermedias con varias neuronas cada una."
+    },
+    {
+      "id": "SAA_FC_029",
+      "module": "SAA03",
+      "priority": "medium",
+      "front": "¿Qué son las redes convolucionales?",
+      "back": "Redes que funcionan muy bien en reconocimiento de voz y procesamiento de imágenes."
+    },
+    {
+      "id": "SAA_FC_030",
+      "module": "SAA03",
+      "priority": "medium",
+      "front": "¿Cuál es la idea de las redes convolucionales?",
+      "back": "Tratar de buscar características locales en pequeños grupos de entradas (ej: píxeles)."
+    },
+    {
+      "id": "SAA_FC_031",
+      "module": "SAA03",
+      "priority": "medium",
+      "front": "¿Qué es el Perceptrón?",
+      "back": "Una neurona artificial que realiza ciertos cálculos para detectar capacidades de los datos de entrada."
+    },
+    {
+      "id": "SAA_FC_032",
+      "module": "SAA03",
+      "priority": "medium",
+      "front": "¿Qué son las redes de alimentación directa?",
+      "back": "Redes neuronales donde los nodos nunca forman un ciclo."
+    },
+    {
+      "id": "SAA_FC_033",
+      "module": "SAA03",
+      "priority": "medium",
+      "front": "¿Qué caracteriza el Deep Learning (Aprendizaje Profundo) respecto al Aprendizaje Automático convencional?",
+      "back": "El modelo sigue aprendiendo (y mejorando su precisión) cada vez que se utiliza."
+    },
+    {
+      "id": "SAA_FC_034",
+      "module": "SAA03",
+      "priority": "medium",
+      "front": "¿Cuáles son las cuatro fases del entrenamiento de una Red Neuronal Profunda?",
+      "back": "Fase 1 - Forward Pass, Fase 2 - Función de coste, Fase 3 - Backward Pass, Fase 4 - Descenso del Gradiente."
+    },
+    {
+      "id": "SAA_FC_035",
+      "module": "SAA03",
+      "priority": "medium",
+      "front": "¿Qué hace el Descenso del Gradiente en el entrenamiento de una red neuronal profunda?",
+      "back": "Optimiza la red ajustando los parámetros que han influido en los resultados erróneos para evitar que se vuelvan a producir errores en casos similares."
+    },
+    {
+      "id": "SAA_FC_036",
+      "module": "SAA04",
+      "priority": "medium",
+      "front": "¿Qué es Eva y qué está buscando?",
+      "back": "Eva ha terminado su formación en Inteligencia Artificial y está buscando ofertas de empleo relacionadas con el desarrollo de modelos de Aprendizaje Automático."
+    },
+    {
+      "id": "SAA_FC_037",
+      "module": "SAA04",
+      "priority": "medium",
+      "front": "¿Qué herramienta utilizará Eva para su entrenamiento?",
+      "back": "Eva utilizará la herramienta BigML."
+    },
+    {
+      "id": "SAA_FC_038",
+      "module": "SAA04",
+      "priority": "medium",
+      "front": "¿Qué tres ejercicios guiados se realizarán en esta unidad?",
+      "back": "Árbol de decisión, Clustering y Redes Neuronales."
+    },
+    {
+      "id": "SAA_FC_039",
+      "module": "SAA04",
+      "priority": "medium",
+      "front": "¿Cuál es el campo objetivo en el ejemplo de Árbol de decisión?",
+      "back": "La calidad del vino."
+    },
+    {
+      "id": "SAA_FC_040",
+      "module": "SAA04",
+      "priority": "medium",
+      "front": "¿Qué es BigML?",
+      "back": "BigML es una plataforma online que permite plantear y resolver problemas de aprendizaje automático."
+    },
+    {
+      "id": "SAA_FC_041",
+      "module": "SAA04",
+      "priority": "medium",
+      "front": "¿Qué base de datos utilizará en el ejercicio de clustering?",
+      "back": "El dataset \"Red Wine quality\"."
+    },
+    {
+      "id": "SAA_FC_042",
+      "module": "SAA04",
+      "priority": "medium",
+      "front": "¿Qué se debe definir antes de entrenar en el caso de clustering?",
+      "back": "El número de clusters."
+    },
+    {
+      "id": "SAA_FC_043",
+      "module": "SAA04",
+      "priority": "medium",
+      "front": "¿Qué es el Deepnet en BigML?",
+      "back": "El algoritmo de red neuronal profunda."
+    },
+    {
+      "id": "SAA_FC_044",
+      "module": "SAA04",
+      "priority": "medium",
+      "front": "¿Qué hay que tener en cuenta con la cuenta gratuita en BigML?",
+      "back": "La cuenta gratuita tiene una limitación de bases de datos de hasta 16 MB."
+    },
+    {
+      "id": "SAA_FC_045",
+      "module": "SAA04",
+      "priority": "medium",
+      "front": "¿Por qué es importante revisar y procesar los datos antes de generar el dataset en BigML?",
+      "back": "Porque permite \"aligerar\" de categorías inútiles o instancias erróneas la base de datos."
+    },
+    {
+      "id": "SAA_FC_046",
+      "module": "SAA05",
+      "priority": "medium",
+      "front": "¿Qué es la exactitud o accuracy en la evaluación de modelos?",
+      "back": "La fracción de predicciones que el modelo realizó correctamente. Se representa como un porcentaje o un valor entre 0 y 1."
+    },
+    {
+      "id": "SAA_FC_047",
+      "module": "SAA05",
+      "priority": "medium",
+      "front": "¿Cuándo es más apropiada la métrica F1 score?",
+      "back": "Cuando tenemos conjuntos de datos no balanceados."
+    },
+    {
+      "id": "SAA_FC_048",
+      "module": "SAA05",
+      "priority": "medium",
+      "front": "¿Qué miden las métricas en la evaluación de problemas de regresión?",
+      "back": "Lo cerca (o lejos) que están las predicciones de los valores reales."
+    },
+    {
+      "id": "SAA_FC_049",
+      "module": "SAA05",
+      "priority": "medium",
+      "front": "¿Qué es el error medio absoluto?",
+      "back": "Es la media de las diferencias absolutas entre el valor objetivo y el predicho."
+    },
+    {
+      "id": "SAA_FC_050",
+      "module": "SAA05",
+      "priority": "medium",
+      "front": "¿Qué es la validación cruzada?",
+      "back": "Consiste en repetir y calcular la media aritmética obtenida de las medidas de evaluación sobre diferentes particiones."
+    },
+    {
+      "id": "SAA_FC_051",
+      "module": "SAA05",
+      "priority": "medium",
+      "front": "¿Qué es la validación cruzada de K iteraciones?",
+      "back": "Los datos se dividen en K subconjuntos, iterando en cada uno con un subconjunto como test y el resto como entrenamiento."
+    },
+    {
+      "id": "SAA_FC_052",
+      "module": "SAA05",
+      "priority": "medium",
+      "front": "¿Cuál es el inconveniente de la validación cruzada de K iteraciones?",
+      "back": "Hace que el proceso de evaluación sea más lento, porque multiplica el tempo de cálculo de la métrica por K veces."
+    },
+    {
+      "id": "SAA_FC_053",
+      "module": "SAA05",
+      "priority": "medium",
+      "front": "¿Qué es la búsqueda aleatoria (Random Search) en optimización?",
+      "back": "Un proceso de búsqueda de tipo aleatorio sobre un espacio de búsqueda finito."
+    },
+    {
+      "id": "SAA_FC_054",
+      "module": "SAA05",
+      "priority": "medium",
+      "front": "¿Qué es la búsqueda en cuadrícula (Grid Search) en optimización?",
+      "back": "Un proceso de búsqueda donde los diferentes valores de hiper-parámetros se combinan para crear una maya (grid)."
+    },
+    {
+      "id": "SAA_FC_055",
+      "module": "SAA05",
+      "priority": "medium",
+      "front": "¿Qué problema tienen los datasets desbalanceados?",
+      "back": "Una clase es minoritaria frente a otras clases, lo que puede distorsionar las predicciones."
+    },
+    {
+      "id": "SAA_FC_056",
+      "module": "SAA05",
+      "priority": "medium",
+      "front": "¿Cuáles son las técnicas para tratar datasets desbalanceados?",
+      "back": "Submuestreo, sobremuestreo o combinar ambas."
+    },
+    {
+      "id": "SAA_FC_057",
+      "module": "SAA05",
+      "priority": "medium",
+      "front": "¿Qué hace el submuestreo (Under-sampling)?",
+      "back": "Selecciona ejemplos de la clase mayoritaria para eliminarlos del conjunto de datos de entrenamiento."
+    },
+    {
+      "id": "SAA_FC_058",
+      "module": "SAA05",
+      "priority": "medium",
+      "front": "¿Qué hace el sobremuestreo (Over-sampling)?",
+      "back": "Aumenta los casos de la clase minoritaria, de forma sintética, hasta alcanzar una escala similar al volumen de la clase mayoritaria."
+    },
+    {
+      "id": "SAA_FC_059",
+      "module": "SAA05",
+      "priority": "medium",
+      "front": "¿Qué es la detección de anomalías?",
+      "back": "La identificación de elementos raros, eventos u observaciones que generan sospechas al diferenciarse significativamente de la mayoría de los datos."
+    }
+  ],
+  "practicalQuestions": []
+}

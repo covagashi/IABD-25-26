@@ -1,0 +1,74 @@
+{
+  "generated": "2026-03-16T19:33:53.889Z",
+  "subjects": {
+    "BDA": {
+      "name": "Big Data Aplicado",
+      "questionCount": 148,
+      "flashcardCount": 62,
+      "practicalCount": 0,
+      "modules": [
+        "BDA01",
+        "BDA02",
+        "BDA03",
+        "BDA04",
+        "BDA05"
+      ]
+    },
+    "MIA": {
+      "name": "Modelos de Inteligencia Artificial",
+      "questionCount": 148,
+      "flashcardCount": 33,
+      "practicalCount": 0,
+      "modules": [
+        "MIA01",
+        "MIA02",
+        "MIA03",
+        "MIA04",
+        "MIA05"
+      ]
+    },
+    "PIA": {
+      "name": "Programación de Inteligencia Artificial",
+      "questionCount": 220,
+      "flashcardCount": 110,
+      "practicalCount": 0,
+      "modules": [
+        "PIA01",
+        "PIA02",
+        "PIA03",
+        "PIA04",
+        "PIA05",
+        "PIA06",
+        "PIA07",
+        "PIA08",
+        "PIA09"
+      ]
+    },
+    "SAA": {
+      "name": "Sistemas de Aprendizaje Automático",
+      "questionCount": 119,
+      "flashcardCount": 59,
+      "practicalCount": 0,
+      "modules": [
+        "SAA01",
+        "SAA02",
+        "SAA03",
+        "SAA04",
+        "SAA05"
+      ]
+    },
+    "SBD": {
+      "name": "Sistemas de Big Data",
+      "questionCount": 142,
+      "flashcardCount": 72,
+      "practicalCount": 0,
+      "modules": [
+        "SBD01",
+        "SBD02",
+        "SBD03",
+        "SBD04",
+        "SBD05"
+      ]
+    }
+  }
+}

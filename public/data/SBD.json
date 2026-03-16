@@ -1,0 +1,3980 @@
+{
+  "subject": "SBD",
+  "name": "Sistemas de Big Data",
+  "examInfo": {
+    "description": "7 preguntas (1-2pts), 5 temas, 90min. Sin supuestos prácticos.",
+    "scoring": "Preguntas concretas de los apuntes, se pueden adjuntar dibujos",
+    "topics": "Arquitectura Big Data, almacenamiento, procesamiento, herramientas"
+  },
+  "questions": [
+    {
+      "id": "SBD01_001",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "De entre las 5 Vs que definen el reto de Big Data, la V de veracidad tiene que ver con",
+      "options": [
+        {
+          "text": "El hecho de que los datos no siempre cuentan con la calidad deseada o no son totalmente fieles a la realidad",
+          "correct": true
+        },
+        {
+          "text": "El hecho de que las fuentes Open Data, que son las más económincas, suelen contener información falsa",
+          "correct": false
+        },
+        {
+          "text": "La dificultad en encontrar fuentes de información de pago que realmente sean fiables",
+          "correct": false
+        },
+        {
+          "text": "El hecho de que muchos de los post que encontramos en redes sociales contienen información falsa",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD01_002",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "La sabiduría se obtiene del conocimiento del mismo modo que los datos se obtienen de la información. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD01_003",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Un dataset no debería contener ficheros de texto plano. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD01_004",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "La capa de colección en una arquitectura para Big Data es",
+      "options": [
+        {
+          "text": "Aquella de la que se obtienen los datos para visualización",
+          "correct": false
+        },
+        {
+          "text": "Aquella en la que se pasa de los datos que vienen de diversas fuentes a un conjunto de datos unificado y ya casi listo para ser usado",
+          "correct": true
+        },
+        {
+          "text": "Aquella en la que se gestiona el almacenamiento de los datos",
+          "correct": false
+        },
+        {
+          "text": "Aquella en se determina para cada dato si va a ser utilizado o no para realizar analíticas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD01_005",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Las 4 características del principio ACID son",
+      "options": [
+        {
+          "text": "Aislamiento, Concurrencia, Independencia y Durabilidad.",
+          "correct": false
+        },
+        {
+          "text": "Atomicidad, Consistencia, Aislamiento y Durabilidad.",
+          "correct": true
+        },
+        {
+          "text": "Atomicidad, Consistencia, Independiencia y Durabilidad.",
+          "correct": false
+        },
+        {
+          "text": "Atomicidad, Concurrencia, Aislamiento y Durabilidad.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD01_006",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Un almacén de datos está pensado para poder realizar funciones transaccionales. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD01_007",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "El acrónimo OLAP designa",
+      "options": [
+        {
+          "text": "Una base de datos distribuída",
+          "correct": false
+        },
+        {
+          "text": "Un sistema que está orientado a trabajo transaccional",
+          "correct": false
+        },
+        {
+          "text": "Un sistema que está orientado a procesar consultas de tipo analítico en tiempo real",
+          "correct": true
+        },
+        {
+          "text": "Un método para la generación de modelos predictivos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD01_008",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Un clúster es:",
+      "options": [
+        {
+          "text": "Un conjunto de computadoras que pueden seguir funcionando aunque no tengan conexión a red.",
+          "correct": false
+        },
+        {
+          "text": "Un conjunto de computadoras que trabajan de forma independiente y están conectadas mediante red.",
+          "correct": false
+        },
+        {
+          "text": "Un conjunto de computadoras conectadas mediante red para trabajar como una única unidad.",
+          "correct": true
+        },
+        {
+          "text": "Una máquina lo suficientemente potente como para almacenar y procesar grandes cantidades de datos.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD01_009",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Un procesamiento distribuido implica",
+      "options": [
+        {
+          "text": "Distintos procesos para un mismo trabajo ejecutándose en distintas máquinas",
+          "correct": true
+        },
+        {
+          "text": "Procesamiento para analítica",
+          "correct": false
+        },
+        {
+          "text": "Procesamiento transaccional",
+          "correct": false
+        },
+        {
+          "text": "Distintos procesos para un mismo trabajo ejecutándose dentro del mismo procesador",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD01_010",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una de los siguientes es el orden de etapas desde que ocurren los eventos hasta que de ellos se genera valor",
+      "options": [
+        {
+          "text": "Eventos->Datos->Conocimiento->Información->Sabiduría->Valor",
+          "correct": false
+        },
+        {
+          "text": "Eventos->Información->Datos->Conocimiento->Sabiduría->Valor",
+          "correct": false
+        },
+        {
+          "text": "Eventos->Datos->Información->Conocimiento->Sabiduría->Valor",
+          "correct": true
+        },
+        {
+          "text": "Eventos->Datos->Información->Sabiduría->Conocimiento->Valor",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD01_011",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "De entre las 5 Vs que definen el reto de Big Data, la V de velocidad tiene que ver con",
+      "options": [
+        {
+          "text": "La cantidad de datos que siguen generándose constantemente",
+          "correct": true
+        },
+        {
+          "text": "La alta velocidad que necesitan tener los microprocesadores con los que se tratan los datos",
+          "correct": false
+        },
+        {
+          "text": "La velocidad a la que se degrada la información",
+          "correct": false
+        },
+        {
+          "text": "El bajo tiempo que transcurre desde que se genera el dato hasta que es adquirido por el sistema",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD01_012",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Las tecnologías de Big Data se complementan con otras disciplinas como la Minería de Datos para obtener valor de los datos. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD01_013",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Según el teorema CAP",
+      "options": [
+        {
+          "text": "La base de datos no puede almacenar más información que la suma del espacio de almacenamiento de sus nodos",
+          "correct": false
+        },
+        {
+          "text": "Podemos conseguir a la vez consistencia, disponibilidad y tolerancia al particionamiento",
+          "correct": false
+        },
+        {
+          "text": "No podemos conseguir a la vez consistencia, aislamiento y tolerancia a particionamiento",
+          "correct": false
+        },
+        {
+          "text": "No podemos conseguir a la vez consistencia, disponibilidad y tolerancia al particionamiento",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD01_014",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "De entre las 5 Vs que definen el reto de Big Data, la V de variedad tiene que ver con",
+      "options": [
+        {
+          "text": "La gran variedad de opciones existentes a la hora de definir las capas que componen el sistema",
+          "correct": false
+        },
+        {
+          "text": "La gran variedad de motores de base de datos que tenemos a nuestra disposición para realizar los proyectos",
+          "correct": false
+        },
+        {
+          "text": "La gran variedad de temáticas de los contenidos cuyos datos hay que tratar",
+          "correct": false
+        },
+        {
+          "text": "La gran variedad de representaciones en las cuales se generan datos (texto, imagen, vídeo, audio,...)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD01_015",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "De los siguientes, uno no está entre los aportes o beneficios que podemos obtener gracias a poder tratar con gran cantidad de datos",
+      "options": [
+        {
+          "text": "Realizar descubrimientos científicos",
+          "correct": false
+        },
+        {
+          "text": "Identificar nuevos mercados",
+          "correct": false
+        },
+        {
+          "text": "Dar soporte a la toma de decisiones",
+          "correct": false
+        },
+        {
+          "text": "Editar imágenes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD01_016",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Las metodologías y tecnologías Big Data surgen principalmente debido a",
+      "options": [
+        {
+          "text": "El hecho de tener que tratar con grandes cantidades de datos que desbordan los recursos de máquinas indiviales",
+          "correct": true
+        },
+        {
+          "text": "La necesidad de que los datos se almacenen replicados para evitar que se pierdan de forma accidental",
+          "correct": false
+        },
+        {
+          "text": "El hecho de tener que tratar con grandes cantidades de datos que desbordan los recursos de cualquier clúster de máquinas",
+          "correct": false
+        },
+        {
+          "text": "El hecho de necesitar limpiar de ruido los datos que se reciben desde múltiples fuentes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD01_017",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una de las siguientes afirmaciones es cierta",
+      "options": [
+        {
+          "text": "Tanto procesamiento en paralelo como distribuído se realizan en varias máquinas",
+          "correct": false
+        },
+        {
+          "text": "Tanto procesamiento en paralelo como distribuído se realizan dentro de la misma máquina",
+          "correct": false
+        },
+        {
+          "text": "El procesamiento distribuído se realiza dentro de la misma máquina y el paralelo en varias máquinas",
+          "correct": false
+        },
+        {
+          "text": "El procesamiento en paralelo se realiza dentro de la misma máquina y el distribuído en varias máquinas",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD01_018",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una de las siguientes no es una de las ventajas clave que pueden conseguirse mediante el uso de clusters de máquinas",
+      "options": [
+        {
+          "text": "Menor consumo energético",
+          "correct": true
+        },
+        {
+          "text": "Alto rendimiento",
+          "correct": false
+        },
+        {
+          "text": "Alta disponibilidad",
+          "correct": false
+        },
+        {
+          "text": "Escalabilidad",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD01_019",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Sólo para una de las siguientes estrategias de procesamiento se necesita tener mucho tiempo disponible para procesar los datos",
+      "options": [
+        {
+          "text": "Transaccional",
+          "correct": false
+        },
+        {
+          "text": "Streaming",
+          "correct": false
+        },
+        {
+          "text": "Por lotes",
+          "correct": true
+        },
+        {
+          "text": "En tiempo real",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD01_020",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Big Data suele traducirse al castellano como",
+      "options": [
+        {
+          "text": "Megadatos",
+          "correct": false
+        },
+        {
+          "text": "Gran Información",
+          "correct": false
+        },
+        {
+          "text": "Grandes Datos",
+          "correct": false
+        },
+        {
+          "text": "Macrodatos",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD01_021",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una de las siguientes no es una de las capas típicas de una arquitectura para Big Data",
+      "options": [
+        {
+          "text": "Capa de consolidación",
+          "correct": true
+        },
+        {
+          "text": "Capa de almacenamiento",
+          "correct": false
+        },
+        {
+          "text": "Capa de ingestión",
+          "correct": false
+        },
+        {
+          "text": "Capa de visualización",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD01_022",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "De entre las 5 Vs que definen el reto de Big Data, la V de valor tiene que ver con",
+      "options": [
+        {
+          "text": "La valentía que implica el acometer este tipo de proyectos",
+          "correct": false
+        },
+        {
+          "text": "El alto precio que hay que pagar por los datos",
+          "correct": false
+        },
+        {
+          "text": "El valor que se puede obtener revendiendo datos a terceros",
+          "correct": false
+        },
+        {
+          "text": "Cómo de útiles son los datos para la institución, empresa o persona que los usa",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD01_023",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "De las siguientes, una no es una opción con datos que se consiga gracias a tecnologías Big Data",
+      "options": [
+        {
+          "text": "Tratar los datos de forma distribuida empleando varias máquinas que trabajan en paralelo",
+          "correct": false
+        },
+        {
+          "text": "Aplicar técnicas de minería de datos para crear modelos predictivos con cantidades de datos que no caben en una única máquina",
+          "correct": false
+        },
+        {
+          "text": "Almacenar los datos de un modo distribuido y replicado para conseguir una mayor disponibilidad de los mismos",
+          "correct": false
+        },
+        {
+          "text": "Ser capaces de reproducir ficheros de audio o vídeo",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD01_024",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "En una base de datos diseñada según el principio BASE",
+      "options": [
+        {
+          "text": "El sistema es básicamente disponible, de estado blando y de consistencia eventual",
+          "correct": true
+        },
+        {
+          "text": "El sistema es básicamente disponible, de estado blando y siempre consistente",
+          "correct": false
+        },
+        {
+          "text": "Se consigue atomicidad, consistencia, aislamiento y durabilidad",
+          "correct": false
+        },
+        {
+          "text": "No podemos almacenar datos que incluyan algún tipo de compresión",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD01_025",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "De entre las 5 Vs que definen el reto de Big Data, la V de volumen tiene que ver con",
+      "options": [
+        {
+          "text": "La gran cantidad de bytes de datos que es necesario almacenar y tratar",
+          "correct": true
+        },
+        {
+          "text": "El elevado volumen de espacio necesario para ubicar las máquinas que conforman un clúster lo suficientemente potente",
+          "correct": false
+        },
+        {
+          "text": "El hecho de que en cada posible fichero de video o audio el sonido puede haberse guardado a diferente volumen",
+          "correct": false
+        },
+        {
+          "text": "La complejidad distribuir una enorme cantidad de datos en los distintos volumenes o unidades de almacenamiento",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD01_026",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "El acrónimo OLTP designa",
+      "options": [
+        {
+          "text": "Un sistema de ficheros distribuído en los nodos de un clúster.",
+          "correct": false
+        },
+        {
+          "text": "Un sistema que está orientado a analítica descriptiva",
+          "correct": false
+        },
+        {
+          "text": "Un sistema que está orientado a generación de modelos predictivos",
+          "correct": false
+        },
+        {
+          "text": "Un sistema que está orientado a transacciones",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD01_027",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una de las siguientes afirmaciones es cierta en relación a procesamiento paralelo de tareas",
+      "options": [
+        {
+          "text": "Si conseguimos paralelizar una tarea, la potencia equivalente de cómputo es la suma de las potencias de cada nodo del cluster",
+          "correct": false
+        },
+        {
+          "text": "Algunas tareas no pueden paralelizarse para que se ejecuten más rápido usando varias máquinas",
+          "correct": true
+        },
+        {
+          "text": "Cualquier tarea siempre tiene al menos una parte que puede ejecutarse en paralelo para ganar tiempo",
+          "correct": false
+        },
+        {
+          "text": "Todas las tareas pueden paralelizarse para que se ejecuten más rápido usando varias máquinas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD01_028",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Un dataset no debería contener ficheros de texto plano. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD01_029",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "El lenguaje comúnmente empleado para interactuar con bases de datos se llama:",
+      "options": [
+        {
+          "text": "XML",
+          "correct": false
+        },
+        {
+          "text": "MySQL",
+          "correct": false
+        },
+        {
+          "text": "SQL",
+          "correct": true
+        },
+        {
+          "text": "RDBMS",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD01_030",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Según el principio SCV:",
+      "options": [
+        {
+          "text": "Un sistema de procesamiento distribuído puede tener a la vez características de velocidad, consistencia y volumen.",
+          "correct": false
+        },
+        {
+          "text": "No podemos conseguir a la vez consistencia, aislamiento y tolerancia a particionamiento.",
+          "correct": false
+        },
+        {
+          "text": "Un sistema de procesamiento distribuído no puede tener a la vez características de velocidad, consistencia y volumen.",
+          "correct": true
+        },
+        {
+          "text": "No podemos almacenar datos a una velocidad más rápida de lo que se procesan.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD01_031",
+      "module": "SBD01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuáles son rasgos típicos de las estructuras de datos empleadas para OLAP?",
+      "options": [
+        {
+          "text": "Almacenamiento en unidades SSD para un acceso más rápido.",
+          "correct": false
+        },
+        {
+          "text": "Almacenamiento en memoria RAM de estructuras multidimensionales",
+          "correct": true
+        },
+        {
+          "text": "Almacenamiento en memoria RAM de datos previamente normalizados",
+          "correct": false
+        },
+        {
+          "text": "Estructuras multidimensionales que se almacenan en sistemas distribuidos tipo HDFS o S3",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD02_001",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "En HDFS el Namenode puede detectar cuándo un Datanode deja de estar accesible. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD02_002",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Para acceder a HDFS mediante línea de comandos usaremos",
+      "options": [
+        {
+          "text": "\"hdfs fs",
+          "correct": false
+        },
+        {
+          "text": "\"hadoop hdfs\"",
+          "correct": false
+        },
+        {
+          "text": "Los comandos de fichero típicos de Unix/Linux (como por ejemplo \"mkdir\", \"mv\" o \"rm\")",
+          "correct": false
+        },
+        {
+          "text": "\"hadoop fs\" o \"hdfs dfs ",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD02_003",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "HDFS permite almacenar datos sin necesidad de estos tengan que cumplir con un esquema establecido de antemano. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD02_004",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "El almacenamiento distribuido en memoria tiene la desventaja de que:",
+      "options": [
+        {
+          "text": "Trabajar con grandes cantidades de memoria RAM impone requisitos específicos de refrigeración en el centro de datos.",
+          "correct": false
+        },
+        {
+          "text": "El acceso a memoria tiene más latencia que si usamos unidades de almacenamiento no volátil.",
+          "correct": false
+        },
+        {
+          "text": "No tiene desventajas.",
+          "correct": false
+        },
+        {
+          "text": "No ofrece de por sí durabilidad en los datos.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD02_005",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Que una base de datos sea schema-on-read significa",
+      "options": [
+        {
+          "text": "Que podemos realizar escrituras sin necesidad de cumplir con un esquema determinado",
+          "correct": true
+        },
+        {
+          "text": "Que cada vez que leemos un dato estamos escribiendo también el esquema de la tabla",
+          "correct": false
+        },
+        {
+          "text": "Que cada vez que leemos un dato estamos leyendo también el esquema de la tabla",
+          "correct": false
+        },
+        {
+          "text": "No hay bases de datos que sean schema-on-read",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD02_006",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Un fichero es",
+      "options": [
+        {
+          "text": "Un conjunto de carpetas",
+          "correct": false
+        },
+        {
+          "text": "Una versión comprimida de un archivo",
+          "correct": false
+        },
+        {
+          "text": "Una secuencia de bytes alojada en disco duro",
+          "correct": false
+        },
+        {
+          "text": "La unidad atómica de almacenamiento empleada por un sistema de ficheros para almacenar datos",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD02_007",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Cuando todos los nodos de un sistema de almacenamiento distribuido en memoria ya tienen instalada la máxima RAM posible y queremos ampliar más el almacenamiento",
+      "options": [
+        {
+          "text": "No se puede ampliar",
+          "correct": false
+        },
+        {
+          "text": "Es independiente de la RAM, porque todo se está guardando en disco",
+          "correct": false
+        },
+        {
+          "text": "Añadimos más discos",
+          "correct": false
+        },
+        {
+          "text": "Añadimos más nodos al clúster",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD02_008",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Las bases de datos clave-valor son",
+      "options": [
+        {
+          "text": "Monoclave",
+          "correct": false
+        },
+        {
+          "text": "Schema-on-write",
+          "correct": false
+        },
+        {
+          "text": "Relacionales",
+          "correct": false
+        },
+        {
+          "text": "Agnósticas respecto de los valores almacenados",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD02_009",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "En una base de datos orientada a grafo",
+      "options": [
+        {
+          "text": "Ni nodos ni relaciones pueden tener propiedades",
+          "correct": false
+        },
+        {
+          "text": "Tanto nodos como relaciones pueden tener propiedades",
+          "correct": true
+        },
+        {
+          "text": "Sólo los nodos pueden tener propiedades",
+          "correct": false
+        },
+        {
+          "text": "Sólo las relaciones pueden tener propiedades",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD02_010",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Un sistema de ficheros es",
+      "options": [
+        {
+          "text": "La infraestructura necesaria para poder almacenar documentos",
+          "correct": false
+        },
+        {
+          "text": "Una utilidad que permite comprimir ficheros",
+          "correct": false
+        },
+        {
+          "text": "La infraestructura necesaria para poder almacenar y organizar datos en unidades de almacenamiento",
+          "correct": true
+        },
+        {
+          "text": "Cualquier lector de CD o de DVD",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD02_011",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Si queremos poder usar la librería Snakebite en Python añadiremos la siguiente línea al principio de nuestros scripts",
+      "options": [
+        {
+          "text": "from snake import Snake",
+          "correct": false
+        },
+        {
+          "text": "from Client import Snakebite",
+          "correct": false
+        },
+        {
+          "text": "import Snake",
+          "correct": false
+        },
+        {
+          "text": "from snakebite.client import Client",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD02_012",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "En bases de datos distribuidas, sharding es",
+      "options": [
+        {
+          "text": "Un mecanismo para replicar los datos por el cluster",
+          "correct": false
+        },
+        {
+          "text": "Un mecanismo para asegurar la total tolerancia a fallos en los nodos",
+          "correct": false
+        },
+        {
+          "text": "No significa nada en el mundo de las bases de datos distribuidas",
+          "correct": false
+        },
+        {
+          "text": "Un mecanismo para particionar un conjunto de datos en subconjuntos más pequeños para facilitar su distribución por el clúster",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD02_013",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "En el intérprete de comandos de MongoDB una de las siguientes líneas encuentra los documentos cuyo campo \"edad\" es mayor a 33 en la colección \"personas\" de la base de datos \"db\"",
+      "options": [
+        {
+          "text": "db.personas.find( { \"edad\": \">33\" } );",
+          "correct": false
+        },
+        {
+          "text": "db.personas.find( { \"edad\": { $gt: 33 } } );",
+          "correct": true
+        },
+        {
+          "text": "personas.db.find( { \"edad\": { $gt: 33 } } );",
+          "correct": false
+        },
+        {
+          "text": "db.personas.findGreaterThan( { \"edad\": 33 } );",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD02_014",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "En bases de datos distribuidas, replicación consiste en",
+      "options": [
+        {
+          "text": "Almacenar copias de un mismo conjunto de datos en 2 nodos del clúster",
+          "correct": false
+        },
+        {
+          "text": "Almacenar copias de cada dato en todos los nodos del clúster",
+          "correct": false
+        },
+        {
+          "text": "Que cada nodo contenga una copia completa de la base de datos",
+          "correct": false
+        },
+        {
+          "text": "Almacenar copias de un mismo conjunto de datos en varios nodos del clúster",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD02_015",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una de las siguientes afirmaciones es cierta en relación a HDFS",
+      "options": [
+        {
+          "text": "Los ficheros se particionan en bloques de 64 MB",
+          "correct": false
+        },
+        {
+          "text": "Los ficheros se guardan completos sin parcitionar",
+          "correct": false
+        },
+        {
+          "text": "Los ficheros se particionan en bloques, y por defecto esos bloques son de 128 MB",
+          "correct": true
+        },
+        {
+          "text": "Los ficheros se particionan en bloques de 256 kB",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD02_016",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "HDFS es",
+      "options": [
+        {
+          "text": "Un tipo de conector más rápido que USB 3.0",
+          "correct": false
+        },
+        {
+          "text": "Una especificación para unidades de disco duro",
+          "correct": false
+        },
+        {
+          "text": "El sistema de ficheros distribuido de Google",
+          "correct": false
+        },
+        {
+          "text": "El sistema de ficheros distribuido en el que se basa Hadoop",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD02_017",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una de las siguientes operaciones no se puede realizar en bases de datos documentales",
+      "options": [
+        {
+          "text": "Actualización de un dato",
+          "correct": false
+        },
+        {
+          "text": "JOIN",
+          "correct": true
+        },
+        {
+          "text": "Acceso a través de una clave",
+          "correct": false
+        },
+        {
+          "text": "Selección por el valor de un atributo o campo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD02_018",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "El mecanismo de sharding en bases de datos distribuidas facilita la distribución de la carga de trabajo. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD02_019",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "En un clúster HDFS encontraremos",
+      "options": [
+        {
+          "text": "Varios nodos trabajando como Namenode y Datanode de forma indistinta",
+          "correct": false
+        },
+        {
+          "text": "Un nodo trabajando como Datanode y varios trabajando como Namenode",
+          "correct": false
+        },
+        {
+          "text": "Un número arbitrario de nodos trabajando como Namenode y al menos 2 trabajando como Datanode",
+          "correct": false
+        },
+        {
+          "text": "Un nodo trabajando como Namenode y varios trabajando como Datanode",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD02_020",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Un almacenamiento distribuido en memoria es adecuado cuando necesitamos tratar con muy grandes cantidades de datos. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD02_021",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Para acceder a HDFS mediante lenguajes de programación usaremos",
+      "options": [
+        {
+          "text": "No puede accederse desde lenguajes de programación pero sí por línea de comandos",
+          "correct": false
+        },
+        {
+          "text": "Paquetes o librerías, si están disponibles para el lenguaje que estamos utilizando",
+          "correct": true
+        },
+        {
+          "text": "El propio lenguaje pero usando una sintaxis específica",
+          "correct": false
+        },
+        {
+          "text": "Sólo puede hacerse si usamos Python",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD02_022",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Que una base de datos sea schema-on-write significa",
+      "options": [
+        {
+          "text": "Que debe establecerse el formato de los datos a almacenar antes de comenzar a escribirlos",
+          "correct": true
+        },
+        {
+          "text": "No hay bases de datos que sean schema-on-write",
+          "correct": false
+        },
+        {
+          "text": "Que cada vez que escribimos un registro escribimos también el esquema",
+          "correct": false
+        },
+        {
+          "text": "Que cada vez que escribimos un registro podemos actualizar el esquema",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD02_023",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Un árbol de directorio es:",
+      "options": [
+        {
+          "text": "Una estructura que nos permite organizar ficheros dentro de carpetas.",
+          "correct": true
+        },
+        {
+          "text": "Una colección de nodos de árbol enlazados mediante aristas.",
+          "correct": false
+        },
+        {
+          "text": "Un conjunto de metadatos acerca de un fichero.",
+          "correct": false
+        },
+        {
+          "text": "Una estructura de datos almacenada en la memoria RAM del sistema",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD02_024",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "HDFS es un componente de Apache Hadoop. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD02_025",
+      "module": "SBD02",
+      "type": "test",
+      "source": "iabd",
+      "question": "En bases de datos distribuidas, sharding y replicación son:",
+      "options": [
+        {
+          "text": "Inapropiados",
+          "correct": false
+        },
+        {
+          "text": "Compatibles",
+          "correct": true
+        },
+        {
+          "text": "Incompatibles",
+          "correct": false
+        },
+        {
+          "text": "Inconsistentes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_001",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "El siguiente es el orden de las distintas técnicas de integración de datos, de menos a más automatizada",
+      "options": [
+        {
+          "text": "Virtual, basada en middleware, basada en aplicación, manual",
+          "correct": false
+        },
+        {
+          "text": "Virtual, manual, basada en aplicación, basada en middleware",
+          "correct": false
+        },
+        {
+          "text": "Manual, basada en aplicación, basada en middleware, virtual",
+          "correct": true
+        },
+        {
+          "text": "Manual, virtual, basada en aplicación, basada en middleware",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_002",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una de las siguientes no es una de las actividades relacionadas con gestión de datos en las que está presente el Gobierno de Datos:",
+      "options": [
+        {
+          "text": "Optimización de recursos.",
+          "correct": true
+        },
+        {
+          "text": "Calidad.",
+          "correct": false
+        },
+        {
+          "text": "Integración.",
+          "correct": false
+        },
+        {
+          "text": "Documentación.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_003",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una de las siguientes no es una de las principales características de Apache Sqoop:",
+      "options": [
+        {
+          "text": "Permite conectar con fuentes de datos no estructuradas.",
+          "correct": true
+        },
+        {
+          "text": "Permite importaciones en masa.",
+          "correct": false
+        },
+        {
+          "text": "Cuenta con interfaz de línea de comandos.",
+          "correct": false
+        },
+        {
+          "text": "Cuenta con mecanismos para evitar sobrecargar las fuentes.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_004",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Según el RGPD:",
+      "options": [
+        {
+          "text": "Un responsable sólo puede encargar un tratamiendo de datos a quien cumpla con garantías técnicas y organizativas para cumplir con el RGPD, y debe existir un contrato escrito entre responsable y encargado.",
+          "correct": true
+        },
+        {
+          "text": "Un responsable sólo puede encargar un tratamiendo de datos a quien pueda demostrar experiencia previa en el área, y debe existir un contrato escrito entreresponsable y encargado.",
+          "correct": false
+        },
+        {
+          "text": "Un responsable sólo puede encargar un tratamiendo de datos a quien cumpla con garantías técnicas y organizativas para cumplir con el RGPD.",
+          "correct": false
+        },
+        {
+          "text": "Un responsable no puede subcontratar ningún tratamiento de datos.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_005",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una de las siguientes no es un tipo de fuente típico en la fase de extracción del proceso ETL",
+      "options": [
+        {
+          "text": "Cuadros de mando de inteligencia de negocio",
+          "correct": true
+        },
+        {
+          "text": "Logs de servidores web",
+          "correct": false
+        },
+        {
+          "text": "Ficheros en diversos formatos",
+          "correct": false
+        },
+        {
+          "text": "Bases de datos relacionales",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_006",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "La diferencia entre los conceptos ETL e integración de datos es que",
+      "options": [
+        {
+          "text": "La integración de datos se produce previamente al proceso de ETL",
+          "correct": false
+        },
+        {
+          "text": "No hay diferencias",
+          "correct": false
+        },
+        {
+          "text": "La integración de datos se produce a continuación del proceso de ETL",
+          "correct": false
+        },
+        {
+          "text": "En ETL se produce una copia de los datos y en integración de datos idealmente siguen residiendo en las fuentes originales",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD03_007",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Si enviamos datos de un sistema OLTP a uno OLAP con intención de emplear el segundo de ellos para realizar la analítica",
+      "options": [
+        {
+          "text": "Estamos realizando la transferencia de datos en el sentido inverso al común",
+          "correct": false
+        },
+        {
+          "text": "Estamos realizando la transferencia de datos en el sentido inverso al que es lógico",
+          "correct": false
+        },
+        {
+          "text": "Descargamos al OLTP de la carga de la analítica",
+          "correct": true
+        },
+        {
+          "text": "Descargamos al OLAP de la carga transaccional",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_008",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Según el RGPD, la condición básica para poder tratar los datos personales del interesado es",
+      "options": [
+        {
+          "text": "Que el interesado forme parte del tratamiendo de los datos",
+          "correct": false
+        },
+        {
+          "text": "Que exista un contrato entre el interesado y el responsable del tratamiento de los datos",
+          "correct": false
+        },
+        {
+          "text": "Que el interesado dé su consentimiento",
+          "correct": true
+        },
+        {
+          "text": "Que se satisfagan los intereses legítimos tanto del interesado como del responsable del tratamiento",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_009",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una de las siguientes no es una de las principales características de Apache Flume",
+      "options": [
+        {
+          "text": "Está basado en eventos y se adapta a fuentes en streaming",
+          "correct": false
+        },
+        {
+          "text": "Es tolerante a fallos",
+          "correct": false
+        },
+        {
+          "text": "Permite conectar con bases de datos relacionales",
+          "correct": true
+        },
+        {
+          "text": "Permite crear topologías para tratar los flujos de datos hasta llegar al resultado final",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_010",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "El Chief Data Officer (o CDO)",
+      "options": [
+        {
+          "text": "Es el responsable de un departamentos que usa/produce datos",
+          "correct": false
+        },
+        {
+          "text": "No juega ningún papel en relación a Gobierno de Datos",
+          "correct": false
+        },
+        {
+          "text": "Es responsable del modelo de datos",
+          "correct": true
+        },
+        {
+          "text": "Tiene como cometido resolver problemas tecnológicos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_011",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "El Gobierno de Datos",
+      "options": [
+        {
+          "text": "Es la gestión de los datos",
+          "correct": false
+        },
+        {
+          "text": "Se realiza para facilitar la monitorización de los nodos del clúster",
+          "correct": false
+        },
+        {
+          "text": "Es el ejercício de control y autoridad y comunicación sobre la gestión realizada de los datos",
+          "correct": true
+        },
+        {
+          "text": "Es una de las actividades incluidas dentro de la gestión de datos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_012",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Apache Flume es",
+      "options": [
+        {
+          "text": "Un software distribuido que permite obtener datos desde bases de datos relacionales",
+          "correct": false
+        },
+        {
+          "text": "Una herramienta de línea de comandos que nos permite obtener datos desde bases de datos relacionales",
+          "correct": false
+        },
+        {
+          "text": "Un software distribuido especialmente indicado para obtener datos desde HDFS",
+          "correct": false
+        },
+        {
+          "text": "Un software distribuido que permite obtener datos en streaming desde gran cantidad de fuentes no estructuradas o semiestructuradas",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD03_013",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los propietarios del dato (o data owners)",
+      "options": [
+        {
+          "text": "Tienen perfil ejecutivo con función transversal (negocio e IT)",
+          "correct": false
+        },
+        {
+          "text": "Tienen perfil de negocio",
+          "correct": true
+        },
+        {
+          "text": "Tienen perfil IT",
+          "correct": false
+        },
+        {
+          "text": "Atienden las peticiones de tecnología del CDO",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_014",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Según el RGPD",
+      "options": [
+        {
+          "text": "Los interesados mantienen los derechos de acceso, rectificación, cancelación y oposición, pero ahora en una versión más completa",
+          "correct": true
+        },
+        {
+          "text": "Los interesados mantienen los derechos de acceso, rectificación, cancelación y oposición, pero ahora en una versión más resumida",
+          "correct": false
+        },
+        {
+          "text": "Los interesados mantienen los derechos de acceso, rectificación, cancelación y oposición tal cual los tenían con anteriores leyes",
+          "correct": false
+        },
+        {
+          "text": "Los interesados pierden los derechos de acceso, rectificación, cancelación y oposición",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_015",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Uno de los siguientes no es un destino típico de un proceso ETL",
+      "options": [
+        {
+          "text": "Amazon S3",
+          "correct": false
+        },
+        {
+          "text": "HDFS",
+          "correct": false
+        },
+        {
+          "text": "Bases de datos orientadas a grafo",
+          "correct": true
+        },
+        {
+          "text": "Almacenes de datos para OLAP",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_016",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Según el RGPD, los responsables del tratamiento de datos están obligados a",
+      "options": [
+        {
+          "text": "Garantizar su cumplimiento",
+          "correct": false
+        },
+        {
+          "text": "Garantizar su cumplimiento por parte de toda la plantilla y de aquellos terceros con los que se subcontrate el tratamiento",
+          "correct": false
+        },
+        {
+          "text": "Garantizar su cumplimiento y remitir informes periódicos a las autoridades competentes",
+          "correct": false
+        },
+        {
+          "text": "Garantizar su cumplimiento y estar en condiciones de demostrarlo",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD03_017",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "La LOPD-GDD se escribió",
+      "options": [
+        {
+          "text": "Para sustituir al RGPD al quedar éste desfasado",
+          "correct": false
+        },
+        {
+          "text": "Antes que el RGPD",
+          "correct": false
+        },
+        {
+          "text": "Para estar acorde con el RGPD",
+          "correct": true
+        },
+        {
+          "text": "Es una traducción del RGPD al castellano",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_018",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "La integración de datos",
+      "options": [
+        {
+          "text": "Permite realizar replicaciones de los datos de modo eficiente",
+          "correct": false
+        },
+        {
+          "text": "Busca obtener una alta redundancia y disponibilidad",
+          "correct": false
+        },
+        {
+          "text": "Busca entregar una visión unificada de los datos a aquellos usuarios o procesos que vayan a utilizarlos",
+          "correct": true
+        },
+        {
+          "text": "Se realiza para minimizar la latencia del sistema",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_019",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Según el RGPD, el interesado",
+      "options": [
+        {
+          "text": "Es la persona física o jurídica, autoridad pública, servicio u otro organismo que trate datos personales por cuenta del responsable del tratamiento",
+          "correct": false
+        },
+        {
+          "text": "Es la persona física o jurídica, autoridad pública, servicio u otro organismo al que se comuniquen datos personales",
+          "correct": false
+        },
+        {
+          "text": "Es una persona física identificada o identificable sobre la que los datos personales se están tratando",
+          "correct": true
+        },
+        {
+          "text": "Constituye uno de los elementos claves del RGPD, y un garante del cumplimiento de la normativa de la protección de datos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_020",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una de las siguientes no es un tipo de transformación realizado típicamente durante el proceso de ETL",
+      "options": [
+        {
+          "text": "Normalización de los datos en función de las claves externas",
+          "correct": true
+        },
+        {
+          "text": "Realizar unificaciones de datos que provienen de distintas fuentes",
+          "correct": false
+        },
+        {
+          "text": "Transponer filas en columas o columnas en filas",
+          "correct": false
+        },
+        {
+          "text": "Seleccionar sólo determinadas columnas o atributos de cada registro",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_021",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Uno de los objetivos generales del Gobierno de Datos es",
+      "options": [
+        {
+          "text": "Facilitar a las organizaciones la gestión de sus datos como los activos que son",
+          "correct": true
+        },
+        {
+          "text": "Facilitar a las organizaciones la gestión distribuida de los datos",
+          "correct": false
+        },
+        {
+          "text": "Facilitar a las organizaciones el almacenamiento redundante de los datos",
+          "correct": false
+        },
+        {
+          "text": "Facilitar a las organizaciones el acceso a fuentes de datos en streaming",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_022",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "La fase de transformación de ETL requiere comprender el significado que tienen los datos en las fuentes de origen y que deben tener en destino. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_023",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Apache Sqoop es",
+      "options": [
+        {
+          "text": "Es un software distribuido pensado para permitir obtener datos desde sistemas de ficheros distribuidos",
+          "correct": false
+        },
+        {
+          "text": "Una herramienta de línea de comandos que nos permite obtener datos en streaming desde gran cantidad de fuentes no estructuradas",
+          "correct": false
+        },
+        {
+          "text": "Es un software distribuido que permite obtener datos en streaming desde gran cantidad de fuentes no estructuradas",
+          "correct": false
+        },
+        {
+          "text": "Una herramienta de línea de comandos que nos permite obtener datos desde bases de datos relacionales",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD03_024",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Cuando al almacenamiento de destino de un proceso ETL llegan datos nuevos:",
+      "options": [
+        {
+          "text": "Los datos preexistentes se eliminan.",
+          "correct": false
+        },
+        {
+          "text": "Los datos preexistentes siempre se ven afectados.",
+          "correct": false
+        },
+        {
+          "text": "Los datos preexistentes pueden no verse afectados.",
+          "correct": true
+        },
+        {
+          "text": "Los datos preexistentes nunca se ven afectados.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_025",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una de las siguientes no es una de las principales características de Apache Flume",
+      "options": [
+        {
+          "text": "Permite crear topologías para tratar los flujos de datos hasta llegar al resultado final",
+          "correct": false
+        },
+        {
+          "text": "Es tolerante a fallos",
+          "correct": false
+        },
+        {
+          "text": "Está basado en eventos y se adapta a fuentes en streaming",
+          "correct": false
+        },
+        {
+          "text": "Permite conectar con bases de datos relacionales.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD03_026",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Cuando el almacenamiento de destino de un proceso ETL permite guardar un registro histórico para cada posible dato:",
+      "options": [
+        {
+          "text": "Podemos comprobar los distintos valores que ha ido teniendo el dato a lo largo del tiempo.",
+          "correct": true
+        },
+        {
+          "text": "Podemos acceder a los metadatos de cada dato desde el mismo interfaz de usario.",
+          "correct": false
+        },
+        {
+          "text": "En ningún caso puede guardarse un registro histórico debido a que los datos se eliminan siempre.",
+          "correct": false
+        },
+        {
+          "text": "En ningún caso puede guardarse un registro histórico debido a que los datos se sobreescriben siempre.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_027",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Las fases del proceso ETL son:",
+      "options": [
+        {
+          "text": "Extraer, transformar, cargar.",
+          "correct": true
+        },
+        {
+          "text": "Exportar, transformar, cargar.",
+          "correct": false
+        },
+        {
+          "text": "Extraer, transformar, liberar.",
+          "correct": false
+        },
+        {
+          "text": "ETL no es ningún proceso que tenga que ver con tratamiento de datos.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_028",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una de las siguientes afirmaciones es correcta en relación a la fase de extracción del proceso ETL:",
+      "options": [
+        {
+          "text": "Hay un número muy limitado de posibles fuentes de datos.",
+          "correct": false
+        },
+        {
+          "text": "Siempre se accede a una única fuente de datos.",
+          "correct": false
+        },
+        {
+          "text": "Existe gran variedad de posibles fuentes de datos, cada una con su formato y/o protocolo.",
+          "correct": true
+        },
+        {
+          "text": "Existe gran variedad de posibles fuentes de datos pero las herramientas ETL son compatibles con todas ellas.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_029",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una de las siguientes no es una de las medidas de seguridad que deben aplicarse al tratar datos personales según el RGPD:",
+      "options": [
+        {
+          "text": "La implementación de procesos de verificación y evaluación.",
+          "correct": false
+        },
+        {
+          "text": "La capacidad de restaurar los datos personales de forma rápida.",
+          "correct": false
+        },
+        {
+          "text": "La implementación de procesos que faciliten su tratamiento distribuido.",
+          "correct": true
+        },
+        {
+          "text": "La seudonimización de los datos personales.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_030",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Uno de los siguientes no es uno de los derechos del interesado en relación al tratamiento de sus datos, según el RGPD:",
+      "options": [
+        {
+          "text": "Derecho a la portabilidad.",
+          "correct": false
+        },
+        {
+          "text": "Derecho a la elección del soporte en el que se almacenan.",
+          "correct": true
+        },
+        {
+          "text": "Derecho de rectificación",
+          "correct": false
+        },
+        {
+          "text": "Derecho al olvido.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD03_031",
+      "module": "SBD03",
+      "type": "test",
+      "source": "iabd",
+      "question": "El Gobierno de Datos incluye:",
+      "options": [
+        {
+          "text": "Planficación, implementación y documentación.",
+          "correct": false
+        },
+        {
+          "text": "Planificación, ejecución y documentación.",
+          "correct": false
+        },
+        {
+          "text": "Ejecución, monitorización, documentación y seguimiento",
+          "correct": false
+        },
+        {
+          "text": "Planificación, ejecución y seguimiento.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD04_001",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "El Análisis Predictivo",
+      "options": [
+        {
+          "text": "Intenta predecir qué ocurrirá en un futuro",
+          "correct": true
+        },
+        {
+          "text": "Intenta determinar la causa de un fenómeno que ha ocurrido o está ocurriendo",
+          "correct": false
+        },
+        {
+          "text": "No emplea Machine Learning",
+          "correct": false
+        },
+        {
+          "text": "Por lo general produce como resultado reportes o cuadros de mando estáticos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD04_002",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Matplotlib es",
+      "options": [
+        {
+          "text": "Un lenguaje de programación de alto nivel, interpretado y de propósito general",
+          "correct": false
+        },
+        {
+          "text": "La librería de Python que nos ofrece funcionalidad sobre arrays",
+          "correct": false
+        },
+        {
+          "text": "La librería de R que nos ofrece funcionalidad sobre arrays",
+          "correct": false
+        },
+        {
+          "text": "La librería comúnmente utilizada en Python para generar todo tipo de gráficos",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD04_003",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los pasos de SEMMA son",
+      "options": [
+        {
+          "text": "Sample, Explore, Modify, Model, Access",
+          "correct": true
+        },
+        {
+          "text": "Sample, Explore, Model, Modify, Access",
+          "correct": false
+        },
+        {
+          "text": "Sample, Explote, Modify, Model, Access",
+          "correct": false
+        },
+        {
+          "text": "Sample, Explore, Measure, Model, Access",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD04_004",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Un algoritmo de tiempo polinomial",
+      "options": [
+        {
+          "text": "Siempre termina siendo más lento que uno de tiempo exponencial si el tamaño de la entrada es lo suficientemente grande",
+          "correct": false
+        },
+        {
+          "text": "Siempre termina siendo más rápido que uno de tiempo exponencial si el tamaño de la entrada es lo suficientemente grande",
+          "correct": true
+        },
+        {
+          "text": "Es aquel que en el mejor de los casos permite solucionar determinado problema en un tiempo determinado por un polinomio en función del tamaño de la entrada",
+          "correct": false
+        },
+        {
+          "text": "Es aproximadamente igual de rápido uno de tiempo exponencial si el tamaño de la entrada es lo suficientemente grande",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD04_005",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Un problema será considerado tratable",
+      "options": [
+        {
+          "text": "Si se puede encontrar un algoritmo capaz de resolverlo en tiempo polinomial",
+          "correct": true
+        },
+        {
+          "text": "Si no existe un algoritmo que lo resuelva en tiempo exponencial",
+          "correct": false
+        },
+        {
+          "text": "Si no existe un algoritmo que lo resuelva en tiempo polinomial",
+          "correct": false
+        },
+        {
+          "text": "Si se puede encontrar un algoritmo capaz de resolverlo en tiempo exponencial",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD04_006",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "CRISP-DM es",
+      "options": [
+        {
+          "text": "Un algoritmo",
+          "correct": false
+        },
+        {
+          "text": "El acrónimo de una lista de pasos que se emplean en muchas ocasiones a modo de metodología para la minería de datos",
+          "correct": false
+        },
+        {
+          "text": "Una metodología de proceso secuencial ampliamente empleada para el proceso de minería de datos",
+          "correct": false
+        },
+        {
+          "text": "Una metodología de proceso cíclico ampliamente empleada para el proceso de minería de datos",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD04_007",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una de las siguientes no está entre las actividades de la Analítica de Datos",
+      "options": [
+        {
+          "text": "Política de Datos",
+          "correct": true
+        },
+        {
+          "text": "Gobierno de Datos",
+          "correct": false
+        },
+        {
+          "text": "Análisis de Datos",
+          "correct": false
+        },
+        {
+          "text": "Obtención/recolección de los datos desde diversas fuentes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD04_008",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Si queremos saber de cuántos modos distintos podemos ordenar una lista",
+      "options": [
+        {
+          "text": "Estaremos calculando entonces el número de combinaciones",
+          "correct": false
+        },
+        {
+          "text": "Estaremos calculando entonces el número de variaciones",
+          "correct": false
+        },
+        {
+          "text": "Estaremos calculando entonces el número de permutaciones",
+          "correct": true
+        },
+        {
+          "text": "Estaremos calculando entonces el número de nodos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD04_009",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Programando en R",
+      "options": [
+        {
+          "text": "Debemos declarar el tipo de cada variable antes de utilizarla",
+          "correct": false
+        },
+        {
+          "text": "Podemos asignar valores a variables variables usando =",
+          "correct": false
+        },
+        {
+          "text": "Podemos asignar valores a variables variables usando <-",
+          "correct": false
+        },
+        {
+          "text": "Podemos asignar valores a variables variables usando = o <-",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD04_010",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los arrays en R",
+      "options": [
+        {
+          "text": "Son monodimensionales",
+          "correct": false
+        },
+        {
+          "text": "Son multidimensionales",
+          "correct": true
+        },
+        {
+          "text": "En R no hay arrays",
+          "correct": false
+        },
+        {
+          "text": "Son bidimensionales",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD04_011",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "El pseudocódigo",
+      "options": [
+        {
+          "text": "Es un diagrama de flujo",
+          "correct": false
+        },
+        {
+          "text": "Se produce a partir del lenguaje ensamblador",
+          "correct": false
+        },
+        {
+          "text": "Está medio camino del lenguaje natural y del lenguaje de programación",
+          "correct": true
+        },
+        {
+          "text": "Permite comprobar el valor de las variables en tiempo de ejecución",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD04_012",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Un diagrama de flujo",
+      "options": [
+        {
+          "text": "Debe tener un único nodo de inicio y al menos uno de final",
+          "correct": true
+        },
+        {
+          "text": "Sólo puede tener un nodo de final",
+          "correct": false
+        },
+        {
+          "text": "Debe tener tantos nodos de inicio como de final",
+          "correct": false
+        },
+        {
+          "text": "Puede tener más de un nodo de inicio",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD04_013",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "En un DataFrame de Pandas",
+      "options": [
+        {
+          "text": "Podemos añadir columnas pero no eliminarlas una vez está creado",
+          "correct": false
+        },
+        {
+          "text": "No podemos añadir columnas pero sí eliminarlas una vez está creado",
+          "correct": false
+        },
+        {
+          "text": "No podemos añadir ni eliminar columnas una vez está creado",
+          "correct": false
+        },
+        {
+          "text": "Podemos añadir y eliminar columnas una vez está creado",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD04_014",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "El Análisis Descriptivo",
+      "options": [
+        {
+          "text": "Por lo general produce como resultado reportes o cuadros de mando estáticos",
+          "correct": true
+        },
+        {
+          "text": "Por lo general produce como resultado reportes dinámicos",
+          "correct": false
+        },
+        {
+          "text": "Por lo general produce como resultado cuadros de mando dinámicos",
+          "correct": false
+        },
+        {
+          "text": "Es análogo al Análisis Disruptivo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD04_015",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "El Análisis Diagnóstico",
+      "options": [
+        {
+          "text": "No emplea estructuras de datos tipo OLAP",
+          "correct": false
+        },
+        {
+          "text": "Intenta determinar la causa de un fenómeno que ha ocurrido o está ocurriendo",
+          "correct": true
+        },
+        {
+          "text": "Por lo general produce como resultado reportes o cuadros de mando estáticos",
+          "correct": false
+        },
+        {
+          "text": "Intenta predecir qué ocurrirá en un futuro",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD04_016",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Si trabajamos con R",
+      "options": [
+        {
+          "text": "No es necesario instalar ningún paquete porque todo está incluído",
+          "correct": false
+        },
+        {
+          "text": "Contamos con gran cantidad de conjuntos de datos dentro de paquetes a los cuales podemos acceder si están instalados",
+          "correct": true
+        },
+        {
+          "text": "Cargamos siempre los datos desde fichero con la función load_data",
+          "correct": false
+        },
+        {
+          "text": "Realizamos visualización de datos mediante la librería Matplotlib",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD04_017",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Matplotlib permite",
+      "options": [
+        {
+          "text": "Ejecutar un algoritmo en tiempo real",
+          "correct": false
+        },
+        {
+          "text": "Crear gráficos de barras",
+          "correct": false
+        },
+        {
+          "text": "Crear distintos tipos de gráficos, como de línea o de puntos",
+          "correct": false
+        },
+        {
+          "text": "Crear distintos tipos de gráficos, como de línea, de puntos o de barras",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD04_018",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los DataFrame de Pandas",
+      "options": [
+        {
+          "text": "Son el equivalente a un array bidimensional al que podemos asociar etiquetas tanto para columnas como para filas",
+          "correct": true
+        },
+        {
+          "text": "Son el equivalente a una lista a la que además se pueden asociar etiquetas",
+          "correct": false
+        },
+        {
+          "text": "Son multidimensionales",
+          "correct": false
+        },
+        {
+          "text": "Son monodimensioneles",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD04_019",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los Dataframes de R",
+      "options": [
+        {
+          "text": "Son multidimensionales",
+          "correct": false
+        },
+        {
+          "text": "Son equivalentes a las listas pero permitiendo distintos tipos de datos",
+          "correct": true
+        },
+        {
+          "text": "Son equivalentes a los arrays pero permitiendo distintos tipos de datos",
+          "correct": false
+        },
+        {
+          "text": "Pueden almacenar distintos tipos de datos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD04_020",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "La Analítica de Datos",
+      "options": [
+        {
+          "text": "Está incluída dentro del Análisis de Datos",
+          "correct": false
+        },
+        {
+          "text": "Es un concepto amplio que incluye dentro al Análisis de Datos",
+          "correct": true
+        },
+        {
+          "text": "Es equivalente al Gobierno de Datos",
+          "correct": false
+        },
+        {
+          "text": "Es un concepto equivalente al Análisis de Datos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD04_021",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "SEMMA es:",
+      "options": [
+        {
+          "text": "Un proceso cíclico.",
+          "correct": false
+        },
+        {
+          "text": "Una metodología para el proceso de minería de datos que goza de una cierta oficialidad al provenir de un proyecto de la Unión Europea.",
+          "correct": false
+        },
+        {
+          "text": "El acrónimo de una lista de pasos que se emplean en muchas ocasiones a modo de metodología para la minería de datos.",
+          "correct": true
+        },
+        {
+          "text": "Un proceso de para minería de datos con 6 fases.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD04_022",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "En Python:",
+      "options": [
+        {
+          "text": "No necesitamos declarar el tipo de datos de las variables.",
+          "correct": true
+        },
+        {
+          "text": "Asignamos valores a variables mediante <-.",
+          "correct": false
+        },
+        {
+          "text": "Mostramos valores mediante la función eco.",
+          "correct": false
+        },
+        {
+          "text": "Debemos declarar el tipo de datos de las variables antes de utilizarlas asignarles valores.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD04_023",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "R es:",
+      "options": [
+        {
+          "text": "Un lenguaje de programación interpretado de código abierto creado específicamente para facilitar el análisis de datos.",
+          "correct": true
+        },
+        {
+          "text": "Un lenguaje de programación interpretado de bajo nivel creado específicamente para facilitar el análisis de datos.",
+          "correct": false
+        },
+        {
+          "text": "Un lenguaje de programación de alto nivel, interpretado y propósito general.",
+          "correct": false
+        },
+        {
+          "text": "Un lenguaje de programación compilado de código abierto creado específicamente para facilitar el análisis de datos.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD04_024",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los arrays de NumPy:",
+      "options": [
+        {
+          "text": "Son bidimensionales.",
+          "correct": false
+        },
+        {
+          "text": "Son multidimensionales sin necesidad de ser rectangulares.",
+          "correct": false
+        },
+        {
+          "text": "Son multidimensionales y rectangulares.",
+          "correct": true
+        },
+        {
+          "text": "Son monodimensionales.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD04_025",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Un algoritmo es:",
+      "options": [
+        {
+          "text": "Un conjunto de instrucciones que realizadas en orden permiten solucionar un problema.",
+          "correct": true
+        },
+        {
+          "text": "Un conjunto de instrucciones a emplear como base para crear un diagrama de flujo.",
+          "correct": false
+        },
+        {
+          "text": "Cualquier serie de comandos para una computadora.",
+          "correct": false
+        },
+        {
+          "text": "Un conjunto de instrucciones que realizadas en paralelo permiten solucionar un problema.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD04_026",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Uno de los siguientes no es uno de los pasos de CRISP-DM:",
+      "options": [
+        {
+          "text": "Modelado.",
+          "correct": false
+        },
+        {
+          "text": "Comprensión de los datos.",
+          "correct": false
+        },
+        {
+          "text": "Modificación de los datos.",
+          "correct": true
+        },
+        {
+          "text": "Comprensión del negocio.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD04_027",
+      "module": "SBD04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Para importar la librería Pandas en Python usaremos una línea como la siguiente:",
+      "options": [
+        {
+          "text": "import pandas.pd",
+          "correct": false
+        },
+        {
+          "text": "load pandas",
+          "correct": false
+        },
+        {
+          "text": "export pandas as pd",
+          "correct": false
+        },
+        {
+          "text": "import pandas as pd",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD05_001",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Cuando hablamos de gráficos circulares",
+      "options": [
+        {
+          "text": "Si hay varias series lo mejor es dibujarlas todas en el mismo diagrama",
+          "correct": false
+        },
+        {
+          "text": "Dibujar distintas series dentro de un mismo diagrama no suele dar muy buenos resultados visuales",
+          "correct": true
+        },
+        {
+          "text": "Permiten mostrar datos con 3 dimensiones empleando el tamaño del círculo como tercera dimensión",
+          "correct": false
+        },
+        {
+          "text": "Son sinónimo de los de tipo dónut",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD05_002",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una de las siguientes no es una de las métricas comunes a emplear cuando se crea un cuadro de mando",
+      "options": [
+        {
+          "text": "Facturación",
+          "correct": false
+        },
+        {
+          "text": "Número de llamadas al soporte",
+          "correct": false
+        },
+        {
+          "text": "Tallas de calzado",
+          "correct": true
+        },
+        {
+          "text": "Beneficios",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD05_003",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Un datamart es",
+      "options": [
+        {
+          "text": "Similar a un datawarehouse pero con información de un departamento, división o línea de negocio",
+          "correct": true
+        },
+        {
+          "text": "Lo mismo que un datawarehouse",
+          "correct": false
+        },
+        {
+          "text": "Un almacén de datos a nivel de toda la corporación o empresa",
+          "correct": false
+        },
+        {
+          "text": "De donde se alimenta de datos a un datawarehouse",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD05_004",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Cuando una empresa tiene un sistema con datamarts independientes",
+      "options": [
+        {
+          "text": "Significa que se alimentan desde un datawarehouse corporativo",
+          "correct": false
+        },
+        {
+          "text": "Estos datamarts están interconectados entre sí",
+          "correct": false
+        },
+        {
+          "text": "Significa que no se alimentan desde un datawarehouse corporativo",
+          "correct": true
+        },
+        {
+          "text": "No es posible, ya que los datamarts son dependientes por definición",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD05_005",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Un gráfico de barras apiladas",
+      "options": [
+        {
+          "text": "Puede mostrarse en horizontal o en vertical",
+          "correct": true
+        },
+        {
+          "text": "Muestra cada posible valor como una barra independiente",
+          "correct": false
+        },
+        {
+          "text": "Sólo puede mostrarse en vertical",
+          "correct": false
+        },
+        {
+          "text": "Sólo puede mostrarse en horizontal",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD05_006",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Cuando hablamos de visualización de datos, los indicadores",
+      "options": [
+        {
+          "text": "Indican valores de beneficio, margen, ventas, compras o cantidad de unidades en almacén",
+          "correct": false
+        },
+        {
+          "text": "Se utilizan para indicar en qué rangos deben ir los valores que vamos a mostrar",
+          "correct": false
+        },
+        {
+          "text": "No existe el concepto indicador en relación a visualización de datos",
+          "correct": false
+        },
+        {
+          "text": "Se utilizan para indicar medidas relevantes, en ocasiones dentro de rangos",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD05_007",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los gráficos de cajas",
+      "options": [
+        {
+          "text": "Muestran máximos, mínimos y medianas",
+          "correct": false
+        },
+        {
+          "text": "Muestran máximos y mínimos",
+          "correct": false
+        },
+        {
+          "text": "Muestran datos atípicos y medianas",
+          "correct": false
+        },
+        {
+          "text": "Muestran datos atípicos, máximos, mínimos y medianas",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD05_008",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Que una herramienta de Inteligencia de Negocio tenga una funcionaliad de planificación de informes significa",
+      "options": [
+        {
+          "text": "Que la herramienta incluya un calendario en el cual planificar en qué momentos será emplada por cada usuario",
+          "correct": false
+        },
+        {
+          "text": "Que la herramienta permita definir informes que serán enviados a determinados usuarios con determinada periodicidad",
+          "correct": true
+        },
+        {
+          "text": "Que la herramienta permita prever el número de informes que será necesario generar",
+          "correct": false
+        },
+        {
+          "text": "Que la herramienta permita programar qué día se realizará cada informe",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD05_009",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Al crear un cuadro de mando, el nivel de experiencia de quienes serán sus usuarios",
+      "options": [
+        {
+          "text": "Es clave a la hora de determinar cómo actuales deben ser los datos",
+          "correct": false
+        },
+        {
+          "text": "Es clave a la hora de determinar con qué tipos habrá que trabajar",
+          "correct": false
+        },
+        {
+          "text": "No juega ningún papel importante",
+          "correct": false
+        },
+        {
+          "text": "Es clave a la hora de determinar cómo de complejo o detallado será el cuadro de mandos a crear",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD05_010",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los cuadros de mando, de modo general",
+      "options": [
+        {
+          "text": "Son más interactivos que los informes",
+          "correct": true
+        },
+        {
+          "text": "Ocupan más espacio que los informes",
+          "correct": false
+        },
+        {
+          "text": "Están más enfocados a instantánea que a análisis en tiempo real",
+          "correct": false
+        },
+        {
+          "text": "Trabajan con mayor cantidad de datos históricos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD05_011",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "La Inteligencia de Negocio",
+      "options": [
+        {
+          "text": "Comprende tecnologías y técnicas para evaluar el desempeño de los puestos ejecutivos",
+          "correct": false
+        },
+        {
+          "text": "Comprende tecnologías y técnicas para predecir acciones de la competencia",
+          "correct": false
+        },
+        {
+          "text": "Comprende tecnologías y técnicas para realizar una correcta gestión del negocio y una toma inteligente de decisiones",
+          "correct": true
+        },
+        {
+          "text": "Comprende tecnologías y técnicas para gestionar correctamente el tratamiendo de los datos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD05_012",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Gracias a la Inteligencia de Negocio",
+      "options": [
+        {
+          "text": "Siguen haciendose los informes manuales de forma manual pero ahora más rápido",
+          "correct": false
+        },
+        {
+          "text": "Podemos enfocarnos más en el día a día sin preocuparnos por el futuro de la empresa",
+          "correct": false
+        },
+        {
+          "text": "Ya no se realizan informes sino únicamente cuadros de mando",
+          "correct": false
+        },
+        {
+          "text": "Dejan de hacerse informes de modo manual",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD05_013",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los informes, de modo general",
+      "options": [
+        {
+          "text": "Son más resumidos que los cuadros de mando",
+          "correct": false
+        },
+        {
+          "text": "Ocupan como máximo una página",
+          "correct": false
+        },
+        {
+          "text": "Están más enfocados a instantánea que a análisis en tiempo real",
+          "correct": true
+        },
+        {
+          "text": "Son tan interactivos como los cuadros de mando",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD05_014",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Que una métrica sea accionable significa",
+      "options": [
+        {
+          "text": "Que implique acciones por parte de los clientes",
+          "correct": false
+        },
+        {
+          "text": "Que provenga de acciones realizadas en la empresa",
+          "correct": false
+        },
+        {
+          "text": "Que se sepa a ciencia cierta de dónde proviene",
+          "correct": false
+        },
+        {
+          "text": "Que sepamos cómo actuar si queremos modificar su tendencia",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD05_015",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Que una herramienta de Inteligencia de Negocio tenga una funcionaliad de soporte móvil significa",
+      "options": [
+        {
+          "text": "Que la herramienta permita programar qué días se envían los informes desde un terminal móvil o una tablet",
+          "correct": false
+        },
+        {
+          "text": "Que la herramienta realizar los informes en un terminal móvil o una tablet",
+          "correct": false
+        },
+        {
+          "text": "Que la herramienta pueda accederse desde un terminal móvil o una tablet",
+          "correct": true
+        },
+        {
+          "text": "Que la herramienta envíe un SMS al terminal del usuario con un código de acceso para poder utilizarla",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD05_016",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Uno de los siguientes no es uno de los problemas por los que se origina la Inteligencia de Negocio",
+      "options": [
+        {
+          "text": "Al estar la información diseminada, no hay una única versión de la verdad a la cual atenerse",
+          "correct": false
+        },
+        {
+          "text": "La información en las empresas siempre se ha encontrado demasiado centralizada",
+          "correct": true
+        },
+        {
+          "text": "La información dentro de la empresa suele estar diseminada por distintos sistemas y/u hojas de cálculo",
+          "correct": false
+        },
+        {
+          "text": "Si quienes toman las decisiones tienen que esperar al informe, éste suele llegar tarde y eso aumenta el riesgo para la empresa",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD05_017",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los mapas de calor",
+      "options": [
+        {
+          "text": "Tienen utilidad cuando los datos de entrada tienen 3 dimensiones",
+          "correct": true
+        },
+        {
+          "text": "Únicamente tienen sentido si se dibujan sobre un mapa terráqueo",
+          "correct": false
+        },
+        {
+          "text": "Son análogos a los histogramas",
+          "correct": false
+        },
+        {
+          "text": "Únicamente reflejan temperatura medida por estaciones meteorológicas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD05_018",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Cuando una empresa tiene un datawarehouse",
+      "options": [
+        {
+          "text": "Siempre es necesario que además haya varios datamarts",
+          "correct": false
+        },
+        {
+          "text": "No puede haber datamarts porque son excluyentes",
+          "correct": false
+        },
+        {
+          "text": "Puede haber o no haber datamarts",
+          "correct": true
+        },
+        {
+          "text": "Siempre es necesario que además haya un datamart",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD05_019",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Cuando definimos requisitos para Inteligencia de Negocio, los \"Medidas\" son",
+      "options": [
+        {
+          "text": "Los eventos del negocio acerca de los cuales querremos generar informes o producir cualquier tipo de analítica",
+          "correct": false
+        },
+        {
+          "text": "Las dimensiones del negocio sobre las cuales se puede desear tomar porciones",
+          "correct": false
+        },
+        {
+          "text": "Las acciones a tomar",
+          "correct": false
+        },
+        {
+          "text": "Los valores que se quieren analizar o reportar",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD05_020",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Un gráfico de líneas",
+      "options": [
+        {
+          "text": "Es equivalente a uno de puntos con en el que cada posible valor de y para la x es conocido gracias a una función",
+          "correct": false
+        },
+        {
+          "text": "Es similar a uno de puntos pero uniendo los puntos contíguos en cada serie para dar una sensación de continuidad",
+          "correct": true
+        },
+        {
+          "text": "No existe tal tipo de gráfico",
+          "correct": false
+        },
+        {
+          "text": "No guarda ninguna relación con un gráfico de puntos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD05_021",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una de las siguientes no es una característica a considerar típicamente en las herramientas para Inteligencia de Negocio:",
+      "options": [
+        {
+          "text": "Capacidad para la replicación de datos",
+          "correct": true
+        },
+        {
+          "text": "Seguridad",
+          "correct": false
+        },
+        {
+          "text": "Capacidad para crear cuadros de mando",
+          "correct": false
+        },
+        {
+          "text": "Capacidad para el autoservicio de informes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD05_022",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Trabajando con Power BI, si queremos relacionar dos campos de distintas tablas:",
+      "options": [
+        {
+          "text": "Power BI creará automáticamente la relación si tienen el mismo nombre, y si no lo hacemos manualmente en la vista 'Modelo'.",
+          "correct": true
+        },
+        {
+          "text": "Sólo podemos hacerlo poniéndoles el mismo nombre a los campos para que Power BI lo detecte y cree automáticamente la relación",
+          "correct": false
+        },
+        {
+          "text": "No puede hacerse",
+          "correct": false
+        },
+        {
+          "text": "Debe indicarse mediante clave externa en los esquemas de las propias tablas que importamos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD05_023",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Cuando en un cuadro de mando de Power BI hacemos clic sobre una porción en un gráfico circular:",
+      "options": [
+        {
+          "text": "Cambia automáticamente la configuración de colores del cuadro de mando",
+          "correct": false
+        },
+        {
+          "text": "Toda la información se filtra de modo que se excluye la referente al significado de la porción seleccionada",
+          "correct": false
+        },
+        {
+          "text": "No ocurre nada.",
+          "correct": false
+        },
+        {
+          "text": "Toda la información se filtra de modo que sólo vemos la referente al significado de la porción seleccionada",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD05_024",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Cuando definimos requisitos para Inteligencia de Negocio, los 'Hechos' son",
+      "options": [
+        {
+          "text": "Las acciones a tomar",
+          "correct": false
+        },
+        {
+          "text": "Las dimensiones del negocio sobre las cuales se puede desear tomar porciones",
+          "correct": false
+        },
+        {
+          "text": "Los valores que se quieren analizar o reportar",
+          "correct": false
+        },
+        {
+          "text": "Los eventos del negocio acerca de los cuales querremos generar informes o producir cualquier tipo de analítica",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD05_025",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una de los siguientes es un ejemplo de 'Dimensiones' a la hora de definir requisitos para Inteligencia de Negocio:",
+      "options": [
+        {
+          "text": "Por adelantado",
+          "correct": false
+        },
+        {
+          "text": "Por entendido",
+          "correct": false
+        },
+        {
+          "text": "Por descontado",
+          "correct": false
+        },
+        {
+          "text": "Por cliente",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD05_026",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una de las siguientes es una de las desventajas típicamente asociadas a las herramientas de Inteligencia de Negocio en la nube:",
+      "options": [
+        {
+          "text": "Por defecto sólo muestran información contenida en el ERP",
+          "correct": false
+        },
+        {
+          "text": "Son soluciones caras, tanto de adquirir como de poner en marcha",
+          "correct": false
+        },
+        {
+          "text": "Su puesta en marcha supone un mayor riesgo económico, ya que se paga por uso",
+          "correct": false
+        },
+        {
+          "text": "Algunas soluciones son demasiado simples",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SBD05_027",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Al crear un cuadro de mando:",
+      "options": [
+        {
+          "text": "Mostrar la información relevante, el estilo y la apariencia están al mismo nivel de importancia.",
+          "correct": false
+        },
+        {
+          "text": "Lo más importante es mostrar la información relevante, a ser posible con buen estilo y apariencia.",
+          "correct": true
+        },
+        {
+          "text": "Lo más importante es conseguir una frecuencia de actualización con la que el usuario quede satisfecho.",
+          "correct": false
+        },
+        {
+          "text": "Lo más importante es cuidar el estilo y la apariencia, aunque haya que prescindir de parte de la información.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SBD05_028",
+      "module": "SBD05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Uno de los siguientes no es uno de los factores típicamente a considerar antes de crear un cuadro de mando:",
+      "options": [
+        {
+          "text": "Qué combinación de colores es la más apropiada",
+          "correct": true
+        },
+        {
+          "text": "Con qué tipo de datos se está trabajando.",
+          "correct": false
+        },
+        {
+          "text": "Cómo se accederá al cuadro de mandos.",
+          "correct": false
+        },
+        {
+          "text": "Cómo de experimentados son los usuarios.",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "SBD_FC_001",
+      "module": "SBD01",
+      "priority": "medium",
+      "front": "¿Qué es Big Data?",
+      "back": "Un fenómeno que implica el tratamiento de grandes cantidades de datos, superando los sistemas convencionales monomáquina. Se caracteriza por las 5 Vs: Volumen, Velocidad, Variedad, Veracidad y Valor."
+    },
+    {
+      "id": "SBD_FC_002",
+      "module": "SBD01",
+      "priority": "medium",
+      "front": "¿Cuáles son las 5 Vs de Big Data?",
+      "back": "Volumen, Velocidad, Variedad, Veracidad y Valor."
+    },
+    {
+      "id": "SBD_FC_003",
+      "module": "SBD01",
+      "priority": "medium",
+      "front": "¿Qué es un clúster de computadoras?",
+      "back": "Un conjunto de computadoras (servidores o nodos) conectados entre sí mediante red para trabajar como una única unidad resolviendo cargas de trabajo de forma conjunta."
+    },
+    {
+      "id": "SBD_FC_004",
+      "module": "SBD01",
+      "priority": "medium",
+      "front": "¿Cuáles son las ventajas del uso de clústeres?",
+      "back": "Alto rendimiento, Alta disponibilidad, Equilibrado de carga y Escalabilidad."
+    },
+    {
+      "id": "SBD_FC_005",
+      "module": "SBD01",
+      "priority": "medium",
+      "front": "¿Qué es un dataset?",
+      "back": "Una colección de datos que guardan una cierta relación debido a la cual tiene sentido tratarlos juntos."
+    },
+    {
+      "id": "SBD_FC_006",
+      "module": "SBD01",
+      "priority": "medium",
+      "front": "¿Qué es un almacén de datos?",
+      "back": "Un repositorio central de datos a nivel institucional o empresarial, dentro del cual se almacenan tanto datos actuales como históricos. Se emplean para inteligencia de negocio (BI) y analítica."
+    },
+    {
+      "id": "SBD_FC_007",
+      "module": "SBD01",
+      "priority": "medium",
+      "front": "¿Qué es un Data Lake?",
+      "back": "Un repositorio de almacenamiento que contiene una gran cantidad de datos en bruto y que se mantienen allí hasta que sea necesario. Utiliza una arquitectura plana."
+    },
+    {
+      "id": "SBD_FC_008",
+      "module": "SBD01",
+      "priority": "medium",
+      "front": "¿Cuáles son los tipos de datos que se pueden almacenar en un Data Lake?",
+      "back": "Estructurados, No estructurados y Semiestructurados."
+    },
+    {
+      "id": "SBD_FC_009",
+      "module": "SBD01",
+      "priority": "medium",
+      "front": "¿Qué es ACID?",
+      "back": "Un principio fundamental de diseño para bases de datos transaccionales que se basa en Atomicidad, Consistencia, Aislamiento y Durabilidad."
+    },
+    {
+      "id": "SBD_FC_010",
+      "module": "SBD01",
+      "priority": "medium",
+      "front": "¿Qué es el teorema CAP?",
+      "back": "Establece que una base de datos distribuida sólo puede cumplir como máximo con 2 de las siguientes 3 propiedades: Consistencia, Disponibilidad y Tolerancia a particionamiento."
+    },
+    {
+      "id": "SBD_FC_011",
+      "module": "SBD01",
+      "priority": "medium",
+      "front": "¿Qué es BASE?",
+      "back": "Un principio de diseño de bases de datos basado en las restricciones impuestas por el teorema CAP que prioriza la disponibilidad antes que la consistencia."
+    },
+    {
+      "id": "SBD_FC_012",
+      "module": "SBD01",
+      "priority": "medium",
+      "front": "¿Cuáles son las estrategias de procesamiento de datos que se emplean en Big Data?",
+      "back": "Por lotes, Transaccional, En tiempo real y Streaming."
+    },
+    {
+      "id": "SBD_FC_013",
+      "module": "SBD01",
+      "priority": "medium",
+      "front": "¿Qué es OLTP?",
+      "back": "Un sistema orientado a transacciones, que trata con datos operacionales del día a día, relacionados con acciones en tiempo real, con tiempos de respuesta inferiores a un segundo."
+    },
+    {
+      "id": "SBD_FC_014",
+      "module": "SBD01",
+      "priority": "medium",
+      "front": "¿Qué es OLAP?",
+      "back": "Un sistema orientado a procesar consultas de tipo analítico en tiempo real, parte integral de la inteligencia de negocio (BI) y la minería de datos. Almacena datos en bases de datos multidimensionales."
+    },
+    {
+      "id": "SBD_FC_015",
+      "module": "SBD01",
+      "priority": "medium",
+      "front": "¿Qué es el principio SCV?",
+      "back": "Establece que un sistema de procesamiento distribuido sólo puede soportar como máximo 2 de las 3 características: Velocidad, Consistencia y Volumen."
+    },
+    {
+      "id": "SBD_FC_016",
+      "module": "SBD02",
+      "priority": "medium",
+      "front": "¿Qué es el almacenamiento de datos?",
+      "back": "El proceso de guardar y organizar datos."
+    },
+    {
+      "id": "SBD_FC_017",
+      "module": "SBD02",
+      "priority": "medium",
+      "front": "¿Qué es un sistema de ficheros?",
+      "back": "Es la infraestructura necesaria para poder almacenar y organizar datos en unidades de almacenamiento, ya sean discos duros, memorias de estado sólido, cintas o DVDs."
+    },
+    {
+      "id": "SBD_FC_018",
+      "module": "SBD02",
+      "priority": "medium",
+      "front": "¿Qué es un fichero?",
+      "back": "La unidad atómica de almacenamiento empleada para almacenar los datos."
+    },
+    {
+      "id": "SBD_FC_019",
+      "module": "SBD02",
+      "priority": "medium",
+      "front": "¿Qué es RAID?",
+      "back": "Es un sistema de almacenamiento de datos que es capaz de distribuirlos por múltiples unidades según diversas estrategias para así conseguir o bien unidades mayores que el mayor de los discos que tengamos, o bien replicación automática de nuestros datos o bien ambas cosas."
+    },
+    {
+      "id": "SBD_FC_020",
+      "module": "SBD02",
+      "priority": "medium",
+      "front": "¿Qué es un sistema de ficheros distribuido?",
+      "back": "Es aquel que es capaz de almacenar ficheros distribuyendo el contenido de los mismos en las distintas máquinas que conforman un clúster."
+    },
+    {
+      "id": "SBD_FC_021",
+      "module": "SBD02",
+      "priority": "medium",
+      "front": "¿Qué es HDFS?",
+      "back": "Es el sistema de ficheros distribuidos de Apache Hadoop."
+    },
+    {
+      "id": "SBD_FC_022",
+      "module": "SBD02",
+      "priority": "medium",
+      "front": "¿Qué es un almacenamiento en memoria?",
+      "back": "Es un sistema que mantiene los datos en memoria RAM."
+    },
+    {
+      "id": "SBD_FC_023",
+      "module": "SBD02",
+      "priority": "medium",
+      "front": "¿Qué es un base de datos NoSQL?",
+      "back": "Son un conjunto de bases de datos que por alguna razón escapan de la denominación de base de datos relacional."
+    },
+    {
+      "id": "SBD_FC_024",
+      "module": "SBD02",
+      "priority": "medium",
+      "front": "¿Qué es el schema-on-read?",
+      "back": "Permiten realizar escrituras (en este caso no de registros sino de documentos) sin necesidad de cumplir con un esquema de tabla. Es en el momento de la lectura cuando se interpreta el esquema de cada documento."
+    },
+    {
+      "id": "SBD_FC_025",
+      "module": "SBD02",
+      "priority": "medium",
+      "front": "¿Cuáles son los tipos principales de bases de datos NoSQL?",
+      "back": "Documentales, Clave-Valor, Columnares, Orientadas a grafo."
+    },
+    {
+      "id": "SBD_FC_026",
+      "module": "SBD02",
+      "priority": "medium",
+      "front": "¿Qué es la replicación?",
+      "back": "Consiste en almacenar copias de un mismo conjunto de datos (llamadas réplicas) en distintos nodos de un clúster."
+    },
+    {
+      "id": "SBD_FC_027",
+      "module": "SBD02",
+      "priority": "medium",
+      "front": "¿Qué es el sharding?",
+      "back": "Es un mecanismo para particionar un conjunto de datos en subconjuntos más pequeños (shards) de modo que puedan ser distribuidos por los distintos nodos de un cluster."
+    },
+    {
+      "id": "SBD_FC_028",
+      "module": "SBD02",
+      "priority": "medium",
+      "front": "¿Cuál es la principal ventaja de las bases de datos orientadas a grafo?",
+      "back": "Funcionan muy bien para problemas en cuyos datos se organizan en base a complejas relaciones."
+    },
+    {
+      "id": "SBD_FC_029",
+      "module": "SBD02",
+      "priority": "medium",
+      "front": "¿Cuál es el comando para cambiar de base de datos en MongoDB?",
+      "back": "use <db>"
+    },
+    {
+      "id": "SBD_FC_030",
+      "module": "SBD03",
+      "priority": "medium",
+      "front": "¿Qué es ETL?",
+      "back": "ETL (\"Extraer, Transformar, Cargar\") es el proceso que de forma necesaria es necesario realizar si tenemos datos provenientes de una o varias fuentes y queremos enviarlos de forma unificada a un almacenamiento de destino."
+    },
+    {
+      "id": "SBD_FC_031",
+      "module": "SBD03",
+      "priority": "medium",
+      "front": "¿Cuáles son las 3 fases del proceso ETL?",
+      "back": "1. Extraer, 2. Transformar, 3. Cargar"
+    },
+    {
+      "id": "SBD_FC_032",
+      "module": "SBD03",
+      "priority": "medium",
+      "front": "¿En qué consiste la fase de extracción (Extraer) en ETL?",
+      "back": "Es la fase en la que se extraen los datos desde diversas fuentes, incluyendo una validación previa de los mismos."
+    },
+    {
+      "id": "SBD_FC_033",
+      "module": "SBD03",
+      "priority": "medium",
+      "front": "¿Qué se hace en la fase de transformación (Transform) en ETL?",
+      "back": "Se realiza todo el proceso de transformación de los datos para dejarlos en el formato finalmente deseado. Entre otras cosas incluye limpiar datos y crear datos sintéticos."
+    },
+    {
+      "id": "SBD_FC_034",
+      "module": "SBD03",
+      "priority": "medium",
+      "front": "¿Qué ocurre en la fase de carga (Load) en ETL?",
+      "back": "Finalmente se cargan los datos en el destino final, el cual como hemos dicho suele ser o bien un almacén de datos o un sistema de ficheros distribuido."
+    },
+    {
+      "id": "SBD_FC_035",
+      "module": "SBD03",
+      "priority": "medium",
+      "front": "¿Qué es Apache Sqoop?",
+      "back": "Apache Sqoop es una herramienta de línea de comandos que forma parte del ecosistema Hadoop y que está diseñada para permitirnos obtener datos desde bases de datos relacionales."
+    },
+    {
+      "id": "SBD_FC_036",
+      "module": "SBD03",
+      "priority": "medium",
+      "front": "¿Qué es Apache Flume?",
+      "back": "Apache Flume es un software distribuido que permite obtener y agregar datos en streaming desde gran cantidad de fuentes no estructuradas o semiestructuradas para transferirlos generalmente a sistemas de ficheros distribuidos."
+    },
+    {
+      "id": "SBD_FC_037",
+      "module": "SBD03",
+      "priority": "medium",
+      "front": "¿Qué es la Integración de Datos?",
+      "back": "El procedimiento de integración busca entregar una visión unificada de los datos a aquellos usuarios o procesos que vayan a utilizarlos (lo que, como veremos, no sólo puede conseguirse mediante procedimiento de copiado)."
+    },
+    {
+      "id": "SBD_FC_038",
+      "module": "SBD03",
+      "priority": "medium",
+      "front": "¿Cuál es la condición básica para poder tratar datos personales según el RGPD?",
+      "back": "Que el interesado dé su consentimiento."
+    },
+    {
+      "id": "SBD_FC_039",
+      "module": "SBD03",
+      "priority": "medium",
+      "front": "¿Cuáles son los derechos ARCO de los interesados según el RGPD?",
+      "back": "Acceso, Rectificación, Cancelación y Oposición"
+    },
+    {
+      "id": "SBD_FC_040",
+      "module": "SBD03",
+      "priority": "medium",
+      "front": "¿Qué es la seudonimización de datos?",
+      "back": "Es tratar los datos de modo que no se pueda reconocer la identidad de una persona sin utilizar información adicional."
+    },
+    {
+      "id": "SBD_FC_041",
+      "module": "SBD03",
+      "priority": "medium",
+      "front": "¿Qué es el Gobierno de Datos?",
+      "back": "Es el ejercicio de control y autoridad y comunicación sobre la gestión realizada de los datos, con la finalidad de asegurar que tal gestión es correcta de acuerdo con las políticas y las mejores prácticas."
+    },
+    {
+      "id": "SBD_FC_042",
+      "module": "SBD03",
+      "priority": "medium",
+      "front": "¿Cuál es la relación entre la Gestión de Datos y el Gobierno de Datos?",
+      "back": "El Gobierno de Datos supervisa la Gestión de Datos."
+    },
+    {
+      "id": "SBD_FC_043",
+      "module": "SBD03",
+      "priority": "medium",
+      "front": "¿Cuáles son los objetivos generales del Gobierno de Datos?",
+      "back": "Facilitar a las organizaciones la gestión de sus datos como los activos que son. Definir, implementar y comunicar, en relación a los datos. Monitorizar y guiar el cumplimiento de las políticas definidas respecto a gestión de los datos."
+    },
+    {
+      "id": "SBD_FC_044",
+      "module": "SBD04",
+      "priority": "medium",
+      "front": "¿Qué es un algoritmo?",
+      "back": "Un conjunto de instrucciones que realizadas en orden permiten solucionar un problema."
+    },
+    {
+      "id": "SBD_FC_045",
+      "module": "SBD04",
+      "priority": "medium",
+      "front": "¿Cuáles son las características que debe tener un algoritmo?",
+      "back": "Preciso, Finito y Definido."
+    },
+    {
+      "id": "SBD_FC_046",
+      "module": "SBD04",
+      "priority": "medium",
+      "front": "¿Qué es la lógica algorítmica?",
+      "back": "La base para comprender cómo se definen las soluciones a problemas."
+    },
+    {
+      "id": "SBD_FC_047",
+      "module": "SBD04",
+      "priority": "medium",
+      "front": "¿Qué es la combinatoria y explosión combinacional?",
+      "back": "Bases relacionadas con la matemática discreta para comprender lo grande que puede llegar a ser el espacio de soluciones de un problema debido a la combinatoria."
+    },
+    {
+      "id": "SBD_FC_048",
+      "module": "SBD04",
+      "priority": "medium",
+      "front": "¿Qué es la complejidad computacional?",
+      "back": "El estudio de la complejidad de los problemas en función de los recursos en tiempo o memoria necesarios para resolverlos con el mejor algoritmo posible."
+    },
+    {
+      "id": "SBD_FC_049",
+      "module": "SBD04",
+      "priority": "medium",
+      "front": "¿Cuál es la diferencia entre Análisis de Datos y Analítica de Datos?",
+      "back": "El análisis de datos consiste en encontrar hechos, relaciones, patrones, revelaciones y/o tendencias. La analítica de datos es un concepto más amplio, ya que incluye dentro al propio análisis de datos así como al resto de actividades alrededor del ciclo de vida del dato."
+    },
+    {
+      "id": "SBD_FC_050",
+      "module": "SBD04",
+      "priority": "medium",
+      "front": "¿Cuáles son los cuatro niveles de la analítica de datos?",
+      "back": "Análisis Descriptivo, Análisis Diagnóstico, Análisis Predictivo y Análisis Prescriptivo."
+    },
+    {
+      "id": "SBD_FC_051",
+      "module": "SBD04",
+      "priority": "medium",
+      "front": "¿Qué es SEMMA?",
+      "back": "Una lista de pasos secuenciales desarrollada por SAS Institute que se emplean en muchas ocasiones a modo de metodología para la minería de datos."
+    },
+    {
+      "id": "SBD_FC_052",
+      "module": "SBD04",
+      "priority": "medium",
+      "front": "¿Qué es CRISP-DM?",
+      "back": "Cross-industry standard process for data mining: Una metodología ampliamente empleada para el proceso de minería de datos que goza de una cierta oficialidad."
+    },
+    {
+      "id": "SBD_FC_053",
+      "module": "SBD04",
+      "priority": "medium",
+      "front": "¿Qué es R?",
+      "back": "Un lenguaje de programación interpretado de código abierto creado específicamente para facilitar el análisis de datos."
+    },
+    {
+      "id": "SBD_FC_054",
+      "module": "SBD04",
+      "priority": "medium",
+      "front": "¿Cuáles son las tres librerías de Python para el análisis de datos?",
+      "back": "NumPy, Pandas y Matplotlib."
+    },
+    {
+      "id": "SBD_FC_055",
+      "module": "SBD04",
+      "priority": "medium",
+      "front": "¿Qué es un DataFrame en Pandas?",
+      "back": "El equivalente a un array bidimensional al que podemos asociar etiquetas tanto para columnas como para filas y que permite trabajar con datos desconocidos."
+    },
+    {
+      "id": "SBD_FC_056",
+      "module": "SBD04",
+      "priority": "medium",
+      "front": "¿Qué es NumPy?",
+      "back": "Librería de Python que añade soporte para arrays (multidimensionales) y matrices (bidimensionales), junto a una gran cantidad de operaciones optimizadas para trabajar sobre esas estructuras de datos."
+    },
+    {
+      "id": "SBD_FC_057",
+      "module": "SBD04",
+      "priority": "medium",
+      "front": "¿Para qué sirve Matplotlib?",
+      "back": "Aporta capacidades de visualización de datos."
+    },
+    {
+      "id": "SBD_FC_058",
+      "module": "SBD04",
+      "priority": "medium",
+      "front": "¿Qué es una lista en Python?",
+      "back": "Algo equivalente a un vector en el que cada elemento puede ser de un tipo distinto."
+    },
+    {
+      "id": "SBD_FC_059",
+      "module": "SBD05",
+      "priority": "medium",
+      "front": "¿Qué es la Inteligencia de Negocio (BI)?",
+      "back": "Un conjunto de tecnologías y técnicas empleadas por las empresas para realizar una correcta gestión del negocio y una toma inteligente de decisiones basándose en los datos disponibles."
+    },
+    {
+      "id": "SBD_FC_060",
+      "module": "SBD05",
+      "priority": "medium",
+      "front": "¿Cuáles son algunos problemas comunes que la BI busca solucionar?",
+      "back": "Información diseminada, falta de una única versión de la verdad, carga de trabajo excesiva, retraso en la toma de decisiones, calidad de los informes variable, desperdicio de recursos."
+    },
+    {
+      "id": "SBD_FC_061",
+      "module": "SBD05",
+      "priority": "medium",
+      "front": "¿Qué son los hechos, medidas y dimensiones en el contexto de la definición de requisitos de BI?",
+      "back": "Hechos: eventos del negocio (ventas, compras). Medidas: valores a analizar (ingresos, costes). Dimensiones: aspectos del negocio a filtrar (cliente, producto)."
+    },
+    {
+      "id": "SBD_FC_062",
+      "module": "SBD05",
+      "priority": "medium",
+      "front": "¿Cuáles son los tres tipos de herramientas de BI mencionadas en el documento?",
+      "back": "Soluciones de Inteligencia de Negocio empresarial, Inteligencia de Negocio incluida en ERP, y Herramientas de Inteligencia de Negocio en la nube."
+    },
+    {
+      "id": "SBD_FC_063",
+      "module": "SBD05",
+      "priority": "medium",
+      "front": "¿Cuáles son las características a considerar al elegir herramientas de BI?",
+      "back": "Capacidad para autoservicio de informes, visualización de datos, creación de cuadros de mando, planificación de informes, integración con Microsoft Office, soporte móvil, y seguridad."
+    },
+    {
+      "id": "SBD_FC_064",
+      "module": "SBD05",
+      "priority": "medium",
+      "front": "¿Qué es un datawarehouse?",
+      "back": "Un repositorio en el que una organización guarda tanto información histórica como reciente, no para trabajo transaccional sino analítico."
+    },
+    {
+      "id": "SBD_FC_065",
+      "module": "SBD05",
+      "priority": "medium",
+      "front": "¿Qué es un datamart?",
+      "back": "Un subconjunto de la información empresarial que responde a las necesidades de un departamento, división o línea de negocio de la empresa."
+    },
+    {
+      "id": "SBD_FC_066",
+      "module": "SBD05",
+      "priority": "medium",
+      "front": "¿Cuáles son las principales técnicas de representación visual mencionadas?",
+      "back": "Gráfico de puntos, de líneas, de barras apiladas, circular, de burbujas sobre mapa, de cajas, mapa de calor e indicadores."
+    },
+    {
+      "id": "SBD_FC_067",
+      "module": "SBD05",
+      "priority": "medium",
+      "front": "¿Qué es un cuadro de mando (dashboard)?",
+      "back": "Una herramienta para presentar información clave de un negocio en una pantalla, de manera dinámica y visual."
+    },
+    {
+      "id": "SBD_FC_068",
+      "module": "SBD05",
+      "priority": "medium",
+      "front": "¿Cuáles son algunas métricas categorizadas por áreas de negocio que se utilizan en los cuadros de mando?",
+      "back": "Ventas, Marketing, Finanzas, Soporte técnico, Cumplimiento, Fabricación, Recursos Humanos."
+    },
+    {
+      "id": "SBD_FC_069",
+      "module": "SBD05",
+      "priority": "medium",
+      "front": "¿Cuáles son las características fundamentales de las métricas en BI?",
+      "back": "Accionable, Transparente, Accesible, y Reconocible."
+    },
+    {
+      "id": "SBD_FC_070",
+      "module": "SBD05",
+      "priority": "medium",
+      "front": "¿Qué es el KPI?",
+      "back": "El indicador clave de rendimiento."
+    },
+    {
+      "id": "SBD_FC_071",
+      "module": "SBD05",
+      "priority": "medium",
+      "front": "¿Qué se debe evitar al crear un cuadro de mando?",
+      "back": "Concentrarse excesivamente en la apariencia, ya que el enfoque principal debe ser la información relevante."
+    },
+    {
+      "id": "SBD_FC_072",
+      "module": "SBD05",
+      "priority": "medium",
+      "front": "¿Qué debe tener en cuenta el creador de un cuadro de mando al elegir las métricas?",
+      "back": "Se debe mostrar métricas accionables, que sean transparentes, accesibles y reconocibles."
+    }
+  ],
+  "practicalQuestions": []
+}

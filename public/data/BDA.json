@@ -1,0 +1,3396 @@
+{
+  "subject": "BDA",
+  "name": "Big Data Aplicado",
+  "examInfo": {
+    "description": "10-15 test + 5 respuesta corta + 1-3 prácticas MapReduce. En papel, sin dispositivos.",
+    "scoring": "Sin puntuación negativa especificada",
+    "topics": "Hadoop, HDFS, MapReduce, Hive, Pig, Spark, Data Lakes, EMR"
+  },
+  "questions": [
+    {
+      "id": "BDA01_001",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué componente del ecosistema Hadoop permite acceder a los ficheros de HDFS con lenguaje SQL, como si fueran tablas de una base de datos?",
+      "options": [
+        {
+          "text": "Kafka",
+          "correct": false
+        },
+        {
+          "text": "MapReduce",
+          "correct": false
+        },
+        {
+          "text": "Hive",
+          "correct": true
+        },
+        {
+          "text": "Pig",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA01_002",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Sqoop es el componente que se utiliza para ingestar datos de sensores en Hadoop. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA01_003",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Hadoop cubre bien los casos de uso donde se quiere analizar datos con algoritmos de Machine Learning. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA01_004",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Hadoop requiere hardware commodity, lo que significa que puedo montarme un clúster en casa con los PCs obsoletos que tengo. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA01_005",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué tipo de nodo en Hadoop tiene discos en RAID?",
+      "options": [
+        {
+          "text": "Los nodos master",
+          "correct": true
+        },
+        {
+          "text": "Los nodos worker",
+          "correct": false
+        },
+        {
+          "text": "Ningún nodo",
+          "correct": false
+        },
+        {
+          "text": "Todos los nodos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA01_006",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es el componente que se utiliza para planificar, orquestar o automatizar flujos de trabajo en Hadoop?",
+      "options": [
+        {
+          "text": "Hive",
+          "correct": false
+        },
+        {
+          "text": "YARN",
+          "correct": false
+        },
+        {
+          "text": "Impala",
+          "correct": false
+        },
+        {
+          "text": "Oozie",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA01_007",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué cantidad de memoria es recomendada para la instalación de Hadoop?",
+      "options": [
+        {
+          "text": "64 Gb en los nodos worker y 256 Gb en los nodos master",
+          "correct": false
+        },
+        {
+          "text": "Al menos 1 Tb en todos los nodos",
+          "correct": false
+        },
+        {
+          "text": "Se recomienda 256 Gb de memoria RAM en todos los nodos",
+          "correct": true
+        },
+        {
+          "text": "Al necesitar hardware commodity, no importa la cantidad de memoria",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA01_008",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Sobre el tipo de red en el que conectar Hadoop, ¿qué afirmación es correcta?",
+      "options": [
+        {
+          "text": "No importa el ancho de banda de la red, pero sí que tenga un ping muy bajo",
+          "correct": false
+        },
+        {
+          "text": "La red debería tener un buen ancho de banda, por ejemplo 10-20 Gbps",
+          "correct": true
+        },
+        {
+          "text": "Al necesitar hardware commodity, no importa el tipo de red",
+          "correct": false
+        },
+        {
+          "text": "Hadoop no necesita red de comunicaciones",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA01_009",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Storm permite procesar datos que llegan en streaming. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA01_010",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál de las siguientes afirmaciones el correcta sobre las soluciones de Hadoop-as-a-Service?",
+      "options": [
+        {
+          "text": "No requieren un desembolso inicial",
+          "correct": true
+        },
+        {
+          "text": "Son difíciles de instalar o configurar",
+          "correct": false
+        },
+        {
+          "text": "Son muy baratas, pero hay que estudiar muy bien qué dimensionamiento debe tener la plataforma",
+          "correct": false
+        },
+        {
+          "text": "Son mucho más eficientes que las soluciones en infraestructura propia",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA01_011",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Hadoop es la única tecnología capaz de almacenar y procesar grandes volúmenes de datos hasta un volumen de petabytes. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA01_012",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuáles son las herramientas del ecosistema Hadoop más utilizadas?",
+      "options": [
+        {
+          "text": "Impala, Sqoop y Storm",
+          "correct": false
+        },
+        {
+          "text": "Spark, Hive y Kafka",
+          "correct": true
+        },
+        {
+          "text": "Impala, Pig y HBase",
+          "correct": false
+        },
+        {
+          "text": "Spark, Oozie y Mahout",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA01_013",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Aproximadamente, cuánto costaría una infraestructura Hadoop de 10 nodos worker, 2 nodos master y 1 nodo frontera?",
+      "options": [
+        {
+          "text": "1.000.000 euros",
+          "correct": false
+        },
+        {
+          "text": "100.000 euros",
+          "correct": true
+        },
+        {
+          "text": "300.000 euros",
+          "correct": false
+        },
+        {
+          "text": "10.000 euros",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA01_014",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Hadoop, como es una solución bastante moderna, no tiene una herramienta de gobierno de datos. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA01_015",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo se llama el sistema de almacenamiento de Hadoop?",
+      "options": [
+        {
+          "text": "MapReduce",
+          "correct": false
+        },
+        {
+          "text": "GFS",
+          "correct": false
+        },
+        {
+          "text": "HDFS",
+          "correct": true
+        },
+        {
+          "text": "YARN",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA01_016",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo se consigue escalar o ganar mayor capacidad en una plataforma Hadoop?",
+      "options": [
+        {
+          "text": "Cambiando los servidores por otros con CPUs más potentes",
+          "correct": false
+        },
+        {
+          "text": "Añadiendo más nodos master al clúster",
+          "correct": false
+        },
+        {
+          "text": "Realizando optimizaciones en los sistemas operativos",
+          "correct": false
+        },
+        {
+          "text": "Añadiendo más nodos worker al clúster",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA01_017",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Hadoop es una tecnología fácil de instalar y administrar. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA01_018",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál de las siguientes afirmaciones es más apropiada para Hadoop?",
+      "options": [
+        {
+          "text": "Hadoop se despliega en infraestructura propia, no en entornos cloud",
+          "correct": false
+        },
+        {
+          "text": "Cambió el paradigma tradicional, acercando el procesamiento a donde se almacenan los datos",
+          "correct": true
+        },
+        {
+          "text": "Es la mejor tecnología para cualquier caso de uso Big Data",
+          "correct": false
+        },
+        {
+          "text": "El nivel de seguridad es muy alto, al nivel de otras tecnologías de gestión de datos tradicionales (como las bases de datos relacionales)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA01_019",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Hadoop no es un sistema eficiente para casos de uso de poca volumetría. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA01_020",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Hadoop no es un sistema eficiente para casos de uso de poca volumetría ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA01_021",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la herramienta o componente del ecosistema Hadoop con la que los Data Scientists realizan análisis interactivos?",
+      "options": [
+        {
+          "text": "Ambari",
+          "correct": false
+        },
+        {
+          "text": "Hive",
+          "correct": false
+        },
+        {
+          "text": "HDFS",
+          "correct": false
+        },
+        {
+          "text": "Zeppelin",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA01_022",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "La arquitectura de Hadoop se basa en tener nodos worker, que hacen el trabajo, y nodos master que coordinan ese trabajo. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA01_023",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "El coste de Hadoop es similar al de las bases de datos relacionales, la diferencia está en que Hadoop es escalable. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA01_024",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Google está utilizando Hadoop para la generación de los índices de búsqueda ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA01_025",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Hadoop es un proyecto liderado por la empresa Cloudera. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA01_026",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los nodos frontera realizan parte del trabajo de procesamiento con los datos en una plataforma Hadoop. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA01_027",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál de las siguientes distribuciones Hadoop se encuentra activa hoy en día:",
+      "options": [
+        {
+          "text": "Sólo existen distribuciones en cloud",
+          "correct": false
+        },
+        {
+          "text": "Cloudera.",
+          "correct": true
+        },
+        {
+          "text": "MAPR",
+          "correct": false
+        },
+        {
+          "text": "Hortonworks.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA01_028",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Se suele considerar a Doug Cutting como el \"padre de Hadoop\". ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA01_029",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué tipo de escalado es el más apropiado para Hadoop?",
+      "options": [
+        {
+          "text": "Escalado horizontal",
+          "correct": true
+        },
+        {
+          "text": "Hadoop no escala",
+          "correct": false
+        },
+        {
+          "text": "Escalado vertical",
+          "correct": false
+        },
+        {
+          "text": "Escalado tangencial",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA01_030",
+      "module": "BDA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo se llama la solución Hadoop que ofrece Amazon Web Services?",
+      "options": [
+        {
+          "text": "HDInsight",
+          "correct": false
+        },
+        {
+          "text": "EMR",
+          "correct": true
+        },
+        {
+          "text": "Dataproc",
+          "correct": false
+        },
+        {
+          "text": "Amazon Web Services no ofrece una solución Hadoop",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA02_001",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Hadoop requiere hardware commodity, lo que significa que puedo montarme un clúster en casa con los PCs obsoletos que tengo.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA02_002",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "HDFS está optimizado para ficheros de gran tamaño.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA02_003",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "HDFS es una implementación del paper de Google denominado GFS (Google File System).",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA02_004",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es el comando de HDFS para llevar un fichero desde el disco del nodo frontera hasta HDFS?",
+      "options": [
+        {
+          "text": "cp",
+          "correct": false
+        },
+        {
+          "text": "put",
+          "correct": true
+        },
+        {
+          "text": "mv",
+          "correct": false
+        },
+        {
+          "text": "mv external",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA02_005",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es el comando de HDFS para modificar el factor de replicación de un fichero?",
+      "options": [
+        {
+          "text": "setrep",
+          "correct": true
+        },
+        {
+          "text": "chmod",
+          "correct": false
+        },
+        {
+          "text": "mod",
+          "correct": false
+        },
+        {
+          "text": "mod rf",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA02_006",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Se suele decir que YARN es el sistema operativo de Hadoop.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA02_007",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Si tengo un HDFS con 10 datanodes, y cada datanode tiene una capacidad de 10 terabytes. ¿Cuál será la capacidad real, si no modifico ningún parámetro de HDFS?",
+      "options": [
+        {
+          "text": "Unos 50 terabytes",
+          "correct": false
+        },
+        {
+          "text": "Unos 20 terabytes",
+          "correct": true
+        },
+        {
+          "text": "100 terabytes",
+          "correct": false
+        },
+        {
+          "text": "10 terabytes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA02_008",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es el comando de HDFS para ver el contenido de un fichero?",
+      "options": [
+        {
+          "text": "ls",
+          "correct": false
+        },
+        {
+          "text": "read",
+          "correct": false
+        },
+        {
+          "text": "cat",
+          "correct": true
+        },
+        {
+          "text": "open",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA02_009",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "La replicación permite que no se pierdan datos.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA02_010",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "En HDFS, el Namenode se encarga de dar los ficheros a las aplicaciones que quieren leerlos.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA02_011",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué métodos se suelen desarrollar para hacer un programa MapReduce?",
+      "options": [
+        {
+          "text": "Map, Reduce y Order",
+          "correct": false
+        },
+        {
+          "text": "Ninguno, MapReduce se encarga de todo",
+          "correct": false
+        },
+        {
+          "text": "Map y Reduce",
+          "correct": true
+        },
+        {
+          "text": "Map, Reduce y Shuffle",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA02_012",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "HDFS funciona mejor con ficheros binarios.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA02_013",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Si un nodo falla durante la ejecución de una tarea, YARN se da cuenta y rearranca esa tarea en otro nodo.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA02_014",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuáles son los componentes del core de Hadoop?",
+      "options": [
+        {
+          "text": "HDFS, YARN e Impala",
+          "correct": false
+        },
+        {
+          "text": "GFS y MapReduce",
+          "correct": false
+        },
+        {
+          "text": "HDFS, YARN y MapReduce",
+          "correct": true
+        },
+        {
+          "text": "HDFS, YARN y Hive",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA02_015",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "YARN se ofreció en Hadoop desde su origen.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA02_016",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "MapReduce se usa cada día más, especialmente tras la aparición de Spark.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA02_017",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "YARN divide la capacidad de procesamiento y memoria en contenedores.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA02_018",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "HDFS tiene una orientación \"write-once, read many\", que significa \"se escribe una vez, se lee muchas veces\".",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA02_019",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Si en HDFS un fichero indica que tiene permisos rwxrwxrwx, ¿quién puede modificar el fichero?",
+      "options": [
+        {
+          "text": "En HDFS no se pueden modificar los ficheros",
+          "correct": false
+        },
+        {
+          "text": "Todos los usuarios menos el que creó el fichero",
+          "correct": false
+        },
+        {
+          "text": "El usuario que lo creó",
+          "correct": false
+        },
+        {
+          "text": "Todos los usuarios",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA02_020",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "YARN puede ejecutar aplicaciones de procesamiento en streaming.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA02_021",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es el comando de HDFS para ver el contenido de un directorio?",
+      "options": [
+        {
+          "text": "cp",
+          "correct": false
+        },
+        {
+          "text": "read_dir",
+          "correct": false
+        },
+        {
+          "text": "mkdir",
+          "correct": false
+        },
+        {
+          "text": "ls",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA02_022",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "En HDFS, lo ideal es poner un factor de replicación alto a los ficheros que son críticos o muy importantes",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA02_023",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo se llama el nodo que coordina la ejecución de trabajos en YARN?",
+      "options": [
+        {
+          "text": "NameNode",
+          "correct": false
+        },
+        {
+          "text": "ResourceManager",
+          "correct": true
+        },
+        {
+          "text": "Scheduler",
+          "correct": false
+        },
+        {
+          "text": "NodeManager",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA02_024",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es el comando de HDFS para crear un directorio?",
+      "options": [
+        {
+          "text": "rmdir",
+          "correct": false
+        },
+        {
+          "text": "mkdir",
+          "correct": true
+        },
+        {
+          "text": "create dir",
+          "correct": false
+        },
+        {
+          "text": "make_dir",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA02_025",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es el tamaño por defecto de un bloque en HDFS?",
+      "options": [
+        {
+          "text": "64 GB",
+          "correct": false
+        },
+        {
+          "text": "128 GB",
+          "correct": false
+        },
+        {
+          "text": "64 MB",
+          "correct": false
+        },
+        {
+          "text": "128 MB",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA02_026",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Se puede configurar qué nivel de prioridad tiene una tarea en YARN?",
+      "options": [
+        {
+          "text": "No, esto sólo se configura desde HDFS",
+          "correct": false
+        },
+        {
+          "text": "Sí, si paras el resto de tareas",
+          "correct": false
+        },
+        {
+          "text": "Sí, mediante la configuración del Scheduler",
+          "correct": true
+        },
+        {
+          "text": "No, YARN va ejecutando las tareas según le llegan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA02_027",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "En HDFS, sólo los ficheros grandes se dividen en bloques",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA02_028",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "YARN ha caído en desuso al aparecer Spark",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA02_029",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "MapReduce permite que los desarrolladores no tengan que preocuparse en muchos aspectos de la computación ditribuida",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA02_030",
+      "module": "BDA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "El factor de replicación reduce la capacidad de almacenamiento real de un clúster HDFS",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA03_001",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la sentencia de Hive con la que añadimos un registro en una tabla dándole los valores de los campos en la misma sentencia?",
+      "options": [
+        {
+          "text": "INSERT INTO",
+          "correct": true
+        },
+        {
+          "text": "LOAD DATA",
+          "correct": false
+        },
+        {
+          "text": "ADD DATA",
+          "correct": false
+        },
+        {
+          "text": "ADD INTO",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA03_002",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál de las siguientes funcionalidades no es ofrecida por Apache Spark?",
+      "options": [
+        {
+          "text": "Interfaz para interactuar con programas escritos en R",
+          "correct": false
+        },
+        {
+          "text": "Algoritmos y utilidades para manejar datos como grafos",
+          "correct": false
+        },
+        {
+          "text": "Computación en paralelo de procesos de transformación de datos",
+          "correct": false
+        },
+        {
+          "text": "Una base de datos NoSQL",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA03_003",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Desde qué componente de Hadoop se puede enviar un email al administrador cuando una ingesta automática ha fallado?",
+      "options": [
+        {
+          "text": "Cloudera Manager",
+          "correct": false
+        },
+        {
+          "text": "Spark",
+          "correct": false
+        },
+        {
+          "text": "Ambari",
+          "correct": false
+        },
+        {
+          "text": "Oozie",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA03_004",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo se llama la principal abstracción de datos de Apache Spark",
+      "options": [
+        {
+          "text": "RDD",
+          "correct": true
+        },
+        {
+          "text": "File",
+          "correct": false
+        },
+        {
+          "text": "Dataset",
+          "correct": false
+        },
+        {
+          "text": "Dataframe",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA03_005",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Hive permite conectar Excel con ficheros que están en HDFS. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA03_006",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "HBase ofrece un interfaz de consultas parecido a SQL, llamado HQL. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA03_007",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Apache Ambari se puede utilizar para instalar un clúster Hadoop, facilitando mucho esta labor. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA03_008",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Hive es una herramienta muy útil, pero tiene como aspecto negativo es que toda la seguridad la delega en los permisos de los ficheros de HDFS. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA03_009",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Hive requiere dar una estructura a los ficheros de HDFS antes de poder hacer consultas sobre ellos. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA03_010",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Hive es escalable porque pueden añadirse más nodos HiveServer2 para que trabajen en paralelo, ejecutando una query en los diferentes HiveServer2. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA03_011",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Apache Spark ofrece la capacidad de procesar datos en streaming. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA03_012",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Apache Spark tiene una latencia mayor que Apache Flink como norma general para procesamiento en tiempo real. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA03_013",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Si quiero parar un nodo de un clúster Hadoop porque está dando problemas, ¿qué herramienta podré utilizar?",
+      "options": [
+        {
+          "text": "Oozie",
+          "correct": false
+        },
+        {
+          "text": "Hue",
+          "correct": false
+        },
+        {
+          "text": "Ambari",
+          "correct": true
+        },
+        {
+          "text": "YARN",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA03_014",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la sentencia de Hive con la que se crea una nueva tabla?",
+      "options": [
+        {
+          "text": "CREATE TABLE",
+          "correct": true
+        },
+        {
+          "text": "NEW TABLE",
+          "correct": false
+        },
+        {
+          "text": "INSERT",
+          "correct": false
+        },
+        {
+          "text": "MAKE TABLE",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA03_015",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Apache Flink es una buena herramienta de procesamiento en tiempo real, pero tiene como principal inconveniente que no se puede ejecutar sobre YARN. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA03_016",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Para ingestar datos que están en bases de datos relacionales, ¿qué componente de Hadoop se utiliza?",
+      "options": [
+        {
+          "text": "Pig",
+          "correct": false
+        },
+        {
+          "text": "Sqoop",
+          "correct": true
+        },
+        {
+          "text": "Flume",
+          "correct": false
+        },
+        {
+          "text": "YARN",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA03_017",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué componente del ecosistema Hadoop fue el primero en aparecer para reducir la complejidad de los procesos MapReduce que se desarrollaban hasta entonces?",
+      "options": [
+        {
+          "text": "Spark",
+          "correct": false
+        },
+        {
+          "text": "Pig",
+          "correct": true
+        },
+        {
+          "text": "HDFS",
+          "correct": false
+        },
+        {
+          "text": "YARN",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA03_018",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Para automatizar la ejecución de trabajos que se debe realizar en Hadoop, por ejemplo, para validar los datos ingestados, ¿qué componente se debe utilizar?",
+      "options": [
+        {
+          "text": "YARN",
+          "correct": false
+        },
+        {
+          "text": "Pig",
+          "correct": false
+        },
+        {
+          "text": "Zookeeper",
+          "correct": false
+        },
+        {
+          "text": "Oozie",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA03_019",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la sentencia de Hive con la que modificamos los registros de una tabla?",
+      "options": [
+        {
+          "text": "MODIFY ROWS",
+          "correct": false
+        },
+        {
+          "text": "UPDATE",
+          "correct": true
+        },
+        {
+          "text": "LOAD DATA",
+          "correct": false
+        },
+        {
+          "text": "SELECT",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA03_020",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál de las siguientes afirmaciones sobre Impala es correcta?",
+      "options": [
+        {
+          "text": "Permite acceder a los datos de HDFS como si fuera una tabla",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las anteriores es correcta",
+          "correct": false
+        },
+        {
+          "text": "Permite importar datos de otras bases de datos relacionales",
+          "correct": false
+        },
+        {
+          "text": "Permite administrar un clúster Hadoop",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA03_021",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Apache Spark es una tecnología que sustituye a Hadoop. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA03_022",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una partición de una tabla es un subconjunto de los registros de la tabla que comparten el valor de alguna columna en común. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA03_023",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Apache Spark puede leer y procesar datos que se encuentran en una base de datos relacional. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA03_024",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo se llama el componente que ofrece, desde una web, acceso a los ficheros de HDFS y poder lanzar consultas Hive?",
+      "options": [
+        {
+          "text": "Hue",
+          "correct": true
+        },
+        {
+          "text": "Hive",
+          "correct": false
+        },
+        {
+          "text": "Impala",
+          "correct": false
+        },
+        {
+          "text": "Spark",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA03_025",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué componente del ecosistema Hadoop permite utilizar sintaxis SQL para manejar datos que están almacenado en HBase?",
+      "options": [
+        {
+          "text": "Oozie",
+          "correct": false
+        },
+        {
+          "text": "Phoenix",
+          "correct": true
+        },
+        {
+          "text": "Storm",
+          "correct": false
+        },
+        {
+          "text": "Pig",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA03_026",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Para ingestar datos que se generan en tiempo real, ¿qué componente de Hadoop se utiliza?",
+      "options": [
+        {
+          "text": "Storm",
+          "correct": false
+        },
+        {
+          "text": "Spark",
+          "correct": false
+        },
+        {
+          "text": "Flink",
+          "correct": false
+        },
+        {
+          "text": "Flume",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA03_027",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué componente del ecosistema Hadoop permite ver los ficheros HDFS como si fueran tablas de una base de datos relacional?",
+      "options": [
+        {
+          "text": "YARN",
+          "correct": false
+        },
+        {
+          "text": "Oozie",
+          "correct": false
+        },
+        {
+          "text": "Hive",
+          "correct": true
+        },
+        {
+          "text": "Ambari",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA03_028",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la sentencia de Hive con la que se borra una nueva tabla?",
+      "options": [
+        {
+          "text": "DELETE TABLE",
+          "correct": false
+        },
+        {
+          "text": "DROP TABLE",
+          "correct": true
+        },
+        {
+          "text": "DEL TABLE",
+          "correct": false
+        },
+        {
+          "text": "FORMAT TABLE",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA03_029",
+      "module": "BDA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "HBase es una base de datos NoSQL. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA04_001",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Para monitorizar un clúster Hadoop, en primer lugar hay que ver las métricas relacionadas con el sistema operativo: CPU, memoria, disco y red. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA04_002",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Después de hacer un cambio de en la configuración de un servicio, suele requerirse un reinicio de dicho servicio.¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA04_003",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "El servicio ResourceManager UI permite ver cuánta memoria está consumiendo todos los contenedores de YARN. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA04_004",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "El servicio Namenode UI permite ver cuánto espacio está ocupando HDFS. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA04_005",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Ambari permite iniciar una instalación de Hadoop en un conjunto de servidores. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA04_006",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Ganglia se puede complementar con Nagios para la gestión de alertas. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA04_007",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "El servicio ResourceManager UI permite ver los logs de ejecución de las aplicaciones. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA04_008",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "El servicio ResourceManager UI es sencillo, pero permite monitorizar y modificar parámetros de configuración de YARN. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA04_009",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Ambari incluye toda o casi toda la funcionalidad de Namenode UI. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA04_010",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Ganglia permite parar los servidores del clúster, pero no permite parar servicios concretos de Hadoop, como HDFS o Hive. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA04_011",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Desde Cloudera Manager podría simular la caída de un servidor para hacer pruebas de tolerancia a fallos. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA04_012",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo se llama el principal fichero de configuración para el servicio YARN?",
+      "options": [
+        {
+          "text": "yarn-config.xml",
+          "correct": false
+        },
+        {
+          "text": "yarn-site.xml",
+          "correct": true
+        },
+        {
+          "text": "hadoop-commons.xml",
+          "correct": false
+        },
+        {
+          "text": "core-config.xml",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA04_013",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Ganglia se ejecuta en un nodo master o en un nodo frontera de un clúster. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA04_014",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo se llama el principal fichero de configuración para el servicio Hive?",
+      "options": [
+        {
+          "text": "hive-site.xml",
+          "correct": true
+        },
+        {
+          "text": "hive-config.xml",
+          "correct": false
+        },
+        {
+          "text": "hadoop-commons.xml",
+          "correct": false
+        },
+        {
+          "text": "core-config.xml",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA04_015",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "En Ambari puedo tener cuadros de mando a medida para monitorizar las métricas de salud que más me interesen. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA04_016",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo se llama el principal fichero de configuración para el servicio HDFS?",
+      "options": [
+        {
+          "text": "core-config.xml",
+          "correct": false
+        },
+        {
+          "text": "hadoop-commons.xml",
+          "correct": false
+        },
+        {
+          "text": "hdfs-config.xml",
+          "correct": false
+        },
+        {
+          "text": "hdfs-site.xml",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA04_017",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Cloudera Manager tiene más o menos la misma funcionalidad que Ambari. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA04_018",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Utilizando el comando top se puede ver el consumo de memoria de los diferentes procesos en el sistema operativo. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA04_019",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Ganglia es una herramienta de Apache y del ecosistema Hadoop específica para monitorizar clústers de servidores. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA04_020",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "El servicio ResourceManager UI permite modificar las colas de ejecución de aplicaciones en YARN. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA04_021",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Cloudera Manager salió al mercado varios años antes que Ambari. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA04_022",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Ambari ofrece la posibilidad de que aplicaciones externas se comuniquen con ella para arrancar o parar servicios de forma automática. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA04_023",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "El servicio Namenode UI es sencillo, pero permite monitorizar y modificar parámetros de configuración de HDFS. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA04_024",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Utilizando el comando vmstat se puede ver el consumo de CPU de los diferentes procesos en el sistema operativo. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA04_025",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Si no existiera Ambari o Cloudera Manager, habría que modificar la configuración de todos los ficheros de configuración a mano, por ejemplo, con el comando vi. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA04_026",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "En Ambari se puede realizar la ingesta de unos ficheros como administrador, para que luego los usuarios del clúster puedan utilizarlos. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA04_027",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Utilizando el comando dstat se puede ver el consumo de red de los diferentes procesos en el sistema operativo. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA04_028",
+      "module": "BDA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "El servicio Namenode UI permite navegar por el sistema de ficheros de HDFS. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA05_001",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué tipo de datos gestiona un Datawarehouse?",
+      "options": [
+        {
+          "text": "Datos no estructurados",
+          "correct": false
+        },
+        {
+          "text": "Datos estructurados",
+          "correct": true
+        },
+        {
+          "text": "Datos semi-estructurados",
+          "correct": false
+        },
+        {
+          "text": "Cualquier tipo de datos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA05_002",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una de las primeras tareas que hay que realizar para implantar un clúster Hadoop es diseñar los procesos de ETL. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA05_003",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una de las principales ventajas de las tecnologías Big Data en lugar de la tradicionales de Datawarehouse es que son más rápidas para hacer consultas. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA05_004",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Uno de los principales problemas de Data Lake frente a Data Mesh es que es más difícil de escalar. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA05_005",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿A qué se refiere el concepto “industrialización” en relación con las actividades de ingeniería de datos?",
+      "options": [
+        {
+          "text": "A llevar todas las plataformas a la nube",
+          "correct": false
+        },
+        {
+          "text": "A estandarizar y automatizar todo lo posible las tareas para ganar eficiencia",
+          "correct": true
+        },
+        {
+          "text": "A aplicar tecnologías Big Data en el sector industrial",
+          "correct": false
+        },
+        {
+          "text": "A aplicar mecanismos de control y validación de la calidad",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA05_006",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Data Mesh es un concepto que ha aparecido después que el concepto de Data Lake. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA05_007",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "El Datawarehouse tiene un modelo de almacenamiento de los datos columnar. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA05_008",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Las tecnologías de Datawarehouse tienen un coste superior al de las tecnologías Big Data. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA05_009",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Las soluciones de Hadoop como servicio son todavía poco maduras. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA05_010",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "El equipo de Data Governance no es responsable de la calidad de los datos, sino que es responsabilidad de equipo de ingeniería de datos. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA05_011",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Uno de los principales beneficios de Data Lake frente a Data Mesh es permite homogeneizar más las actividades de preparación de datos. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA05_012",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Hive es el principal componente que permite a Hadoop ser multitenancy. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA05_013",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Si quiero arrancar un Hadoop en la nube como servicio y quiero usar Ambari para gestionar el clúster, ¿qué solución debería utilizar?",
+      "options": [
+        {
+          "text": "Cloudera",
+          "correct": false
+        },
+        {
+          "text": "HDInsight",
+          "correct": true
+        },
+        {
+          "text": "Ninguna lleva Ambari",
+          "correct": false
+        },
+        {
+          "text": "EMR",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA05_014",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "La principal diferencia entre Data Lake y Data Mesh es que el primero tiene un enfoque descentralizado, mientras que el segundo lo tiene centralizado. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA05_015",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Las tecnologías Big Data se empezaron a probar porque los equipos de tecnología vieron la capacidad de resolver casos de uso para el negocio. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA05_016",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una vez instalado un Hadoop on-premise, es necesario hacer optimizarlo o tunearlo para obtener el máximo rendimiento. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA05_017",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "El concepto de Data Lake implica que los datos no se deben transformar o modificar desde los orígenes hasta llegar a la plataforma de datos. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA05_018",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo se llaman las herramientas que preparan los datos para el Datawarehouse?",
+      "options": [
+        {
+          "text": "El Datawarehouse no requiere una preparación previa de los datos",
+          "correct": false
+        },
+        {
+          "text": "Herramientas de ETL",
+          "correct": true
+        },
+        {
+          "text": "Herramientas de Data Governance",
+          "correct": false
+        },
+        {
+          "text": "Herramientas de Data Discovery",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA05_019",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Un Data Lake no ofrece herramientas de explotación de los datos, esta responsabilidad recae en los usuarios. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA05_020",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una de las principales ventajas de las tecnologías Big Data en lugar de la tradicionales de Datawarehouse es que permite tomar todos los datos para hacer los análisis. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA05_021",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué tipo de consultas suele resolver un Datawarehouse?",
+      "options": [
+        {
+          "text": "Consultas en streaming",
+          "correct": false
+        },
+        {
+          "text": "Un Datawarehouse está preparado para todo tipo de consultas",
+          "correct": false
+        },
+        {
+          "text": "Analíticas",
+          "correct": true
+        },
+        {
+          "text": "Operacionales",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA05_022",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo se llama el máximo responsable de las políticas de uso y control de los datos en una empresa?",
+      "options": [
+        {
+          "text": "GDPR",
+          "correct": false
+        },
+        {
+          "text": "CTO",
+          "correct": false
+        },
+        {
+          "text": "CDO",
+          "correct": true
+        },
+        {
+          "text": "CIO",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA05_023",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Uno de los beneficios de los Data Lakes frente a los Datawarehouses es que permiten procesar cualquier tipo de dato, no sólo datos estructurados. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA05_024",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los datos que llegan a un Data Lake suelen pasar por un proceso de validación, limpieza o normalización para poder ser explotados. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA05_025",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los datos que llegan a un Data Lake suelen pasar por un proceso de validación, limpieza o normalización para poder ser explotados. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA05_026",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Un plan de capacidad requiere conocer qué necesidades de datos tendrá una plataforma. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA05_027",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "En un entorno multitenancy es importante definir una estructura de directorios clara. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA05_028",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "En la adopción de un Hadoop on-premise, no es muy importante dimensionar adecuadamente la plataforma porque es escalable. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "BDA05_029",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo se llaman los datos que llegan a un Data Lake y que son almacenados tal cual, sin ser transformados?",
+      "options": [
+        {
+          "text": "Raw data",
+          "correct": true
+        },
+        {
+          "text": "Datos de origen",
+          "correct": false
+        },
+        {
+          "text": "Refined data",
+          "correct": false
+        },
+        {
+          "text": "Golden source",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA05_030",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo se llama la disciplina que tradicionalmente ha creado modelos predictivos sobre los datos del Datawarehouse?",
+      "options": [
+        {
+          "text": "Data Mining",
+          "correct": true
+        },
+        {
+          "text": "Data Exploration",
+          "correct": false
+        },
+        {
+          "text": "Data Discovery",
+          "correct": false
+        },
+        {
+          "text": "ETL",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "BDA05_031",
+      "module": "BDA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Data Governance es el conjunto de procesos, roles, políticas, estándares y métricas que garantizan el uso eficiente y efectivo de los datos, alineado con los objetivos de las empresas. ¿Verdadero o falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "BDA_FC_001",
+      "module": "BDA01",
+      "priority": "medium",
+      "front": "En qué año se originó Hadoop?",
+      "back": "Se originó en el año 2006."
+    },
+    {
+      "id": "BDA_FC_002",
+      "module": "BDA01",
+      "priority": "medium",
+      "front": "¿Por qué Doug Cutting eligió el nombre Hadoop?",
+      "back": "Porque era el nombre de un peluche de elefante que tenía su hijo."
+    },
+    {
+      "id": "BDA_FC_003",
+      "module": "BDA01",
+      "priority": "medium",
+      "front": "¿Qué es Apache Hadoop?",
+      "back": "Es una plataforma opensource que ofrece la capacidad de almacenar y procesar, a “bajo” coste, grandes volúmenes de datos, sin importar su estructura, en un entorno distribuido, escalable y tolerante a fallos, basado en la utilización de hardware commodity y en un paradigma acercamiento del procesamiento a los datos."
+    },
+    {
+      "id": "BDA_FC_004",
+      "module": "BDA01",
+      "priority": "medium",
+      "front": "¿Qué es HDFS?",
+      "back": "Un sistema de ficheros (capa de almacenamiento) que almacena los datos en una estructura basada en espacios de nombres (directorios, subdirectorios, etc.)."
+    },
+    {
+      "id": "BDA_FC_005",
+      "module": "BDA01",
+      "priority": "medium",
+      "front": "¿Qué es YARN?",
+      "back": "Un gestor de recursos (capa de procesamiento) que permite ejecutar aplicaciones sobre los datos almacenados en HDFS."
+    },
+    {
+      "id": "BDA_FC_006",
+      "module": "BDA01",
+      "priority": "medium",
+      "front": "¿Qué es MapReduce?",
+      "back": "Un sistema de procesamiento masivo de datos que se puede utilizar directamente, programando sobre su API, o indirectamente, con aplicaciones que lo utilizan de forma transparente."
+    },
+    {
+      "id": "BDA_FC_007",
+      "module": "BDA01",
+      "priority": "medium",
+      "front": "¿Qué son los nodos master en la arquitectura de Hadoop?",
+      "back": "Nodos que controlan la ejecución de los trabajos o el almacenamiento de los datos."
+    },
+    {
+      "id": "BDA_FC_008",
+      "module": "BDA01",
+      "priority": "medium",
+      "front": "¿Cuáles son los tres tipos diferentes de nodos en Hadoop?",
+      "back": "Nodos worker, nodos master, y nodos edge (o frontera)."
+    },
+    {
+      "id": "BDA_FC_009",
+      "module": "BDA01",
+      "priority": "medium",
+      "front": "¿Qué es la tolerancia a fallos en Hadoop?",
+      "back": "Es la capacidad de Hadoop de garantizar que, ante la caída de un servidor, el sistema sigue funcionando y no se pierden datos."
+    },
+    {
+      "id": "BDA_FC_010",
+      "module": "BDA01",
+      "priority": "medium",
+      "front": "Menciona una desventaja de las soluciones cloud Hadoop-as-a-Service",
+      "back": "Se produce un efecto que se denomina vendor lock-in, es decir, la barrera para salir de una solución cloud a otra de otro fabricante cloud o a un Hadoop propio, es elevada."
+    },
+    {
+      "id": "BDA_FC_011",
+      "module": "BDA01",
+      "priority": "medium",
+      "front": "¿Qué tipos de datos puede almacenar y procesar Hadoop?",
+      "back": "Cualquier tipo de información: estructurada, no estructurada o semi-estructurada."
+    },
+    {
+      "id": "BDA_FC_012",
+      "module": "BDA01",
+      "priority": "medium",
+      "front": "¿Cuáles son los costes asociados a la implantación de Hadoop?",
+      "back": "Coste del hardware, coste del soporte empresarial y coste de los servicios profesionales o de consultoría."
+    },
+    {
+      "id": "BDA_FC_013",
+      "module": "BDA01",
+      "priority": "medium",
+      "front": "¿En qué consiste el esquema de datos en Hadoop?",
+      "back": "Los datos que se incorporan no necesitan un esquema prefijado (schema-on-read), lo que permite almacenar los datos sin tratar, que se conocen como Raw data."
+    },
+    {
+      "id": "BDA_FC_014",
+      "module": "BDA02",
+      "priority": "medium",
+      "front": "¿Qué es HDFS?",
+      "back": "HDFS es el sistema de almacenamiento de Hadoop."
+    },
+    {
+      "id": "BDA_FC_015",
+      "module": "BDA02",
+      "priority": "medium",
+      "front": "¿Qué significa la orientación 'write-once, read many' de HDFS?",
+      "back": "Significa 'se escribe una vez, se lee muchas veces', es decir, asume que un archivo una vez escrito en HDFS no se modificará."
+    },
+    {
+      "id": "BDA_FC_016",
+      "module": "BDA02",
+      "priority": "medium",
+      "front": "¿Qué es el Namenode en la arquitectura de HDFS?",
+      "back": "El nodo Namenode actúa de maestro, manteniendo la metainformación de todo el sistema de ficheros."
+    },
+    {
+      "id": "BDA_FC_017",
+      "module": "BDA02",
+      "priority": "medium",
+      "front": "¿Qué información guarda el Namenode?",
+      "back": "La estructura de directorios, subdirectorios y los ficheros, la información de los ficheros (tamaño, fecha de modificación, propietario, permisos, etc.), el factor de replicación de cada fichero, los bloques que componen cada fichero, y la ubicación de los distintos bloques."
+    },
+    {
+      "id": "BDA_FC_018",
+      "module": "BDA02",
+      "priority": "medium",
+      "front": "¿Cuál es la función principal del Secondary Namenode?",
+      "back": "Tomar puntos de control de los metadatos del sistema de ficheros del Namenode. No es un nodo de respaldo."
+    },
+    {
+      "id": "BDA_FC_019",
+      "module": "BDA02",
+      "priority": "medium",
+      "front": "¿Qué son los Datanodes?",
+      "back": "Los datanodes son los servicios que se encuentran en los nodos worker, y su labor principal es almacenar o leer los bloques que componen los ficheros que están almacenados en HDFS."
+    },
+    {
+      "id": "BDA_FC_020",
+      "module": "BDA02",
+      "priority": "medium",
+      "front": "¿Cómo se divide un fichero en HDFS?",
+      "back": "En bloques, de 128 megabytes por defecto."
+    },
+    {
+      "id": "BDA_FC_021",
+      "module": "BDA02",
+      "priority": "medium",
+      "front": "¿Qué es YARN?",
+      "back": "YARN es el acrónimo de Yet Another Resource Negotiator, y es un gestor de recursos."
+    },
+    {
+      "id": "BDA_FC_022",
+      "module": "BDA02",
+      "priority": "medium",
+      "front": "¿Qué problemas resolvía la introducción de YARN?",
+      "back": "Restringía mucho el tipo de aplicaciones, la eficiencia de MapReduce y la concurrencia en la ejecución de aplicaciones."
+    },
+    {
+      "id": "BDA_FC_023",
+      "module": "BDA02",
+      "priority": "medium",
+      "front": "¿Cuáles son las principales tareas que realiza YARN?",
+      "back": "Ofrece un API a las aplicaciones, ejecuta las aplicaciones en el clúster, sincroniza la ejecución simultánea de las aplicaciones, monitoriza la ejecución de las aplicaciones y gestiona los recursos del clúster."
+    },
+    {
+      "id": "BDA_FC_024",
+      "module": "BDA02",
+      "priority": "medium",
+      "front": "¿Qué es un contenedor en YARN?",
+      "back": "La unidad mínima de recursos de ejecución para las aplicaciones, y que representa una cantidad específica de memoria, núcleos de procesamiento (cores) y otros recursos."
+    },
+    {
+      "id": "BDA_FC_025",
+      "module": "BDA02",
+      "priority": "medium",
+      "front": "¿Qué son el ResourceManager, ApplicationMaster y NodeManager en YARN?",
+      "back": "ResourceManager (maestro), ApplicationMaster (por aplicación, se encarga de negociar recursos), NodeManager (se ejecuta en cada nodo worker, monitoriza y proporciona información sobre el consumo de recursos)."
+    },
+    {
+      "id": "BDA_FC_026",
+      "module": "BDA02",
+      "priority": "medium",
+      "front": "¿Qué es MapReduce?",
+      "back": "Un framework para escribir fácilmente aplicaciones que procesan grandes cantidades de datos en paralelo en grandes clústeres de hardware commodity."
+    },
+    {
+      "id": "BDA_FC_027",
+      "module": "BDA02",
+      "priority": "medium",
+      "front": "¿En qué consiste la filosofía 'Divide y Vencerás' en MapReduce?",
+      "back": "Dividir el problema en fragmentos muy pequeños que pueden ser solucionados de forma independiente, resolverlo por separado e ir construyendo con las soluciones parciales la solución final."
+    },
+    {
+      "id": "BDA_FC_028",
+      "module": "BDA02",
+      "priority": "medium",
+      "front": "¿Cuáles son las cinco etapas de un trabajo MapReduce?",
+      "back": "1.- Envío del trabajo, aceptación y distribución en el clúster. 2.- Ejecución de la fase map. 3.- Ejecución de la fase shuffle. 4.- Ejecución de la fase order. 5.- Ejecución de la fase reduce."
+    },
+    {
+      "id": "BDA_FC_029",
+      "module": "BDA02",
+      "priority": "medium",
+      "front": "¿Qué hacen las funciones map y reduce en MapReduce?",
+      "back": "La función map toma cada línea, la lee, y emite un resultado parcial. La función reduce toma los resultados parciales emitidos por map, ya ordenados y unidos, e irá haciendo la suma de cada empresa, dando como resultado pares [Nombre de la empresa, número de veces que se ha encontrado una cotización incrementada]."
+    },
+    {
+      "id": "BDA_FC_030",
+      "module": "BDA03",
+      "priority": "medium",
+      "front": "¿Qué es el ecosistema Hadoop?",
+      "back": "Es el conjunto de proyectos opensource de Apache que, junto con Hadoop Core, conforman una plataforma de datos."
+    },
+    {
+      "id": "BDA_FC_031",
+      "module": "BDA03",
+      "priority": "medium",
+      "front": "¿Cuáles son los tres componentes principales de Hadoop Core?",
+      "back": "HDFS, YARN y MapReduce."
+    },
+    {
+      "id": "BDA_FC_032",
+      "module": "BDA03",
+      "priority": "medium",
+      "front": "¿Qué es HDFS?",
+      "back": "Es la capa de almacenamiento de Hadoop."
+    },
+    {
+      "id": "BDA_FC_033",
+      "module": "BDA03",
+      "priority": "medium",
+      "front": "¿Qué es YARN?",
+      "back": "Es el gestor de los procesos que se ejecutan en el clúster de Hadoop."
+    },
+    {
+      "id": "BDA_FC_034",
+      "module": "BDA03",
+      "priority": "medium",
+      "front": "¿Qué es MapReduce?",
+      "back": "Es un modelo de programación para desarrollar tareas de procesamiento de datos en Hadoop."
+    },
+    {
+      "id": "BDA_FC_035",
+      "module": "BDA03",
+      "priority": "medium",
+      "front": "¿Qué es Apache Pig?",
+      "back": "Es un motor de ejecución sobre MapReduce (ahora también sobre Tez o Spark) que ofrece un nivel de abstracción mayor y utiliza el lenguaje Pig Latin."
+    },
+    {
+      "id": "BDA_FC_036",
+      "module": "BDA03",
+      "priority": "medium",
+      "front": "¿Qué es Apache Hive?",
+      "back": "Es una herramienta que permite a usuarios no técnicos acceder a los datos almacenados en el clúster Hadoop, usando un lenguaje similar a SQL (HQL)."
+    },
+    {
+      "id": "BDA_FC_037",
+      "module": "BDA03",
+      "priority": "medium",
+      "front": "¿Qué es Apache Impala?",
+      "back": "Es una herramienta que ofrece el mismo interfaz ODBC y lenguaje de consultas que Hive (HQL) pero implementada en código de más bajo nivel (C++), por lo que ofrece un mayor rendimiento en la ejecución de consultas."
+    },
+    {
+      "id": "BDA_FC_038",
+      "module": "BDA03",
+      "priority": "medium",
+      "front": "¿Cuáles son las dos características principales de HDFS?",
+      "back": "Inmutabilidad y gran tamaño de bloques."
+    },
+    {
+      "id": "BDA_FC_039",
+      "module": "BDA03",
+      "priority": "medium",
+      "front": "¿Qué es Apache HBase?",
+      "back": "Es una base de datos NoSQL de modelo clave-valor sobre Hadoop."
+    },
+    {
+      "id": "BDA_FC_040",
+      "module": "BDA03",
+      "priority": "medium",
+      "front": "¿Qué es Apache Phoenix?",
+      "back": "Es una capa superior a HBase que permite ofrecer un interfaz SQL mediante JDBC."
+    },
+    {
+      "id": "BDA_FC_041",
+      "module": "BDA03",
+      "priority": "medium",
+      "front": "¿Qué es Apache Sqoop?",
+      "back": "Es una herramienta diseñada para transferir datos entre Hadoop y repositorios relacionales, como bases de datos o sistemas mainframe."
+    },
+    {
+      "id": "BDA_FC_042",
+      "module": "BDA03",
+      "priority": "medium",
+      "front": "¿Qué es Apache Flume?",
+      "back": "Es un servicio distribuido para recoger, agregar y mover datos generados de forma continua y atómica, como logs."
+    },
+    {
+      "id": "BDA_FC_043",
+      "module": "BDA03",
+      "priority": "medium",
+      "front": "¿Qué es Apache Oozie?",
+      "back": "Facilita el lanzamiento de flujos de trabajo (workflows) cuando se cumplen determinadas condiciones."
+    },
+    {
+      "id": "BDA_FC_044",
+      "module": "BDA03",
+      "priority": "medium",
+      "front": "¿Qué es Apache Zeppelin?",
+      "back": "Es una herramienta web para notebooks que permite interactuar con los datos mediante código (Spark) o consultas (Hive), generando gráficos, tablas, elementos interactivos, y que pueden ser publicados, compartidos o desarrollados en modo colaborativo."
+    },
+    {
+      "id": "BDA_FC_045",
+      "module": "BDA03",
+      "priority": "medium",
+      "front": "¿Qué son los componentes de ingesta y flujos de trabajo en Hadoop?",
+      "back": "Son herramientas que permiten intercambiar datos con el exterior (Sqoop, Flume, Oozie)."
+    },
+    {
+      "id": "BDA_FC_046",
+      "module": "BDA03",
+      "priority": "medium",
+      "front": "¿Qué son los componentes de acceso y procesamiento de datos en Hadoop?",
+      "back": "Son herramientas que ofrecen una forma de almacenar o acceder a los datos diferente de HDFS (Pig, Hive, Impala, HBase, Phoenix, Spark)."
+    },
+    {
+      "id": "BDA_FC_047",
+      "module": "BDA03",
+      "priority": "medium",
+      "front": "¿Cuál es el lenguaje de consultas de Hive?",
+      "back": "HQL (Hive Query Language), una sintaxis similar a SQL."
+    },
+    {
+      "id": "BDA_FC_048",
+      "module": "BDA03",
+      "priority": "medium",
+      "front": "¿Qué es Apache Spark (Structured Streaming)?",
+      "back": "Es el componente de Spark que permite procesar en tiempo near-realtime flujos de datos."
+    },
+    {
+      "id": "BDA_FC_049",
+      "module": "BDA03",
+      "priority": "medium",
+      "front": "¿Cuáles son las dos tipos de garantía de procesamiento en streaming?",
+      "back": "Exactly once y at-least-once."
+    },
+    {
+      "id": "BDA_FC_050",
+      "module": "BDA05",
+      "priority": "medium",
+      "front": "¿Qué es Telco Max Spain?",
+      "back": "Una operadora virtual de telecomunicaciones con más de 5 años de presencia en el mercado español."
+    },
+    {
+      "id": "BDA_FC_051",
+      "module": "BDA05",
+      "priority": "medium",
+      "front": "¿Qué es un CRM?",
+      "back": "Un sistema de gestión de relaciones con los clientes, donde se almacena información como contactos, contratos, y servicios contratados."
+    },
+    {
+      "id": "BDA_FC_052",
+      "module": "BDA05",
+      "priority": "medium",
+      "front": "¿Qué es un Datawarehouse?",
+      "back": "Un repositorio de datos que contiene información de la empresa, recogida de sistemas operacionales, y preparada para la toma de decisiones."
+    },
+    {
+      "id": "BDA_FC_053",
+      "module": "BDA05",
+      "priority": "medium",
+      "front": "¿Cuáles son las dos principales limitaciones de los Datawarehouses?",
+      "back": "Son tecnologías caras, y el coste crece con el volumen de datos. Sólo permiten gestionar datos estructurados."
+    },
+    {
+      "id": "BDA_FC_054",
+      "module": "BDA05",
+      "priority": "medium",
+      "front": "¿Qué es un Data Lake?",
+      "back": "Un repositorio centralizado que permite almacenar todos los datos de una empresa a cualquier escala, sin modificarlos y sin tener que estructurarlos primero, y también permite ejecutar diferentes tipos de análisis."
+    },
+    {
+      "id": "BDA_FC_055",
+      "module": "BDA05",
+      "priority": "medium",
+      "front": "¿Cuáles son las capas de un Data Lake?",
+      "back": "Ingesta, Procesamiento, Repositorio, Insights."
+    },
+    {
+      "id": "BDA_FC_056",
+      "module": "BDA05",
+      "priority": "medium",
+      "front": "¿Cuáles son los dos tipos de ingesta de datos?",
+      "back": "Para la ingesta de datos en streaming, se utiliza un sistema de mensajería como Apache Kafka, y los datos en reposo suelen ingestarse utilizando un orquestador como Apache Oozie."
+    },
+    {
+      "id": "BDA_FC_057",
+      "module": "BDA05",
+      "priority": "medium",
+      "front": "¿Qué es Data Mesh?",
+      "back": "Un enfoque descentralizado en el que cada dominio es responsable de preparar los datos y ofrecer al resto de equipos estos datos como producto."
+    },
+    {
+      "id": "BDA_FC_058",
+      "module": "BDA05",
+      "priority": "medium",
+      "front": "¿Cuáles son los cuatro principios básicos de Data Mesh?",
+      "back": "Propiedad y arquitectura descentralizada de datos orientada al dominio, datos como producto, infraestructura de datos de autoservicio como plataforma, y gobierno computacional federado."
+    },
+    {
+      "id": "BDA_FC_059",
+      "module": "BDA05",
+      "priority": "medium",
+      "front": "¿Qué es Data Governance?",
+      "back": "El conjunto de procesos, roles, políticas, estándares y métricas que garantizan el uso eficiente y efectivo de los datos, alineado con los objetivos de las empresas."
+    },
+    {
+      "id": "BDA_FC_060",
+      "module": "BDA05",
+      "priority": "medium",
+      "front": "¿Qué es Amazon EMR?",
+      "back": "Un servicio de Amazon Web Services que permite crear clústers Hadoop a demanda."
+    },
+    {
+      "id": "BDA_FC_061",
+      "module": "BDA05",
+      "priority": "medium",
+      "front": "¿Cómo se inicia la creación de un clúster en Amazon EMR?",
+      "back": "Accediendo a la consola de Amazon Web Services y seleccionando EMR dentro de los servicios de Análisis."
+    },
+    {
+      "id": "BDA_FC_062",
+      "module": "BDA05",
+      "priority": "medium",
+      "front": "¿Qué es HDInsight?",
+      "back": "La solución de Microsoft Azure de Hadoop como servicio, que permite arrancar clústers Hadoop a demanda en una modalidad de pago por uso."
+    }
+  ],
+  "practicalQuestions": []
+}

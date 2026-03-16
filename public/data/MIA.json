@@ -1,0 +1,3641 @@
+{
+  "subject": "MIA",
+  "name": "Modelos de Inteligencia Artificial",
+  "examInfo": {
+    "description": "Temas 1,2,8,9 test (4pts) + Temas 3-7 prácticas (1.5pts c/u).",
+    "scoring": "Test 4pts total, prácticas basadas en tareas del curso",
+    "topics": "Fundamentos IA, agentes, búsqueda, redes neuronales, deep learning"
+  },
+  "questions": [
+    {
+      "id": "MIA01_001",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "A medida que se ha ido profundizando en el estudio de la IA se han ido abriendo diferentes ramas o campos profesionales diferenciados dentro de ella",
+      "options": [
+        {
+          "text": "Programas para dominar el mundo, automatización de procesos y desarrollos de IoT",
+          "correct": false
+        },
+        {
+          "text": "Desarrollo de software, estudio y aplicación de algoritmos, diseño de funciones de negocio y aplicaciones, entre otros",
+          "correct": true
+        },
+        {
+          "text": "Diseño técnico, música inteligente y sistemas informáticos",
+          "correct": false
+        },
+        {
+          "text": "Sistemas jurídicos de protección de datos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA01_002",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué tres procesos debe abarcar una máquina o sistema informático para ser considerada Inteligencia artificial?",
+      "options": [
+        {
+          "text": "Aprendizaje, algoritmos, aplicación del Teorema de Bayes",
+          "correct": false
+        },
+        {
+          "text": "Autoencendido, razonamiento y memoria",
+          "correct": false
+        },
+        {
+          "text": "Aprendizaje, razonamiento y autocorrección",
+          "correct": true
+        },
+        {
+          "text": "Autoconsciencia, algoritmos éticos y autocorrección",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA01_003",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "La definición de Inteligencia Artificial aún no es definitiva. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA01_004",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una máquina «inteligente» ideal es un agente flexible que percibe su entorno y lleva a cabo acciones que maximicen sus posibilidades de éxito en algún objetivo o tarea. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA01_005",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "El lenguaje natural en Inteligencia Artificial se entiende como:",
+      "options": [
+        {
+          "text": "La posibilidad de responder a una pregunta en un lenguaje diferente.",
+          "correct": false
+        },
+        {
+          "text": "La capacidad de una computadora para autoprogramarse de forma natural a sí misma.",
+          "correct": false
+        },
+        {
+          "text": "La capacidad de comprender y usar el lenguaje como lo hace cualquier humano, con variaciones y diferentes formas de expresar la misma idea.",
+          "correct": true
+        },
+        {
+          "text": "La capacidad de procesar cientos de expresiones escritas en segundos.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA01_006",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "La imagen que nos presentan la literatura y el cine contemporáneo sobre la Inteligencia Artificial es completamente fiel a la capacidad real que tiene ahora mismo. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA01_007",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una primera definición bastante común que podemos encontrar para la Inteligencia Artificial es: “Habilidad para aprender y resolver problemas, llevada a cabo por una máquina o software”. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA01_008",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "El principal desarrollo de aplicaciones prácticas de la Inteligencia Artificial se ha producido a partir de los siguientes logros técnicos",
+      "options": [
+        {
+          "text": "La incorporación de la IA como materia en los planes de estudio de las universidades anglosajonas",
+          "correct": false
+        },
+        {
+          "text": "El desarrollo de los ordenadores, en concreto cuando han ido incorporando cada vez mayor capacidad de de cómputo y memoria",
+          "correct": true
+        },
+        {
+          "text": "El invento de la máquina de escribir",
+          "correct": false
+        },
+        {
+          "text": "La implantación de Internet",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA01_009",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "La Inteligencia Artificial que se podía ver en la película estrenada en 1968 llamada “2001: una odisea en el espacio” mostraba una imagen realista del tipo de IA que existía en ese momento. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA01_010",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En qué año se han presentado la tercera generación del Modelo del Predicción del Lenguaje (más conocido como GPT-3)?",
+      "options": [
+        {
+          "text": "1992",
+          "correct": false
+        },
+        {
+          "text": "2007",
+          "correct": false
+        },
+        {
+          "text": "2020",
+          "correct": true
+        },
+        {
+          "text": "2012",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA01_011",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En qué sectores se están aplicando ya soluciones con Inteligencia Artificial integrada?",
+      "options": [
+        {
+          "text": "Agricultura, Gestión del Agua y Procesado de Alimentos",
+          "correct": false
+        },
+        {
+          "text": "Marketing, Seguros y Salud",
+          "correct": false
+        },
+        {
+          "text": "Todas las opciones anteriores son correctas",
+          "correct": true
+        },
+        {
+          "text": "Consultoría, Comercio y Entretenimiento",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA01_012",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los robots médicos autónomos son una de las soluciones de la Inteligencia Artificial que se espera desarrollar a medio plazo. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA01_013",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué característica principal tenía la máquina LeNet5 que desarrolló Yann LeCun?",
+      "options": [
+        {
+          "text": "Identificaba la autoría de cualquier texto literario que le presentaras",
+          "correct": false
+        },
+        {
+          "text": "Distinguía entre sonidos de vocales y consonantes",
+          "correct": false
+        },
+        {
+          "text": "Reconocía caracteres escritos a mano o impresos a máquina",
+          "correct": true
+        },
+        {
+          "text": "Resolvía operaciones matemáticas al triple de la velocidad conocida hasta entonces",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA01_014",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuenta España con alguna iniciativa a nivel gubernamental para fomentar y facilitar el desarrollo de la Inteligencia Artificial?",
+      "options": [
+        {
+          "text": "Sí, la Agencia Gubernamental de Desarrollo de IA",
+          "correct": false
+        },
+        {
+          "text": "Sí, pero no es conocida",
+          "correct": false
+        },
+        {
+          "text": "No",
+          "correct": false
+        },
+        {
+          "text": "Sí, la Estrategia Nacional de Inteligencia Artificial (ENIA)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA01_015",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo se llamó el encuentro que se consideró el germen de la Inteligencia Artificial?",
+      "options": [
+        {
+          "text": "Conference of Dartmouth",
+          "correct": false
+        },
+        {
+          "text": "Curso de verano de Dartmouth",
+          "correct": false
+        },
+        {
+          "text": "Dartmouth Summer Research Conference on Artificial Intelligence",
+          "correct": true
+        },
+        {
+          "text": "Dartmouth Conference of Intelligence Artificial",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA01_016",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Hay campos de investigación, como Internet de las Cosas o los datos en la nube, en los que las empresas están dispuestas a invertir mucho más que en Inteligencia Artificial. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA01_017",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué característica principal tiene la herramienta de Inteligencia Artificial ImageNet cuyo desarrollo lideró Fei-Fei Li?",
+      "options": [
+        {
+          "text": "Identificaba la autoría de cualquier texto literario que le presentaras",
+          "correct": false
+        },
+        {
+          "text": "Distinguía entre sonidos de vocales y consonantes",
+          "correct": false
+        },
+        {
+          "text": "Era capaz de reconocer cualquier imagen y clasificarla",
+          "correct": true
+        },
+        {
+          "text": "Resolvía operaciones matemáticas al triple de la velocidad conocida hasta entonces",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA01_018",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuáles son los 5 países que tienen más startups dedicadas a desarrollo de IA?",
+      "options": [
+        {
+          "text": "Estados Unidos, China, Israel, Reino Unido y Canadá",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las respuestas anteriores es correcta",
+          "correct": false
+        },
+        {
+          "text": "España, Francia, Portugal, Italia y Alemania",
+          "correct": false
+        },
+        {
+          "text": "Rusia, China, Australia, Brasil y Sudáfrica",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA01_019",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál de las siguientes herramientas NO tiene algún tipo de Inteligencia Artificial?",
+      "options": [
+        {
+          "text": "Un Chatbot",
+          "correct": false
+        },
+        {
+          "text": "Cualquier buscador en Internet",
+          "correct": false
+        },
+        {
+          "text": "Un taladro",
+          "correct": true
+        },
+        {
+          "text": "El filtro de SPAM de cualquier gestor de correo electrónico",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA01_020",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "La Inteligencia Artificial empieza a demandar equipos de trabajo con perfil multidisciplinar. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA01_021",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Deep Blue de IBM fue una “supercomputadora” que desarrolló la empresa IBM en los años 90 del S.XX para jugar al ajedrez, que...",
+      "options": [
+        {
+          "text": "falló estrepitosamente al no lograr ganar ninguna vez al ser humano",
+          "correct": false
+        },
+        {
+          "text": "en ningún momento se consideró un programa de Inteligencia Artificial",
+          "correct": false
+        },
+        {
+          "text": "se considera actualmente la primera Inteligencia Artificial que ganó a un humano jugando al ajedrez",
+          "correct": false
+        },
+        {
+          "text": "en su momento se consideró un hito del avance de la Inteligencia Artificial, aunque con el criterio que consideramos en la actualidad no se considera estrictamente como Inteligencia Artificial",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA01_022",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Existe una única definición para la Inteligencia Artificial, propuesta por el MIT (Massachusets Insitute of Technology). ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA01_023",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "En los años 90 del S.XX se produjo lo que conocemos como el invierno de la IA como consecuencia de no haberse alcanzado las expectativas predichas en la conferencia de Dartmouth y en los años posteriores. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA01_024",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En que año se han presentado la tercera generación del Modelo de Predicción del Lenguaje (mas conocido como GPT-3)?",
+      "options": [
+        {
+          "text": "2020",
+          "correct": true
+        },
+        {
+          "text": "1992",
+          "correct": false
+        },
+        {
+          "text": "2012",
+          "correct": false
+        },
+        {
+          "text": "2007",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA01_025",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los asistentes virtuales, la traducción simultánea universal y el control de juegos con el pensamiento son aplicaciones de la Inteligencia Artificial que...",
+      "options": [
+        {
+          "text": "... se han desarrollado ya por completo y no se esperan avances significativos",
+          "correct": false
+        },
+        {
+          "text": "...  se están desarrollando en la actualidad y para los que se esperan mejoras en los próximos años",
+          "correct": true
+        },
+        {
+          "text": "... no tienen el menor interés",
+          "correct": false
+        },
+        {
+          "text": "... se prevé que sean abordados en años futuros, aunque en la actualidad no se conoce ninguna solución comercial concreta",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA01_026",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En qué año se celebró la Conferencia de investigación de verano de Dartmouth sobre Inteligencia Artificial, que pasó a considerarse el germen de lo que hoy en día conocemos como tal?",
+      "options": [
+        {
+          "text": "1956",
+          "correct": true
+        },
+        {
+          "text": "1961",
+          "correct": false
+        },
+        {
+          "text": "1946",
+          "correct": false
+        },
+        {
+          "text": "1951",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA01_027",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Quién lideró e investigó fundamentalmente el desarrollo de ImageNet?",
+      "options": [
+        {
+          "text": "Yann Lecun",
+          "correct": false
+        },
+        {
+          "text": "Ian Goodfellow",
+          "correct": false
+        },
+        {
+          "text": "Fei-Fei Li",
+          "correct": true
+        },
+        {
+          "text": "Geoffrey Hinton",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA01_028",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Las iniciales GAN de las conocidas “Redes GAN” responden a las siglas en inglés:",
+      "options": [
+        {
+          "text": "Giant Automatic Newhuman",
+          "correct": false
+        },
+        {
+          "text": "Generative Automatic Neuronal (Generación Automática de Neuronas en español).",
+          "correct": false
+        },
+        {
+          "text": "Gran Arquitectura Neuronal",
+          "correct": false
+        },
+        {
+          "text": "Generative Adversarial Network (Redes Generativas Adversarias en español).",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA01_029",
+      "module": "MIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "En 2015, la liberación de Tensor Flow, supuso…",
+      "options": [
+        {
+          "text": "... la quiebra de la empresa matriz, al perder el monopolio de la Inteligencia Artificial",
+          "correct": false
+        },
+        {
+          "text": "... un gran impulso tanto en el campo de la investigación como en el de la democratización de la Inteligencia Artificial, haciéndola accesible para todos",
+          "correct": true
+        },
+        {
+          "text": "… ningún cambio sustancial en cuanto a desarrollo de IA se refiere",
+          "correct": false
+        },
+        {
+          "text": "... la limitación de la investigación en Inteligencia Artificial por parte de las grandes empresas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA02_001",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál de las siguientes opciones NO es una de las tipologías de IA según la clasificación de Hintze?",
+      "options": [
+        {
+          "text": "Memoria Limitada",
+          "correct": false
+        },
+        {
+          "text": "Autoconciencia",
+          "correct": false
+        },
+        {
+          "text": "Máquinas Reactivas",
+          "correct": false
+        },
+        {
+          "text": "Computacional",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA02_002",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Las redes neuronales son sistemas basados en redes de unidades de computación lineal para simular computación no lineal. ¿Verdadero o Falso? ",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA02_003",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "La principal diferencia entre las dos escuelas de pensamiento en el ámbito de la Inteligencia Artificial radica en la ciencia que hay tras los procesos que sigue dicha IA para llegar a los resultados esperados. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA02_004",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuantos tipos de Inteligencia Artificial contempla la clasificación de Hinzte?",
+      "options": [
+        {
+          "text": "2",
+          "correct": false
+        },
+        {
+          "text": "3",
+          "correct": false
+        },
+        {
+          "text": "4",
+          "correct": true
+        },
+        {
+          "text": "5",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA02_005",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Tanto la Inteligencia Artificial Débil como la Fuerte tienen que ver con:",
+      "options": [
+        {
+          "text": "El proceso de aprendizaje de dicha IA",
+          "correct": false
+        },
+        {
+          "text": "La capacidad de memorizar de dicha IA",
+          "correct": false
+        },
+        {
+          "text": "La/s tarea/s que es capaz de realizar dicha IA",
+          "correct": true
+        },
+        {
+          "text": "El comportamiento de dicha IA",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA02_006",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una máquina reactiva es:",
+      "options": [
+        {
+          "text": "Una IA que no es capaz de formar recuerdos",
+          "correct": false
+        },
+        {
+          "text": "uno de los sistemas más básicos de la IA",
+          "correct": false
+        },
+        {
+          "text": "Todas las opciones son correctas",
+          "correct": true
+        },
+        {
+          "text": "Una IA que no puede utilizar experiencias pasadas para basar las decisiones actuales",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA02_007",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "La Inteligencia Artificial Débil también se conoce como",
+      "options": [
+        {
+          "text": "Clásica",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores es correcta",
+          "correct": false
+        },
+        {
+          "text": "Estrecha",
+          "correct": true
+        },
+        {
+          "text": "Pequeña",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA02_008",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "La IA Fuerte también se conoce como",
+      "options": [
+        {
+          "text": "Débil",
+          "correct": false
+        },
+        {
+          "text": "General",
+          "correct": true
+        },
+        {
+          "text": "Computacional",
+          "correct": false
+        },
+        {
+          "text": "Teoría de la mente",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA02_009",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Cualquier asistente virtual actual (Siri, Ok Google, Alexa...) se puede clasificar como una Inteligencia Artificial",
+      "options": [
+        {
+          "text": "Teoría de la Mente",
+          "correct": false
+        },
+        {
+          "text": "Autoconsciente",
+          "correct": false
+        },
+        {
+          "text": "Débil",
+          "correct": true
+        },
+        {
+          "text": "Fuerte",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA02_010",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "La clasificación de la Inteligencia Artificial según Arend Hintze se publicó en",
+      "options": [
+        {
+          "text": "2006",
+          "correct": false
+        },
+        {
+          "text": "2016",
+          "correct": true
+        },
+        {
+          "text": "1996",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las opciones es correcta",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA02_011",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Hay algún tipo de Inteligencia Artificial en la actualidad que consiga cumplir los principios de la Teoría de la Mente según la clasificación de Hintze?",
+      "options": [
+        {
+          "text": "No, aún no",
+          "correct": true
+        },
+        {
+          "text": "Sí, los satélites inteligentes militares",
+          "correct": false
+        },
+        {
+          "text": "Sí, los coches autónomos",
+          "correct": false
+        },
+        {
+          "text": "Sí, los teléfonos inteligentes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA02_012",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál ha sido la escuela de pensamiento que mayor número de algoritmos conocidos como “automatización” nos ha proporcionado?",
+      "options": [
+        {
+          "text": "La Inteligencia Artificial Convencional",
+          "correct": true
+        },
+        {
+          "text": "La Inteligencia Artificial Computacional",
+          "correct": false
+        },
+        {
+          "text": "La Inteligencia Artificial Reactiva",
+          "correct": false
+        },
+        {
+          "text": "La Inteligencia Artificial Fuerte",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA02_013",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "La Inteligencia Artificial Convencional también se conoce como",
+      "options": [
+        {
+          "text": "Inteligencia Artificial simbólico-deductiva",
+          "correct": true
+        },
+        {
+          "text": "Inteligencia Artificial Fuerte",
+          "correct": false
+        },
+        {
+          "text": "Inteligencia Artificial Débil",
+          "correct": false
+        },
+        {
+          "text": "Inteligencia Artificial subsimbólica-inductiva",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA02_014",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "La Inteligencia Artificial General es una de las maneras que a veces se usa cuando hablamos de",
+      "options": [
+        {
+          "text": "Inteligencia Artificial Fuerte",
+          "correct": true
+        },
+        {
+          "text": "Cualquier tipo de Inteligencia Artificial",
+          "correct": false
+        },
+        {
+          "text": "Inteligencia Artificial Débil",
+          "correct": false
+        },
+        {
+          "text": "La Inteligencia Artificial de las máquinas reactivas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA02_015",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Las siglas IAG (en el contexto de la clasificación de la Inteligencia Artificial) se corresponden con",
+      "options": [
+        {
+          "text": "Inteligencia Artificial Genérica",
+          "correct": false
+        },
+        {
+          "text": "Inteligencia Artificial Grande",
+          "correct": false
+        },
+        {
+          "text": "Inteligencia Artificial Gramatical",
+          "correct": false
+        },
+        {
+          "text": "Inteligencia Artificial General",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA02_016",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál de las siguientes técnicas NO pertenece a la escuela de pensamiento computacional en el ámbito de la Inteligencia Artificial?",
+      "options": [
+        {
+          "text": "Smart Process Management",
+          "correct": true
+        },
+        {
+          "text": "Máquina de vectores soporte",
+          "correct": false
+        },
+        {
+          "text": "Computación evolutiva",
+          "correct": false
+        },
+        {
+          "text": "Redes Neuronales",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA02_017",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "De las siguientes tipologías de clasificación de la Inteligencia Artificial ¿cuál es la más reciente?",
+      "options": [
+        {
+          "text": "Hintze",
+          "correct": true
+        },
+        {
+          "text": "Según la tarea (Fuerte-Débil)",
+          "correct": false
+        },
+        {
+          "text": "Rusell y Norvig",
+          "correct": false
+        },
+        {
+          "text": "Según la Escuela de Pensamiento",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA02_018",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuáles son las dos escuelas de pensamiento en el ámbito de la Inteligencia Artificial?",
+      "options": [
+        {
+          "text": "Convencional y Fuerte",
+          "correct": false
+        },
+        {
+          "text": "Débil y Computacional",
+          "correct": false
+        },
+        {
+          "text": "Convencional y Computacional",
+          "correct": true
+        },
+        {
+          "text": "Convencional, Débil, Computacional y Fuerte",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA02_019",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "La Inteligencia Artificial Fuerte ya existe y muchas máquinas a nuestro alrededor cuentan con ella. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA02_020",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué aportan las Redes bayesianas en la escuela de pensamiento convencional en el ámbito de la Inteligencia Artificial?",
+      "options": [
+        {
+          "text": "Ayuda a tomar decisiones mientras se resuelven ciertos problemas concretos y, aparte de que son muy importantes, requieren de un buen funcionamiento",
+          "correct": false
+        },
+        {
+          "text": "Infieren una solución a través del conocimiento previo del contexto en que se aplica y ocupa de ciertas reglas o relaciones",
+          "correct": false
+        },
+        {
+          "text": "Facilita la toma de decisiones complejas, proponiendo una solución a un determinado problema al igual que lo haría un especialista en dicha actividad",
+          "correct": false
+        },
+        {
+          "text": "Propone soluciones mediante inferencia probabilística",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA02_021",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "La Inteligencia Artificial Computacional también se conoce como IA subsimbólica-inductiva. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA02_022",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "La Inteligencia Artificial Estrecha es una de las maneras por las que se conoce a",
+      "options": [
+        {
+          "text": "la Inteligencia Artificial Débil",
+          "correct": true
+        },
+        {
+          "text": "la Inteligencia Artificial Fuerte",
+          "correct": false
+        },
+        {
+          "text": "la Inteligencia Artificial Convencional",
+          "correct": false
+        },
+        {
+          "text": "la Inteligencia Artificial del Test de Turing",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA02_023",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "La técnica conocida como “Aprendizaje Automático” (o “Machine Learning” en inglés), ha sido impulsada fundamentalmente por",
+      "options": [
+        {
+          "text": "Bill Gates",
+          "correct": false
+        },
+        {
+          "text": "la escuela de pensamiento posicional",
+          "correct": false
+        },
+        {
+          "text": "la escuela de pensamiento computacional",
+          "correct": true
+        },
+        {
+          "text": "la escuela de pensamiento convencional",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA02_024",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "A pesar de los avances que estamos teniendo en la capacidad de cómputo y memoria de los ordenadores, la Inteligencia Artificial Convencional sigue aplicándose y creciendo. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA02_025",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuántas escuelas de pensamiento podemos encontrar en el ámbito de la Inteligencia Artificial?",
+      "options": [
+        {
+          "text": "2",
+          "correct": true
+        },
+        {
+          "text": "1",
+          "correct": false
+        },
+        {
+          "text": "4",
+          "correct": false
+        },
+        {
+          "text": "3",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA02_026",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "La Inteligencia Artificial Convencional se basa en:",
+      "options": [
+        {
+          "text": "el aprendizaje autónomo.",
+          "correct": false
+        },
+        {
+          "text": "Todas las respuestas anteriores son correctas.",
+          "correct": false
+        },
+        {
+          "text": "el análisis formal y estadístico del comportamiento humano ante diferentes problemas.",
+          "correct": true
+        },
+        {
+          "text": "la estadística evolucionada.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA02_027",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "La Inteligencia Artificial Débil ya existe y muchas máquinas a nuestro alrededor cuentan con ella. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA02_028",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Hay algún tipo de Inteligencia Artificial en la actualidad que se pueda considerar como Inteligencia Artificial con Memoria Limitada (según la clasificación de Hintze)?",
+      "options": [
+        {
+          "text": "No, ninguna de las Inteligencias Artificiales actuales llega a usar Memoria Limitada aún",
+          "correct": false
+        },
+        {
+          "text": "Sí, Deep Blue, tenía Memoria Limitada",
+          "correct": false
+        },
+        {
+          "text": "Sí, los coches autónomos que “recuerdan” la velocidad y dirección de otros vehículos o viandantes, y tienen en cuenta esa información cuando tienen que cambiar de carril, por ejemplo.",
+          "correct": true
+        },
+        {
+          "text": "Sí, los brazos robóticos de una fábrica.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA02_029",
+      "module": "MIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "La clasificación de IA según la/s tarea/s que resuelve contempla estas opciones:",
+      "options": [
+        {
+          "text": "Ninguna de las anteriores es correcta",
+          "correct": false
+        },
+        {
+          "text": "Débil y Fuerte",
+          "correct": true
+        },
+        {
+          "text": "Computacional, Hintze",
+          "correct": false
+        },
+        {
+          "text": "Débil, Media, Fuerte, Muy Fuerte",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_001",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "La Inteligencia Artificial Clásica se encuadra entre los años 60 y 70 del S.XX.",
+      "options": [
+        {
+          "text": "Sí",
+          "correct": true
+        },
+        {
+          "text": "Sí, comienza en los años 60 pero abarca hasta los 90",
+          "correct": false
+        },
+        {
+          "text": "No, es anterior, en los años posteriores a la Segunda Guerra Mundial (años 40 y 50 del S.XX)",
+          "correct": false
+        },
+        {
+          "text": "No, es posterior, en torno a los años 90, antes del 2000",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_002",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "La Inteligencia Artificial, inicialmente, tuvo un desarrollo más teórico que práctico.",
+      "options": [
+        {
+          "text": "Sí.",
+          "correct": true
+        },
+        {
+          "text": "Solo en Estados Unidos.",
+          "correct": false
+        },
+        {
+          "text": "Solo en la Unión Soviética.",
+          "correct": false
+        },
+        {
+          "text": "No.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_003",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "La capacidad de cómputo de los ordenadores así como su memoria han sido el factor determinante para pasar de la Inteligencia Artificial teórica a las aplicaciones prácticas de la misma. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_004",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "El Silogismo es uno de los procesos básicos del aprendizaje humano que primero intentaron imitar en la Inteligencia Artificial con máquinas. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_005",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es el objetivo de las redes semánticas en un sistema experto?",
+      "options": [
+        {
+          "text": "Representar el conocimiento con los objetos en forma de nodos",
+          "correct": true
+        },
+        {
+          "text": "Visualizar los datos antes de empezar a trabajar con ellos",
+          "correct": false
+        },
+        {
+          "text": "Representar todos los expertos que han colaborado, con nombres y apellidos",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_006",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "La Inteligencia Artificial Clásica necesita al menos un humano “experto” en la tarea que se pretenda que dicha Inteligencia Artificial aprenda. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_007",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Deep Blue, de IBM, era un Sistema Experto?",
+      "options": [
+        {
+          "text": "Sí",
+          "correct": true
+        },
+        {
+          "text": "No",
+          "correct": false
+        },
+        {
+          "text": "No, aunque estaba muy cerca de serlo",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las respuestas anteriores es correcta",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_008",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué es un silogismo?",
+      "options": [
+        {
+          "text": "Es un lenguaje de programación para Inteligencia Artificial",
+          "correct": false
+        },
+        {
+          "text": "Es uno de los procesos básicos del aprendizaje deductivo humano que se intentó imitar en los desarrollos iniciales de la Inteligencia Artificial",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las tres anteriores es correcta",
+          "correct": false
+        },
+        {
+          "text": "Es un tipo de Inteligencia Artificial",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_009",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es el principal motivo por el que la Inteligencia Artificial Clásica fuera más teórica que práctica?",
+      "options": [
+        {
+          "text": "No existía suficiente energía eléctrica para alimentar los ordenadores",
+          "correct": false
+        },
+        {
+          "text": "Los ordenadores que había en esa época eran muy rudimentarios, con poca memoria y capacidad de cómputo insuficiente",
+          "correct": true
+        },
+        {
+          "text": "No había suficiente interés por parte de las empresas, gobiernos e instituciones en obtener desarrollos prácticos de IA",
+          "correct": false
+        },
+        {
+          "text": "Nadie se creía que fuera a aportar nada útil",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_010",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Un Sistema Experto es un programa informático que se ha desarrollado a partir de nuestro conocimiento sobre una cuestión, y que consigue que el ordenador muestre un comportamiento equivalente al que tendría un experto humano sobre el mismo tema. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_011",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los planteamientos originarios de la Inteligencia Artificial Clásica acertaron completamente con lo que después sería la capacidad de cómputo actual. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA03_012",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué parte del sistema experto constituye la memoria de trabajo?",
+      "options": [
+        {
+          "text": "Base de hechos",
+          "correct": true
+        },
+        {
+          "text": "Base de conocimientos",
+          "correct": false
+        },
+        {
+          "text": "Motor de inferencia",
+          "correct": false
+        },
+        {
+          "text": "Interfaz sistema-usuario",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_013",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la primera fase de un proceso de desarrollo de Inteligencia Artificial Clásica?",
+      "options": [
+        {
+          "text": "Convertir el conocimiento humano en reglas",
+          "correct": false
+        },
+        {
+          "text": "Comprobar el buen funcionamiento del sistema e iterar el proceso si es necesario",
+          "correct": false
+        },
+        {
+          "text": "Que el experto humano defina todos los elementos de la tarea que se quiere enseñar a la máquina",
+          "correct": true
+        },
+        {
+          "text": "Informatizar las reglas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_014",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué parte del sistema experto contiene el conocimiento estructurado y codificado?",
+      "options": [
+        {
+          "text": "Base de hechos",
+          "correct": false
+        },
+        {
+          "text": "Base de conocimientos",
+          "correct": true
+        },
+        {
+          "text": "Interfaz sistema-usuario",
+          "correct": false
+        },
+        {
+          "text": "Motor de inferencia",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_015",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Si queremos desarrollar un Sistema Experto de Inteligencia Artificial Clásica necesitamos...",
+      "options": [
+        {
+          "text": "Un equipo de científicos muy inteligentes",
+          "correct": false
+        },
+        {
+          "text": "Un laboratorio de última generación",
+          "correct": false
+        },
+        {
+          "text": "Un equipo de expertos en la tarea que se quiera “enseñar” a la Inteligencia Artificial",
+          "correct": true
+        },
+        {
+          "text": "Un ordenador muy potente",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_016",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los primeros científicos que desarrollaron Inteligencia Artificial pensaban que sería posible lograr que un ordenador aprendiera igual que lo hace un humano.",
+      "options": [
+        {
+          "text": "No, nunca pretendieron nada parecido",
+          "correct": false
+        },
+        {
+          "text": "No, lo pensaron en algún momento, pero no prestaron atención a esa posibilidad",
+          "correct": false
+        },
+        {
+          "text": "Sí, pero pronto se dieron cuenta que no era posible y no llegaron a intentar desarrollar esta teoría a la práctica",
+          "correct": false
+        },
+        {
+          "text": "Sí, y los primeros desarrollos prácticos que intentaron llevar a la realidad perseguían este modo de aprendizaje",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA03_017",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la tercera fase de un proceso de desarrollo de Inteligencia Artificial Clásica?",
+      "options": [
+        {
+          "text": "Comprobar el buen funcionamiento del sistema e iterar el proceso si es necesario",
+          "correct": false
+        },
+        {
+          "text": "Informatizar las reglas",
+          "correct": true
+        },
+        {
+          "text": "Convertir el conocimiento humano en reglas",
+          "correct": false
+        },
+        {
+          "text": "Que el experto humano defina todos los elementos de la tarea que se quiere enseñar a la máquina",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_018",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué es informatizar (en el contexto de los Sistemas Expertos IA)?",
+      "options": [
+        {
+          "text": "Cualquiera de las tres respuestas anteriores es válida",
+          "correct": false
+        },
+        {
+          "text": "Es trasladar las reglas definidas por un humano experto para realizar una tarea a lenguaje informático",
+          "correct": true
+        },
+        {
+          "text": "Es definir las reglas de una tarea que se pretende “enseñar” a una máquina",
+          "correct": false
+        },
+        {
+          "text": "Es el proceso por el que se comprueba el buen funcionamiento de una Inteligencia Artificial y se itera si es necesario",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_019",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los sistemas expertos planteados por la Inteligencia Artificial Clásica sólo son abarcables...",
+      "options": [
+        {
+          "text": "Siempre, en cualquier tipo de tarea o problema",
+          "correct": false
+        },
+        {
+          "text": "En casos de correlación",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las respuestas anteriores es correcta",
+          "correct": false
+        },
+        {
+          "text": "En tareas que se fundamentan en relaciones de causalidad",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA03_020",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué parte del sistema experto es la vía de comunicación con el usuario?",
+      "options": [
+        {
+          "text": "Base de conocimientos",
+          "correct": false
+        },
+        {
+          "text": "Interfaz sistema-usuario",
+          "correct": true
+        },
+        {
+          "text": "Base de hechos",
+          "correct": false
+        },
+        {
+          "text": "Motor de inferencia",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_021",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "El siguiente razonamiento: Los humanos son inteligentes y Eva es una humana, por lo tanto Eva es inteligente.",
+      "options": [
+        {
+          "text": "Es un razonamiento estadístico",
+          "correct": false
+        },
+        {
+          "text": "Es un ejemplo de Inteligencia Artificial Clásica",
+          "correct": false
+        },
+        {
+          "text": "Es un silogismo",
+          "correct": true
+        },
+        {
+          "text": "Es un Sistema Experto",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_022",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué parte del sistema experto es la unidad lógica que aplica las reglas?",
+      "options": [
+        {
+          "text": "Base de conocimientos",
+          "correct": false
+        },
+        {
+          "text": "Motor de inferencia",
+          "correct": true
+        },
+        {
+          "text": "Base de hechos",
+          "correct": false
+        },
+        {
+          "text": "Interfaz sistema-usuario",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_023",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Cuando el conocimiento o “inteligencia” que se quiere informatizar se basa en una correlación...",
+      "options": [
+        {
+          "text": "Las tres respuestas anteriores son correctas",
+          "correct": true
+        },
+        {
+          "text": "No es posible definir reglas y relaciones informatizables",
+          "correct": false
+        },
+        {
+          "text": "No es abarcable por la mecánica de los Sistemas Expertos",
+          "correct": false
+        },
+        {
+          "text": "Necesitamos recurrir a otra manera de abordar la Inteligencia Artificial",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_024",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué tipo de estructura sigue una regla de producción en un sistema experto?",
+      "options": [
+        {
+          "text": "Es un comando simple",
+          "correct": false
+        },
+        {
+          "text": "Es una estructura condicional del tipo IF-THEN",
+          "correct": true
+        },
+        {
+          "text": "Es una operación matemática de tipo aritmético",
+          "correct": false
+        },
+        {
+          "text": "Es una estructura basada en una lista de datos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_025",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la segunda fase de un proceso de desarrollo de Inteligencia Artificial Clásica?",
+      "options": [
+        {
+          "text": "Comprobar el buen funcionamiento del sistema e iterar el proceso si es necesario.",
+          "correct": false
+        },
+        {
+          "text": "Informatizar las reglas",
+          "correct": false
+        },
+        {
+          "text": "Convertir el conocimiento humano en reglas",
+          "correct": true
+        },
+        {
+          "text": "Que el experto humano defina todos los elementos de la tarea que se quiere enseñar a la máquina.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_026",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué es un Sistema Experto?",
+      "options": [
+        {
+          "text": "Es un programa informático que se ha desarrollado a partir de nuestro conocimiento sobre una cuestión, y que consigue que el ordenador muestre un comportamiento equivalente al que tendría un experto humano sobre el mismo tema.",
+          "correct": true
+        },
+        {
+          "text": "Es un conjunto de ordenadores especializados en un tipo concreto de Inteligencia Artificial.",
+          "correct": false
+        },
+        {
+          "text": "Es un ordenador muy potente que se ha programado basándose en el criterio de un experto en informática para desarrollar Inteligencia Artificial.",
+          "correct": false
+        },
+        {
+          "text": "Es un método de selección de ingenieros para encontrar a los más inteligentes.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_027",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la cuarta fase de un proceso de desarrollo de Inteligencia Artificial Clásica?",
+      "options": [
+        {
+          "text": "Convertir el conocimiento humano en reglas.",
+          "correct": false
+        },
+        {
+          "text": "Que el experto humano defina todos los elementos de la tarea que se quiere enseñar a la máquina.",
+          "correct": false
+        },
+        {
+          "text": "Informatizar las reglas.",
+          "correct": false
+        },
+        {
+          "text": "Comprobar el buen funcionamiento del sistema e iterar el proceso si es necesario.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA03_028",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los sistemas expertos probabilísticos están basados en:",
+      "options": [
+        {
+          "text": "El principio de incertidumbre de Heissenberg",
+          "correct": false
+        },
+        {
+          "text": "Ninguno de los anteriores",
+          "correct": false
+        },
+        {
+          "text": "El Teorema de Bayes",
+          "correct": true
+        },
+        {
+          "text": "El Teorema de Pitágoras",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA03_029",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Las reglas de producción en un sistema experto son estructuras simples de un único elemento. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA03_030",
+      "module": "MIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "En el mecanismo de encadenamiento hacia atrás se parte de hechos para llegar a resultados. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA04_001",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es el objetivo del Aprendizaje Automático Por Refuerzo?",
+      "options": [
+        {
+          "text": "Aprender a jugar a videojuegos",
+          "correct": false
+        },
+        {
+          "text": "Encontrar relaciones entre los diferentes valores que toman los campos de una instancia",
+          "correct": false
+        },
+        {
+          "text": "Detectar qué grupo de instancias son las más pobladas",
+          "correct": false
+        },
+        {
+          "text": "Aprender cómo mapear situaciones o acciones para maximizar cierta recompensa",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA04_002",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Cuando queremos predecir una información que se puede expresar con un valor numérico (con Aprendizaje Automático) la Clasificación es la mejor opción. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA04_003",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "El Aprendizaje Automático (Machine Learning) es algo nuevo, planteado y desarrollado en los últimos 10 años. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA04_004",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En qué dos categorías se dividen los problemas de Aprendizaje Automático Supervisado?",
+      "options": [
+        {
+          "text": "Regresión y clustering",
+          "correct": false
+        },
+        {
+          "text": "Fuerte y débil",
+          "correct": false
+        },
+        {
+          "text": "Rápido y lento",
+          "correct": false
+        },
+        {
+          "text": "Regresión y clasificación",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA04_005",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Se requiere etiquetado previo de las instancias para un modelo de Aprendizaje Automático No Supervisado?",
+      "options": [
+        {
+          "text": "Solo en el caso de emplear una Regresión",
+          "correct": false
+        },
+        {
+          "text": "Depende del resultado que estemos buscando",
+          "correct": false
+        },
+        {
+          "text": "Sí",
+          "correct": false
+        },
+        {
+          "text": "No",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA04_006",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Si quisieras agrupar a tus clientes por afinidades para ofrecerles productos u ofertas que sabemos han gustado hasta ahora a un tipo concreto de clientes ¿Qué tipo de problema de Aprendizaje Automático No Supervisado deberías usar?",
+      "options": [
+        {
+          "text": "Clustering",
+          "correct": true
+        },
+        {
+          "text": "Clasificación",
+          "correct": false
+        },
+        {
+          "text": "Regresión",
+          "correct": false
+        },
+        {
+          "text": "Detección de anomalías",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA04_007",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es uno de los usos más extendidos del Aprendizaje Automático Supervisado?",
+      "options": [
+        {
+          "text": "Encontrar relaciones ocultas entre los diferentes elementos aportados en los datos almacenados",
+          "correct": false
+        },
+        {
+          "text": "Enseñar a máquinas a jugar a videojuegos",
+          "correct": false
+        },
+        {
+          "text": "Las tres respuestas anteriores son usos habituales del Aprendizaje Automático Supervisado",
+          "correct": false
+        },
+        {
+          "text": "Hacer predicciones a futuro basadas en comportamientos o características que se han visto en los datos ya almacenados (histórico de datos)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA04_008",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "El Aprendizaje Automático puede ser",
+      "options": [
+        {
+          "text": "Solamente por refuerzo",
+          "correct": false
+        },
+        {
+          "text": "Supervisado, no supervisado o por refuerzo",
+          "correct": true
+        },
+        {
+          "text": "Supervisado o no supervisado",
+          "correct": false
+        },
+        {
+          "text": "Supervisado o por refuerzo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA04_009",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la característica fundamental del Aprendizaje Automático Supervisado?",
+      "options": [
+        {
+          "text": "Que dicho aprendizaje necesita gran capacidad de cómputo",
+          "correct": false
+        },
+        {
+          "text": "Que dicho aprendizaje se realiza imitando el aprendizaje humano",
+          "correct": false
+        },
+        {
+          "text": "Que dicho aprendizaje se realiza a partir de datos no etiquetados previamente",
+          "correct": false
+        },
+        {
+          "text": "Que dicho aprendizaje se realiza a partir de datos que ya han sido etiquetados previamente",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA04_010",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es el objetivo de las Asociaciones (en el contexto del Aprendizaje Automático No Supervisado)?",
+      "options": [
+        {
+          "text": "Detectar instancias que se diferencian de las demás",
+          "correct": false
+        },
+        {
+          "text": "Detectar qué grupos o clusters son los más poblados",
+          "correct": false
+        },
+        {
+          "text": "Reducir el coste del entrenamiento de la Inteligencia Artificial",
+          "correct": false
+        },
+        {
+          "text": "Encontrar relaciones entre los diferentes valores que toman los campos de una instancia",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA04_011",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué es lo que se busca en los problemas de Detección de Anomalías (en el contexto del Aprendizaje Automático No Supervisado)?",
+      "options": [
+        {
+          "text": "Reducir el coste del entrenamiento de la Inteligencia Artificial",
+          "correct": false
+        },
+        {
+          "text": "Detectar qué grupos o clusters son los más poblados",
+          "correct": false
+        },
+        {
+          "text": "Encontrar relaciones entre los diferentes valores que toman los campos de una instancia",
+          "correct": false
+        },
+        {
+          "text": "Detectar instancias que se diferencian de las demás",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA04_012",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "En un proyecto de Aprendizaje Automático suele requerir mucho más tiempo y esfuerzo la fase de recogida de datos (RAW), limpieza de los mismos y su transformación para ser \"comprendidos\" por la herramienta de entrenamiento, que la fase de entrenamiento y aprendizaje propiamente dicha. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA04_013",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "El término Machine Learning lo traducimos a Español como",
+      "options": [
+        {
+          "text": "Aprendizaje Automático",
+          "correct": false
+        },
+        {
+          "text": "Las dos últimas son correctas",
+          "correct": true
+        },
+        {
+          "text": "Aprendizaje Autónomo",
+          "correct": false
+        },
+        {
+          "text": "Aprendizaje Profundo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA04_014",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Según la definición de Arthur Samuel (en 1959) el Aprendizaje Automático (Machine Learning) es \"el campo del estudio que da a las computadoras la capacidad de aprender...\" (completa la definición)",
+      "options": [
+        {
+          "text": "... a partir de la inmensa capacidad de cómputo de nuestros ordendaroes\"",
+          "correct": false
+        },
+        {
+          "text": "... sin ser programado explícitamente\"",
+          "correct": true
+        },
+        {
+          "text": "... siguiendo patrones\"",
+          "correct": false
+        },
+        {
+          "text": "...gracias a las reglas y normas definidas previamente por el humano\"",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA04_015",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "El Aprendizaje Automático (Machine Learning) en una rama de estudio de la Inteligencia Artificial. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA04_016",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Las técnicas de Aprendizaje Automático (Machine Learning) actuales se centran en",
+      "options": [
+        {
+          "text": "Aprender como lo haría un humano",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores es correcta",
+          "correct": false
+        },
+        {
+          "text": "Resolver problemas prácticos",
+          "correct": true
+        },
+        {
+          "text": "Gestionar datos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA04_017",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "La definición de Aprendizaje Automático de Tom Mitchell utiliza estos tres elementos",
+      "options": [
+        {
+          "text": "Experiencia, Tarea y Rendimiento (Probabilidad de acertar)",
+          "correct": true
+        },
+        {
+          "text": "Velocidad de cálculo, Eficacia de predicción y Observación del resultado",
+          "correct": false
+        },
+        {
+          "text": "Patrones, Estadística y Datos",
+          "correct": false
+        },
+        {
+          "text": "Ninguno de las tres respuestas anteriores es correcta",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA04_018",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En qué materias se basa el Aprendizaje Automático (Machine Learning) actual?",
+      "options": [
+        {
+          "text": "Reconocimiento de patrones, Física cuántica, Procesamiento de datos y Estadística aplicada",
+          "correct": false
+        },
+        {
+          "text": "Estudiar el reconocimiento de patrones y aprendizaje por parte de las computadoras",
+          "correct": false
+        },
+        {
+          "text": "Razonamiento probabilístico, Estadística, Recuperación de datos y Reconocimiento de patrones",
+          "correct": true
+        },
+        {
+          "text": "Estadística, Matemáticas, Física y Química",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA04_019",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Si quieres entrenar un modelo de Inteligencia Artificial mediante Aprendizaje Automático para predecir el volumen de ventas que tendrá tu empresa los próximos meses ¿qué problema utilizarás?",
+      "options": [
+        {
+          "text": "Clasificación",
+          "correct": false
+        },
+        {
+          "text": "Detección de anomalías",
+          "correct": false
+        },
+        {
+          "text": "Clusterización",
+          "correct": false
+        },
+        {
+          "text": "Regresión",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA04_020",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "El Aprendizaje Automático (Machine Learning) es un proceso de adquisición de conocimiento de manera automática mediante la utilización de ejemplos (experiencia) de entrenamiento. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA04_021",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué se busca predecir en una regresión (en el contexto del Aprendizaje Automático Supervisado)?",
+      "options": [
+        {
+          "text": "Un valor numérico",
+          "correct": true
+        },
+        {
+          "text": "Un conjunto de instancias con similitudes",
+          "correct": false
+        },
+        {
+          "text": "Una categoría predominante",
+          "correct": false
+        },
+        {
+          "text": "El precio de un inmueble",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA04_022",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Si quieres entrenar un modelo de Inteligencia Artificial mediante Aprendizaje Automático para predecir un diagnóstico médico ¿qué problema utilizarás?",
+      "options": [
+        {
+          "text": "Regresión",
+          "correct": false
+        },
+        {
+          "text": "Clasificación",
+          "correct": true
+        },
+        {
+          "text": "Clusterización",
+          "correct": false
+        },
+        {
+          "text": "Detección de anomalías",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA04_023",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué se busca predecir en una clasificación (en el contexto del Aprendizaje Automático Supervisado)?",
+      "options": [
+        {
+          "text": "Una categoría predominante",
+          "correct": false
+        },
+        {
+          "text": "Un conjunto de instancias con similitudes",
+          "correct": false
+        },
+        {
+          "text": "Un valor numérico",
+          "correct": false
+        },
+        {
+          "text": "La categoría a la que pertenece el campo objetivo de la instancia dada",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA04_024",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué son las instancias cuando hablamos de Aprendizaje Automático?",
+      "options": [
+        {
+          "text": "Cada uno de los elementos que forman el conjunto de datos que se proporcionan para dicho Aprendizaje Automático",
+          "correct": true
+        },
+        {
+          "text": "El conjunto de resultados que esperamos obtener",
+          "correct": false
+        },
+        {
+          "text": "Los documentos necesarios para solicitar el permiso de realizar dicho Aprendizaje Automático",
+          "correct": false
+        },
+        {
+          "text": "El tiempo que hay que esperar para que la Inteligencia Artificial entrene el modelo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA04_025",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "El Machine Learning (Aprendizaje Automático) genera un gran interés en toda la sociedad, especialmente desde el año…",
+      "options": [
+        {
+          "text": "2009",
+          "correct": false
+        },
+        {
+          "text": "2000",
+          "correct": false
+        },
+        {
+          "text": "2016",
+          "correct": true
+        },
+        {
+          "text": "2022",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA04_026",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En qué tres tipos de problemas se puede dividir el Aprendizaje Automático No Supervisado?",
+      "options": [
+        {
+          "text": "Regresión, Clasificación y Refuerzo.",
+          "correct": false
+        },
+        {
+          "text": "Clustering, Detección de Anomalías y Asociaciones",
+          "correct": true
+        },
+        {
+          "text": "Similitudes, Diferencias y Asociaciones",
+          "correct": false
+        },
+        {
+          "text": "Árbol de decisión, Bayesianos y Reducción",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA04_027",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué es lo que se busca en los problemas de Detección de Anomalías (en el contexto del Aprendizaje Automático No Supervisado)?",
+      "options": [
+        {
+          "text": "Detectar instancias que se diferencian de las demás",
+          "correct": true
+        },
+        {
+          "text": "Detectar qué grupos o clusters son los más poblados",
+          "correct": false
+        },
+        {
+          "text": "Encontrar relaciones entre los diferentes valores que toman los campos de una instancia",
+          "correct": false
+        },
+        {
+          "text": "Reducir el coste del entrenamiento de la Inteligencia Artificial",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA04_028",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es el objetivo del Aprendizaje Automático No Supervisado?",
+      "options": [
+        {
+          "text": "Encontrar alguna estructura o forma de organizar los datos históricos no etiquetados previamente.",
+          "correct": true
+        },
+        {
+          "text": "Ser capaz de hacer predicciones a partir de los datos históricos proporcionados.",
+          "correct": false
+        },
+        {
+          "text": "Que los robots aprendan solos.",
+          "correct": false
+        },
+        {
+          "text": "Dominar el mundo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA04_029",
+      "module": "MIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es objetivo del Culstering (en el contexto del Aprendizaje Automático No Supervisado)?",
+      "options": [
+        {
+          "text": "Ordenar y limpiar las instancias defectuosas para hacer un posterior entrenamiento supervisado.",
+          "correct": false
+        },
+        {
+          "text": "Hacer predicciones.",
+          "correct": false
+        },
+        {
+          "text": "Generar un mapa clasificatorio.",
+          "correct": false
+        },
+        {
+          "text": "Generar agrupaciones o clusters buscando las instancias que son similares entre sí.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA05_001",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál de estas técnicas se utiliza en modelos de NLP?",
+      "options": [
+        {
+          "text": "Regresión",
+          "correct": false
+        },
+        {
+          "text": "Diffusion",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        },
+        {
+          "text": "Word2vec",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA05_002",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué técnica utiliza DALLE para generar imágenes a partir de una descripción dada?",
+      "options": [
+        {
+          "text": "Clarification.",
+          "correct": false
+        },
+        {
+          "text": "Normalization.",
+          "correct": false
+        },
+        {
+          "text": "Dispersion.",
+          "correct": false
+        },
+        {
+          "text": "Difusion.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA05_003",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "El modelo GPT3 también es capaz de escribir programas en lenguaje de programación. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA05_004",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Se puede respetar la privacidad de las personas mayores que tienen un sistema de vigilancia en su casa?",
+      "options": [
+        {
+          "text": "No. Les toca aguantarse",
+          "correct": false
+        },
+        {
+          "text": "No, pero solo se ponen cámaras apuntando al techo",
+          "correct": false
+        },
+        {
+          "text": "Sí, haciendo la imagen borrosa",
+          "correct": false
+        },
+        {
+          "text": "Sí, sustituyendo su imagen por una silueta o figura articulada",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA05_005",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué aporta un sistema de vigilancia basado en inteligencia artificial en la industria?",
+      "options": [
+        {
+          "text": "Mejor predicción de riesgos y accidentes",
+          "correct": true
+        },
+        {
+          "text": "Menos multas",
+          "correct": false
+        },
+        {
+          "text": "Más datos sobre quién llega tarde a trabajar",
+          "correct": false
+        },
+        {
+          "text": "Fotografías para el album de la empresa",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA05_006",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "En la industria agroalimentaria, la visión artificial permite detectar el grado de madurez de un fruto. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA05_007",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿A qué sistema del robot pertenece el módulo de visión artificial?",
+      "options": [
+        {
+          "text": "Al de control",
+          "correct": false
+        },
+        {
+          "text": "Al de comunicaciones",
+          "correct": false
+        },
+        {
+          "text": "Al de los actuadores",
+          "correct": false
+        },
+        {
+          "text": "Al de los sensores",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA05_008",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué es ImageNet?",
+      "options": [
+        {
+          "text": "Una red neuronal de visión artificial",
+          "correct": false
+        },
+        {
+          "text": "Nada, no existe",
+          "correct": false
+        },
+        {
+          "text": "Un modelo de reconocimiento facial",
+          "correct": false
+        },
+        {
+          "text": "Un dataset de más de 14 millones de imágenes para entrenamiento de modelos de visión artificial",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA05_009",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo es capaz de no salirse de la carretera un coche autónomo?",
+      "options": [
+        {
+          "text": "El sistema de visión artificial detecta las líneas de la carretera",
+          "correct": true
+        },
+        {
+          "text": "Porque los neumáticos detectan si están pisando las rayas",
+          "correct": false
+        },
+        {
+          "text": "Los coches todavía no son capaces de eso",
+          "correct": false
+        },
+        {
+          "text": "Los sensores de proximidad detectan cosas a los lados de la carretera y se mantienen a una cierta distancia",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA05_010",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Se utiliza la visión artificial en los coches autónomos?",
+      "options": [
+        {
+          "text": "Si, pero solo cuando el coche está parado",
+          "correct": false
+        },
+        {
+          "text": "Si, es uno de los módulos fundamentales",
+          "correct": true
+        },
+        {
+          "text": "No, el coche para si el conductor grita",
+          "correct": false
+        },
+        {
+          "text": "No, son mejores los radares y sensores Lidar",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA05_011",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Por qué se usa el reconocimiento facial como identificador único de cada persona?",
+      "options": [
+        {
+          "text": "No, en realidad no se usa como identificador",
+          "correct": false
+        },
+        {
+          "text": "Porque el tamaño de la nariz es una medida única de cada persona",
+          "correct": false
+        },
+        {
+          "text": "Cada persona tiene una huella facial única obtenida como una clave de números por el sistema",
+          "correct": true
+        },
+        {
+          "text": "Porque en ese dispositivo, solo se lee el rostro de su propietario",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA05_012",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Un sistema de reconocimiento facial necesita que la persona esté con el mismo fondo y en la misma posición para reconocerlo en otra fotografía. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA05_013",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Las aplicaciones de NLP trabajan con",
+      "options": [
+        {
+          "text": "Datos de entrada en formato de imagen",
+          "correct": false
+        },
+        {
+          "text": "Datos no estructurados",
+          "correct": true
+        },
+        {
+          "text": "Datos de sensores",
+          "correct": false
+        },
+        {
+          "text": "Datos de entrada estructurados en bases de datos relacionales",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA05_014",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los asistentes virtuales Google Assistant y Alexa, son capaces de conversar, pero también de hacer que se ejecuten acciones en sistemas externos conectados. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA05_015",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué tipo de aplicación se usa para detectar incidentes de tráfico?",
+      "options": [
+        {
+          "text": "Sistema de control robótico",
+          "correct": false
+        },
+        {
+          "text": "Sistema de generación de imágenes",
+          "correct": false
+        },
+        {
+          "text": "Ninguno de los anteriores",
+          "correct": false
+        },
+        {
+          "text": "Sistema de vigilancia inteligente",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA05_016",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Con qué tipo de datos se trabaja en los modelos predictivos?",
+      "options": [
+        {
+          "text": "Datos tabulares",
+          "correct": true
+        },
+        {
+          "text": "Datos de sensores",
+          "correct": false
+        },
+        {
+          "text": "Imágenes",
+          "correct": false
+        },
+        {
+          "text": "Fragmentos de texto",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA05_017",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Con qué tipo de datos se trabaja en los modelos inteligentes de control de robots?",
+      "options": [
+        {
+          "text": "Fragmentos de texto",
+          "correct": false
+        },
+        {
+          "text": "Datos tabulares",
+          "correct": false
+        },
+        {
+          "text": "Imágenes",
+          "correct": false
+        },
+        {
+          "text": "Datos de sensores",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA05_018",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "La técnica “Bag of words” consiste en generar vectores de 500 dimensiones para cada palabra. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA05_019",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "El modelo de generación de imágenes DALLE de Open AI se apoya en el modelo GPT3 para la interpretación del texto de entrada que da el usuario. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA05_020",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Quién impulsó el dataset de referencia en visión artificial ImageNet?",
+      "options": [
+        {
+          "text": "Steve Jobs",
+          "correct": false
+        },
+        {
+          "text": "Fei Fei Li",
+          "correct": true
+        },
+        {
+          "text": "Ray Kurtzweil",
+          "correct": false
+        },
+        {
+          "text": "Yann Lecun",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA05_021",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "La unidad de control de un vehículo autónomo se entrena con algoritmos de aprendizaje automático no supervisado. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA05_022",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "En el campo de la medicina todavía no se ha conseguido desarrollar ninguna aplicación o programa basado en visión artificial que ayude en el diagnóstico. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA05_023",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿De cuántos parámetros es la red de GPT3?",
+      "options": [
+        {
+          "text": "175 mil millones",
+          "correct": true
+        },
+        {
+          "text": "1000",
+          "correct": false
+        },
+        {
+          "text": "100",
+          "correct": false
+        },
+        {
+          "text": "1 millón",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA05_024",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "La aplicación de Deep Dream puede ser usada por:",
+      "options": [
+        {
+          "text": "Solo por artistas que estén acreditados por alguna escuela de arte.",
+          "correct": false
+        },
+        {
+          "text": "Solo por empresas de diseño.",
+          "correct": false
+        },
+        {
+          "text": "Por cualquier persona que pueda acceder a un superordenador.",
+          "correct": false
+        },
+        {
+          "text": "Por cualquier persona que se registre en su web.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA05_025",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En qué año se publicó el modelo de Deep Dream?",
+      "options": [
+        {
+          "text": "En 2021.",
+          "correct": false
+        },
+        {
+          "text": "Se creó en 2014, pero fue publicado en 2015.",
+          "correct": true
+        },
+        {
+          "text": "En 2019.",
+          "correct": false
+        },
+        {
+          "text": "En 2017.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA05_026",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué campos de estudio deben colaborar en un sistema de Procesamiento de Lenguaje Natural?",
+      "options": [
+        {
+          "text": "La ciencia de datos y la ciencia social.",
+          "correct": false
+        },
+        {
+          "text": "La inteligencia artificial y la lingüística.",
+          "correct": true
+        },
+        {
+          "text": "Las ciencias de la computación y la ingeniería industrial.",
+          "correct": false
+        },
+        {
+          "text": "La inteligencia artificial y la literatura.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA05_027",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En qué técnica se basa el funcionamiento de GauGAN?",
+      "options": [
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "En la difusión lógica binaria.",
+          "correct": false
+        },
+        {
+          "text": "En la Normalización Espacial Adaptativa.",
+          "correct": true
+        },
+        {
+          "text": "En la técnica representativa de óleo digital.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA05_028",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿A qué ámbito de la inteligencia artificial pertenece el modelo GPT3?",
+      "options": [
+        {
+          "text": "Al de la conducción autónoma.",
+          "correct": false
+        },
+        {
+          "text": "Al de modelos predictivos.",
+          "correct": false
+        },
+        {
+          "text": "Al reconocimiento facial.",
+          "correct": false
+        },
+        {
+          "text": "Al de generación de textos.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA05_029",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Un sistema de reconocimiento facial identifica los puntos de referencia faciales para distinguir un rostro de otros objetos. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "MIA05_030",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "En el campo de la medicina todavía no se ha conseguido desarrollar ninguna aplicación o programa basado en visión artificial que ayude en el diagnóstico. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "MIA05_031",
+      "module": "MIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En qué consiste la tokenización en los modelos de NLP?",
+      "options": [
+        {
+          "text": "En separar palabras del texto en entidades llamadas tokens.",
+          "correct": true
+        },
+        {
+          "text": "En asignar un valor monetario al gasto computacional.",
+          "correct": false
+        },
+        {
+          "text": "En recrear las palabras más frecuentes.",
+          "correct": false
+        },
+        {
+          "text": "En memorizar sinónimos.",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "MIA_FC_001",
+      "module": "MIA03",
+      "priority": "medium",
+      "front": "¿Qué es un sistema experto?",
+      "back": "Un programa informático que se ha desarrollado a partir de nuestro conocimiento sobre una cuestión, y que consigue que el ordenador muestre un comportamiento equivalente al que tendría un experto humano sobre el mismo tema"
+    },
+    {
+      "id": "MIA_FC_002",
+      "module": "MIA03",
+      "priority": "medium",
+      "front": "¿Cuáles son las cuatro fases esenciales en el proceso de desarrollo de un sistema experto?",
+      "back": "1.- Localizar al humano experto con conocimiento; 2.- Definir reglas; 3.- Informatizar; 4.- Iterar"
+    },
+    {
+      "id": "MIA_FC_003",
+      "module": "MIA03",
+      "priority": "medium",
+      "front": "¿Qué se buscaba al crear Inteligencia Artificial Clásica?",
+      "back": "Desarrollar programas informáticos que replicaran el conocimiento humano, inicialmente en casos particulares y \"sencillos\", con la intención de ir poco a poco abarcando procesos y casos más complejos. De tal manera que la máquina pudiera \"pensar\" y actuar como un humano experto en dicho caso particular."
+    },
+    {
+      "id": "MIA_FC_004",
+      "module": "MIA03",
+      "priority": "medium",
+      "front": "¿Qué es la base de conocimientos en un sistema experto?",
+      "back": "Contiene el conocimiento y la experiencia de los expertos en un campo determinado, estructurado y codificado, preparado para entregar dicho conocimiento cuando sea requerido por el sistema. Ha sido generado a partir de las referencias dadas por los expertos en dicho campo."
+    },
+    {
+      "id": "MIA_FC_005",
+      "module": "MIA03",
+      "priority": "medium",
+      "front": "¿Qué es el motor o mecanismo de inferencia en un sistema experto?",
+      "back": "Es la unidad lógica que aplica las reglas sobre la base de conocimientos a partir de las consultas, extrayendo conclusiones. Utiliza un método fijo de solución de problemas configurado imitando el proceso humano de los expertos para resolver ese tipo de problemas."
+    },
+    {
+      "id": "MIA_FC_006",
+      "module": "MIA03",
+      "priority": "medium",
+      "front": "¿Cuál es la función de la interfaz sistema-usuario en un sistema experto?",
+      "back": "Es el medio o vía para las consultas. Debe facilitar una comunicación lo más natural para el usuario, ser sencilla de aprender a utilizar y alertar de posibles datos erróneos de entrada."
+    },
+    {
+      "id": "MIA_FC_007",
+      "module": "MIA03",
+      "priority": "medium",
+      "front": "¿Qué son las reglas de producción?",
+      "back": "Estructuras condicionales que relacionan a través de la lógica la información de una premisa o antecedente con la información contenida en la parte de conclusión o consecuencia y que suele traducirse en una acción."
+    },
+    {
+      "id": "MIA_FC_008",
+      "module": "MIA03",
+      "priority": "medium",
+      "front": "¿En qué consiste el encadenamiento hacia adelante?",
+      "back": "Se parte de hechos para llegar a resultados."
+    },
+    {
+      "id": "MIA_FC_009",
+      "module": "MIA03",
+      "priority": "medium",
+      "front": "¿Qué es la lógica difusa?",
+      "back": "Permite la toma de decisiones en algunos sistemas expertos."
+    },
+    {
+      "id": "MIA_FC_010",
+      "module": "MIA03",
+      "priority": "medium",
+      "front": "¿Qué es el Teorema de Bayes?",
+      "back": "Es el teorema en el que se basa el cálculo de la probabilidad en los sistemas probabilísticos."
+    },
+    {
+      "id": "MIA_FC_011",
+      "module": "MIA04",
+      "priority": "medium",
+      "front": "¿Qué es el Aprendizaje Automático (Machine Learning)?",
+      "back": "Es un proceso de adquisición de conocimiento de manera automática mediante la utilización de ejemplos (experiencia) de entrenamiento."
+    },
+    {
+      "id": "MIA_FC_012",
+      "module": "MIA04",
+      "priority": "medium",
+      "front": "¿Cuáles son los tres tipos de Aprendizaje Automático que se mencionan en el documento?",
+      "back": "Aprendizaje automático supervisado, no supervisado y por refuerzo."
+    },
+    {
+      "id": "MIA_FC_013",
+      "module": "MIA04",
+      "priority": "medium",
+      "front": "¿Qué significa que un problema sea de Regresión en el Aprendizaje Supervisado?",
+      "back": "Se busca predecir qué valor tendrá el campo objetivo para una nueva instancia (valor numérico)."
+    },
+    {
+      "id": "MIA_FC_014",
+      "module": "MIA04",
+      "priority": "medium",
+      "front": "¿Qué se busca en los problemas de Clasificación?",
+      "back": "Predecir a qué categoría pertenece el campo objetivo de cada instancia a partir de una lista de posibles categorías."
+    },
+    {
+      "id": "MIA_FC_015",
+      "module": "MIA04",
+      "priority": "medium",
+      "front": "¿Cuál es la característica fundamental del Aprendizaje Automático Supervisado?",
+      "back": "Dicho aprendizaje se realiza a partir de datos que ya han sido etiquetados previamente."
+    },
+    {
+      "id": "MIA_FC_016",
+      "module": "MIA04",
+      "priority": "medium",
+      "front": "¿En qué consiste la técnica de Clustering?",
+      "back": "Generar agrupaciones o clusters buscando las instancias que son similares entre sí."
+    },
+    {
+      "id": "MIA_FC_017",
+      "module": "MIA04",
+      "priority": "medium",
+      "front": "¿Qué se busca en la Detección de Anomalías?",
+      "back": "Encontrar las instancias que se diferencian de las demás."
+    },
+    {
+      "id": "MIA_FC_018",
+      "module": "MIA04",
+      "priority": "medium",
+      "front": "¿Cuál es el objetivo del Aprendizaje por Refuerzo?",
+      "back": "Aprender cómo mapear situaciones o acciones para maximizar una cierta recompensa."
+    },
+    {
+      "id": "MIA_FC_019",
+      "module": "MIA04",
+      "priority": "medium",
+      "front": "¿Cuál es la diferencia principal entre Minería de Datos y Machine Learning?",
+      "back": "La minería de datos descubre patrones anteriormente desconocidos, mientras que el machine learning se usa para reproducir patrones conocidos y hacer predicciones basadas en los patrones."
+    },
+    {
+      "id": "MIA_FC_020",
+      "module": "MIA05",
+      "priority": "medium",
+      "front": "¿Qué es la Inteligencia Artificial?",
+      "back": "El campo de estudio y desarrollo que busca que las máquinas piensen y actúen como humanos."
+    },
+    {
+      "id": "MIA_FC_021",
+      "module": "MIA05",
+      "priority": "medium",
+      "front": "¿Cuáles son las cuatro grandes áreas de actuación de la Inteligencia Artificial?",
+      "back": "Visión artificial, procesamiento del lenguaje natural, analítica avanzada y modelos predictivos, y sistemas robóticos."
+    },
+    {
+      "id": "MIA_FC_022",
+      "module": "MIA05",
+      "priority": "medium",
+      "front": "¿Qué es el reconocimiento facial?",
+      "back": "Un software que identifica o confirma la identidad de una persona a partir del rostro."
+    },
+    {
+      "id": "MIA_FC_023",
+      "module": "MIA05",
+      "priority": "medium",
+      "front": "¿Cómo funciona el reconocimiento facial?",
+      "back": "Mediante la identificación y medición de los rasgos faciales en una imagen."
+    },
+    {
+      "id": "MIA_FC_024",
+      "module": "MIA05",
+      "priority": "medium",
+      "front": "¿Qué es la visión artificial?",
+      "back": "La capacidad de las computadoras para \"ver\" e interpretar imágenes, videos y otros datos visuales."
+    },
+    {
+      "id": "MIA_FC_025",
+      "module": "MIA05",
+      "priority": "medium",
+      "front": "¿Qué es el procesamiento del lenguaje natural (PLN)?",
+      "back": "El campo de la Inteligencia Artificial que se ocupa de la comunicación entre máquinas y personas utilizando lenguas naturales."
+    },
+    {
+      "id": "MIA_FC_026",
+      "module": "MIA05",
+      "priority": "medium",
+      "front": "¿Cuáles son los componentes del procesamiento del lenguaje natural (PLN)?",
+      "back": "Análisis morfológico o léxico, análisis sintáctico, análisis semántico y análisis pragmático."
+    },
+    {
+      "id": "MIA_FC_027",
+      "module": "MIA05",
+      "priority": "medium",
+      "front": "¿Qué hace el análisis morfológico o léxico?",
+      "back": "Analiza las palabras para extraer lemas, rasgos flexivos, y unidades léxicas compuestas."
+    },
+    {
+      "id": "MIA_FC_028",
+      "module": "MIA05",
+      "priority": "medium",
+      "front": "¿Qué es la generación de textos?",
+      "back": "El área de la inteligencia artificial que se dedica a la creación de textos de manera automática."
+    },
+    {
+      "id": "MIA_FC_029",
+      "module": "MIA05",
+      "priority": "medium",
+      "front": "¿Qué es GPT-3?",
+      "back": "Generative Pre-trained Transformer 3, un modelo de lenguaje autorregresivo que utiliza aprendizaje profundo para generar textos simulando la redacción humana."
+    },
+    {
+      "id": "MIA_FC_030",
+      "module": "MIA05",
+      "priority": "medium",
+      "front": "¿Qué son los asistentes conversacionales?",
+      "back": "Asistentes virtuales que mantienen conversaciones fluidas con los usuarios, pueden realizar tareas y acceder a otros sistemas."
+    },
+    {
+      "id": "MIA_FC_031",
+      "module": "MIA05",
+      "priority": "medium",
+      "front": "¿Cuáles son algunos ejemplos de asistentes conversacionales?",
+      "back": "Google Assistant, Google Home, Alexa y Siri."
+    },
+    {
+      "id": "MIA_FC_032",
+      "module": "MIA05",
+      "priority": "medium",
+      "front": "¿Qué son los modelos predictivos?",
+      "back": "Técnicas que, mediante aprendizaje automático, Big Data y reconocimiento de patrones, predicen resultados futuros."
+    },
+    {
+      "id": "MIA_FC_033",
+      "module": "MIA05",
+      "priority": "medium",
+      "front": "¿Qué implica la robótica inteligente?",
+      "back": "El uso de la inteligencia artificial para mejorar el desempeño de los robots y permitirles acometer nuevas tareas."
+    }
+  ],
+  "practicalQuestions": []
+}

@@ -1,0 +1,5732 @@
+{
+  "subject": "PIA",
+  "name": "Programación de Inteligencia Artificial",
+  "examInfo": {
+    "description": "~3 test/tema (suman 1, restan 0.5) + 3 ejercicios + 1 desarrollo.",
+    "scoring": "Test: suman 1, restan 0.5. Ejercicios: 5.5-6pts. Desarrollo: 1-1.5pts",
+    "topics": "Bayes, KNN, modelos ML, matriz de confusión, Python"
+  },
+  "questions": [
+    {
+      "id": "PIA01_001",
+      "module": "PIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cual de estas opciones contribuye a enriquecer tu experiencia como desarrollador de IA?",
+      "options": [
+        {
+          "text": "Ver videos divulgativos sobre inteligencia artificial",
+          "correct": false
+        },
+        {
+          "text": "Participar en competiciones sobre machine learning",
+          "correct": true
+        },
+        {
+          "text": "Hacer networking con otros profesionales de la inteligencia artificial",
+          "correct": false
+        },
+        {
+          "text": "Ver pelis futuristas con robots inteligentes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA01_002",
+      "module": "PIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Que áreas comprende la Ciencia de Datos?",
+      "options": [
+        {
+          "text": "Bid Data y Gaming",
+          "correct": false
+        },
+        {
+          "text": "Machine Learning y Metaversos",
+          "correct": false
+        },
+        {
+          "text": "Ciberseguridad y Machine Learning",
+          "correct": false
+        },
+        {
+          "text": "Big Data y Machine Learning",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA01_003",
+      "module": "PIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cual es el lenguaje de programación más utilizado en el ámbito de la IA?",
+      "options": [
+        {
+          "text": "Python",
+          "correct": true
+        },
+        {
+          "text": "Julia",
+          "correct": false
+        },
+        {
+          "text": "Java",
+          "correct": false
+        },
+        {
+          "text": "R",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA01_004",
+      "module": "PIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Tener cuenta en GitHub permite estar más en contacto con la comunidad de desarrollo de inteligencia artificial, pues se puede compartir recibir feedback de proyectos",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA01_005",
+      "module": "PIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Un hackathon es un encuentro orientado a definir lineas de actuación de marketing en las empresas",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA01_006",
+      "module": "PIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Es imprescindible desarrollar inteligencia artificial programando en Javascript",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA01_007",
+      "module": "PIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Que libreria permite desarrollar modelos de machine learning con Javascript para ejecutarlos directamente en el navegador?",
+      "options": [
+        {
+          "text": "Tensorflow.js",
+          "correct": true
+        },
+        {
+          "text": "Keras",
+          "correct": false
+        },
+        {
+          "text": "Node",
+          "correct": false
+        },
+        {
+          "text": "Pandas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA01_008",
+      "module": "PIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En que campo de las matemáticas es común encontrar vectores y matrices?",
+      "options": [
+        {
+          "text": "En Cálculo Infinitesimal",
+          "correct": false
+        },
+        {
+          "text": "En Artitmética",
+          "correct": false
+        },
+        {
+          "text": "En Lógica Matemática",
+          "correct": false
+        },
+        {
+          "text": "En Algebra Lineal",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA01_009",
+      "module": "PIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Aunque C++ es un lenguaje más lento de programar, su ventaja es que es muy rápido en ejecución",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA01_010",
+      "module": "PIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cual es la principal orientación del lenguaje de programación R?",
+      "options": [
+        {
+          "text": "Cálculo de vectores de aproximación a los autovalores de Engel",
+          "correct": false
+        },
+        {
+          "text": "Desarrollo web",
+          "correct": false
+        },
+        {
+          "text": "Cálculo de ecuaciones diferenciales",
+          "correct": false
+        },
+        {
+          "text": "Cálculo estadístico, visualización y flujo de datos",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA01_011",
+      "module": "PIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "Al analista de datos se le conoce coloquialmente como MLops",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA01_012",
+      "module": "PIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En que lenguaje de programación se han desarrollado más librerias orientadas al desarrollo de inteligencia artificial?",
+      "options": [
+        {
+          "text": "C",
+          "correct": false
+        },
+        {
+          "text": "Python",
+          "correct": true
+        },
+        {
+          "text": "Javascript",
+          "correct": false
+        },
+        {
+          "text": "Fortran",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA01_013",
+      "module": "PIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En que plataforma online se convocan competiciones de desarrollo de machine learning con frecuencia?",
+      "options": [
+        {
+          "text": "GitHub.com",
+          "correct": false
+        },
+        {
+          "text": "Kaggle.com",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        },
+        {
+          "text": "Google.com",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA01_014",
+      "module": "PIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Que perfil esta mas enfocado a la aplicacion de tecnicas de machine learning?",
+      "options": [
+        {
+          "text": "El analista de datos",
+          "correct": true
+        },
+        {
+          "text": "El ingeniero de datos",
+          "correct": false
+        },
+        {
+          "text": "El encargado de protección de datos",
+          "correct": false
+        },
+        {
+          "text": "El cientifico de datos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA01_015",
+      "module": "PIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En que circunstancia se suele utilizar Java para el desarrollo en inteligencia artificial?",
+      "options": [
+        {
+          "text": "Cuando hay una gran cantidad de datos que procesar",
+          "correct": false
+        },
+        {
+          "text": "Cuando el proveedor de servicios en la nube es Oracle",
+          "correct": false
+        },
+        {
+          "text": "Cuando el equipo no sabe programar en Python",
+          "correct": false
+        },
+        {
+          "text": "Cuando la lógico de negocio ya está creada usando Java",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA01_016",
+      "module": "PIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "En el ámbito de la inteligencia artificial, apenas hay comunidad y todos los profesionales trabajan de una forma muy aislada e independiente",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA01_017",
+      "module": "PIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Que perfil está más enfocado a la investigación de nuevos algoritmos y modelos?",
+      "options": [
+        {
+          "text": "El cientifico de datos",
+          "correct": true
+        },
+        {
+          "text": "El encargado de protección de datos",
+          "correct": false
+        },
+        {
+          "text": "El ingeniero de datos",
+          "correct": false
+        },
+        {
+          "text": "El analista de datos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA01_018",
+      "module": "PIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Que eventos sobre inteligencia artificial suelen ser habituales y accesibles?",
+      "options": [
+        {
+          "text": "Encuentros locales coordinados en la plataforma Meetup",
+          "correct": false
+        },
+        {
+          "text": "Eventos presenciales organizados por las grandes tecnologicas",
+          "correct": false
+        },
+        {
+          "text": "Eventos online organizados por las grandes empresas tecnologicas",
+          "correct": false
+        },
+        {
+          "text": "Todas las anteriores",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA01_019",
+      "module": "PIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "En el ámbito de la inteligencia artificial, puedes trabajar por cuenta ajena, pero también es bastante fácil montar tu propio proyecto de emprendimiento",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA01_020",
+      "module": "PIA01",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Que ventajas aporta estar en contacto con la comunidad de desarrollo de IA?",
+      "options": [
+        {
+          "text": "Obtener ayuda frente a dudas o bloqueos",
+          "correct": false
+        },
+        {
+          "text": "Todas las anteriores",
+          "correct": true
+        },
+        {
+          "text": "Colaborar en proyectos abiertos",
+          "correct": false
+        },
+        {
+          "text": "Aprender y estar al día en técnicas y algoritmos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA02_001",
+      "module": "PIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál, entre estos modelos, no pertenece a GPT3?",
+      "options": [
+        {
+          "text": "Ada",
+          "correct": false
+        },
+        {
+          "text": "Newton",
+          "correct": true
+        },
+        {
+          "text": "Davinci 2",
+          "correct": false
+        },
+        {
+          "text": "Curie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA02_002",
+      "module": "PIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿A qué llamamos intenciones o “intents” en Dialogflow?",
+      "options": [
+        {
+          "text": "Acciones a realizar por un asistente virtual",
+          "correct": false
+        },
+        {
+          "text": "Cada unidad de computación de un algoritmo de aprendizaje automático",
+          "correct": false
+        },
+        {
+          "text": "Conciencia propia de la inteligencia artificial",
+          "correct": false
+        },
+        {
+          "text": "Las necesidades que subyacen en las preguntas o solicitudes de los usuarios",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA02_003",
+      "module": "PIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Auto ML solo permite trabajar con modelos de datos tabulares para analítica avanzada y predicciones.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso ",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA02_004",
+      "module": "PIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Google Cloud Platform es uno de los principales proveedores de computación en la nube que utilizan las empresas y organizaciones a nivel mundial.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso ",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA02_005",
+      "module": "PIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la interfaz de trabajo en el servicio online de IBM para crear Inteligencia artificial con su modelo Watson?",
+      "options": [
+        {
+          "text": "Watson IDE.",
+          "correct": false
+        },
+        {
+          "text": "Watson Studio.",
+          "correct": true
+        },
+        {
+          "text": "IBM Watson Panel.",
+          "correct": false
+        },
+        {
+          "text": "IBM interface.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA02_006",
+      "module": "PIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuáles son las siglas del servicio de computación en la nube de Google?",
+      "options": [
+        {
+          "text": "AWS",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        },
+        {
+          "text": "SaaS.",
+          "correct": false
+        },
+        {
+          "text": "GCP.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA02_007",
+      "module": "PIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Entre los servicios de Azure Cognitive Services, hay uno enfocado en la detección de anomalías.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA02_008",
+      "module": "PIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuáles son las siglas del servicio de computación en la nube de Amazon?",
+      "options": [
+        {
+          "text": "PCG",
+          "correct": false
+        },
+        {
+          "text": "Kindle",
+          "correct": false
+        },
+        {
+          "text": "AWS",
+          "correct": true
+        },
+        {
+          "text": "GCP",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA02_009",
+      "module": "PIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la API de Google Cloud Platform de procesamiento del lenguaje natural y creación de asistentes virtuales?",
+      "options": [
+        {
+          "text": "DialogFlow",
+          "correct": true
+        },
+        {
+          "text": "Vision AI",
+          "correct": false
+        },
+        {
+          "text": "BigQuery",
+          "correct": false
+        },
+        {
+          "text": "Vertex AI",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA02_010",
+      "module": "PIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Azure Cognitive Services está totalmente enfocado en procesamiento de datos y de texto, por lo que no cuenta con servicios de reconocimiento de imagen ni visión artificial.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA02_011",
+      "module": "PIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En qué categoría de Vision AI se pueden clasificar emociones?",
+      "options": [
+        {
+          "text": "Properties",
+          "correct": false
+        },
+        {
+          "text": "Faces",
+          "correct": true
+        },
+        {
+          "text": "Objects",
+          "correct": false
+        },
+        {
+          "text": "Labels",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA02_012",
+      "module": "PIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la API de Google Cloud Platform para reconocimiento de imágenes?",
+      "options": [
+        {
+          "text": "DialogFlow",
+          "correct": false
+        },
+        {
+          "text": "Vision AI",
+          "correct": true
+        },
+        {
+          "text": "BigQuery",
+          "correct": false
+        },
+        {
+          "text": "Vertex AI",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA02_013",
+      "module": "PIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo se denomina la API de procesamiento del lenguaje natural de AWS?",
+      "options": [
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        },
+        {
+          "text": "Rekognition",
+          "correct": false
+        },
+        {
+          "text": "Comprehend",
+          "correct": true
+        },
+        {
+          "text": "Cognitive Services",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA02_014",
+      "module": "PIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es el nombre genérico que reciben los servicios cognitivos de IBM para crear aplicaciones de inteligencia artificial en la nube?",
+      "options": [
+        {
+          "text": "GPT3",
+          "correct": false
+        },
+        {
+          "text": "Watson",
+          "correct": true
+        },
+        {
+          "text": "AutoML",
+          "correct": false
+        },
+        {
+          "text": "DeepBlue",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA02_015",
+      "module": "PIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué aplicación de Google Cloud Platform nos permite crear un “chatbot”?",
+      "options": [
+        {
+          "text": "BigQuery",
+          "correct": false
+        },
+        {
+          "text": "Vision AI",
+          "correct": false
+        },
+        {
+          "text": "DialogFlow",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA02_016",
+      "module": "PIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Vision AI, en Google Cloud Platform, es capaz de detectar texto en las imágenes, incluso cuando es muy pequeño o está inclinado.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA02_017",
+      "module": "PIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué categorías de problemas permite modelizar Auto ML?",
+      "options": [
+        {
+          "text": "Imágenes y videos",
+          "correct": false
+        },
+        {
+          "text": "Datos tabulares",
+          "correct": false
+        },
+        {
+          "text": "Todas las anteriores",
+          "correct": true
+        },
+        {
+          "text": "Texto",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA02_018",
+      "module": "PIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "Vertex AI incluye la creación de un “endpoint” o acceso al modelo en formato API REST como parte del flujo de trabajo.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA02_019",
+      "module": "PIA02",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es el servicio de AWS que nos permite crear y entrenar un modelo de aprendizaje automático utilizando notebooks?",
+      "options": [
+        {
+          "text": "Comprehend",
+          "correct": false
+        },
+        {
+          "text": "SageMaker",
+          "correct": true
+        },
+        {
+          "text": "DynamoDB",
+          "correct": false
+        },
+        {
+          "text": "Rekognition",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA03_001",
+      "module": "PIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Se puede ejecutar un cuaderno en Kaggle?",
+      "options": [
+        {
+          "text": "No. Publican competiciones y se debe crear el cuaderno solución en otra herramienta.",
+          "correct": false
+        },
+        {
+          "text": "Sí, la plataforma ofrece un entorno con todo lo necesario para crear y ejecutar notebooks",
+          "correct": true
+        },
+        {
+          "text": "No, solo es una plataforma de la que descargarse datasets",
+          "correct": false
+        },
+        {
+          "text": "Sí, pero es necesario dar acceso http a un repositorio en Github.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA03_002",
+      "module": "PIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "La principal diferencia del IDE Replit respecto a VSC o Pycharm es",
+      "options": [
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        },
+        {
+          "text": "No se puede trabajar de forma colaborativa",
+          "correct": false
+        },
+        {
+          "text": "Es un IDE online; se accede vía web",
+          "correct": true
+        },
+        {
+          "text": "Es un IDE que solo sirve para Python",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA03_003",
+      "module": "PIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿A qué empresa tecnológica pertenece Binder?",
+      "options": [
+        {
+          "text": "Es un proyecto Open Source",
+          "correct": true
+        },
+        {
+          "text": "Google.",
+          "correct": false
+        },
+        {
+          "text": "Facebook.",
+          "correct": false
+        },
+        {
+          "text": "Microsoft.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA03_004",
+      "module": "PIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "El lenguaje Notebook es de tipo agnóstico, es decir, permite trabajar con diferentes lenguajes de programación de la misma manera y con las mismas ventajas. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA03_005",
+      "module": "PIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Binder habilita una imagen del repositorio en un contenedor de Docker con las dependencias y especificaciones que se hayan recogido en el archivo jamaica.txt. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA03_006",
+      "module": "PIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la principal razón por la que se utiliza un IDE frente a un Notebook cuando se está programando inteligencia artificial?",
+      "options": [
+        {
+          "text": "Porque estamos integrando el modelo ya entrenado en un proyecto",
+          "correct": true
+        },
+        {
+          "text": "Porque no tenemos conexión a internet",
+          "correct": false
+        },
+        {
+          "text": "Porque es la opción más segura",
+          "correct": false
+        },
+        {
+          "text": "Porque no se puede utilizar Tensorflow en un notebook",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA03_007",
+      "module": "PIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la principal ventaja de Google Colab frente a otros entornos notebook?",
+      "options": [
+        {
+          "text": "Permite escribir celdas de código, combinadas con celdas de texto, en formato cuaderno",
+          "correct": false
+        },
+        {
+          "text": "Es gratuito.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        },
+        {
+          "text": "Cuenta con un kernel preparado y mantenido, con todo actualizado, para los procesos habituales deciencia de datos.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA03_008",
+      "module": "PIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "El IDE Visual Studio Code es propiedad de",
+      "options": [
+        {
+          "text": "Google",
+          "correct": false
+        },
+        {
+          "text": "Microsoft",
+          "correct": true
+        },
+        {
+          "text": "Amazon",
+          "correct": false
+        },
+        {
+          "text": "IBM",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA03_009",
+      "module": "PIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los cuadernos hechos con Google Colab se almacenan por defecto en una carpeta de Drive de la cuenta deGoogle con la que han sido creados. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA03_010",
+      "module": "PIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué recurso aporta Google Colab para la computación en su notebook?",
+      "options": [
+        {
+          "text": "Memoria en Disco y RAM suficientes para un entrenamiento de un modelo normal",
+          "correct": true
+        },
+        {
+          "text": "Memoria en Disco, pero no memoria RAM",
+          "correct": false
+        },
+        {
+          "text": "La mitad de la capacidad de computación necesaria; la otra mitad la pone la máquina del usuario",
+          "correct": false
+        },
+        {
+          "text": "Aporta RAM suficiente, pero no aporta memoria de almacenamiento; por eso no se pueden cargardatasets directamente.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA03_011",
+      "module": "PIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "En Jupyter Notebook no se ejecutan ni se muestran gráficas o imágenes, para eso es necesario ejecutar el códigoen un IDE a parte. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA03_012",
+      "module": "PIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Se pueden compartir los cuadernos de Google Colab?",
+      "options": [
+        {
+          "text": "No. Son privados",
+          "correct": false
+        },
+        {
+          "text": "Sí, enviándolos por correo electrónico",
+          "correct": false
+        },
+        {
+          "text": "Sí, de la misma forma que se comparte cualquier documento de Drive",
+          "correct": true
+        },
+        {
+          "text": "No. Solo se pueden mostrar compartiendo pantalla",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA03_013",
+      "module": "PIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Google Colab permite el uso de procesador GPU para los modelos que requieren más potencia de computación.¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA03_014",
+      "module": "PIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "El formato cuaderno o Notebook, se hecho muy común en el ámbito de:",
+      "options": [
+        {
+          "text": "La automatización de QA.",
+          "correct": false
+        },
+        {
+          "text": "La Ciberseguridad",
+          "correct": false
+        },
+        {
+          "text": "Blockchain",
+          "correct": false
+        },
+        {
+          "text": "La Ciencia de Datos",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA03_015",
+      "module": "PIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los IDEs Visual Studio Code y Pycharm proveen de herramientas para:",
+      "options": [
+        {
+          "text": "Refactorizar..",
+          "correct": false
+        },
+        {
+          "text": "Hacer tests.",
+          "correct": false
+        },
+        {
+          "text": "Depurar el código",
+          "correct": false
+        },
+        {
+          "text": "Todas las anteriores",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA03_016",
+      "module": "PIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "Google Colab no se puede usar de forma profesional; solo sirve para aprender o para el entrenamiento de modelos muy pequeños. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA03_017",
+      "module": "PIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "En Kaggle solo se pueden editar y ejecutar notebooks que han sido creados por usuarios avanzados, pero no crear notebooks desde cero. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA03_018",
+      "module": "PIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "En un cuaderno o notebook, se puede integrar código y el resultado de su ejecución, pero no texto ni lenguaje demarcación. ¿Verdadero o Falso?",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA03_019",
+      "module": "PIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "El proyecto Jupyter proviene del entorno de programación:",
+      "options": [
+        {
+          "text": "Binder",
+          "correct": false
+        },
+        {
+          "text": "Pycharm",
+          "correct": false
+        },
+        {
+          "text": "Colab",
+          "correct": false
+        },
+        {
+          "text": "IPython",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA03_020",
+      "module": "PIA03",
+      "type": "test",
+      "source": "iabd",
+      "question": "El proyecto Jupyter, inicialmente, estaba orientado a tres lenguajes de programación. ¿Cual de los siguientes no estaba entre esos tres?",
+      "options": [
+        {
+          "text": "Java",
+          "correct": true
+        },
+        {
+          "text": "Python",
+          "correct": false
+        },
+        {
+          "text": "Julia",
+          "correct": false
+        },
+        {
+          "text": "R",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA04_001",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál fue el origen de la librería Matplotlib?",
+      "options": [
+        {
+          "text": "Estaba dentro de la librería Tensorflow.",
+          "correct": false
+        },
+        {
+          "text": "Estaba en la librería estándar de Python",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "Era un parche de IPython.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA04_002",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En qué año se incluye el paquete Keras en la distribución de Tensorflow?",
+      "options": [
+        {
+          "text": "2015",
+          "correct": false
+        },
+        {
+          "text": "2020",
+          "correct": false
+        },
+        {
+          "text": "2019",
+          "correct": true
+        },
+        {
+          "text": "2022",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA04_003",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué método utilizamos en Keras para fijar la función Loss y el optimizador (optimizer)?",
+      "options": [
+        {
+          "text": "compile",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        },
+        {
+          "text": "tools",
+          "correct": false
+        },
+        {
+          "text": "functions",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA04_004",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la clase para generar un modelo de K-Nearest Neighbors con Scikit-learn?",
+      "options": [
+        {
+          "text": "K_N_N()",
+          "correct": false
+        },
+        {
+          "text": "KNearestNeighbors()",
+          "correct": false
+        },
+        {
+          "text": "KNeighborsClassifier()",
+          "correct": true
+        },
+        {
+          "text": "K_Neighbors()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA04_005",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "La librería Matplotlib es muy extensa y útil, pero no permite hacer gráficas interactivas ni gráficas 3D",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA04_006",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué función de Pandas permite ver las dimensiones principales de un array?",
+      "options": [
+        {
+          "text": "info.",
+          "correct": false
+        },
+        {
+          "text": "array.",
+          "correct": false
+        },
+        {
+          "text": "shape.",
+          "correct": true
+        },
+        {
+          "text": "dimensions.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA04_007",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué librería está especialmente enfocada en la fase del análisis de los datos en un proceso de ciencia de datos?",
+      "options": [
+        {
+          "text": "Pandas.",
+          "correct": true
+        },
+        {
+          "text": "Matplotlib.",
+          "correct": false
+        },
+        {
+          "text": "Tensorflow.",
+          "correct": false
+        },
+        {
+          "text": "Scikit-learn.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA04_008",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué función de Pyplot permite representar un diagrama de barras?",
+      "options": [
+        {
+          "text": "Ninguna, no se puede.",
+          "correct": false
+        },
+        {
+          "text": "thick_lines",
+          "correct": false
+        },
+        {
+          "text": "bar.",
+          "correct": true
+        },
+        {
+          "text": "plot.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA04_009",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "La librería Pytorch fue creada por desarrolladores del FAIR, el Laboratorio de Investigación de Inteligencia Artificial de Facebook",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA04_010",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué función de Pandas nos muestra los principales valores estadísticos de un dataset?",
+      "options": [
+        {
+          "text": "shape.",
+          "correct": false
+        },
+        {
+          "text": "info.",
+          "correct": false
+        },
+        {
+          "text": "describe",
+          "correct": true
+        },
+        {
+          "text": "stadistics",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA04_011",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué librería está especialmente enfocada en la visualización de los datos en un proceso de ciencia de datos?",
+      "options": [
+        {
+          "text": "Pandas.",
+          "correct": false
+        },
+        {
+          "text": "Tensorflow.",
+          "correct": false
+        },
+        {
+          "text": "Matplotlib.",
+          "correct": true
+        },
+        {
+          "text": "Scikit-learn",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA04_012",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué función de Pandas permite la carga de los datos a partir de un fichero .csv?",
+      "options": [
+        {
+          "text": "leer_csv(‘ruta archivo.csv’)",
+          "correct": false
+        },
+        {
+          "text": "Ninguno de los anteriores",
+          "correct": false
+        },
+        {
+          "text": "read_csv(‘ruta archivo.csv’)",
+          "correct": true
+        },
+        {
+          "text": "carga_csv(‘ruta archivo.csv’)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA04_013",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "La función head de Pandas nos muestra las 10 primeras líneas de un dataframe",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA04_014",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "Pandas incluye la función plot para hacer representaciones sencillas",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA04_015",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "La librería Tensorflow fue liberada por Google en 2015 con licencia Apache de código abierto a partir de undesarrollo interno.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA04_016",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué función de Pyplot sirve para crear gráficas de dispersión de puntos?",
+      "options": [
+        {
+          "text": "plot",
+          "correct": false
+        },
+        {
+          "text": "scatter.",
+          "correct": true
+        },
+        {
+          "text": "histogram",
+          "correct": false
+        },
+        {
+          "text": "bar",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA04_017",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "La librería Scikit-learn surgió como un proyecto de Google Summer of Code de la mano de David Cournapeau",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA04_018",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿A través de qué clase se crea el objeto clave del tratamiento de los datos que aporta la librería Pandas?",
+      "options": [
+        {
+          "text": "DataFrame",
+          "correct": true
+        },
+        {
+          "text": "DataPandas",
+          "correct": false
+        },
+        {
+          "text": "DataClase",
+          "correct": false
+        },
+        {
+          "text": "DataSet.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA04_019",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cual es la paquete que incluye Pytorch que agiliza bastante la programación de soluciones de inteligencia artifcial?",
+      "options": [
+        {
+          "text": "Keras",
+          "correct": false
+        },
+        {
+          "text": "Scipy",
+          "correct": false
+        },
+        {
+          "text": "FastAI",
+          "correct": true
+        },
+        {
+          "text": "SQLite",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA04_020",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿A qué llamamos librería, dentro de un framework o lenguaje de programación?",
+      "options": [
+        {
+          "text": "A la estantería donde los programadores guardan los libros sobre programación",
+          "correct": false
+        },
+        {
+          "text": "Al conjunto de documentos que explican cómo programar en ese lenguaje.",
+          "correct": false
+        },
+        {
+          "text": "Al conjunto de clases y métodos o funciones escritas en ese lenguaje de programación, y que permitenrealizar determinadas tareas con menos líneas de código.",
+          "correct": true
+        },
+        {
+          "text": "A la tabla donde se recogen todas las palabras clave de ese lenguaje",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA04_021",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué librería está especialmente enfocada en la generación y entrenamiento de modelos sencillos de aprendizaje automático?",
+      "options": [
+        {
+          "text": "Tkinter",
+          "correct": false
+        },
+        {
+          "text": "Matplotlib",
+          "correct": false
+        },
+        {
+          "text": "Scikit-learn",
+          "correct": true
+        },
+        {
+          "text": "Pandas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA04_022",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "En los procesos de entrenamiento de redes neuronales profundas, se suelen utilizar los métodos o funciones de Keras antes que los de Tensorflow, porque Keras ha simplificado bastante dichas tareas con menos líneas de código.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA04_023",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuántos registros muestra la función head de Pandas por defecto?",
+      "options": [
+        {
+          "text": "10",
+          "correct": false
+        },
+        {
+          "text": "6",
+          "correct": false
+        },
+        {
+          "text": "5",
+          "correct": true
+        },
+        {
+          "text": "7",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA04_024",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la clase de la librería Keras que nos permite construir un modelo de deep learning con varias capas?",
+      "options": [
+        {
+          "text": "Sequential",
+          "correct": true
+        },
+        {
+          "text": "Ninguna",
+          "correct": false
+        },
+        {
+          "text": "DeepModel",
+          "correct": false
+        },
+        {
+          "text": "LayersModel",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA04_025",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál fue el origen de la librería Scikit-learn?",
+      "options": [
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        },
+        {
+          "text": "Era parte de la librería Scipy",
+          "correct": true
+        },
+        {
+          "text": "Era parte de la librería estándar de Python.",
+          "correct": false
+        },
+        {
+          "text": "Estaba dentro de la librería Tensorflow.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA04_026",
+      "module": "PIA04",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué librería está especialmente enfocada en la generación y entrenamiento de redes neuronales profundas?",
+      "options": [
+        {
+          "text": "Scikit-learn",
+          "correct": false
+        },
+        {
+          "text": "Tensorflow",
+          "correct": true
+        },
+        {
+          "text": "Pandas.",
+          "correct": false
+        },
+        {
+          "text": "Matplotlib",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA05_001",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo se llama la técnica que nos permite encontrar o identificar el mínimo de la función de coste en una iteración del entrenamiento?",
+      "options": [
+        {
+          "text": "Aislamiento del mínimo.",
+          "correct": false
+        },
+        {
+          "text": "Retorno del jedi",
+          "correct": false
+        },
+        {
+          "text": "Derivada multivarianza.",
+          "correct": false
+        },
+        {
+          "text": "Descenso del gradiente.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA05_002",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la diferencia clave de una red neuronal profunda respecto a otros modelos vistos?",
+      "options": [
+        {
+          "text": "La estructura por capas.",
+          "correct": true
+        },
+        {
+          "text": "El cálculo de la distancia a los K vecinos más cercanos",
+          "correct": false
+        },
+        {
+          "text": "La utilización de la descomposición por serie de Fourier.",
+          "correct": false
+        },
+        {
+          "text": "Que se ejecuta en un ordenador.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA05_003",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la operación que realiza el perceptrón?",
+      "options": [
+        {
+          "text": "La función lineal.",
+          "correct": true
+        },
+        {
+          "text": "Multiplicar el coeficiente 'a' por 'y'.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "Usar coeficientes de tipo irracional multiplicando a 'x'.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA05_004",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la unidad básica de una red neuronal?",
+      "options": [
+        {
+          "text": "La ecuación cuadrática.",
+          "correct": false
+        },
+        {
+          "text": "La función de coste.",
+          "correct": false
+        },
+        {
+          "text": "Los coeficientes 'pesos' o 'weights'.",
+          "correct": false
+        },
+        {
+          "text": "El perceptrón.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA05_005",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál sería el orden de las capas en un modelo de DNN (red neuronal profunda)?",
+      "options": [
+        {
+          "text": "Capa de entrada, capas internas y capa de salida.",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "Capa de entrada, capa de salida y capas de visualización.",
+          "correct": false
+        },
+        {
+          "text": "Capa de entrada, capa de cálculo del error y una nueva capa de entrada.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA05_006",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuándo es necesario utilizar la capa Flatten en un modelo de DNN?",
+      "options": [
+        {
+          "text": "Cuando los datos de entrada no son un array de una dimensión.",
+          "correct": true
+        },
+        {
+          "text": "Cuando las variables de entrada no son números enteros.",
+          "correct": false
+        },
+        {
+          "text": "Si estamos en un problema de detección de anomalías.",
+          "correct": false
+        },
+        {
+          "text": "Si la siguiente capa es de tipo Flubber.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA05_007",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En qué tipo de problemas no sería necesario contar con función de activación en el perceptrón?",
+      "options": [
+        {
+          "text": "En problemas con dos o tres variables de entrada.",
+          "correct": false
+        },
+        {
+          "text": "En general no es necesaria.",
+          "correct": false
+        },
+        {
+          "text": "En problemas de tipo lineal.",
+          "correct": true
+        },
+        {
+          "text": "En problemas de tipo exponencial.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA05_008",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué clase utilizamos para crear las capas de un modelo DNN (red neuronal profunda)?",
+      "options": [
+        {
+          "text": "LogisticRegression.",
+          "correct": false
+        },
+        {
+          "text": "Sequential.",
+          "correct": true
+        },
+        {
+          "text": "Neural.",
+          "correct": false
+        },
+        {
+          "text": "Layer.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA05_009",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué clase utilizamos para crear una red neuronal simple?",
+      "options": [
+        {
+          "text": "Layer.",
+          "correct": false
+        },
+        {
+          "text": "Dense.",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "Network.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA05_010",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué función de activación es la más utilizada?",
+      "options": [
+        {
+          "text": "Todas ellas.",
+          "correct": true
+        },
+        {
+          "text": "Relu.",
+          "correct": false
+        },
+        {
+          "text": "Softmax.",
+          "correct": false
+        },
+        {
+          "text": "Sigmoid.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA05_011",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué función de coste es la más indicada para problemas de clasificación binaria?",
+      "options": [
+        {
+          "text": "Categorical Crossentropy.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "Binary Crossentropy.",
+          "correct": true
+        },
+        {
+          "text": "Sparse Categorical Crossentropy.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA05_012",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué función de coste es la más indicada para problemas de clasificación múltiple con variables de salida de tipo categórico en formato one-hot encoding?",
+      "options": [
+        {
+          "text": "Sparse Categorical Crossentropy.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "Categorical Crossentropy.",
+          "correct": true
+        },
+        {
+          "text": "Binary Crossentropy.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA05_013",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué función de coste es la más indicada para problemas de clasificación binaria o múltiple pero con variables de salida en formato de números enteros?",
+      "options": [
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "Sparse Categorical Crossentropy.",
+          "correct": true
+        },
+        {
+          "text": "Categorical Crossentropy.",
+          "correct": false
+        },
+        {
+          "text": "Binary Crossentropy.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA05_014",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué método permite configurar parámetros para el entrenamiento?",
+      "options": [
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "compile()",
+          "correct": true
+        },
+        {
+          "text": "layer()",
+          "correct": false
+        },
+        {
+          "text": "training()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA05_015",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué método se encarga de llevar a cabo el entrenamiento de la DNN?",
+      "options": [
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "train()",
+          "correct": false
+        },
+        {
+          "text": "fit()",
+          "correct": true
+        },
+        {
+          "text": "summary()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA05_016",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué parámetro clave debemos pasarle a una capa Dense obligatoriamente?",
+      "options": [
+        {
+          "text": "y, el vector de los datos de salida.",
+          "correct": false
+        },
+        {
+          "text": "Weghts, el valor de partida para los coeficientes",
+          "correct": false
+        },
+        {
+          "text": "X, el vector de los datos de entrada",
+          "correct": false
+        },
+        {
+          "text": "Units, el número de perceptrones o neuronas de la red.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA05_017",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Que representa el parámetro epochs, en el método fit()?",
+      "options": [
+        {
+          "text": "El número de neuronas del modelo.",
+          "correct": false
+        },
+        {
+          "text": "El número de capas del modelo",
+          "correct": false
+        },
+        {
+          "text": "El número de muestras en que dividimos el dataset",
+          "correct": false
+        },
+        {
+          "text": "El número de iteraciones de ejecución del optimizador.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA05_018",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué representa la función de coste o Loss?",
+      "options": [
+        {
+          "text": "El valor medio del error entre las variables de salida del modelo y las etiquetas reales.",
+          "correct": true
+        },
+        {
+          "text": "El valor medio de las diferencias entre los valores de entrada al modelo",
+          "correct": false
+        },
+        {
+          "text": "El valor estimado de la capacidad de cómputo necesaria para resolver el problema",
+          "correct": false
+        },
+        {
+          "text": "El valor del coste en euros de ejecutar el modelo.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA05_019",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué tipo de valor del ratio de aprendizaje puede provocar inestabilidad en el entrenamiento de un modelo?",
+      "options": [
+        {
+          "text": "Es demasiado alto.",
+          "correct": true
+        },
+        {
+          "text": "Es igual al ratio de error",
+          "correct": false
+        },
+        {
+          "text": "Es de tipo asíncrono",
+          "correct": false
+        },
+        {
+          "text": "Es demasiado bajo.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA05_020",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué valores van variando a medida que se va dando el entrenamiento y su configuración en cada iteración nos van dando un valor concreto de Loss?",
+      "options": [
+        {
+          "text": "Los valores de y.",
+          "correct": false
+        },
+        {
+          "text": "Los coeficientes w o 'pesos' del modelo",
+          "correct": true
+        },
+        {
+          "text": "Los valores de X.",
+          "correct": false
+        },
+        {
+          "text": "Los valores de las potencias de X.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA05_021",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "En un problema de clasificación binaria, ¿cuántas neuronas o perceptrones debe tener la capa de salida?",
+      "options": [
+        {
+          "text": "Diez.",
+          "correct": false
+        },
+        {
+          "text": "Una",
+          "correct": true
+        },
+        {
+          "text": "Ninguna.",
+          "correct": false
+        },
+        {
+          "text": "Dos.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA05_022",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "En un problema de clasificación binaria, qué función de activación se suele utilizar en la capa de salida?",
+      "options": [
+        {
+          "text": "Sigmoid.",
+          "correct": true
+        },
+        {
+          "text": "Relu.",
+          "correct": false
+        },
+        {
+          "text": "Adam.",
+          "correct": false
+        },
+        {
+          "text": "MSE.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA05_023",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "El número de neuronas que debe tener cada capa viene perfectamente determinado por una tabla que se puede consultar en la documentación de Keras.",
+      "options": [
+        {
+          "text": "Verdadero.",
+          "correct": false
+        },
+        {
+          "text": "Falso.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA05_024",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "El objetivo del entrenamiento de una red neuronal profunda es encontrar el mínimo global de la función de coste o Loss.",
+      "options": [
+        {
+          "text": "Verdadero.",
+          "correct": true
+        },
+        {
+          "text": "Falso.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA05_025",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "El optimizador Adam presenta un mejor comportamiento general y se recomienda utilizarlo en tus primeros entrenamientos.",
+      "options": [
+        {
+          "text": "Verdadero.",
+          "correct": true
+        },
+        {
+          "text": "Falso.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA05_026",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "El optimizador RMSprop converge más lentamente hacia el mínimo.",
+      "options": [
+        {
+          "text": "Verdadero.",
+          "correct": false
+        },
+        {
+          "text": "Falso.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA05_027",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "En deep learning, lo más común es recurrir a cálculos de entropía cruzada para la minimización del error.",
+      "options": [
+        {
+          "text": "Verdadero.",
+          "correct": true
+        },
+        {
+          "text": "Falso.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA05_028",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "La función de activación Relu se suele utilizar siempre en las capas internas de un modelo basado en redes neuronales profundas.",
+      "options": [
+        {
+          "text": "Verdadero.",
+          "correct": true
+        },
+        {
+          "text": "Falso.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA05_029",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "La función de activación se aplica sobre el resultado del cálculo lineal en el perceptrón.",
+      "options": [
+        {
+          "text": "Verdadero.",
+          "correct": true
+        },
+        {
+          "text": "Falso.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA05_030",
+      "module": "PIA05",
+      "type": "test",
+      "source": "iabd",
+      "question": "Las funciones de activación permiten resolver problemas no lineales aplicando cálculos lineales, gracias al encendido o apagado de distintos perceptrones.",
+      "options": [
+        {
+          "text": "Verdadero.",
+          "correct": true
+        },
+        {
+          "text": "Falso.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA06_001",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál de éstas es la técnica más utilizada y efectiva para prevenir el overfitting en un entrenamiento de red neuronal profunda?",
+      "options": [
+        {
+          "text": "Droping.",
+          "correct": false
+        },
+        {
+          "text": "Dorop.",
+          "correct": false
+        },
+        {
+          "text": "Dropout.",
+          "correct": true
+        },
+        {
+          "text": "Drawning.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA06_002",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "El dropout rate es un parámetro de la clase Dropout",
+      "options": [
+        {
+          "text": "Verdadero.",
+          "correct": true
+        },
+        {
+          "text": "Falso.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA06_003",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "El “overfitting” se da en un modelo de deep learning cuando los pesos de la red neuronal han llegado al mejor valor posible y aciertan siempre al 100%.",
+      "options": [
+        {
+          "text": "Verdadero.",
+          "correct": false
+        },
+        {
+          "text": "Falso.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA06_004",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "TensorBoard permite visualizar las métricas de Loss y accuracy tras el entrenamiento pero también durante el mismo.",
+      "options": [
+        {
+          "text": "Verdadero.",
+          "correct": true
+        },
+        {
+          "text": "Falso.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA06_005",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En qué consiste la técnica de prevención del overfitting conocida como dropout?",
+      "options": [
+        {
+          "text": "En multiplicar por 2 las salidas de varias neuronas al azar.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "En deshacerse de la salida de algunas neuronas al azar en cada capa antes de que entren en la siguiente.",
+          "correct": true
+        },
+        {
+          "text": "En doblar la red varias veces para quedarnos con una sola capa.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA06_006",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué función sirve para comprobar la precisión real de un modelo de deep learning en Keras?",
+      "options": [
+        {
+          "text": "precission()",
+          "correct": false
+        },
+        {
+          "text": "evaluate()",
+          "correct": true
+        },
+        {
+          "text": "monitoring()",
+          "correct": false
+        },
+        {
+          "text": "comprobar()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA06_007",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo se identifican las dos técnicas de regularización más comunes en Keras?",
+      "options": [
+        {
+          "text": "Todas las anteriores",
+          "correct": false
+        },
+        {
+          "text": "L1 y L2.",
+          "correct": true
+        },
+        {
+          "text": "R1 y R2.",
+          "correct": false
+        },
+        {
+          "text": "U1 y U2.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA06_008",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En qué rango de valores suele estar el dropout rate?",
+      "options": [
+        {
+          "text": "Entre 10 y 50.",
+          "correct": false
+        },
+        {
+          "text": "Entre 0 y 100.",
+          "correct": false
+        },
+        {
+          "text": "Entre 0,1 y 0,2.",
+          "correct": false
+        },
+        {
+          "text": "Entre 0,2 y 0,5.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA06_009",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué técnica nos permite monitorizar el posible overfitting en un entrenamiento con Keras?",
+      "options": [
+        {
+          "text": "Reservar datos de validación del dataset y utilizarlos en fit, como parámetro “validation_data”.",
+          "correct": true
+        },
+        {
+          "text": "Aumentar mucho el número de epochs.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "Cambiar los datos de entrenamiento y los de test en cada epoch alternativamente.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA06_010",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál de estas funcionalidades es característica de Tensorboard?",
+      "options": [
+        {
+          "text": "Representación del modelo de tipo grafo.",
+          "correct": false
+        },
+        {
+          "text": "Todas las anteriores.",
+          "correct": true
+        },
+        {
+          "text": "Monitorizar de forma visual las métricas del entrenamiento.",
+          "correct": false
+        },
+        {
+          "text": "Histogramas de los coeficientes del modelo.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA06_011",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una de las mejores formas de prevenir el overfitting es contar con una gran cantidad de datos, para minimizar el efecto de las anomalías y que el modelo sea lo más general posible.",
+      "options": [
+        {
+          "text": "Verdadero.",
+          "correct": true
+        },
+        {
+          "text": "Falso.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA06_012",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "Aplicando la técnica de dropout, el loss de los datos de validación mejora se suele mantener en valores más bajos que en el caso de aplicar regularización a un modelo de deep learning.",
+      "options": [
+        {
+          "text": "Verdadero.",
+          "correct": true
+        },
+        {
+          "text": "Falso.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA06_013",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "Si iniciamos TensorBoard antes del entrenamiento, lo podremos monitorizar mientras éste va transcurriendo.",
+      "options": [
+        {
+          "text": "Verdadero.",
+          "correct": true
+        },
+        {
+          "text": "Falso.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA06_014",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo se llama la técnica que limita el valor de los coeficientes de una red neuronal profunda para evitar el overfitting?",
+      "options": [
+        {
+          "text": "Regularización.",
+          "correct": true
+        },
+        {
+          "text": "Trasposición.",
+          "correct": false
+        },
+        {
+          "text": "Planificación.",
+          "correct": false
+        },
+        {
+          "text": "Rutarización.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA06_015",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo se llama el efecto debido a un exceso de particularización de los coeficientes del modelo de deep learning durante el entrenamiento?",
+      "options": [
+        {
+          "text": "Overfitting o sobre-entrenamiento.",
+          "correct": true
+        },
+        {
+          "text": "Difracción.",
+          "correct": false
+        },
+        {
+          "text": "Dispersión.",
+          "correct": false
+        },
+        {
+          "text": "Entonación.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA06_016",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Para qué sirve la técnica de Batch Normalization o normalización por lotes?",
+      "options": [
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "Para filtrar mejor las anomalías.",
+          "correct": false
+        },
+        {
+          "text": "Para depurar los errores del modelo.",
+          "correct": false
+        },
+        {
+          "text": "Para mejorar la convergencia del gradiente.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA06_017",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Es bueno, para evitar el overfitting en el deep learning, empezar por el modelo más reducido posible y luego ir aumentando capas o neuronas si es necesario?",
+      "options": [
+        {
+          "text": "Sí, cuanto más pequeño el modelo, menos error acumula.",
+          "correct": false
+        },
+        {
+          "text": "No, da igual.",
+          "correct": false
+        },
+        {
+          "text": "Sí, un modelo muy reducido tiene menos tendencia a “almacenar” información muy específica del entrenamiento.",
+          "correct": true
+        },
+        {
+          "text": "No, lo mejor es empezar por una red con muchas capas y muchas neuronas.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA06_018",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "El dropout rate es la fracción de variables que quedan sin anular en la capa de red neuronal a la que se aplica el dropout",
+      "options": [
+        {
+          "text": "Verdadero.",
+          "correct": false
+        },
+        {
+          "text": "Falso.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA06_019",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo se llama el kit de herramientas de visualización de parámetros de entrenamiento de modelos de deep learning lanzado por Tensorflow?",
+      "options": [
+        {
+          "text": "VisualFlow.",
+          "correct": false
+        },
+        {
+          "text": "TensorPanel.",
+          "correct": false
+        },
+        {
+          "text": "PanelFlow.",
+          "correct": false
+        },
+        {
+          "text": "TensorBoard.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA06_020",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cómo se aplica la técnica de dropout en Keras?",
+      "options": [
+        {
+          "text": "Se incluye el parámetro dropout.",
+          "correct": false
+        },
+        {
+          "text": "No hace falta hacer nada, se aplica por defecto.",
+          "correct": false
+        },
+        {
+          "text": "Se añade una capa de la clase Dropout después de una de tipo Dense.",
+          "correct": true
+        },
+        {
+          "text": "Se llama a la extensión Apply_Dropout al principio del código del notebook.",
+          "correct": false
+        },
+        {
+          "text": "True en el método compile",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA06_021",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Para qué se suele hacer la división train-test de los datos en un entrenamiento de un modelo de deep learning?",
+      "options": [
+        {
+          "text": "Se usa solo parte de los datos para no tener que hacer muchos cálculos",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        },
+        {
+          "text": "Se utilizan los datos “train” en el entrenamiento y los datos “test” para la evaluación.",
+          "correct": true
+        },
+        {
+          "text": "Se dividen para probar dos modelos diferentes y quedarnos con el mejor.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA06_022",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es el objetivo de la regularización en el entrenamiento de una red neuronal profunda?",
+      "options": [
+        {
+          "text": "Simplificar o aligerar el modelo, limitando su inercia.",
+          "correct": true
+        },
+        {
+          "text": "Filtrar las anomalías.",
+          "correct": false
+        },
+        {
+          "text": "Hacer que el entrenamiento sea más rápido.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA06_023",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "Para iniciar la visualización con TensorBoard, se lanza con la función mágica %tensorboard.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA06_024",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "Lo normal, en el entrenamiento de una red neuronal profunda, es que la precisión obtenida en el entrenamiento sea menor de la que tendremos con nuevos datos.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA06_025",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué herramienta de TensorBoard es de utilidad a la hora de aplicar optimización de hiperparámetros en un entrenamiento de deep learning?",
+      "options": [
+        {
+          "text": "NeuroBoard.",
+          "correct": false
+        },
+        {
+          "text": "Hparams.",
+          "correct": true
+        },
+        {
+          "text": "Optiparams.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA06_026",
+      "module": "PIA06",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la forma más básica de detectar el overfitting?",
+      "options": [
+        {
+          "text": "Aplicar el método evaluate al modelo utilizando los datos de test reservados.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": true
+        },
+        {
+          "text": "Mirar el número de segundos que ha durado el entrenamiento y multiplicarlos por 5.",
+          "correct": false
+        },
+        {
+          "text": "Mirar si se enciende una luz verde en la esquina superior del ordenador durante el entrenamiento.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA07_001",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué estamos utilizando si importamos el módulo VGG19 en Keras?",
+      "options": [
+        {
+          "text": "Regularización.",
+          "correct": false
+        },
+        {
+          "text": "Normalización.",
+          "correct": false
+        },
+        {
+          "text": "Un modelo pre-entrenado.",
+          "correct": true
+        },
+        {
+          "text": "Dropout.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA07_002",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "En la operación convolucional, utilizamos",
+      "options": [
+        {
+          "text": "Una matriz de las mismas dimensiones que la imagen de entrada.",
+          "correct": false
+        },
+        {
+          "text": "Una constante que se va multiplicando por cada pixel).",
+          "correct": false
+        },
+        {
+          "text": "Un vector con todo ceros menos un uno en la posición correspondiente a la posición de la imagen dentro del dataset.",
+          "correct": false
+        },
+        {
+          "text": "Una ventana o matriz que se va desplazando sobre la imagen y aplicando producto tensorial sobre los píxeles de la ventana en cada posición.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA07_003",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "En Keras, ¿qué clase nos permite instanciar una capa max-pooling?",
+      "options": [
+        {
+          "text": "M-pool.",
+          "correct": false
+        },
+        {
+          "text": "MaxPooling2D.",
+          "correct": true
+        },
+        {
+          "text": "El max-pooling se aplica por defecto, sin tener que instanciar nada.",
+          "correct": false
+        },
+        {
+          "text": "No es una clase porque no es una capa del modelo.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA07_004",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué caracteriza a una neurona de una red neuronal con recurrencia?",
+      "options": [
+        {
+          "text": "Siempre aplica los mismos pesos, recurrentemente.",
+          "correct": false
+        },
+        {
+          "text": "Se activa de forma permanente, independientemente de los valores de las variables de entrada.",
+          "correct": false
+        },
+        {
+          "text": "Utiliza como variables de entrada, no solo las de salida de la capa anterior, sino también su propia salida en la etapa temporal de cómputo anterior.",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA07_005",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "La capa de max-pooling no afecta ni modifica la dimensión de profundidad de la red",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA07_006",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "La capa max-pooling se añade para aumentar el número de nodos de la red y hacerla así más potente.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA07_007",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "Las capas de tipo convolucional no llevan función de activación.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA07_008",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "'Feature Extraction' es una técnica en la que utilizamos un modelo pre-entrenado para extraer los patrones principales que dicho modelo detecta en las imágenes que le estamos pasando.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA07_009",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué clase de Keras nos permite instanciar una capa neuronal recurrente?",
+      "options": [
+        {
+          "text": "ResNet.",
+          "correct": false
+        },
+        {
+          "text": "RecurrentLayer.",
+          "correct": false
+        },
+        {
+          "text": "SimpleRNN.",
+          "correct": true
+        },
+        {
+          "text": "Dense.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA07_010",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Como se denominan las redes que se combinan en una red GAN?",
+      "options": [
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "Red convolucional y red densa.",
+          "correct": false
+        },
+        {
+          "text": "Generador y Discriminador.",
+          "correct": true
+        },
+        {
+          "text": "Red derecha y red izquierda.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA07_011",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "En la operación convolucional, el mapa de salida es:",
+      "options": [
+        {
+          "text": "Un tensor de 2 o más dimensiones.",
+          "correct": true
+        },
+        {
+          "text": "Un escalar resultado de la suma de todos los pixeles de la imagen de entrada.",
+          "correct": false
+        },
+        {
+          "text": "No hay salida en este tipo de operaciones.",
+          "correct": false
+        },
+        {
+          "text": "Un vector de tantos elementos como pixeles tenga la imagen de entrada.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA07_012",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "Otro efecto que se evita gracias a las capas max-pooling es la pérdida de información del contorno de la imagen.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA07_013",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué parámetro hace que la red convolucional produzca un “desdoble” o aumento de número de coeficientes en el modelo?",
+      "options": [
+        {
+          "text": "stride",
+          "correct": false
+        },
+        {
+          "text": "units",
+          "correct": false
+        },
+        {
+          "text": "output_depth",
+          "correct": true
+        },
+        {
+          "text": "epochs",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA07_014",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "En un modelo convolucional, ¿qué es necesario añadir a las capas convolucionales y de pooling?",
+      "options": [
+        {
+          "text": "Nada. El modelo está completo solo con esos dos tipos de capas.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "Algunas capas neuronales de tipo Dense al final.",
+          "correct": true
+        },
+        {
+          "text": "Una capa de tipo recurrente en el centro justo de la red.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA07_015",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "En el “Fine-tunning” utilizamos un modelo pre-entrenado, que será entrenado de nuevo, congelando las capas de la red neuronal que ponemos al final.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA07_016",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué técnica se utiliza para evitar el efecto borde en la operación convolucional?",
+      "options": [
+        {
+          "text": "Regularización.",
+          "correct": false
+        },
+        {
+          "text": "Padding.",
+          "correct": true
+        },
+        {
+          "text": "Batch Normalization.",
+          "correct": false
+        },
+        {
+          "text": "Categorización.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA07_017",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué es necesario añadir entre el bloque convolucional y las capas tipo Dense en un modelo convolucional?",
+      "options": [
+        {
+          "text": "Una capa de tipo Flatten, para pasar de tensor a vector.",
+          "correct": true
+        },
+        {
+          "text": "Un punto de reseteo del modelo.",
+          "correct": false
+        },
+        {
+          "text": "Un modelo de tipo regresión logística.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA07_018",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "El funcionamiento de una red neuronal convolucional se acerca bastante al funcionamiento de:",
+      "options": [
+        {
+          "text": "Una operación de giro y traslación.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "Un filtro.",
+          "correct": true
+        },
+        {
+          "text": "La operación de separación de canales de color.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA07_019",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué redes han revolucionado el campo del procesamiento de lenguaje natural?",
+      "options": [
+        {
+          "text": "Redes neuronales recurrentes.",
+          "correct": true
+        },
+        {
+          "text": "Redes neuronales convolucionales.",
+          "correct": false
+        },
+        {
+          "text": "Redes Bayesianas.",
+          "correct": false
+        },
+        {
+          "text": "Redes de Pier-Lussac.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA07_020",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es el efecto que provoca que la imagen de salida sea de menores dimensiones que la de entrada?",
+      "options": [
+        {
+          "text": "El efecto de Coriolis.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "El efecto mariposa.",
+          "correct": false
+        },
+        {
+          "text": "El efecto borde.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA07_021",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "La principal ventaja de las redes neuronales convolucionales es que se establece un orden jerárquico en las capas o bloques a la hora de reconocer elementos de una imagen.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA07_022",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿A qué se refiere el parámetro de “profundidad” en una capa convolucional?",
+      "options": [
+        {
+          "text": "Al número de filtros que se van a aplicar sobre la misma imagen y que dará lugar a ese número de imágenes filtradas de salida.",
+          "correct": true
+        },
+        {
+          "text": "Al alto de la imagen.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "Al ancho de la imagen.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA07_023",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué redes han revolucionado el campo del reconocimiento de imagen y visión artificial?",
+      "options": [
+        {
+          "text": "Redes de Pier-Lussac.",
+          "correct": false
+        },
+        {
+          "text": "Redes Bayesianas.",
+          "correct": false
+        },
+        {
+          "text": "Redes neuronales recurrentes.",
+          "correct": false
+        },
+        {
+          "text": "Redes neuronales convolucionales.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA07_024",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la clase, en Keras, que nos permite incluir una capa de tipo convolucional?",
+      "options": [
+        {
+          "text": "ConvolutionalLayer.",
+          "correct": false
+        },
+        {
+          "text": "Conv2D.",
+          "correct": true
+        },
+        {
+          "text": "CL",
+          "correct": false
+        },
+        {
+          "text": "ConvNet.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA07_025",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Las redes convolucionales pueden reconocer patrones independientemente del espacio?",
+      "options": [
+        {
+          "text": "Sí, reconocen objetos en una imagen si esa imagen se usó en el entrenamiento.",
+          "correct": false
+        },
+        {
+          "text": "No, las redes convolucionales no sirven para reconocimiento de imagen.",
+          "correct": false
+        },
+        {
+          "text": "Sí, aunque en el entrenamiento no hubiese imágenes con un objeto en una esquina de la imagen, la red puede reconocer el objeto en una esquina de una imagen nueva.",
+          "correct": true
+        },
+        {
+          "text": "No. Solo reconocen patrones completos de una imagen",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA07_026",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "Al aplicar una capa de max-pooling no se puede utilizar stride",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA07_027",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿De qué dimensiones suelen ser las ventanas que se usan en las capas convolucionales?",
+      "options": [
+        {
+          "text": "3x3 o 5x5.",
+          "correct": true
+        },
+        {
+          "text": "10x10.",
+          "correct": false
+        },
+        {
+          "text": "1x1.",
+          "correct": false
+        },
+        {
+          "text": "No se usa ninguna ventana en la operación convolucional.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA07_028",
+      "module": "PIA07",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué efecto tiene poner un parámetro strides = 2 en la capa convolucional?",
+      "options": [
+        {
+          "text": "El filtro se irá desplazando saltando dos pixeles.",
+          "correct": true
+        },
+        {
+          "text": "El mapa de salida será de dimensiones 2x2.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "El filtro tendrá dimensiones 2x2.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA08_001",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En qué consiste el web scrapping?",
+      "options": [
+        {
+          "text": "Es un tema de estilos muy común en los blogs actuales",
+          "correct": false
+        },
+        {
+          "text": "Es una técnica para mejorar el posicionamiento de una web en buscadores.",
+          "correct": false
+        },
+        {
+          "text": "Es una técnica para extraer información de una web concreta, mediante un script que imita la navegación de un humano.",
+          "correct": true
+        },
+        {
+          "text": "Se da cuando una web tiene muchos bugs y salen todos de repente.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA08_002",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué es el “feature engineering” en la fase de diseño y programación de un modelo de machine learning?",
+      "options": [
+        {
+          "text": "Es el proceso de búsqueda de un dataset por internet.",
+          "correct": false
+        },
+        {
+          "text": "Es el conjunto de transformación que aplicamos a las variables de entrada para que la información pueda ser más clara o útil para el modelo.",
+          "correct": true
+        },
+        {
+          "text": "Es la técnica que usamos para optimizar los hiper-parámetros de un modelo.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA08_003",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "Las metodologías Design Thinking y Design Sprint ponen el foco en el marketing y ventas más que en la construcción del prototipo",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA08_004",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "Existe un buscador de datasets que ha lanzado Facebook",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA08_005",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "Cada iteración en un proyecto gestionado con Scrum tiene que:",
+      "options": [
+        {
+          "text": "Ser llevada a cabo por un equipo distinto al de la anterior iteración",
+          "correct": false
+        },
+        {
+          "text": "Proporcionar solo una parte del producto.",
+          "correct": false
+        },
+        {
+          "text": "Proporcionar un resultado completo.",
+          "correct": true
+        },
+        {
+          "text": "Coincidir con un ciclo de facturación de la empresa.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA08_006",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "Un proyecto bajo la filosofía “agile” es un proceso mediante el cual un equipo puede gestionar un proyecto dividiéndolo en varias etapas e involucrando la colaboración constante de las partes interesadas y una mejora e iteración continuas en cada etapa.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA08_007",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "La administración no comparte los datos de sus estudios bajo ningún concepto, pues iría contra la ley 12/1993 de la información de los estados.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA08_008",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué elemento de la planificación de un proyecto nos indica lo que se quiere conseguir?",
+      "options": [
+        {
+          "text": "Los indicadores",
+          "correct": false
+        },
+        {
+          "text": "Los objetivos.",
+          "correct": true
+        },
+        {
+          "text": "Las tareas.",
+          "correct": false
+        },
+        {
+          "text": "Ninguno de los anteriores.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA08_009",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En qué entorno se despliega el proyecto ya para ser utilizado por el cliente?",
+      "options": [
+        {
+          "text": "En el entorno de desarrollo.",
+          "correct": false
+        },
+        {
+          "text": "En el de producción.",
+          "correct": true
+        },
+        {
+          "text": "En el entorno QA.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA08_010",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "Entre la aplicación cliente y el modelo, suele haber una etapa de procesamiento de los datos, para que entren al modelo en el formato adecuado.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA08_011",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la característica principal del método kanban?",
+      "options": [
+        {
+          "text": "Todo el proyecto debe llevarse a cabo en una semana.",
+          "correct": false
+        },
+        {
+          "text": "No se puede utilizar tecnología, todo debe hacerse con lápiz y papel.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "El trabajo se representa en tableros",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA08_012",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué caracteriza a las metodologías ágiles?",
+      "options": [
+        {
+          "text": "Ya casi no se usan.",
+          "correct": false
+        },
+        {
+          "text": "Solo se pueden aplicar al entorno del deporte.",
+          "correct": false
+        },
+        {
+          "text": "El producto se va adaptando a las necesidades del cliente en sucesivas iteraciones del proyecto.",
+          "correct": true
+        },
+        {
+          "text": "Que las aplica gente muy entrenada",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA08_013",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "Se le puede pedir a una consultora que capte los datos que necesitamos, pero suele ser caro.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA08_014",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál de estas metodologías pertenece al Manifiesto “Agile”?",
+      "options": [
+        {
+          "text": "Scrum",
+          "correct": true
+        },
+        {
+          "text": "Neurodidáctica.",
+          "correct": false
+        },
+        {
+          "text": "Wakanda.",
+          "correct": false
+        },
+        {
+          "text": "Classical Design.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA08_015",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué es el “Design Thinking”?",
+      "options": [
+        {
+          "text": "Es como se conoce actualmente al proceso de entrenar un modelo de inteligencia artificial?",
+          "correct": false
+        },
+        {
+          "text": "No existe ese concepto como tal.",
+          "correct": false
+        },
+        {
+          "text": "Es una metodología para diseño y planificación de una solución.",
+          "correct": true
+        },
+        {
+          "text": "Es un nuevo algoritmo de generación de imágenes.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA08_016",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es el factor que condiciona la elección del algoritmo?",
+      "options": [
+        {
+          "text": "El algoritmo favorito del jefe.",
+          "correct": false
+        },
+        {
+          "text": "El número máximo de parámetros que puede alojar.",
+          "correct": false
+        },
+        {
+          "text": "El problema que estamos tratando.",
+          "correct": true
+        },
+        {
+          "text": "El tiempo que hace que no lo usas.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA08_017",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué elemento de la planificación de un proyecto nos indica que éste realmente sirve para lo que se necesitaba?",
+      "options": [
+        {
+          "text": "Los objetivos.",
+          "correct": false
+        },
+        {
+          "text": "Los indicadores.",
+          "correct": true
+        },
+        {
+          "text": "Ninguno de los anteriores.",
+          "correct": false
+        },
+        {
+          "text": "Las tareas.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA08_018",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la primera fase del método Design Sprint?",
+      "options": [
+        {
+          "text": "Define.",
+          "correct": false
+        },
+        {
+          "text": "Decide.",
+          "correct": false
+        },
+        {
+          "text": "Sketch.",
+          "correct": false
+        },
+        {
+          "text": "Understand.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA08_019",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué fracción de la carga de trabajo e importancia del proyecto representan los datos?",
+      "options": [
+        {
+          "text": "40%",
+          "correct": false
+        },
+        {
+          "text": "20%.",
+          "correct": false
+        },
+        {
+          "text": "60%.",
+          "correct": false
+        },
+        {
+          "text": "80%.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA08_020",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "La metodología Scrum utiliza:",
+      "options": [
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "Ciclos temporales cortos",
+          "correct": true
+        },
+        {
+          "text": "No tiene reglas respecto al tiempo",
+          "correct": false
+        },
+        {
+          "text": "Ciclos temporales largos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA08_021",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una vez desplegado, el modelo utilizará para sus predicciones:",
+      "options": [
+        {
+          "text": "Los datos de test que habíamos reservado.",
+          "correct": false
+        },
+        {
+          "text": "El modelo puede hacer predicciones sin necesidad de tener datos.",
+          "correct": false
+        },
+        {
+          "text": "Nuevos datos que vienen desde el cliente.",
+          "correct": true
+        },
+        {
+          "text": "Una mezcla de datos nuevos con datos de entrenamiento, para que el modelo no hiperventile.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA08_022",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En qué entorno se llevan a cabo las pruebas de un proyecto?",
+      "options": [
+        {
+          "text": "En una máquina virtual creada en el ordenador del informático.",
+          "correct": false
+        },
+        {
+          "text": "En el entorno API.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "En el entorno de desarrollo.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA08_023",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es la plataforma que cuenta con un mayor número de datasets públicos actualmente?",
+      "options": [
+        {
+          "text": "Windows.",
+          "correct": false
+        },
+        {
+          "text": "Ninguno de los anteriores.",
+          "correct": false
+        },
+        {
+          "text": "Kaggle.",
+          "correct": true
+        },
+        {
+          "text": "UCI.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA08_024",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "Las configuraciones “serverless” de los proveedores de computación en la nube no son adecuadas para alojar proyectos de inteligenci artificial.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA08_025",
+      "module": "PIA08",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿En qué consiste el concepto de “open data” o datos abiertos?",
+      "options": [
+        {
+          "text": "Las empresas están obligadas por ley a exponer todos los datos de sus clientes de forma pública.",
+          "correct": false
+        },
+        {
+          "text": "Que los datos estén siempre en archivos de formato .open",
+          "correct": false
+        },
+        {
+          "text": "Se abren por la mitad los datasets y nos quedamos solo con los datos centrales.",
+          "correct": false
+        },
+        {
+          "text": "La administración y otras organizaciones comparten datos de sus estudios internos para que se puedan aprovechar por parte de la sociedad.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA09_001",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué es el lienzo del modelo de negocio o Business Model Canvas?",
+      "options": [
+        {
+          "text": "Es el plan de las finanzas y contabilidad de un negocio que ya está en funcionamiento.",
+          "correct": false
+        },
+        {
+          "text": "Es un esquema de nueve módulos en los que se plasma de forma sintetizada los parámetros clave de la idea de negocio.",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "Es un documento de muchas páginas con todos los aspectos del negocio debidamente desarrollados.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA09_002",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué capa de servicio de la nube ofrece recursos de servidor en bruto a través de la red?",
+      "options": [
+        {
+          "text": "PaaS (Platform as a Service)",
+          "correct": false
+        },
+        {
+          "text": "SaaS (Software as a Service)",
+          "correct": false
+        },
+        {
+          "text": "IaaS (Infraestructure as a Service)",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA09_003",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "El modelo de negocio es una herramienta previa al plan de negocio que te permitirá definir con claridad qué vas a ofrecer al mercado, cómo lo vas a hacer, a quién se lo vas a vender, cómo se lo vas a vender y de qué forma vas a generar ingresos.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA09_004",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿A qué se refiere el concepto de Industria 4.0?",
+      "options": [
+        {
+          "text": "Al sector industrial de la fabricación de ropa, que tiene el código 4.",
+          "correct": false
+        },
+        {
+          "text": "A una fábrica que tiene 4 naves o más.",
+          "correct": false
+        },
+        {
+          "text": "A la automatización de procesos en la industria que se han optimizado con tecnologías como la robótica, el internet de las cosas, la nube y la inteligencia artificial.",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA09_005",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "Los sensores de un robot son los elementos que transforman la energía eléctrica en movimiento.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA09_006",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "La robótica industrial lleva, desde sus comienzos, sin variar demasiado en su alcance y aplicaciones. Está muy lejos de igualar el trabajo del ser humano.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA09_007",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál es el concepto clave de la tecnología Blockchain?",
+      "options": [
+        {
+          "text": "Que utiliza internet.",
+          "correct": false
+        },
+        {
+          "text": "Que solo se puede usar con un ordenador.",
+          "correct": false
+        },
+        {
+          "text": "La descentralización.",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA09_008",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "Todas las nubes se convierten en públicas cuando los entornos se dividen y se redistribuyen entre varios usuarios.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA09_009",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "La convergencia digital que se dio en el ámbito de las comunicaciones que antes estaban separadas en voz telefónica, datos y video…",
+      "options": [
+        {
+          "text": "pasó a llamarse comunicaciones reunidas.",
+          "correct": false
+        },
+        {
+          "text": "propició que todos los dispositivos comenzasen a usar el protocolo IP",
+          "correct": true
+        },
+        {
+          "text": "no duró mucho.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA09_010",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "El Edge Computing comprende el conjunto de técnicas orientadas al tratamiento, análisis y explotación de los datos en un nodo conectado a la nube pero en el entorno local más cercano al cliente.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA09_011",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué capa de servicio de la nube ofrece aplicaciones completas bajo demanda?",
+      "options": [
+        {
+          "text": "PaaS (Platform as a Service)",
+          "correct": false
+        },
+        {
+          "text": "IaaS (Infraestructure as a Service)",
+          "correct": false
+        },
+        {
+          "text": "SaaS (Software as a Service)",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA09_012",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Se puede programar inteligencia artificial en un ordenador cuántico?",
+      "options": [
+        {
+          "text": "No, es imposible escribir un algoritmo cuántico para aprendizaje automático.",
+          "correct": false
+        },
+        {
+          "text": "No, aunque hay algoritmos de aprendizaje automático cuántico, nunca se podrán ejecutar en un ordenador cuántico.",
+          "correct": false
+        },
+        {
+          "text": "Sí, ya hay aplicaciones que lo usan.",
+          "correct": false
+        },
+        {
+          "text": "Sí, ya es posible escribir algoritmos cuánticos de aprendizaje automático, y pronto se ejecutarán en ordenadores cuánticos.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA09_013",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Se utiliza la robótica en la agricultura?",
+      "options": [
+        {
+          "text": "Sí, tanto en vigilancia como en tratamiento y recolección de cosechas…",
+          "correct": true
+        },
+        {
+          "text": "No, los robots pueden dañar las cosechas.",
+          "correct": false
+        },
+        {
+          "text": "No, aún no está tan avanzada la robótica.",
+          "correct": false
+        },
+        {
+          "text": "Sí, pero solo en vigilancia.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA09_014",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuáles son los principales tipos de nubes que se utilizan?",
+      "options": [
+        {
+          "text": "Nubes públicas, semi-públicas y federaciones de datos",
+          "correct": false
+        },
+        {
+          "text": "Nubes públicas, privadas e hÍbridas.",
+          "correct": true
+        },
+        {
+          "text": "Nubes oficiales y nubes no oficiales.",
+          "correct": false
+        },
+        {
+          "text": "Nubes abiertas y cerradas.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA09_015",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "La computación en la nube consiste en la disponibilidad de recursos de computación y contenidos digitales a través de la red de internet, encontrándose éstos en un estado semi-deslocalizado.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA09_016",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "El concepto actual de convergencia tecnológica se refiere a",
+      "options": [
+        {
+          "text": "la gente que se ha vuelto cyborg.",
+          "correct": false
+        },
+        {
+          "text": "unificar todos los mapas del mundo.",
+          "correct": false
+        },
+        {
+          "text": "la sinergia entre las distintas tecnologías exponenciales.",
+          "correct": true
+        },
+        {
+          "text": "la tendencia de que todo el mundo piense con una sola mente digital única.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA09_017",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿A qué se refiere la palabra “cloud” aplicada al ámbito digital?",
+      "options": [
+        {
+          "text": "A una aplicación de Microsoft que se llama así.",
+          "correct": false
+        },
+        {
+          "text": "A la computación en la nube.",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "A un tipo de ataque cibernético que solo se hace los días de lluvia.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA09_018",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "Una empresa que utiliza la computación en la nube o “cloud”, tiene un nivel de seguridad muy bajo y su infraestructura se cae continuamente.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA09_019",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "Las nubes se vuelven privadas cuando la infraestructura de TI subyacente se destina a un solo cliente con acceso completamente aislado.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA09_020",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué es un token, en el ámbito blockchain?",
+      "options": [
+        {
+          "text": "Es el ente que queda reconocido para administrar la red.",
+          "correct": false
+        },
+        {
+          "text": "Se refiere a cada nodo que tiene una copia de la cadena.",
+          "correct": false
+        },
+        {
+          "text": "Es la criptomoneda asociada a esa red.",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA09_021",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Cuál de estos elementos podemos considerar que es el “cerebro” de un robot?",
+      "options": [
+        {
+          "text": "Los sensores.",
+          "correct": false
+        },
+        {
+          "text": "Los robots no tienen “cerebro”.",
+          "correct": false
+        },
+        {
+          "text": "La unidad de control o placa controladora.",
+          "correct": true
+        },
+        {
+          "text": "Los actuadores.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA09_022",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Qué capa de servicio de la nube ofrece un entorno de desarrollo con módulos de servicio?",
+      "options": [
+        {
+          "text": "PaaS (Platform as a Service)",
+          "correct": true
+        },
+        {
+          "text": "SaaS (Software as a Service)",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        },
+        {
+          "text": "IaaS (Infraestructure as a Service)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA09_023",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿Con cuál de estas tecnologías converge principalmente el IoT?",
+      "options": [
+        {
+          "text": "Cloud",
+          "correct": false
+        },
+        {
+          "text": "Robótica",
+          "correct": false
+        },
+        {
+          "text": "Con todas ellas.",
+          "correct": true
+        },
+        {
+          "text": "Telecomunicaciones",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "PIA09_024",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "En la computación cuántica, los qubits solo pueden adoptar los estados de 0 o 1.",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA09_025",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "¿A qué parte de la arquitectura de un robot pertenece el sensor de luz?",
+      "options": [
+        {
+          "text": "A la de Diseño.",
+          "correct": false
+        },
+        {
+          "text": "A la del software.",
+          "correct": false
+        },
+        {
+          "text": "A ninguna. Los robots no llevan sensores de luz.",
+          "correct": false
+        },
+        {
+          "text": "A la de la electrónica o hardware.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "PIA09_026",
+      "module": "PIA09",
+      "type": "test",
+      "source": "iabd",
+      "question": "El concepto de convergencia digital, tradicionalmente se ha referido a",
+      "options": [
+        {
+          "text": "Un partido político.",
+          "correct": false
+        },
+        {
+          "text": "La interconexión de tecnologías de la computación e información, contenido multimedia y redes de comunicaciones a través de internet.",
+          "correct": true
+        },
+        {
+          "text": "La conjunción de todos los lenguajes de programación.",
+          "correct": false
+        },
+        {
+          "text": "La brecha entre la gente que sabía usar internet y la que no.",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "PIA_FC_001",
+      "module": "PIA01",
+      "priority": "medium",
+      "front": "¿Qué es la inteligencia artificial (IA) para las empresas?",
+      "back": "La IA es una herramienta y un producto para las empresas."
+    },
+    {
+      "id": "PIA_FC_002",
+      "module": "PIA01",
+      "priority": "medium",
+      "front": "¿Cuáles son los dos casos de desarrollo de IA en las empresas según el documento?",
+      "back": "Productos o servicios internos, y Productos o servicios para cliente."
+    },
+    {
+      "id": "PIA_FC_003",
+      "module": "PIA01",
+      "priority": "medium",
+      "front": "¿Qué habilidades técnicas son importantes para un técnico de inteligencia artificial según el documento?",
+      "back": "Saber programar, conocer el entorno Cloud, y saber utilizar software de control de versiones Git."
+    },
+    {
+      "id": "PIA_FC_004",
+      "module": "PIA01",
+      "priority": "medium",
+      "front": "¿Cuáles son los tres campos de estudio matemáticos fundamentales para la IA?",
+      "back": "Lógica Matemática, Álgebra, y Estadística."
+    },
+    {
+      "id": "PIA_FC_005",
+      "module": "PIA01",
+      "priority": "medium",
+      "front": "¿Qué es el paradigma de programación de Octave?",
+      "back": "Octave es un lenguaje de programación científica, con una sintaxis muy orientada al cálculo matemático."
+    },
+    {
+      "id": "PIA_FC_006",
+      "module": "PIA01",
+      "priority": "medium",
+      "front": "¿Cuáles son las ventajas de Python según el documento?",
+      "back": "Es un lenguaje de propósito general sencillo y fácil de aprender, pero al mismo tiempo es muy potente y versátil, además de ofrecer POO, programación estructurada y funcional."
+    },
+    {
+      "id": "PIA_FC_007",
+      "module": "PIA01",
+      "priority": "medium",
+      "front": "¿Para qué se utiliza el lenguaje R?",
+      "back": "R se utiliza para tareas de análisis de datos, visualización y flujo de datos, especialmente en cálculo estadístico, aunque es complementario a la IA."
+    },
+    {
+      "id": "PIA_FC_008",
+      "module": "PIA01",
+      "priority": "medium",
+      "front": "¿Por qué Java es considerado el lenguaje de programación de la industria?",
+      "back": "Es el más utilizado en proyectos de negocio, en plataformas y herramientas de gestión."
+    },
+    {
+      "id": "PIA_FC_009",
+      "module": "PIA01",
+      "priority": "medium",
+      "front": "¿Qué librerías de programación se pueden usar en Javascript para machine learning?",
+      "back": "TensorFlow.js."
+    },
+    {
+      "id": "PIA_FC_010",
+      "module": "PIA01",
+      "priority": "medium",
+      "front": "¿Qué es un Hackathon?",
+      "back": "Es un evento en el que se plantea un problema o reto y los participantes conforman equipos para trabajar sobre un producto de software que lo resuelva."
+    },
+    {
+      "id": "PIA_FC_011",
+      "module": "PIA02",
+      "priority": "medium",
+      "front": "¿Qué son las API?",
+      "back": "Abreviatura de 'Application Programming Interfaces'. Son series de protocolos que permiten la comunicación entre dos aplicaciones de software."
+    },
+    {
+      "id": "PIA_FC_012",
+      "module": "PIA02",
+      "priority": "medium",
+      "front": "¿Cuáles son las cuatro formas de funcionamiento de las API destacadas en el documento?",
+      "back": "SOAP, RPC, WebSocket y REST."
+    },
+    {
+      "id": "PIA_FC_013",
+      "module": "PIA02",
+      "priority": "medium",
+      "front": "¿Qué es Google Cloud Platform (GCP)?",
+      "back": "Un proveedor de computación en la nube que utilizan las empresas y organizaciones. Cuenta con un catálogo de servicios extensos, entre ellos servicios 'llave en mano'."
+    },
+    {
+      "id": "PIA_FC_014",
+      "module": "PIA02",
+      "priority": "medium",
+      "front": "¿Cómo se accede a los servicios de GCP?",
+      "back": "Es necesario registrarse y crear una cuenta con datos de facturación. La mayoría de los servicios son gratuitos hasta un cierto volumen de utilización."
+    },
+    {
+      "id": "PIA_FC_015",
+      "module": "PIA02",
+      "priority": "medium",
+      "front": "¿Qué es Vertex Al?",
+      "back": "Un servicio de Google Cloud que permite crear modelos de aprendizaje automático en una interfaz con APIs únicas y unificadas."
+    },
+    {
+      "id": "PIA_FC_016",
+      "module": "PIA02",
+      "priority": "medium",
+      "front": "¿Qué es AutoML?",
+      "back": "Una plataforma dentro de Vertex Al que ayuda a automatizar gran parte de los parámetros y configuración para la creación del modelo y su posterior entrenamiento."
+    },
+    {
+      "id": "PIA_FC_017",
+      "module": "PIA02",
+      "priority": "medium",
+      "front": "¿Qué es VisionAl?",
+      "back": "Un producto de reconocimiento de imagen entrenado genérico que ofrece la API de Vision de GCP (reconocimiento facial, reconocimiento de objetos, etc.)."
+    },
+    {
+      "id": "PIA_FC_018",
+      "module": "PIA02",
+      "priority": "medium",
+      "front": "¿Qué es Dialogflow?",
+      "back": "La plataforma de Google Cloud para aplicaciones de comprensión del lenguaje natural, orientada a crear una interfaz de usuario de conversación."
+    },
+    {
+      "id": "PIA_FC_019",
+      "module": "PIA02",
+      "priority": "medium",
+      "front": "¿Qué se necesita para crear un asistente conversacional con Dialogflow?",
+      "back": "Identificar las intenciones del usuario y recurrir a las respuestas disponibles para entregar la más adecuada."
+    },
+    {
+      "id": "PIA_FC_020",
+      "module": "PIA02",
+      "priority": "medium",
+      "front": "¿Qué es SageMaker?",
+      "back": "Un servicio administrado de AWS para la creación, entrenamiento y despliegue de modelos de aprendizaje automático."
+    },
+    {
+      "id": "PIA_FC_021",
+      "module": "PIA02",
+      "priority": "medium",
+      "front": "¿Qué es Rekognition?",
+      "back": "Un servicio de reconocimiento de imagen de AWS que se puede probar a través de una interfaz demostrativa y que se puede integrar en cualquier proyecto mediante llamadas a su API."
+    },
+    {
+      "id": "PIA_FC_022",
+      "module": "PIA02",
+      "priority": "medium",
+      "front": "¿Qué es Comprehend?",
+      "back": "Un módulo de AWS para el procesamiento del lenguaje natural (NLP)."
+    },
+    {
+      "id": "PIA_FC_023",
+      "module": "PIA02",
+      "priority": "medium",
+      "front": "¿Qué es IBM Watson?",
+      "back": "Una plataforma en la nube de IBM que ofrece servicios de inteligencia artificial como servicio, a través de su producto estrella 'Watson'."
+    },
+    {
+      "id": "PIA_FC_024",
+      "module": "PIA02",
+      "priority": "medium",
+      "front": "¿Qué son Azure Cognitive Services?",
+      "back": "La suite de modelos listos para usar de Microsoft. Funciona a través de llamadas API y realiza servicios de reconocimiento de voz, texto, etc."
+    },
+    {
+      "id": "PIA_FC_025",
+      "module": "PIA02",
+      "priority": "medium",
+      "front": "¿Qué es Azure ML?",
+      "back": "El servicio de Microsoft para crear y entrenar modelos de cero, con la facilidad de conectarlos al resto de servicios necesarios en un proyecto de forma eficiente e integrada."
+    },
+    {
+      "id": "PIA_FC_026",
+      "module": "PIA02",
+      "priority": "medium",
+      "front": "¿Qué es Open AI?",
+      "back": "Plataforma que ofrece un gimnasio en la nube con recursos para el entrenamiento de modelos de aprendizaje automático, utilizando la API basada en el algoritmo GPT-3."
+    },
+    {
+      "id": "PIA_FC_027",
+      "module": "PIA03",
+      "priority": "medium",
+      "front": "¿Qué es un entorno de tipo notebook?",
+      "back": "Son interfaces que permiten el tratamiento de ficheros en el lenguaje \"notebook\", que soporta código ejecutable junto a textos e imágenes."
+    },
+    {
+      "id": "PIA_FC_028",
+      "module": "PIA03",
+      "priority": "medium",
+      "front": "¿Qué son los IDE o entornos de desarrollo integrados?",
+      "back": "Son software orientado a la creación de aplicaciones o proyectos. Cuentan con todas las herramientas necesarias para la creación de un producto final."
+    },
+    {
+      "id": "PIA_FC_029",
+      "module": "PIA03",
+      "priority": "medium",
+      "front": "¿Cuál es la principal diferencia entre un notebook y un IDE?",
+      "back": "Un notebook refleja el planteamiento de un análisis, mientras que un IDE cuenta con las funcionalidades y el medio para crear una aplicación."
+    },
+    {
+      "id": "PIA_FC_030",
+      "module": "PIA03",
+      "priority": "medium",
+      "front": "¿Qué es Anaconda?",
+      "back": "Es una distribución que ofrece un navegador que mejora la experiencia del usuario, permitiendo configurar y gestionar entornos, paquetes y aplicaciones."
+    },
+    {
+      "id": "PIA_FC_031",
+      "module": "PIA03",
+      "priority": "medium",
+      "front": "¿Cómo se inicia la utilización de Anaconda?",
+      "back": "Se instala Anaconda y se arranca Jupyter desde el escritorio propio de Anaconda. Lo primero que se muestra es el escritorio con los directorios y notebooks del entorno."
+    },
+    {
+      "id": "PIA_FC_032",
+      "module": "PIA03",
+      "priority": "medium",
+      "front": "¿Qué es Google Colab?",
+      "back": "Es un entorno interactivo en el que se pueden generar cuadernos ejecutables donde se combinan celdas de código con celdas de texto enriquecido, imágenes, HTML, LaTeX, etc. Es un servicio en la nube que permite utilizar GPU."
+    },
+    {
+      "id": "PIA_FC_033",
+      "module": "PIA03",
+      "priority": "medium",
+      "front": "¿Cuáles son las ventajas de Google Colab sobre Jupyter?",
+      "back": "Accesible vía web, no hay que instalar ni configurar nada, incorpora paquetes necesarios para Ciencia de Datos, asigna recursos de memoria suficientes, y permite utilizar GPU."
+    },
+    {
+      "id": "PIA_FC_034",
+      "module": "PIA03",
+      "priority": "medium",
+      "front": "¿Qué es Binder?",
+      "back": "Es una web app que proporciona un servidor temporal para ejecutar cuadernos de Jupyter alojados en un repositorio de GitHub."
+    },
+    {
+      "id": "PIA_FC_035",
+      "module": "PIA03",
+      "priority": "medium",
+      "front": "¿Qué es Kaggle?",
+      "back": "Es una plataforma que surgió como comunidad de científicos e ingenieros de datos para participar en competiciones de aprendizaje automático. Contiene datasets y propuestas de soluciones de aprendizaje automático."
+    },
+    {
+      "id": "PIA_FC_036",
+      "module": "PIA03",
+      "priority": "medium",
+      "front": "¿Cuándo se debe utilizar un IDE en un proyecto de inteligencia artificial?",
+      "back": "Cuando ya hemos generado un modelo predictivo que tenga buenas métricas, a la hora de integrarlo en un proyecto."
+    },
+    {
+      "id": "PIA_FC_037",
+      "module": "PIA03",
+      "priority": "medium",
+      "front": "¿Qué es Visual Studio Code?",
+      "back": "Es un IDE propiedad de Microsoft que ha ganado aceptación. Es recomendable si se va a trabajar de forma colaborativa, vinculando el IDE a un repositorio de GitHub o GitLab."
+    },
+    {
+      "id": "PIA_FC_038",
+      "module": "PIA03",
+      "priority": "medium",
+      "front": "¿Qué es Pycharm?",
+      "back": "Es un IDE enfocado en Python, desarrollado por la empresa JetBrains, que incluye varias funcionalidades específicas para ese lenguaje. Cuenta con una versión denominada Community (gratuita)."
+    },
+    {
+      "id": "PIA_FC_039",
+      "module": "PIA03",
+      "priority": "medium",
+      "front": "¿Qué es Replit?",
+      "back": "Es un IDE online que ejecuta el código desde el propio navegador, soportando más de 50 lenguajes, incluyendo Python. Permite trabajo colaborativo y despliegue rápido."
+    },
+    {
+      "id": "PIA_FC_040",
+      "module": "PIA03",
+      "priority": "medium",
+      "front": "¿Qué es Sublime Text?",
+      "back": "Es un editor de texto y código fuente desarrollado en C++. Admite plugins, es sencillo y útil para la manipulación de texto y código, más como herramienta de apoyo que como entorno principal."
+    },
+    {
+      "id": "PIA_FC_041",
+      "module": "PIA04",
+      "priority": "medium",
+      "front": "¿Qué es el aprendizaje automático según el documento?",
+      "back": "El campo que se centra en la creación, entrenamiento y evaluación de modelos para simplificar el diseño, creación, entrenamiento y evaluación de modelos de aprendizaje automático."
+    },
+    {
+      "id": "PIA_FC_042",
+      "module": "PIA04",
+      "priority": "medium",
+      "front": "¿Qué librerías de programación de Aprendizaje Automático con Python se presentan en el documento?",
+      "back": "Pandas, Matplotlib, Scikit learn, Tensorflow y Keras, y Pytorch."
+    },
+    {
+      "id": "PIA_FC_043",
+      "module": "PIA04",
+      "priority": "medium",
+      "front": "¿Qué se necesita para integrar técnicas de aprendizaje automático en el proceso de toma de decisiones del negocio, según el documento?",
+      "back": "Es necesario integrar técnicas de aprendizaje automático en el proceso de toma de decisiones del negocio."
+    },
+    {
+      "id": "PIA_FC_044",
+      "module": "PIA04",
+      "priority": "medium",
+      "front": "¿Qué hace la librería Pandas?",
+      "back": "Permite la carga de datos de un fichero csv, hasta las funcionalidades de preparación de los datos. Facilita el trabajo de los científicos de datos."
+    },
+    {
+      "id": "PIA_FC_045",
+      "module": "PIA04",
+      "priority": "medium",
+      "front": "¿Qué es el objeto DataFrame de Pandas?",
+      "back": "Un objeto de la clase DataFrame, que va a permitir gran versatilidad y capacidad de manipulación, más allá de los métodos de los que se disponía."
+    },
+    {
+      "id": "PIA_FC_046",
+      "module": "PIA04",
+      "priority": "medium",
+      "front": "¿Qué hace la función 'describe' de Pandas?",
+      "back": "Devuelve los datos estadísticos principales de la distribución de datos."
+    },
+    {
+      "id": "PIA_FC_047",
+      "module": "PIA04",
+      "priority": "medium",
+      "front": "¿Para qué sirve la librería Matplotlib?",
+      "back": "Para hacer representaciones gráficas y de imágenes. Permite, incluso, hacer gráficas interactivas, con pocas líneas de código."
+    },
+    {
+      "id": "PIA_FC_048",
+      "module": "PIA04",
+      "priority": "medium",
+      "front": "¿Qué es Scikit learn?",
+      "back": "Una de las librerías de aprendizaje automático más utilizadas en todo el mundo."
+    },
+    {
+      "id": "PIA_FC_049",
+      "module": "PIA04",
+      "priority": "medium",
+      "front": "¿Qué problema resuelve Tensorflow y Keras?",
+      "back": "Permite resolver problemas de reconocimiento de dígitos manuscritos."
+    },
+    {
+      "id": "PIA_FC_050",
+      "module": "PIA04",
+      "priority": "medium",
+      "front": "¿Qué es Pytorch?",
+      "back": "Una librería de código abierto para aprendizaje automático basada en Torch para Python. Fue creada por desarrolladores del FAIR, el Laboratorio de Investigación de Inteligencia Artificial de Facebook."
+    },
+    {
+      "id": "PIA_FC_051",
+      "module": "PIA04",
+      "priority": "medium",
+      "front": "¿Qué simplifica la librería fastai?",
+      "back": "Simplifica bastante el desarrollo de inteligencia artificial, utilizando modelos pre-entrenados que ya vienen cargados en la librería."
+    },
+    {
+      "id": "PIA_FC_052",
+      "module": "PIA05",
+      "priority": "medium",
+      "front": "¿Qué es la API que se utilizará para programar con Tensorflow y Keras?",
+      "back": "La Interfaz de programación de aplicaciones (API)"
+    },
+    {
+      "id": "PIA_FC_053",
+      "module": "PIA05",
+      "priority": "medium",
+      "front": "¿Qué tipo de red neuronal se usará en el ejemplo?",
+      "back": "Red neuronal profunda"
+    },
+    {
+      "id": "PIA_FC_054",
+      "module": "PIA05",
+      "priority": "medium",
+      "front": "¿Qué hace la clase `Sequential` en Keras?",
+      "back": "Define la estructura por capas de la red neuronal"
+    },
+    {
+      "id": "PIA_FC_055",
+      "module": "PIA05",
+      "priority": "medium",
+      "front": "¿Qué es una capa `Dense`?",
+      "back": "Representa una red neuronal con todos los nodos conectados con las diferentes variables de entrada"
+    },
+    {
+      "id": "PIA_FC_056",
+      "module": "PIA05",
+      "priority": "medium",
+      "front": "¿Qué es el parámetro `units` en la clase `Dense`?",
+      "back": "Se refiere al número de neuronas que debe tener la capa"
+    },
+    {
+      "id": "PIA_FC_057",
+      "module": "PIA05",
+      "priority": "medium",
+      "front": "¿Qué función de activación se usa comúnmente en las capas internas de una red neuronal profunda?",
+      "back": "ReLU"
+    },
+    {
+      "id": "PIA_FC_058",
+      "module": "PIA05",
+      "priority": "medium",
+      "front": "¿Qué función de activación se usa comúnmente en la capa de salida para problemas de clasificación binaria?",
+      "back": "Sigmoid"
+    },
+    {
+      "id": "PIA_FC_059",
+      "module": "PIA05",
+      "priority": "medium",
+      "front": "¿Qué es la función de coste (Loss) en un modelo de red neuronal?",
+      "back": "Representa la pérdida de ajuste a la información subyacente en los datos"
+    },
+    {
+      "id": "PIA_FC_060",
+      "module": "PIA05",
+      "priority": "medium",
+      "front": "¿Qué es la `Binary Crossentropy`?",
+      "back": "La función de coste indicada para trabajar con problemas de clasificación binaria, junto a la función de activación sigmoide"
+    },
+    {
+      "id": "PIA_FC_061",
+      "module": "PIA05",
+      "priority": "medium",
+      "front": "¿Qué es un optimizador en el contexto de las redes neuronales?",
+      "back": "Es el encargado de buscar la configuración del modelo con el error mínimo posible"
+    },
+    {
+      "id": "PIA_FC_062",
+      "module": "PIA05",
+      "priority": "medium",
+      "front": "¿Qué es el learning rate o ratio de aprendizaje?",
+      "back": "Es el parámetro que controla la magnitud con la que modificamos los pesos en función de la pendiente de la función de coste"
+    },
+    {
+      "id": "PIA_FC_063",
+      "module": "PIA05",
+      "priority": "medium",
+      "front": "¿Qué es el parámetro `epochs` en el método `fit()`?",
+      "back": "Representa el número de iteraciones del entrenamiento"
+    },
+    {
+      "id": "PIA_FC_064",
+      "module": "PIA06",
+      "priority": "medium",
+      "front": "¿Qué es la regularización en el contexto del aprendizaje automático?",
+      "back": "Un conjunto de técnicas para mejorar el desempeño del modelo y evitar el sobre entrenamiento."
+    },
+    {
+      "id": "PIA_FC_065",
+      "module": "PIA06",
+      "priority": "medium",
+      "front": "¿Cuáles son las dos formas de penalización en la regularización?",
+      "back": "L1 (proporcional al valor absoluto de los pesos) y L2 o decaimiento de los pesos (proporcional al cuadrado del valor de los pesos)."
+    },
+    {
+      "id": "PIA_FC_066",
+      "module": "PIA06",
+      "priority": "medium",
+      "front": "¿Qué es el 'dropout' en el contexto de las redes neuronales?",
+      "back": "Una técnica para la regularización que consiste en deshacerse de algunas salidas de cada capa durante el entrenamiento asignando valor cero a ciertos nodos de forma aleatoria."
+    },
+    {
+      "id": "PIA_FC_067",
+      "module": "PIA06",
+      "priority": "medium",
+      "front": "¿Cuál es el objetivo principal del 'dropout'?",
+      "back": "Evitar que la red se acomode demasiado durante el entrenamiento, romper patrones espúreos y mejorar la robustez de los patrones significativos."
+    },
+    {
+      "id": "PIA_FC_068",
+      "module": "PIA06",
+      "priority": "medium",
+      "front": "¿Qué es TensorBoard?",
+      "back": "Una herramienta de Google para monitorizar el entrenamiento de modelos de aprendizaje automático profundo."
+    },
+    {
+      "id": "PIA_FC_069",
+      "module": "PIA06",
+      "priority": "medium",
+      "front": "¿Cuáles son algunas de las funcionalidades disponibles en TensorBoard?",
+      "back": "Monitorizar las métricas de \"Loss\" y la precisión, mostrar una representación gráfica del modelo, gráficas de histogramas de coeficientes y hacer seguimiento del histórico del proyecto."
+    },
+    {
+      "id": "PIA_FC_070",
+      "module": "PIA06",
+      "priority": "medium",
+      "front": "¿Qué es la normalización por lotes (BatchNormalization)?",
+      "back": "Una técnica que normaliza los datos dentro del modelo, como una capa de transformación de los datos que salen de una capa y van a entrar en otra."
+    },
+    {
+      "id": "PIA_FC_071",
+      "module": "PIA06",
+      "priority": "medium",
+      "front": "¿Cuál es el principal efecto de la normalización por lotes?",
+      "back": "Beneficia al entrenamiento en redes con muchas capas, ayudando a propagar el gradiente."
+    },
+    {
+      "id": "PIA_FC_072",
+      "module": "PIA06",
+      "priority": "medium",
+      "front": "¿Qué son los hiperparámetros en el contexto del aprendizaje automático?",
+      "back": "Parámetros del modelo que se configuran antes del entrenamiento y que influyen en el resultado."
+    },
+    {
+      "id": "PIA_FC_073",
+      "module": "PIA06",
+      "priority": "medium",
+      "front": "¿Cuál es el proceso general para la optimización de hiperparámetros?",
+      "back": "Elegir un conjunto de hiperparámetros, programar el modelo, entrenar y validar, elegir un parámetro para variar, cambiar solo ese, repetir entrenamiento y validación, y finalmente evaluar con datos de test."
+    },
+    {
+      "id": "PIA_FC_074",
+      "module": "PIA07",
+      "priority": "medium",
+      "front": "¿Qué es una red neuronal convolucional?",
+      "back": "Una arquitectura que simplifica la interpretación de las imágenes y hace que el modelo sea más potente."
+    },
+    {
+      "id": "PIA_FC_075",
+      "module": "PIA07",
+      "priority": "medium",
+      "front": "¿Cuáles son las capas especializadas en las redes neuronales convolucionales?",
+      "back": "Las capas que detectan un nivel de comprensión de la imagen (bordes, elementos circulares/prismáticos, etc.)."
+    },
+    {
+      "id": "PIA_FC_076",
+      "module": "PIA07",
+      "priority": "medium",
+      "front": "¿Cuáles son los dos parámetros principales de las capas convolucionales?",
+      "back": "Dimensiones de la ventana (3x3 o 5x5) y profundidad del mapa de salida (número de filtros)."
+    },
+    {
+      "id": "PIA_FC_077",
+      "module": "PIA07",
+      "priority": "medium",
+      "front": "¿Qué es el padding y para qué sirve?",
+      "back": "Añadir píxeles extra de borde para que no se reduzca el tamaño de la imagen de salida."
+    },
+    {
+      "id": "PIA_FC_078",
+      "module": "PIA07",
+      "priority": "medium",
+      "front": "¿Qué es el uso de 'strides'?",
+      "back": "La ventana de convolución no recorre los píxeles seguidos, sino que se salta un cierto número de ellos."
+    },
+    {
+      "id": "PIA_FC_079",
+      "module": "PIA07",
+      "priority": "medium",
+      "front": "¿Qué es una capa 'max-pooling'?",
+      "back": "Una capa de reducción que mantiene bajo control el tamaño de la red y el número de coeficientes o pesos."
+    },
+    {
+      "id": "PIA_FC_080",
+      "module": "PIA07",
+      "priority": "medium",
+      "front": "¿Cuál es la función de las capas neuronales densamente conectadas en un modelo convolucional completo?",
+      "back": "Ponderar la contribución al error de las diferentes variables de salida del bloque convolucional."
+    },
+    {
+      "id": "PIA_FC_081",
+      "module": "PIA07",
+      "priority": "medium",
+      "front": "¿Qué es el ImageDataGenerator?",
+      "back": "Módulo que se utiliza en Keras para preparar los datos de las convnets, ya que se trabaja con tensores."
+    },
+    {
+      "id": "PIA_FC_082",
+      "module": "PIA07",
+      "priority": "medium",
+      "front": "¿En qué consisten los trucos para aumentar el dataset?",
+      "back": "Rotación, cambios de altura/anchura, recortes, aumentos y simetrías."
+    },
+    {
+      "id": "PIA_FC_083",
+      "module": "PIA07",
+      "priority": "medium",
+      "front": "¿En qué consiste la técnica de 'Feature Extraction'?",
+      "back": "Utilizar un modelo pre-entrenado para extraer los patrones principales que el modelo detecta en las imágenes."
+    },
+    {
+      "id": "PIA_FC_084",
+      "module": "PIA07",
+      "priority": "medium",
+      "front": "¿En qué consiste la técnica de 'Fine-tunning'?",
+      "back": "Componer un modelo híbrido en el que, al final de la red pre-entrenada, se ponen dos capas de red neuronal y se congelan casi todas las capas para aprovechar sus jerarquías de detección."
+    },
+    {
+      "id": "PIA_FC_085",
+      "module": "PIA07",
+      "priority": "medium",
+      "front": "¿Qué son las redes neuronales recurrentes (RNN)?",
+      "back": "Modelos que registran y recuerdan valores previos de los datos de entrada, y que son útiles para trabajar con secuencias."
+    },
+    {
+      "id": "PIA_FC_086",
+      "module": "PIA07",
+      "priority": "medium",
+      "front": "¿Qué es una LSTM?",
+      "back": "Un modelo Long-Short Term Memory, una extensión de las RNN que amplían su memoria para tener en cuenta los estados cronológicamente más antiguos."
+    },
+    {
+      "id": "PIA_FC_087",
+      "module": "PIA07",
+      "priority": "medium",
+      "front": "¿Qué es una red GAN?",
+      "back": "Una arquitectura que involucra la interacción entre un generador y un discriminador."
+    },
+    {
+      "id": "PIA_FC_088",
+      "module": "PIA08",
+      "priority": "medium",
+      "front": "¿Qué es 'Design Thinking'?",
+      "back": "Es una metodología de proyectos que traslada al ámbito general de proyectos el proceso que se sigue en el diseño de productos comerciales en la industria."
+    },
+    {
+      "id": "PIA_FC_089",
+      "module": "PIA08",
+      "priority": "medium",
+      "front": "¿Qué es Agile?",
+      "back": "Es un proceso mediante el cual un equipo puede gestionar un proyecto dividiéndolo en varias etapas e involucrando la colaboración constante de las partes interesadas y una mejora e iteración continuas en cada etapa."
+    },
+    {
+      "id": "PIA_FC_090",
+      "module": "PIA08",
+      "priority": "medium",
+      "front": "¿Qué son Scrum y Kanban?",
+      "back": "Son metodologías ágiles utilizadas en el desarrollo de software, que se basan en la descripción de los clientes sobre cómo se utilizará el producto final y qué problema resolverá."
+    },
+    {
+      "id": "PIA_FC_091",
+      "module": "PIA08",
+      "priority": "medium",
+      "front": "¿Qué es Kanban?",
+      "back": "Es un método de gestión del flujo de trabajo que ayuda a las organizaciones a gestionar y mejorar los sistemas de trabajo. El trabajo se representa en tableros Kanban, lo que te permite optimizar la entrega de trabajo."
+    },
+    {
+      "id": "PIA_FC_092",
+      "module": "PIA08",
+      "priority": "medium",
+      "front": "¿Cuáles son los elementos que necesita identificar el diseño de una solución?",
+      "back": "Objetivos, Indicadores clave y Tareas a realizar."
+    },
+    {
+      "id": "PIA_FC_093",
+      "module": "PIA08",
+      "priority": "medium",
+      "front": "¿Qué es el Web Scraping?",
+      "back": "Es una técnica utilizada para extraer información de sitios web, a través de un script que simula la navegación de un humano."
+    },
+    {
+      "id": "PIA_FC_094",
+      "module": "PIA08",
+      "priority": "medium",
+      "front": "¿En qué consiste la fase de 'Datos preparados' en el diseño y preparación del modelo?",
+      "back": "Partimos de la situación en la que ya contamos con un dataset limpio y fiable."
+    },
+    {
+      "id": "PIA_FC_095",
+      "module": "PIA08",
+      "priority": "medium",
+      "front": "¿En qué consiste la fase de 'Visualización de los datos y sus relaciones' en el diseño y preparación del modelo?",
+      "back": "A través de representaciones estadísticas, gráficas de pares de variables, matrices de correlación y grafos, obtenemos una primera impresión del comportamiento de los datos, y empezamos a tomar decisiones."
+    },
+    {
+      "id": "PIA_FC_096",
+      "module": "PIA08",
+      "priority": "medium",
+      "front": "¿Qué es la 'Copia de seguridad del modelo' en el diseño y preparación del modelo?",
+      "back": "Es más que conveniente ir guardando el archivo de los distintos modelos que se van obteniendo."
+    },
+    {
+      "id": "PIA_FC_097",
+      "module": "PIA08",
+      "priority": "medium",
+      "front": "¿Cuáles son las dos opciones de implementación en la aplicación final?",
+      "back": "Los proveedores cloud ofrecen entornos serverless o sin servidor, en los que se configura la aplicación o proyecto con una serie de recursos conectados y Se configura el proyecto en un servidor privado o, en el caso de proveedores cloud, un servidor virtual privado."
+    },
+    {
+      "id": "PIA_FC_098",
+      "module": "PIA09",
+      "priority": "medium",
+      "front": "¿Qué es la convergencia tecnológica?",
+      "back": "La interconexión de tecnologías de la computación e información, contenido multimedia y redes de comunicaciones que han llegado como resultado de la evolución y popularización de internet."
+    },
+    {
+      "id": "PIA_FC_099",
+      "module": "PIA09",
+      "priority": "medium",
+      "front": "¿Cuáles son las tres principales ventajas del cloud computing?",
+      "back": "Escalabilidad, pago por uso y seguridad."
+    },
+    {
+      "id": "PIA_FC_100",
+      "module": "PIA09",
+      "priority": "medium",
+      "front": "¿Cuáles son las tres capas de servicio en la nube?",
+      "back": "SaaS (Software as a Service), PaaS (Platform as a Service) e laaS (Infraestructure as a Service)."
+    },
+    {
+      "id": "PIA_FC_101",
+      "module": "PIA09",
+      "priority": "medium",
+      "front": "¿Qué es la robótica?",
+      "back": "La ciencia y la técnica que está involucrada en el diseño, la fabricación y la utilización de robots o sistemas robóticos."
+    },
+    {
+      "id": "PIA_FC_102",
+      "module": "PIA09",
+      "priority": "medium",
+      "front": "¿Qué es un robot industrial?",
+      "back": "Un manipulador multifuncional reprogramable diseñado para desplazar materiales, piezas, herramientas o dispositivos especiales, mediante movimientos variables programados para la ejecución de una diversidad de tareas."
+    },
+    {
+      "id": "PIA_FC_103",
+      "module": "PIA09",
+      "priority": "medium",
+      "front": "¿Cuáles son los principales usos o aplicaciones de la robótica?",
+      "back": "Fábricas de automoción (soldadura y pintura), Fabricación de productos alimentación, Almacenamiento y logística, Sistemas de producción aditivos o extractivos (Máquinas CNC), Laboratorios químicos."
+    },
+    {
+      "id": "PIA_FC_104",
+      "module": "PIA09",
+      "priority": "medium",
+      "front": "¿En qué se basa la tecnología Blockchain?",
+      "back": "En la descentralización, que converge con la deslocalización que ofrece la computación en la nube."
+    },
+    {
+      "id": "PIA_FC_105",
+      "module": "PIA09",
+      "priority": "medium",
+      "front": "¿Cuáles son los elementos principales de Blockchain?",
+      "back": "Código, Criptografía, La cadena de bloques, Prueba de trabajo, Minería, Nodos, Tokens, Transacciones, Wallet."
+    },
+    {
+      "id": "PIA_FC_106",
+      "module": "PIA09",
+      "priority": "medium",
+      "front": "¿Qué son los sensores en robótica?",
+      "back": "Son elementos electrónicos que captan el estado de una variable concreta, que puede ser la luz, una vibración, inclinación, aceleración... Vienen a ser los \"sentidos\" del sistema robótico."
+    },
+    {
+      "id": "PIA_FC_107",
+      "module": "PIA09",
+      "priority": "medium",
+      "front": "¿Qué es el IoT (Internet of Things)?",
+      "back": "El concepto que agrupa tecnologías, protocolos y dispositivos que permiten que los objetos estén conectados a internet."
+    },
+    {
+      "id": "PIA_FC_108",
+      "module": "PIA09",
+      "priority": "medium",
+      "front": "¿Qué es el Edge computing?",
+      "back": "El conjunto de sensores y actuadores que interactúan con el mundo físico, como los gateways, concentradores y otros nodos IoT que se comunican localmente con los primeros."
+    },
+    {
+      "id": "PIA_FC_109",
+      "module": "PIA09",
+      "priority": "medium",
+      "front": "¿Qué es un modelo de negocio?",
+      "back": "Una herramienta previa al plan de negocio que te permitirá definir con claridad qué vas a ofrecer al mercado, cómo lo vas a hacer, a quién se lo vas a vender, cómo se lo vas a vender y de qué forma vas a generar ingresos."
+    },
+    {
+      "id": "PIA_FC_110",
+      "module": "PIA09",
+      "priority": "medium",
+      "front": "¿Cuáles son los tres tipos principales de automatización industrial?",
+      "back": "Automatización fija, automatización programable y automatización flexible."
+    }
+  ],
+  "practicalQuestions": []
+}

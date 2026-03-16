@@ -1,0 +1,13 @@
+{
+  "name": "estudio-iabd",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Herramienta de estudio para IABD - tarjetas y tests",
+  "scripts": {
+    "build:data": "node scripts/01-parse-iabd.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.3.1"
+  }
+}
