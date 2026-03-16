@@ -2,9 +2,8 @@
   "subject": "PIA",
   "name": "Programación de Inteligencia Artificial",
   "examInfo": {
-    "description": "~3 test/tema (suman 1, restan 0.5) + 3 ejercicios + 1 desarrollo.",
-    "scoring": "Test: suman 1, restan 0.5. Ejercicios: 5.5-6pts. Desarrollo: 1-1.5pts",
-    "topics": "Bayes, KNN, modelos ML, matriz de confusión, Python"
+    "description": "Temas 1,2,8,9: test (4pts, revisar tests de cada unidad). Temas 3-7: pregunta corta práctica o concepto teórico (1.5pts c/u). Prácticas basadas en las tareas del curso.",
+    "time": "10:45 – 12:15 (90 min)"
   },
   "questions": [
     {

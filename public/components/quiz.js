@@ -1,7 +1,7 @@
 import { renderResults } from './results.js';
 import { saveAttempt } from './progress.js';
 
-const NEGATIVE_SCORING = { PIA: 0.5, SAA: 0.5 };
+const NEGATIVE_SCORING = { SAA: 0.5 };
 
 export function renderQuizSetup(data) {
   const modules = [...new Set(data.questions.map(q => q.module))].sort();
@@ -33,7 +33,7 @@ export function renderQuizSetup(data) {
       <button class="btn btn-ghost" id="start-exam">Simular examen</button>
     </div>
     <p class="setup-hint"><strong>Comenzar</strong> usa tu configuración. <strong>Simular examen</strong> aplica las condiciones reales: ${
-      {BDA:'15 preguntas, 60 min',MIA:'20 preguntas, 60 min',PIA:'15 preguntas, 45 min',SAA:'15 preguntas, 45 min',SBD:'7 preguntas, 90 min'}[data.subject]
+      {BDA:'15 preguntas, 90 min',MIA:'20 preguntas, 90 min',PIA:'15 preguntas, 90 min',SAA:'15 preguntas, 90 min',SBD:'7 preguntas, 90 min'}[data.subject]
     }, opciones barajadas.</p>
   </div>`;
 }
@@ -51,7 +51,7 @@ export function initQuizSetup(data, app) {
   });
 
   document.getElementById('start-exam')?.addEventListener('click', () => {
-    const ec = { BDA: { c: 15, t: 60 }, MIA: { c: 20, t: 60 }, PIA: { c: 15, t: 45 }, SAA: { c: 15, t: 45 }, SBD: { c: 7, t: 90 } }[data.subject] || { c: 15, t: 60 };
+    const ec = { BDA: { c: 15, t: 90 }, MIA: { c: 20, t: 90 }, PIA: { c: 15, t: 90 }, SAA: { c: 15, t: 90 }, SBD: { c: 7, t: 90 } }[data.subject] || { c: 15, t: 90 };
     // Exam simulation respects selected modules
     const active = [...document.querySelectorAll('.chip.on[data-mod]')].map(c => c.dataset.mod);
     const pool = data.questions.filter(q => active.includes(q.module));

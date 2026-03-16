@@ -2,9 +2,8 @@
   "subject": "SBD",
   "name": "Sistemas de Big Data",
   "examInfo": {
-    "description": "7 preguntas (1-2pts), 5 temas, 90min. Sin supuestos prácticos.",
-    "scoring": "Preguntas concretas de los apuntes, se pueden adjuntar dibujos",
-    "topics": "Arquitectura Big Data, almacenamiento, procesamiento, herramientas"
+    "description": "7 preguntas (1-2pts), 5 temas, 4 RA. Preguntas concretas de los apuntes. Sin supuestos prácticos. Se pueden adjuntar dibujos.",
+    "time": "9:00 – 10:30 (90 min)"
   },
   "questions": [
     {

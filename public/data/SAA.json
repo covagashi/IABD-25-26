@@ -2,9 +2,8 @@
   "subject": "SAA",
   "name": "Sistemas de Aprendizaje Automático",
   "examInfo": {
-    "description": "15 test (3pts, suman 1, restan 0.5) + 1 desarrollo (1-1.5pts) + 3 ejercicios (5-6pts).",
-    "scoring": "Test: suman 1, restan 0.5. Ejercicios: Bayes, KNN, matriz confusión",
-    "topics": "Bayes, KNN, tipos de aprendizaje, algoritmos, evaluación de modelos"
+    "description": "~3 test/tema (suman 1, restan 0.5, total 3pts) + 3 ejercicios: Bayes, KNN, modelo ML o matriz confusión (5.5-6pts) + 1 desarrollo (1-1.5pts).",
+    "time": "9:00 – 10:30 (90 min)"
   },
   "questions": [
     {

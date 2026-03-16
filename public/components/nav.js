@@ -27,7 +27,7 @@ export function renderSubject(data) {
       <a href="#/${data.subject}/history" class="mode">Historial</a>
     </div>
     <div class="exam-note">
-      <strong>Examen:</strong> ${data.examInfo.description}
+      <strong>Examen (${data.examInfo.time}):</strong> ${data.examInfo.description}
     </div>
   </div>`;
 }

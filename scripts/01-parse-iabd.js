@@ -9,46 +9,41 @@ const ROOT = path.join(__dirname, '..');
 const SOURCE = path.join(ROOT, 'source-data');
 const OUT = path.join(ROOT, 'public', 'data');
 
-// Subject metadata
+// Subject metadata — solo info literal de los profesores
 const SUBJECTS = {
   BDA: {
     name: 'Big Data Aplicado',
     examInfo: {
-      description: '10-15 test + 5 respuesta corta + 1-3 prácticas MapReduce. En papel, sin dispositivos.',
-      scoring: 'Sin puntuación negativa especificada',
-      topics: 'Hadoop, HDFS, MapReduce, Hive, Pig, Spark, Data Lakes, EMR'
+      description: '10-15 test + 1 pregunta con 5 términos a definir (3-4 líneas) + 1-3 cuestiones prácticas (MapReduce, HQL/Hive, Spark). En papel, sin dispositivos.',
+      time: '12:30 – 14:00 (90 min)'
     }
   },
   MIA: {
     name: 'Modelos de Inteligencia Artificial',
     examInfo: {
-      description: 'Temas 1,2,8,9 test (4pts) + Temas 3-7 prácticas (1.5pts c/u).',
-      scoring: 'Test 4pts total, prácticas basadas en tareas del curso',
-      topics: 'Fundamentos IA, agentes, búsqueda, redes neuronales, deep learning'
+      description: 'Pendiente de confirmar formato exacto con el profesor.',
+      time: '10:45 – 12:15 (90 min)'
     }
   },
   PIA: {
     name: 'Programación de Inteligencia Artificial',
     examInfo: {
-      description: '~3 test/tema (suman 1, restan 0.5) + 3 ejercicios + 1 desarrollo.',
-      scoring: 'Test: suman 1, restan 0.5. Ejercicios: 5.5-6pts. Desarrollo: 1-1.5pts',
-      topics: 'Bayes, KNN, modelos ML, matriz de confusión, Python'
+      description: 'Temas 1,2,8,9: test (4pts, revisar tests de cada unidad). Temas 3-7: pregunta corta práctica o concepto teórico (1.5pts c/u). Prácticas basadas en las tareas del curso.',
+      time: '10:45 – 12:15 (90 min)'
     }
   },
   SAA: {
     name: 'Sistemas de Aprendizaje Automático',
     examInfo: {
-      description: '15 test (3pts, suman 1, restan 0.5) + 1 desarrollo (1-1.5pts) + 3 ejercicios (5-6pts).',
-      scoring: 'Test: suman 1, restan 0.5. Ejercicios: Bayes, KNN, matriz confusión',
-      topics: 'Bayes, KNN, tipos de aprendizaje, algoritmos, evaluación de modelos'
+      description: '~3 test/tema (suman 1, restan 0.5, total 3pts) + 3 ejercicios: Bayes, KNN, modelo ML o matriz confusión (5.5-6pts) + 1 desarrollo (1-1.5pts).',
+      time: '9:00 – 10:30 (90 min)'
     }
   },
   SBD: {
     name: 'Sistemas de Big Data',
     examInfo: {
-      description: '7 preguntas (1-2pts), 5 temas, 90min. Sin supuestos prácticos.',
-      scoring: 'Preguntas concretas de los apuntes, se pueden adjuntar dibujos',
-      topics: 'Arquitectura Big Data, almacenamiento, procesamiento, herramientas'
+      description: '7 preguntas (1-2pts), 5 temas, 4 RA. Preguntas concretas de los apuntes. Sin supuestos prácticos. Se pueden adjuntar dibujos.',
+      time: '9:00 – 10:30 (90 min)'
     }
   }
 };
