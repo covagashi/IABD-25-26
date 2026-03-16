@@ -21,7 +21,7 @@ const SUBJECTS = {
   MIA: {
     name: 'Modelos de Inteligencia Artificial',
     examInfo: {
-      description: 'Pendiente de confirmar formato exacto con el profesor.',
+      description: '11 preguntas sobre un caso práctico. 2 tipo test (restan 0.25 o 1/3 según pregunta) + 9 desarrollo/respuesta corta (~1pt c/u). Se valora ortografía y redacción.',
       time: '10:45 – 12:15 (90 min)'
     }
   },
