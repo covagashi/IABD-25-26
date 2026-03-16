@@ -457,6 +457,21 @@ input[type="number"] {
   .mode { text-align: center; }
 }
 
+/* — Footer — */
+footer {
+  text-align: center;
+  padding: 2rem 0 1.5rem;
+  border-top: 1px solid var(--line);
+  margin-top: 3rem;
+}
+
+footer a {
+  color: var(--mid);
+  transition: color 0.15s;
+}
+
+footer a:hover { color: var(--ink); }
+
 /* — Fade in — */
 @keyframes up {
   from { opacity: 0; transform: translateY(6px); }
