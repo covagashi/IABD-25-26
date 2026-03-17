@@ -83,4 +83,43 @@ export function initDev() {
   });
 }
 
+export function renderCommands(data) {
+  if (!data.commands?.length) {
+    return `<div>
+      <a href="#/${data.subject}" class="back">Volver a ${data.subject}</a>
+      <h2>Comandos</h2>
+      <p class="sub">No hay comandos disponibles.</p>
+    </div>`;
+  }
+
+  const totalItems = data.commands.reduce((s, c) => s + c.items.length, 0);
+
+  const sections = data.commands.map(cat => {
+    const items = cat.items.map(item => {
+      const examplesHtml = item.examples.length
+        ? item.examples.map(ex => `<pre><code>${esc(ex)}</code></pre>`).join('')
+        : '';
+      return `<div class="cmd-item">
+        <div class="cmd-name">${esc(item.name)}</div>
+        <div class="cmd-desc">${esc(item.desc)}</div>
+        <pre><code>${esc(item.syntax)}</code></pre>
+        ${examplesHtml ? `<div class="cmd-examples"><span class="cmd-ex-label">Ejemplo:</span>${examplesHtml}</div>` : ''}
+      </div>`;
+    }).join('');
+
+    return `<section class="cmd-category">
+      <h3>${esc(cat.category)}</h3>
+      ${cat.intro ? `<p class="cmd-intro">${esc(cat.intro)}</p>` : ''}
+      ${items}
+    </section>`;
+  }).join('');
+
+  return `<div>
+    <a href="#/${data.subject}" class="back">Volver a ${data.subject}</a>
+    <h2>Comandos — ${data.subject}</h2>
+    <p class="sub">${totalItems} comandos en ${data.commands.length} categorías</p>
+    ${sections}
+  </div>`;
+}
+
 function esc(t) { const d = document.createElement('div'); d.textContent = t; return d.innerHTML; }

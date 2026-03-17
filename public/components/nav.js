@@ -38,6 +38,12 @@ export function renderSubject(data) {
     modes += `<a href="#/${data.subject}/codigo" class="mode">Código (${data.codeExamples.length})</a>`;
   }
 
+  // Commands reference for BDA
+  if (data.commands?.length) {
+    const cmdCount = data.commands.reduce((s, c) => s + c.items.length, 0);
+    modes += `<a href="#/${data.subject}/comandos" class="mode">Comandos (${cmdCount})</a>`;
+  }
+
   // Development questions for MIA
   if (data.devQuestions?.length) {
     modes += `<a href="#/${data.subject}/desarrollo" class="mode">Desarrollo (${data.devQuestions.length})</a>`;

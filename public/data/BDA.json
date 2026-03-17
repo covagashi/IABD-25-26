@@ -3415,278 +3415,498 @@
   ],
   "codeExamples": [
     {
-      "module": "BDA01",
-      "title": "Ejemplo de MapReduce (no se proporciona código)",
-      "language": "python",
-      "code": "No se proporciona código",
-      "explanation": "MapReduce se menciona como un paradigma de computación utilizado por Google para el procesamiento de datos."
+      "module": "BDA02",
+      "title": "Subir ficheros a HDFS",
+      "language": "bash",
+      "code": "! unzip -j -o archive.zip airports.csv flights.csv\n! hdfs dfs -mkdir -p /user/root/flights\n! hdfs dfs -put -f ./airports.csv /user/root/flights/\n! hdfs dfs -put -f ./flights.csv /user/root/flights/\n! hdfs dfs -ls /user/root/flights/",
+      "explanation": "Descomprimir CSVs y subirlos a HDFS creando el directorio destino."
     },
     {
-      "module": "BDA01",
-      "title": "Ejemplo de SQL similar a SQL",
-      "language": "sql",
-      "code": "SQL",
-      "explanation": "Apache Hive permite acceder a ficheros de datos estructurados o semiestructurados que están en HDFS como si fueran una tabla de una base de datos relacional, utilizando un lenguaje similar a SQL."
-    },
-    {
-      "module": "BDA01",
-      "title": "Ejemplo de Pig scripting",
+      "module": "BDA03",
+      "title": "Pig: cargar y explorar datos",
       "language": "pig",
-      "code": "scripting",
-      "explanation": "Apache Pig provee una utilidad para definir flujos de datos de transformación o consulta mediante un lenguaje de scripting."
-    },
-    {
-      "module": "BDA01",
-      "title": "Ejemplo de HDFS commands",
-      "language": "bash",
-      "code": "HDFS commands",
-      "explanation": "HDFS provee comandos para el manejo de los archivos."
-    },
-    {
-      "module": "BDA02",
-      "title": "HDFS Commands: Listing Files",
-      "language": "bash",
-      "code": "[[hadoop@ip-172-31-6-37 ~]$ hadoop fs -ls /tmp/\nFound 4 items\ndrwxr-xr-x   hadoop\thdfsadmingroup\t 0\t2022-06-15 00:49 /tmp/BDA01\ndrwxrwxrwt\tyarn\thdfsadmingroup\t 0\t2022-06-15 00:39 /tmp/entity-file-history\ndrwxrwxrwx   mapred  mapred\t 0\t2022-06-15 00:39 /tmp/hadoop-yarn\ndrwx-wx-wx   hive\thdfsadmingroup\t 0\t2022-06-15 00:42 /tmp/hive",
-      "explanation": "Lists files in the /tmp/ directory within HDFS."
-    },
-    {
-      "module": "BDA02",
-      "title": "HDFS Commands: Recursive Listing Files",
-      "language": "bash",
-      "code": "[[hadoop@ip-172-31-6-37 ~]$ hadoop fs -ls -R /tmp/\ndrwxr-xr-x   hadoop hdfsadmingroup\t 0\t2022-06-15 00:49 /tmp/BDA01\ndrwxr-xr-x   hadoop hdfsadmingroup\t 0\t2022-06-15 00:49 /tmp/BDA01/hadoop-core\ndrwxrwxrwt\tyarn hdfsadmingroup\t 0\t2022-06-15 00:39 /tmp/entity-file-history\ndrwxrwxrwt\tyarn hdfsadmingroup\t 0\t2022-06-15 00:39 /tmp/entity-file-history/active\ndrwxrwxrwt\tyarn hdfsadmingroup\t 0\t2022-06-15 00:39 /tmp/entity-file-history/done\ndrwxrwxrwx   mapred\tmapred\t 0\t2022-06-15 00:39 /tmp/hadoop-yarn\ndrwxrwxrwt\tyarn hdfsadmingroup\t 0\t2022-06-15 00:39 /tmp/hadoop-yarn/staging\ndrwx-wx-wx   hive hdfsadmingroup\t 0\t2022-06-15 00:42 /tmp/hive",
-      "explanation": "Recursively lists files and directories within the /tmp/ directory in HDFS."
-    },
-    {
-      "module": "BDA02",
-      "title": "HDFS Commands: Creating Directory",
-      "language": "bash",
-      "code": "hadoop fs -mkdir /tmp/BDA01\nhadoop fs -mkdir /tmp/BDA01/hadoop-core",
-      "explanation": "Creates directories in HDFS. Creates /tmp/BDA01 and its subdirectory /tmp/BDA01/hadoop-core"
-    },
-    {
-      "module": "BDA02",
-      "title": "HDFS Commands: Putting a file",
-      "language": "bash",
-      "code": "hadoop fs -put /tmp/hadoop-state-pusher.config /tmp/BDA01",
-      "explanation": "Copies a local file (/tmp/hadoop-state-pusher.config) to HDFS, specifically to the /tmp/BDA01 directory."
-    },
-    {
-      "module": "BDA02",
-      "title": "HDFS Commands: Getting a file",
-      "language": "bash",
-      "code": "hadoop fs -cp /tmp/BDA01/hadoop-state-pusher.config /tmp/",
-      "explanation": "Copies a file from HDFS (/tmp/BDA01/hadoop-state-pusher.config) to the local file system (/tmp)."
-    },
-    {
-      "module": "BDA02",
-      "title": "HDFS Commands: Showing contents of a file",
-      "language": "bash",
-      "code": "hadoop fs -cat /tmp/BDA01/hadoop-state-pusher.config",
-      "explanation": "Displays the contents of a file within HDFS (/tmp/BDA01/hadoop-state-pusher.config) to the console."
-    },
-    {
-      "module": "BDA02",
-      "title": "HDFS Commands: Copying a file inside HDFS",
-      "language": "bash",
-      "code": "hadoop fs -cp /tmp/BDA01/hadoop-state-pusher.config /tmp/",
-      "explanation": "Copies a file within HDFS. Copies /tmp/BDA01/hadoop-state-pusher.config to /tmp/"
-    },
-    {
-      "module": "BDA02",
-      "title": "HDFS Commands: Removing a file",
-      "language": "bash",
-      "code": "hadoop fs -rm /tmp/hadoop-state-pusher.config",
-      "explanation": "Deletes a file from HDFS (/tmp/hadoop-state-pusher.config)."
-    },
-    {
-      "module": "BDA02",
-      "title": "HDFS Commands: Moving a file",
-      "language": "bash",
-      "code": "hadoop fs -mv /tmp/BDA01/hadoop-state-pusher.config /tmp/",
-      "explanation": "Moves a file in HDFS. Moves /tmp/BDA01/hadoop-state-pusher.config to /tmp/"
-    },
-    {
-      "module": "BDA02",
-      "title": "HDFS Commands: Setting replication factor",
-      "language": "bash",
-      "code": "hadoop fs -setrep 6 /tmp/BDA01/hadoop-state-pusher.config",
-      "explanation": "Sets the replication factor for a file in HDFS (/tmp/BDA01/hadoop-state-pusher.config) to 6."
-    },
-    {
-      "module": "BDA02",
-      "title": "MapReduce Java Code: QuotationAnalyzer.java",
-      "language": "java",
-      "code": "import java.io.IOException;\nimport java.util.StringTokenizer;\nimport org.apache.hadoop.conf.Configuration;\nimport org.apache.hadoop.fs.Path;\nimport org.apache.hadoop.io.IntWritable;\nimport org.apache.hadoop.io.Text;\nimport org.apache.hadoop.mapreduce.Job;\nimport org.apache.hadoop.mapreduce.Mapper;\nimport org.apache.hadoop.mapreduce. Reducer;\nimport org.apache.hadoop.mapreduce.lib.input.FileInputFormat;\nimport org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;\npublic class QuotationAnalyzer {\npublic static class Increase QuotationFilterMapper extends Mapper<Object, Text, Text, IntWritab\npublic void map (Object key, Text value, Context context) throws IOException, InterruptedEx\nString valueString = value.toString();\nString[] dataOfTheQuotation = valueString.split(\";\");\nfloat currentQuotation = Float.parseFloat(dataOfTheQuotation [2]);\nfloat lastQuotation = Float.parseFloat(dataOfTheQuotation [3]);\nString companyName = dataOfTheQuotation [1];\nif (currentQuotation > lastQuotation)\ncontext.write(new Text (SingleCountryData [companyName]), new IntWritable(1));\n}\n}\n}\npublic static class IntSumReducer extends Reducer<Text, IntWritable, Text, IntWritable> {\nprivate IntWritable result = new IntWritable();\npublic void reduce (Text key, Iterable values, Context context) throws IOException, Interrup\nint sum = 0;\nfor (IntWritable val: values) {\nsum += val.get();\n}\nresult.set(sum);\ncontext.write(key, result);\n}\n}\npublic static void main(String[] args) throws Exception {\nConfiguration conf = new Configuration();\nJob job Job.getInstance(conf, \"QuotationAnalyzer\");\njob.setJarByClass (QuotationAnalyzer.class);\njob.setMapperClass (Increase QuotationFilterMapper.class);\njob.setCombinerClass (IntSumReducer.class);\njob.setReducerClass (IntSumReducer.class);\njob.setOutputKeyClass (Text.class);",
-      "explanation": "Java code for a MapReduce job. The code calculates the number of times the price of each company's stock has increased in a given period."
-    },
-    {
-      "module": "BDA02",
-      "title": "MapReduce: Running Job on Cluster",
-      "language": "bash",
-      "code": "$ bin/hadoop jar quotation-analyzer.jar QuotationAnalyzer /data/markets/quotations/input/allquotations.csv /data/markets/quotations/output",
-      "explanation": "Command to execute the compiled MapReduce job on a Hadoop cluster, specifying the input and output paths."
+      "code": "-- Registrar PiggyBank para CSVExcelStorage\nREGISTER piggybank.jar\n\n-- Cargar airports.csv\nAIRPORTS = LOAD '$airports_file' USING\n  org.apache.pig.piggybank.storage.CSVExcelStorage(\n    ',', 'NO_MULTILINE', 'UNIX', 'SKIP_INPUT_HEADER')\n  AS (airportid:chararray, city:chararray,\n      state:chararray, airportname:chararray);\n\n-- Cargar flights.csv\nFLIGHTS = LOAD '$flights_file' USING\n  org.apache.pig.piggybank.storage.CSVExcelStorage(\n    ',', 'NO_MULTILINE', 'UNIX', 'SKIP_INPUT_HEADER')\n  AS (dayofmonth:int, dayofweek:int, carrier:chararray,\n      depairportid:chararray, arrairportid:chararray,\n      depdelay:int, arrdelay:int);\n\nAIRPORTS_10 = LIMIT AIRPORTS 10;\nDUMP AIRPORTS_10;\n\nFLIGHTS_10 = LIMIT FLIGHTS 10;\nDUMP FLIGHTS_10;",
+      "explanation": "Usar CSVExcelStorage de PiggyBank para leer CSVs con cabecera. LIMIT + DUMP para verificar la carga."
     },
     {
       "module": "BDA03",
-      "title": "WordCount MapReduce (Java)",
-      "language": "java",
-      "code": "1\nimport java.io.IOException;\n2\nimport java.util.StringTokenizer;\n3\n4\nimport org.apache.hadoop.conf.Configuration;\n5\nimport org.apache.hadoop.fs.Path;\n6\nimport org.apache.hadoop.io.IntWritable;\n7\nimport org.apache.hadoop.io.Text;\n8\nimport org.apache.hadoop.mapreduce.Job;\n9\nimport org.apache.hadoop.mapreduce.Mapper;\n10\nimport org.apache.hadoop.mapreduce. Reducer;\n11\nimport org.apache.hadoop.mapreduce.lib.input.FileInputFormat;\n12\nimport org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;\n13\n14\npublic class WordCount {\n15\n16\npublic static class TokenizerMapper\n17\nextends Mapper<Object, Text, Text, IntWritable>{\n18\n19\nprivate final static IntWritable one = new IntWritable(1);\n20\nprivate Text word = new Text();\n21\n22\npublic void map (Object key, Text value, Context context\n23\n) throws IOException, InterruptedException {\n24\nStringTokenizer itr = new StringTokenizer (value.toString());\n25\nwhile (itr.hasMoreTokens()) {\n26\nword.set(itr.nextToken());\n27\ncontext.write(word, one);\n28\n}\n29\n}\n30\n}\n31\n32\npublic static class IntSumReducer\n33\nextends Reducer<Text, IntWritable, Text, IntWritable> {\n34\nprivate IntWritable result = new IntWritable();\n35\n36\npublic void reduce (Text key, Iterable<IntWritable> values,\n37\nContext context\n38\n) throws IOException, InterruptedException {\n39\nint sum = 0;\n40\nfor (IntWritable val: values) {\n41\nsum += val.get();\n42\n}\n43\nresult.set(sum);\n44\ncontext.write(key, result);\n45\n}\n46\n}\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\npublic static void main(String[] args) throws Exception {\nConfiguration conf = new Configuration();\nJob job = Job.getInstance(conf, \"word count\");\njob.setJarByClass (WordCount.class);\njob.setMapperClass (TokenizerMapper.class);\njob.setCombinerClass (IntSumReducer.class);\njob.setReducerClass (IntSumReducer.class);\njob.setOutputKeyClass (Text.class);\njob.setOutputValueClass (IntWritable.class);\nFileInputFormat.addInputPath (job, new Path(args[0]));\nFileOutputFormat.setOutputPath (job, new Path(args[1]));\nSystem.exit(job.waitForCompletion(true) ? 0:1);\n61\n}\n62 }",
-      "explanation": "Código MapReduce en Java que cuenta la frecuencia de cada palabra en un fichero.  Define un Mapper y un Reducer para realizar la tarea."
+      "title": "Ejecutar script Pig",
+      "language": "bash",
+      "code": "pig -x local -f script.pig \\\n  -param airports_file='airports.csv' \\\n  -param flights_file='flights.csv' \\\n  -param output_dir='pig/output/flights'",
+      "explanation": "Ejecución local de Pig con parámetros externos."
     },
     {
       "module": "BDA03",
-      "title": "WordCount con Pig Latin",
+      "title": "Pig: top 5 compañías con más vuelos retrasados",
       "language": "pig",
-      "code": "1 input_lines = LOAD '/tmp/file-to-count-words' AS (line: chararray);\n2 words = FOREACH input_lines GENERATE FLATTEN (TOKENIZE(line)) AS word;\n3 filtered_words = FILTER words BY word MATCHES '\\\\w+';\n4 word_groups = GROUP filtered_words BY word;\n5 word_count = FOREACH word_groups GENERATE COUNT (filtered_words) AS count, group AS word;\n6 ordered_word_count = ORDER word_count BY count DESC;\n7 STORE ordered_word_count INTO '/tmp/ranking-of-words';",
-      "explanation": "Ejemplo de conteo de palabras utilizando Pig Latin, un lenguaje de alto nivel.  Simplifica el conteo de palabras, similar a SQL."
+      "code": "REGISTER piggybank.jar\n\nFLIGHTS = LOAD '$flights_file' USING\n  org.apache.pig.piggybank.storage.CSVExcelStorage(\n    ',', 'NO_MULTILINE', 'UNIX', 'SKIP_INPUT_HEADER')\n  AS (dayofmonth:int, dayofweek:int, carrier:chararray,\n      depairportid:chararray, arrairportid:chararray,\n      depdelay:int, arrdelay:int);\n\n-- Filtrar vuelos con retraso en llegada > 15 min\nRETRASADOS = FILTER FLIGHTS BY arrdelay > 15;\n\n-- Agrupar por compañía y contar\nRETRASOS_POR_COMPANIA = GROUP RETRASADOS BY carrier;\nRESULTADO = FOREACH RETRASOS_POR_COMPANIA GENERATE\n    group AS carrier,\n    COUNT(RETRASADOS) AS delayed_flights;\n\nRESULTADO = ORDER RESULTADO BY delayed_flights DESC;\nTOP5 = LIMIT RESULTADO 5;\nDUMP TOP5;",
+      "explanation": "FILTER para seleccionar retrasados, GROUP BY + COUNT para agregar, ORDER + LIMIT para el ranking."
     },
     {
       "module": "BDA03",
-      "title": "Crear tabla de inmuebles (HQL)",
+      "title": "Pig: porcentaje de recuperación por compañía",
+      "language": "pig",
+      "code": "REGISTER piggybank.jar\n\nFLIGHTS = LOAD '$flights_file' USING\n  org.apache.pig.piggybank.storage.CSVExcelStorage(\n    ',', 'NO_MULTILINE', 'UNIX', 'SKIP_INPUT_HEADER')\n  AS (dayofmonth:int, dayofweek:int, carrier:chararray,\n      depairportid:chararray, arrairportid:chararray,\n      depdelay:int, arrdelay:int);\n\n-- Solo vuelos que salieron retrasados\nRETRASADOS_SALIDA = FILTER FLIGHTS BY depdelay > 15;\n\n-- Marcar si recuperó (llegó a tiempo)\nMARCADOS = FOREACH RETRASADOS_SALIDA GENERATE\n    carrier,\n    (arrdelay <= 15 ? 1 : 0) AS recuperado;\n\nPOR_COMPANIA = GROUP MARCADOS BY carrier;\n\nRESULTADO = FOREACH POR_COMPANIA GENERATE\n    group AS carrier,\n    (double)SUM(MARCADOS.recuperado)\n      / (double)COUNT(MARCADOS) AS percent_recovered;\n\nRESULTADO = ORDER RESULTADO BY percent_recovered DESC;\nTOP5 = LIMIT RESULTADO 5;\nDUMP TOP5;",
+      "explanation": "Operador ternario (? :) para marcar recuperados, luego SUM/COUNT para calcular el porcentaje."
+    },
+    {
+      "module": "BDA03",
+      "title": "Hive: crear base de datos",
       "language": "sql",
-      "code": "CREATE TABLE inmuebles (\nid INT,\ndireccion STRING,\nprovincia STRING,\nsuperficie INT\nprecio DOUBLE)\nROW FORMAT DELIMITED FIELDS TERMINATED BY '\\t'\nSTORED AS TEXTFILE;",
-      "explanation": "Creación de una tabla llamada inmuebles en Hive con campos específicos y formato delimitado por tabuladores."
+      "code": "-- Conectar y ver bases de datos\n! beeline -u \"jdbc:hive2://localhost:10000\" -e \"SHOW DATABASES\"\n\n-- Crear base de datos con propiedades\nCREATE DATABASE IF NOT EXISTS bda03\nCOMMENT 'Base de datos de la unidad BDA03'\nWITH DBPROPERTIES (\n  'Creada por' = 'CDLOPEZ',\n  'Fecha' = '31/01/26'\n);",
+      "explanation": "Conexión a Hive via beeline (JDBC). CREATE DATABASE con COMMENT y DBPROPERTIES."
     },
     {
       "module": "BDA03",
-      "title": "Visualización de las tablas que hay en una base de datos (HQL)",
+      "title": "Hive: crear tabla externa y cargar datos",
       "language": "sql",
-      "code": "SHOW TABLES",
-      "explanation": "Visualización de las tablas existentes en Hive."
+      "code": "-- Crear tabla externa (los datos permanecen en HDFS al borrarla)\nDROP TABLE IF EXISTS flights;\nCREATE EXTERNAL TABLE IF NOT EXISTS flights (\n  dayofmonth TINYINT,\n  dayofweek  TINYINT,\n  carrier    STRING,\n  depairportid STRING,\n  arrairportid STRING,\n  depdelay   SMALLINT,\n  arrdelay   SMALLINT\n)\nCOMMENT 'Flights'\nROW FORMAT DELIMITED FIELDS TERMINATED BY ','\nTBLPROPERTIES (\n  'Autor' = 'CD Lopez',\n  'Fecha' = '31/01/2026',\n  'skip.header.line.count' = '1'\n);\n\n-- Dar permisos y cargar datos desde HDFS\n! hdfs dfs -chmod 777 /user/root/flights\nLOAD DATA INPATH '/user/root/flights/flights.csv'\n  OVERWRITE INTO TABLE flights;",
+      "explanation": "EXTERNAL TABLE: Hive no gestiona el ciclo de vida de los datos. skip.header.line.count para ignorar cabecera CSV."
     },
     {
       "module": "BDA03",
-      "title": "Borrado de tabla (HQL)",
+      "title": "Hive: top 5 compañías con más retrasos",
       "language": "sql",
-      "code": "DROP TABLE inmuebles",
-      "explanation": "Borrado de una tabla en Hive."
+      "code": "SELECT\n  Carrier AS carrier,\n  count(*) AS delayed_flights\nFROM flights\nWHERE ArrDelay > 15\nGROUP BY Carrier\nORDER BY delayed_flights DESC\nLIMIT 5;",
+      "explanation": "Consulta HQL estándar: WHERE para filtrar, GROUP BY + count(*) para agregar, ORDER BY DESC + LIMIT para ranking."
     },
     {
       "module": "BDA03",
-      "title": "Modificación de tabla (HQL)",
+      "title": "Hive: porcentaje de recuperación por compañía",
       "language": "sql",
-      "code": "ALTER TABLE inmuebles\nADD COLUMNS (pais STRING COMMENT 'Nombre del país')",
-      "explanation": "Ejemplo de añadir un campo país a la tabla anterior de inmuebles en Hive."
-    },
-    {
-      "module": "BDA03",
-      "title": "Renombrar tabla (HQL)",
-      "language": "sql",
-      "code": "ALTER TABLE inmuebles RENAME TO casas",
-      "explanation": "Ejemplo de renombrar la tabla inmuebles a casas en Hive."
-    },
-    {
-      "module": "BDA03",
-      "title": "Visualización del detalle de una tabla (HQL)",
-      "language": "sql",
-      "code": "DESCRIBE [EXTENDED|FORMATED] inmuebles",
-      "explanation": "Visualización del detalle de una tabla, es decir, para conocer los campos que tiene, formato, etc en Hive."
-    },
-    {
-      "module": "BDA03",
-      "title": "Consulta para obtener la dirección de todos los inmuebles de Madrid ordenados por superficie (HQL)",
-      "language": "sql",
-      "code": "SELECT id, direccion FROM inmuebles\nWHERE provincia = 'Madrid'\nORDER BY superficie",
-      "explanation": "Consulta SQL en Hive para obtener la dirección de los inmuebles de Madrid ordenados por superficie."
-    },
-    {
-      "module": "BDA03",
-      "title": "Consulta para obtener cuántos inmuebles de un tamaño mayor a 100 metros hay para cada provincia (HQL)",
-      "language": "sql",
-      "code": "SELECT provincia, count(*) FROM inmuebles\nWHERE superficie > 100\nGROUP BY provincia",
-      "explanation": "Consulta SQL en Hive para obtener cuántos inmuebles de más de 100 metros hay en cada provincia."
-    },
-    {
-      "module": "BDA03",
-      "title": "Cargar datos desde fichero local (HQL)",
-      "language": "sql",
-      "code": "LOAD DATA LOCAL INPATH './data/inmuebles.csv'\nOVERWRITE INTO TABLE inmuebles",
-      "explanation": "Carga de datos en una tabla de Hive desde un fichero que está en el disco local."
-    },
-    {
-      "module": "BDA03",
-      "title": "Carga de datos de resultados de consulta (HQL)",
-      "language": "sql",
-      "code": "INSERT OVERWRITE TABLE inmuebles SELECT a.direccion, a.provincia, a.superficie FROM catastro a;",
-      "explanation": "Carga de datos en una tabla de Hive del resultado de una consulta a una tabla del Catastro."
-    },
-    {
-      "module": "BDA03",
-      "title": "Insertar datos fila a fila (HQL)",
-      "language": "sql",
-      "code": "INSERT INTO TABLE inmuebles\nVALUES ('Calle Sol 23, 'Madrid', 'Madrid', 95, 234452)",
-      "explanation": "Inserción de registros fila a fila en la tabla de Hive inmuebles."
-    },
-    {
-      "module": "BDA03",
-      "title": "Modificar campo provincia (HQL)",
-      "language": "sql",
-      "code": "UPDATE inmuebles SET provincia = 'A Coruña' WHERE provincia = 'La Coruña'",
-      "explanation": "Modificación de un campo provincia en la tabla de Hive inmuebles."
-    },
-    {
-      "module": "BDA03",
-      "title": "Borrar registros con condición (HQL)",
-      "language": "sql",
-      "code": "DELETE FROM inmuebles WHERE provincia = 'Madrid' AND superficie > 500",
-      "explanation": "Borrado de registros de la tabla inmuebles que cumplan una condición en Hive."
-    },
-    {
-      "module": "BDA03",
-      "title": "Consulta margen de empresas (HQL)",
-      "language": "sql",
-      "code": "SELECT nombre, (beneficios/facturación)*100 AS margen\nFROM empresas\nWHERE empleados > 1000\nORDER BY margen DESC",
-      "explanation": "Consulta para obtener la lista de empresas de más de 1.000 empleados ordenadas de mayor a menor margen en Hive."
-    },
-    {
-      "module": "BDA03",
-      "title": "Crear tabla en HBase",
-      "language": "bash",
-      "code": "create 'inmuebles', 'datosinmueble'",
-      "explanation": "Creación de una tabla llamada inmuebles en HBase, con una familia de columnas datosinmueble."
-    },
-    {
-      "module": "BDA03",
-      "title": "Insertar datos en HBase",
-      "language": "bash",
-      "code": "put 'inmuebles', 'IB002221', 'datosinmueble:precioventa', '221221'",
-      "explanation": "Inserción de datos en la tabla inmuebles de HBase."
-    },
-    {
-      "module": "BDA03",
-      "title": "Obtener una fila en HBase",
-      "language": "bash",
-      "code": "get 'inmuebles','IB002221'",
-      "explanation": "Obtener los datos del registro con identificador IB002221 en HBase."
-    },
-    {
-      "module": "BDA03",
-      "title": "Leer toda la tabla en HBase",
-      "language": "bash",
-      "code": "scan 'inmuebles'",
-      "explanation": "Leer toda la tabla de inmuebles en HBase."
-    },
-    {
-      "module": "BDA03",
-      "title": "Borrar una tabla en HBase",
-      "language": "bash",
-      "code": "drop 'inmuebles'",
-      "explanation": "Borrar la tabla de inmuebles en HBase."
-    },
-    {
-      "module": "BDA03",
-      "title": "Ejemplos de comandos Sqoop",
-      "language": "bash",
-      "code": "sqoop import --connect jdbc:mysql://db.foo.com/corp --table EMPLOYEES --hive-import\nsqoop export --connect jdbc:mysql://db.example.com/foo\n--table bar\n--export-dir /results/bar_data",
-      "explanation": "Ejemplos de comandos Sqoop para importar y exportar datos entre bases de datos relacionales y Hadoop."
+      "code": "SELECT\n  Carrier AS carrier,\n  ROUND(\n    SUM(CASE WHEN DepDelay > 15 AND ArrDelay <= 15\n             THEN 1 ELSE 0 END)\n    / COUNT(*), 17\n  ) AS percent_recovered\nFROM flights\nWHERE DepDelay > 15\nGROUP BY Carrier\nORDER BY percent_recovered DESC\nLIMIT 5;",
+      "explanation": "CASE WHEN para crear indicador booleano, SUM/COUNT para porcentaje. Mismo ejercicio que en Pig pero con HQL."
     },
     {
       "module": "BDA05",
-      "title": "HDFS commands",
-      "language": "bash",
-      "code": "hdfs fs -ls",
-      "explanation": "Comando para listar archivos en HDFS."
+      "title": "Spark: cargar CSVs como DataFrames",
+      "language": "python",
+      "code": "display(dbutils.fs.ls(\"/Volumes/workspace/default/filestore\"))\n\nairports_df = (spark.read\n  .option(\"header\", \"true\")\n  .option(\"inferSchema\", \"true\")\n  .csv(\"/Volumes/workspace/default/filestore/airports.csv\"))\n\nflights_df = (spark.read\n  .option(\"header\", \"true\")\n  .option(\"inferSchema\", \"true\")\n  .csv(\"/Volumes/workspace/default/filestore/flights.csv\"))\n\nairports_df.printSchema()\ndisplay(flights_df)",
+      "explanation": "spark.read.csv con inferSchema para detectar tipos automáticamente. display() es de Databricks."
+    },
+    {
+      "module": "BDA05",
+      "title": "Spark DataFrame API: vuelos retrasados por compañía",
+      "language": "python",
+      "code": "from pyspark.sql.functions import col\n\ndelayed_flights = flights_df.filter(flights_df.ArrDelay > 15)\n\ndelayed_counts = (delayed_flights\n  .groupBy(\"Carrier\")\n  .count()\n  .withColumnRenamed(\"count\", \"delayed_flights\")\n  .orderBy(col(\"delayed_flights\").desc())\n  .limit(5))\n\ndisplay(delayed_counts)",
+      "explanation": "API funcional de DataFrames: filter → groupBy → count → orderBy. Equivalente a la consulta SQL."
+    },
+    {
+      "module": "BDA05",
+      "title": "Spark SQL: vuelos retrasados (mismo ejercicio)",
+      "language": "sql",
+      "code": "-- Primero registrar las vistas temporales:\n-- airports_df.createOrReplaceTempView(\"airports\")\n-- flights_df.createOrReplaceTempView(\"flights\")\n\nSELECT\n  carrier,\n  COUNT(*) AS delayed_flights\nFROM flights\nWHERE arrdelay > 15\nGROUP BY carrier\nORDER BY delayed_flights DESC\nLIMIT 5",
+      "explanation": "createOrReplaceTempView permite consultar DataFrames con SQL puro. Misma consulta que en Hive."
+    },
+    {
+      "module": "BDA05",
+      "title": "Spark: tasa de recuperación por aeropuerto con JOIN",
+      "language": "python",
+      "code": "from pyspark.sql.functions import col, sum as spark_sum, count, when\n\nairport_recovery = (flights_df\n  .filter(col(\"DepDelay\") > 15)\n  .groupBy(\"DestAirportID\")\n  .agg(\n    spark_sum(when(col(\"ArrDelay\") <= 15, 1)\n      .otherwise(0)).alias(\"recovered\"),\n    count(\"*\").alias(\"total_delayed\")\n  )\n  .withColumn(\"recovery_rate\",\n    col(\"recovered\") / col(\"total_delayed\"))\n  .orderBy(col(\"recovery_rate\").desc())\n  .limit(5)\n  .join(airports_df.select(\"airport_id\", \"name\"),\n        col(\"DestAirportID\") == col(\"airport_id\"), \"left\")\n  .select(\"name\", \"recovery_rate\"))\n\ndisplay(airport_recovery)",
+      "explanation": "when().otherwise() equivale a CASE WHEN. JOIN con tabla airports para obtener nombres. agg() para múltiples agregaciones."
+    },
+    {
+      "module": "BDA05",
+      "title": "Spark: calcular nota media por alumno",
+      "language": "python",
+      "code": "from pyspark.sql.functions import split, explode, col, avg, expr\n\ndf_notas = spark.read.text(\n  \"/Volumes/workspace/default/filestore/notas.txt\")\n\nmedias_df = (df_notas\n  .filter(col(\"value\").rlike(\"^[a-zA-Z]+\\\\s+\\\\d+\"))\n  .withColumn(\"parts\", split(col(\"value\"), \"\\\\s+\"))\n  .select(\n    col(\"parts\")[0].alias(\"alumno\"),\n    explode(expr(\"slice(parts, 2, size(parts))\"))\n      .alias(\"nota\"))\n  .select(\"alumno\", col(\"nota\").cast(\"double\"))\n  .groupBy(\"alumno\")\n  .agg(avg(\"nota\").alias(\"nota_media\"))\n  .orderBy(col(\"nota_media\").desc()))\n\n[(row.alumno, float(row.nota_media))\n for row in medias_df.collect()]",
+      "explanation": "Parseo de texto: split + explode para convertir una línea 'alumno n1 n2 n3' en filas individuales. slice para ignorar el nombre. collect() devuelve al driver."
     }
   ],
-  "devQuestions": []
+  "devQuestions": [],
+  "commands": [
+    {
+      "category": "HDFS (hadoop fs)",
+      "intro": "hadoop fs proporciona todas las funcionalidades sobre HDFS.",
+      "items": [
+        {
+          "name": "mkdir",
+          "desc": "Crear directorios en HDFS.",
+          "syntax": "hadoop fs -mkdir [-p] <path>",
+          "examples": [
+            "hadoop fs -mkdir /tmp/BDA01",
+            "hadoop fs -mkdir /tmp/BDA01/hadoop-core"
+          ]
+        },
+        {
+          "name": "ls",
+          "desc": "Listar contenido de directorios. -R para listado recursivo.",
+          "syntax": "hadoop fs -ls [-d] [-h] [-R] <path>",
+          "examples": [
+            "hadoop fs -ls /tmp/",
+            "hadoop fs -ls -R /tmp"
+          ]
+        },
+        {
+          "name": "put",
+          "desc": "Copiar archivos del sistema local a HDFS (similar a -copyFromLocal).",
+          "syntax": "hadoop fs -put [-f] [-p] <localsrc> ... <dst>",
+          "examples": [
+            "hadoop fs -put /tmp/hadoop-state-pusher.config /tmp/BDA01"
+          ]
+        },
+        {
+          "name": "get",
+          "desc": "Copiar archivos de HDFS al sistema local (similar a -copyToLocal).",
+          "syntax": "hadoop fs -get <src> <localdst>",
+          "examples": [
+            "hadoop fs -get /tmp/BDA01/hadoop-state-pusher.config /tmp/"
+          ]
+        },
+        {
+          "name": "cat",
+          "desc": "Mostrar el contenido de un archivo.",
+          "syntax": "hadoop fs -cat <path>",
+          "examples": [
+            "hadoop fs -cat /tmp/BDA01/hadoop-state-pusher.config"
+          ]
+        },
+        {
+          "name": "cp",
+          "desc": "Copiar archivos de un directorio a otro dentro de HDFS.",
+          "syntax": "hadoop fs -cp <src> <dst>",
+          "examples": [
+            "hadoop fs -cp /tmp/BDA01/hadoop-state-pusher.config /tmp"
+          ]
+        },
+        {
+          "name": "rm",
+          "desc": "Eliminar un archivo. -R para eliminación recursiva.",
+          "syntax": "hadoop fs -rm [-R] <path>",
+          "examples": [
+            "hadoop fs -rm /tmp/hadoop-state-pusher.config"
+          ]
+        },
+        {
+          "name": "mv",
+          "desc": "Mover archivos en HDFS. A diferencia de cp, el fichero desaparece del origen.",
+          "syntax": "hadoop fs -mv <src> <dst>",
+          "examples": [
+            "hadoop fs -mv /tmp/BDA01/hadoop-state-pusher.config /tmp/"
+          ]
+        },
+        {
+          "name": "setrep",
+          "desc": "Modificar el factor de replicación (por defecto 3).",
+          "syntax": "hadoop fs -setrep <rep> <path>",
+          "examples": [
+            "hadoop fs -setrep 6 /tmp/BDA01/hadoop-state-pusher.config"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "MapReduce (Java)",
+      "intro": "MapReduce se desarrolla con Java usando el API de Hadoop. Se implementan Mapper y Reducer.",
+      "items": [
+        {
+          "name": "Mapper",
+          "desc": "Se invoca una vez por cada línea del fichero. Filtra/transforma y emite parejas (clave, valor).",
+          "syntax": "public static class MiMapper\n    extends Mapper<Object, Text, Text, IntWritable> {\n  public void map(Object key, Text value, Context context) {\n    // procesar línea y emitir\n    context.write(new Text(clave), new IntWritable(1));\n  }\n}",
+          "examples": []
+        },
+        {
+          "name": "Reducer",
+          "desc": "Se invoca una vez por cada clave, recibiendo todos los valores. Agrega resultados.",
+          "syntax": "public static class MiReducer\n    extends Reducer<Text, IntWritable, Text, IntWritable> {\n  public void reduce(Text key, Iterable<IntWritable> values,\n      Context context) {\n    int sum = 0;\n    for (IntWritable val : values) sum += val.get();\n    context.write(key, new IntWritable(sum));\n  }\n}",
+          "examples": []
+        },
+        {
+          "name": "Job (main)",
+          "desc": "Configurar y lanzar el job MapReduce.",
+          "syntax": "Configuration conf = new Configuration();\nJob job = Job.getInstance(conf, \"nombre\");\njob.setJarByClass(MiClase.class);\njob.setMapperClass(MiMapper.class);\njob.setCombinerClass(MiReducer.class);\njob.setReducerClass(MiReducer.class);\njob.setOutputKeyClass(Text.class);\njob.setOutputValueClass(IntWritable.class);\nFileInputFormat.addInputPath(job, new Path(args[0]));\nFileOutputFormat.setOutputPath(job, new Path(args[1]));",
+          "examples": [
+            "bin/hadoop jar quotation-analyzer.jar QuotationAnalyzer /data/input /data/output"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Pig Latin",
+      "intro": "Apache Pig permite escribir programas MapReduce de forma más sencilla con Pig Latin.",
+      "items": [
+        {
+          "name": "LOAD",
+          "desc": "Cargar datos desde un fichero.",
+          "syntax": "LOAD '<ruta>' AS (<esquema>)",
+          "examples": [
+            "input_lines = LOAD '/tmp/file' AS (line:chararray);"
+          ]
+        },
+        {
+          "name": "FOREACH ... GENERATE",
+          "desc": "Aplicar transformaciones a cada registro.",
+          "syntax": "FOREACH <alias> GENERATE <expresiones>",
+          "examples": [
+            "words = FOREACH input_lines GENERATE FLATTEN(TOKENIZE(line)) AS word;"
+          ]
+        },
+        {
+          "name": "FILTER",
+          "desc": "Filtrar registros que cumplan una condición.",
+          "syntax": "FILTER <alias> BY <condición>",
+          "examples": [
+            "filtered_words = FILTER words BY word MATCHES '\\\\w+';"
+          ]
+        },
+        {
+          "name": "GROUP",
+          "desc": "Agrupar registros por un campo.",
+          "syntax": "GROUP <alias> BY <campo>",
+          "examples": [
+            "word_groups = GROUP filtered_words BY word;"
+          ]
+        },
+        {
+          "name": "ORDER",
+          "desc": "Ordenar los resultados.",
+          "syntax": "ORDER <alias> BY <campo> [ASC|DESC]",
+          "examples": [
+            "ordered = ORDER word_count BY count DESC;"
+          ]
+        },
+        {
+          "name": "STORE",
+          "desc": "Guardar los resultados en un fichero.",
+          "syntax": "STORE <alias> INTO '<ruta>'",
+          "examples": [
+            "STORE ordered INTO '/tmp/ranking';"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Hive (HQL)",
+      "intro": "Hive permite acceder a ficheros HDFS con lenguaje SQL (HiveQL).",
+      "items": [
+        {
+          "name": "CREATE TABLE",
+          "desc": "Crear una tabla.",
+          "syntax": "CREATE TABLE <nombre> (\n  <col> <tipo>, ...\n)\nROW FORMAT DELIMITED FIELDS TERMINATED BY '<sep>'\nSTORED AS TEXTFILE;",
+          "examples": [
+            "CREATE TABLE inmuebles (\n  id INT,\n  direccion STRING,\n  provincia STRING,\n  superficie INT,\n  precio DOUBLE\n)\nROW FORMAT DELIMITED FIELDS TERMINATED BY '\\t'\nSTORED AS TEXTFILE;"
+          ]
+        },
+        {
+          "name": "SHOW TABLES",
+          "desc": "Ver las tablas de la base de datos.",
+          "syntax": "SHOW TABLES",
+          "examples": []
+        },
+        {
+          "name": "DROP TABLE",
+          "desc": "Borrar una tabla.",
+          "syntax": "DROP TABLE <nombre>",
+          "examples": [
+            "DROP TABLE inmuebles"
+          ]
+        },
+        {
+          "name": "ALTER TABLE",
+          "desc": "Modificar una tabla (añadir columnas, renombrar…).",
+          "syntax": "ALTER TABLE <nombre> ADD COLUMNS (<col> <tipo>)\nALTER TABLE <nombre> RENAME TO <nuevo>",
+          "examples": [
+            "ALTER TABLE inmuebles ADD COLUMNS (pais STRING COMMENT 'País')",
+            "ALTER TABLE inmuebles RENAME TO casas"
+          ]
+        },
+        {
+          "name": "SELECT",
+          "desc": "Consultar datos con filtros, agrupaciones y ordenación.",
+          "syntax": "SELECT [ALL|DISTINCT] <cols>\n  FROM <tabla>\n  [WHERE <condición>]\n  [GROUP BY <cols>]\n  [ORDER BY <cols>]\n  [LIMIT <n>]",
+          "examples": [
+            "SELECT id, direccion FROM inmuebles\nWHERE provincia = 'Madrid'\nORDER BY superficie",
+            "SELECT provincia, count(*) FROM inmuebles\nWHERE superficie > 100\nGROUP BY provincia"
+          ]
+        },
+        {
+          "name": "LOAD DATA",
+          "desc": "Cargar datos desde un fichero a una tabla.",
+          "syntax": "LOAD DATA [LOCAL] INPATH '<ruta>'\nOVERWRITE INTO TABLE <tabla>",
+          "examples": [
+            "LOAD DATA LOCAL INPATH './data/inmuebles.csv'\nOVERWRITE INTO TABLE inmuebles"
+          ]
+        },
+        {
+          "name": "INSERT",
+          "desc": "Insertar datos (desde consulta o valores).",
+          "syntax": "INSERT OVERWRITE TABLE <t> SELECT ... FROM ...\nINSERT INTO TABLE <t> VALUES (...)",
+          "examples": [
+            "INSERT OVERWRITE TABLE inmuebles\n  SELECT a.direccion, a.provincia, a.superficie\n  FROM catastro a;",
+            "INSERT INTO TABLE inmuebles\n  VALUES ('Calle Sol 23', 'Madrid', 'Madrid', 95, 234452)"
+          ]
+        },
+        {
+          "name": "UPDATE",
+          "desc": "Modificar valores de registros existentes.",
+          "syntax": "UPDATE <tabla> SET <col> = <valor> WHERE <condición>",
+          "examples": [
+            "UPDATE inmuebles SET provincia = 'A Coruña'\nWHERE provincia = 'La Coruña'"
+          ]
+        },
+        {
+          "name": "DELETE",
+          "desc": "Borrar registros que cumplan una condición.",
+          "syntax": "DELETE FROM <tabla> WHERE <condición>",
+          "examples": [
+            "DELETE FROM inmuebles\nWHERE provincia = 'Madrid' AND superficie > 500"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "HBase",
+      "intro": "HBase ofrece operaciones simples sobre tablas NoSQL con familias de columnas.",
+      "items": [
+        {
+          "name": "list",
+          "desc": "Listar todas las tablas.",
+          "syntax": "list",
+          "examples": []
+        },
+        {
+          "name": "create",
+          "desc": "Crear una tabla con familia de columnas.",
+          "syntax": "create '<tabla>', '<familia>'",
+          "examples": [
+            "create 'inmuebles', 'datosinmueble'"
+          ]
+        },
+        {
+          "name": "put",
+          "desc": "Insertar datos (fila, columna, valor).",
+          "syntax": "put '<tabla>', '<rowid>', '<familia:col>', '<valor>'",
+          "examples": [
+            "put 'inmuebles', 'IB002221', 'datosinmueble:precioventa', '221221'"
+          ]
+        },
+        {
+          "name": "get",
+          "desc": "Obtener una fila por su identificador.",
+          "syntax": "get '<tabla>', '<rowid>'",
+          "examples": [
+            "get 'inmuebles', 'IB002221'"
+          ]
+        },
+        {
+          "name": "scan",
+          "desc": "Leer todo el contenido de una tabla.",
+          "syntax": "scan '<tabla>'",
+          "examples": [
+            "scan 'inmuebles'"
+          ]
+        },
+        {
+          "name": "drop",
+          "desc": "Borrar una tabla.",
+          "syntax": "drop '<tabla>'",
+          "examples": [
+            "drop 'inmuebles'"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Spark Core (RDD)",
+      "intro": "Spark trabaja con RDDs (Resilient Distributed Datasets), colecciones inmutables procesadas en paralelo. Hay transformaciones (lazy, en paralelo) y acciones (inmediatas).",
+      "items": [
+        {
+          "name": "map(func)",
+          "desc": "Transformación: aplica func a todos los elementos, genera nuevo RDD.",
+          "syntax": "rdd.map(func)",
+          "examples": []
+        },
+        {
+          "name": "flatMap(func)",
+          "desc": "Transformación: como map pero puede generar más de un elemento por original.",
+          "syntax": "rdd.flatMap(func)",
+          "examples": []
+        },
+        {
+          "name": "filter(func)",
+          "desc": "Transformación: nuevo RDD con elementos que cumplen el filtro.",
+          "syntax": "rdd.filter(func)",
+          "examples": []
+        },
+        {
+          "name": "distinct()",
+          "desc": "Transformación: elimina duplicados.",
+          "syntax": "rdd.distinct()",
+          "examples": []
+        },
+        {
+          "name": "union(rdd)",
+          "desc": "Transformación: une dos RDDs.",
+          "syntax": "rdd.union(otroRdd)",
+          "examples": []
+        },
+        {
+          "name": "count()",
+          "desc": "Acción: número de elementos del RDD.",
+          "syntax": "rdd.count()",
+          "examples": []
+        },
+        {
+          "name": "reduce(func)",
+          "desc": "Acción: agrega elementos con una función.",
+          "syntax": "rdd.reduce(func)",
+          "examples": []
+        },
+        {
+          "name": "take(n)",
+          "desc": "Acción: devuelve los n primeros elementos.",
+          "syntax": "rdd.take(n)",
+          "examples": []
+        },
+        {
+          "name": "collect()",
+          "desc": "Acción: devuelve todos los elementos al driver.",
+          "syntax": "rdd.collect()",
+          "examples": []
+        },
+        {
+          "name": "saveAsTextFile(path)",
+          "desc": "Acción: escribe en repositorio (HDFS, S3…).",
+          "syntax": "rdd.saveAsTextFile('ruta')",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "category": "Ficheros de configuración",
+      "intro": "Ficheros de configuración principales de los servicios del ecosistema Hadoop.",
+      "items": [
+        {
+          "name": "core-site.xml",
+          "desc": "Configuración común de Hadoop Core.",
+          "syntax": "fs.defaultFS → endpoint de HDFS\nhadoop.security.authentication → tipo de autenticación (Kerberos, simple)",
+          "examples": []
+        },
+        {
+          "name": "hdfs-site.xml",
+          "desc": "Configuración específica de HDFS.",
+          "syntax": "fs.namenode.name.dir → directorio del Namenode\ndfs.datanode.data.dir → directorio de bloques en workers\ndfs.namenode.http-address → consola web de HDFS",
+          "examples": []
+        },
+        {
+          "name": "yarn-site.xml",
+          "desc": "Configuración específica de YARN.",
+          "syntax": "yarn.resourcemanager.scheduler.class → tipo de Scheduler\nyarn.resourcemanager.resource-tracker.address → dirección del ResourceManager\nyarn.nodemanager.log-dirs → directorio de logs en workers\nyarn.resourcemanager.webapp.address → consola web de YARN",
+          "examples": []
+        },
+        {
+          "name": "hive-site.xml",
+          "desc": "Configuración principal de Apache Hive.",
+          "syntax": "hive.execution.engine → motor (MapReduce, Tez, Spark)\nhive.server2.enable.doAs → ejecutar con usuario peticionario\nhive.server2.thrift.port → puerto del servidor Thrift",
+          "examples": []
+        },
+        {
+          "name": "spark-defaults.conf",
+          "desc": "Configuración por defecto de Spark (no XML).",
+          "syntax": "spark.yarn.historyServer.address → ruta de YARN\nspark.history.ui.port → puerto del interfaz web\nspark.eventLog.dir → ruta de logs de ejecución",
+          "examples": []
+        }
+      ]
+    }
+  ]
 }

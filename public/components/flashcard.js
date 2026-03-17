@@ -41,6 +41,11 @@ export function initFlashcards(data) {
   let idx = 0;
   let reviewOnly = false;
 
+  function updateChips() {
+    document.getElementById('fc-all')?.classList.toggle('on', !reviewOnly);
+    document.getElementById('fc-review')?.classList.toggle('on', reviewOnly);
+  }
+
   function active() {
     return reviewOnly ? cards.filter(c => !progress.known.includes(c.id)) : cards;
   }
@@ -86,8 +91,8 @@ export function initFlashcards(data) {
     idx++; render();
   });
 
-  document.getElementById('fc-all')?.addEventListener('click', () => { reviewOnly = false; idx = 0; render(); });
-  document.getElementById('fc-review')?.addEventListener('click', () => { reviewOnly = true; idx = 0; render(); });
+  document.getElementById('fc-all')?.addEventListener('click', () => { reviewOnly = false; idx = 0; updateChips(); render(); });
+  document.getElementById('fc-review')?.addEventListener('click', () => { reviewOnly = true; idx = 0; updateChips(); render(); });
   document.getElementById('fc-shuffle')?.addEventListener('click', () => {
     for (let i = cards.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [cards[i], cards[j]] = [cards[j], cards[i]]; }
     idx = 0; render();

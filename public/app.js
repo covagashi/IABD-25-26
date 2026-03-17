@@ -2,7 +2,7 @@ import { renderHome, renderSubject } from './components/nav.js';
 import { renderQuizSetup, initQuizSetup } from './components/quiz.js';
 import { renderFlashcards, initFlashcards } from './components/flashcard.js';
 import { renderHistory, initHistory } from './components/progress.js';
-import { renderSummary, renderCode, renderDev, initDev } from './components/summary.js';
+import { renderSummary, renderCode, renderDev, initDev, renderCommands } from './components/summary.js';
 
 const app = document.getElementById('app');
 const SUBJECTS = ['BDA', 'MIA', 'PIA', 'SAA', 'SBD'];
@@ -46,6 +46,8 @@ async function route() {
       } else if (parts[1] === 'desarrollo') {
         app.innerHTML = renderDev(data);
         initDev();
+      } else if (parts[1] === 'comandos') {
+        app.innerHTML = renderCommands(data);
       }
     }
   } catch (err) {

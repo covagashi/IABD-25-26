@@ -6,7 +6,8 @@
       "questionCount": 148,
       "flashcardCount": 62,
       "summaryCount": 4,
-      "codeCount": 39,
+      "codeCount": 14,
+      "commandCount": 48,
       "devCount": 0,
       "modules": [
         "BDA01",
@@ -33,7 +34,7 @@
     },
     "PIA": {
       "name": "Programación de Inteligencia Artificial",
-      "questionCount": 220,
+      "questionCount": 90,
       "flashcardCount": 110,
       "summaryCount": 9,
       "codeCount": 0,

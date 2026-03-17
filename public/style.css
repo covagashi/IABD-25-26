@@ -550,6 +550,78 @@ input[type="number"] {
   border-left: 2px solid var(--line);
 }
 
+/* — Commands — */
+.cmd-category {
+  margin-bottom: 2.5rem;
+}
+
+.cmd-category h3 {
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 0.35rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.cmd-intro {
+  font-size: 0.82rem;
+  color: var(--mid);
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.cmd-item {
+  margin-bottom: 1.25rem;
+  padding-left: 0.75rem;
+  border-left: 2px solid var(--line);
+}
+
+.cmd-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
+  margin-bottom: 0.15rem;
+}
+
+.cmd-desc {
+  font-size: 0.82rem;
+  color: var(--mid);
+  margin-bottom: 0.4rem;
+  line-height: 1.5;
+}
+
+.cmd-item pre {
+  margin: 0.3rem 0;
+  padding: 0.6rem 0.8rem;
+  overflow-x: auto;
+  background: #f5f4f1;
+  border-radius: 3px;
+  font-size: 0.78rem;
+  line-height: 1.55;
+}
+
+.cmd-item code {
+  font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
+  white-space: pre;
+}
+
+.cmd-examples {
+  margin-top: 0.25rem;
+}
+
+.cmd-ex-label {
+  font-size: 0.75rem;
+  color: var(--mid);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.cmd-examples pre {
+  background: #faf9f7;
+  border: 1px solid var(--line);
+}
+
 /* — Footer — */
 footer {
   text-align: center;
@@ -564,6 +636,35 @@ footer a {
 }
 
 footer a:hover { color: var(--ink); }
+
+/* — Back to top — */
+#to-top {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--paper);
+  color: var(--mid);
+  font-size: 1.1rem;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s, color 0.15s, border-color 0.15s;
+  z-index: 100;
+}
+
+#to-top.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#to-top:hover {
+  color: var(--ink);
+  border-color: var(--ink);
+}
 
 /* — Fade in — */
 @keyframes up {
